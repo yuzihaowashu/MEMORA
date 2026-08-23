@@ -1,0 +1,385 @@
+[
+  {
+    "task_id": "generalize_transfer_P01_cutting_cucumber",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "cutting",
+    "source_object": "bok choy",
+    "target_object": "cucumber",
+    "ground_truth_steps": [
+      "Pick up the green cucumber from the cutting board.",
+      "Place the green cucumber on the brown wooden cutting board on the counter.",
+      "Pick up the black metal knife from the counter.",
+      "Hold the green cucumber steady with one hand on the brown wooden cutting board.",
+      "Cut the green cucumber into pieces with the black metal knife.",
+      "Place the black metal knife back on the counter.",
+      "Transfer the cut cucumber pieces to the white ceramic bowl."
+    ],
+    "rationale": "Person knows how to 'cutting' the 'bok choy' (4x observed). Transfer to 'cucumber' (never observed with 'cutting').",
+    "task_query": "Help P01 cut the cucumber.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_transfer_P01_cutting_garlic",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "cutting",
+    "source_object": "bok choy",
+    "target_object": "garlic",
+    "ground_truth_steps": [
+      "Pick up the white plastic garlic clove from the cutting board.",
+      "Place the white plastic garlic clove on the brown wooden cutting board on the counter.",
+      "Pick up the black metal knife from the counter.",
+      "Hold the white plastic garlic clove steady with one hand on the brown wooden cutting board.",
+      "Cut the white plastic garlic clove into pieces with the black metal knife.",
+      "Place the black metal knife back on the counter.",
+      "Transfer the cut garlic pieces to the white ceramic bowl."
+    ],
+    "rationale": "Person knows how to 'cutting' the 'bok choy' (4x observed). Transfer to 'garlic' (never observed with 'cutting').",
+    "task_query": "Help P01 cut the garlic.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_transfer_P01_peeling_carrot",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "peeling",
+    "source_object": "potato",
+    "target_object": "carrot",
+    "ground_truth_steps": [
+      "Pick up the orange carrot from the pan.",
+      "Pick up the green plastic peeler from the sink.",
+      "Hold the orange carrot steady with one hand.",
+      "Peel the orange carrot skin with the green plastic peeler.",
+      "Rotate the carrot and continue peeling until fully peeled.",
+      "Place the peeled carrot on the brown wooden cutting board.",
+      "Discard the peelings in the bin."
+    ],
+    "rationale": "Person knows how to 'peeling' the 'potato' (15x observed). Transfer to 'carrot' (never observed with 'peeling').",
+    "task_query": "Help P01 peel the carrot.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_transfer_P01_peeling_cucumber",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "peeling",
+    "source_object": "potato",
+    "target_object": "cucumber",
+    "ground_truth_steps": [
+      "Pick up the green cucumber from the cutting board.",
+      "Pick up the green plastic peeler from the sink.",
+      "Hold the green cucumber steady with one hand.",
+      "Peel the green cucumber skin with the green plastic peeler.",
+      "Rotate the cucumber and continue peeling until fully peeled.",
+      "Place the peeled cucumber on the brown wooden cutting board.",
+      "Discard the peelings in the bin."
+    ],
+    "rationale": "Person knows how to 'peeling' the 'potato' (15x observed). Transfer to 'cucumber' (never observed with 'peeling').",
+    "task_query": "Help P01 peel the cucumber.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_transfer_P01_rinsing_cucumber",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "rinsing",
+    "source_object": "pot",
+    "target_object": "cucumber",
+    "ground_truth_steps": [
+      "Pick up the green cucumber from the cutting board.",
+      "Carry the cucumber to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Rinse the cucumber under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean cucumber on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'pot' (17x observed). Transfer to 'cucumber' (never observed with 'rinsing').",
+    "task_query": "Help P01 wash the cucumber before preparing it.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_transfer_P01_rinsing_cup",
+    "task_type": "transfer",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "source_action": "rinsing",
+    "source_object": "pot",
+    "target_object": "cup",
+    "ground_truth_steps": [
+      "Pick up the blue ceramic cup from the counter.",
+      "Carry the cup to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the white foam dish sponge.",
+      "Scrub the cup with the white foam dish sponge.",
+      "Rinse the cup under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean cup on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'pot' (17x observed). Transfer to 'cup' (never observed with 'rinsing').",
+    "task_query": "Help P01 clean the cup.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_composition_P01_prepare_and_cook_onion",
+    "task_type": "composition",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "components": [
+      "peeling onion",
+      "cutting onion",
+      "stirring onion in pan"
+    ],
+    "ground_truth_steps": [
+      "Pick up the white onion from the pan.",
+      "Place the white onion on the brown wooden cutting board.",
+      "Pick up the black metal knife from the counter.",
+      "Peel the onion skin with the black metal knife.",
+      "Cut the peeled onion into small pieces on the brown wooden cutting board.",
+      "Place the black metal knife back on the counter.",
+      "Turn on the white metal stove to medium heat.",
+      "Place the black metal frying pan on the white metal stove.",
+      "Transfer the cut onion pieces into the black metal frying pan.",
+      "Pick up the black plastic spatula from the counter.",
+      "Stir-fry the onion pieces with the black plastic spatula until translucent.",
+      "Turn off the white metal stove."
+    ],
+    "rationale": "Person knows: peeling potato (17x), stirring vegetables (38x). Composition: apply peel+cut+stir to onion.",
+    "task_query": "Help P01 peel, chop, and stir-fry the onion.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_composition_P01_full_dishwashing_cycle",
+    "task_type": "composition",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "components": [
+      "scrubbing dishes",
+      "rinsing dishes",
+      "drying",
+      "storing"
+    ],
+    "ground_truth_steps": [
+      "Collect dirty dishes from the counter to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the white foam dish sponge.",
+      "Scrub the white ceramic plate with the white foam dish sponge.",
+      "Rinse the white ceramic plate under running water.",
+      "Place the clean white plate on the drying rack.",
+      "Scrub the white ceramic bowl with the white foam dish sponge.",
+      "Rinse the white ceramic bowl under running water.",
+      "Place the clean bowl on the drying rack.",
+      "Turn off the silver metal faucet."
+    ],
+    "rationale": "Person knows: scrubbing pot (19x), rinsing pot (17x). Composition: extend to full wash-dry-store cycle for all dishes.",
+    "task_query": "Help P01 wash all the dirty dishes, dry them, and put them away.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_composition_P01_prep_cook_bok_choy",
+    "task_type": "composition",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "components": [
+      "washing bok choy",
+      "cutting bok choy",
+      "stir-frying"
+    ],
+    "ground_truth_steps": [
+      "Pick up the green bok choy from the pan.",
+      "Carry the bok choy to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Rinse the bok choy under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the rinsed bok choy on the brown wooden cutting board.",
+      "Pick up the black metal knife from the counter.",
+      "Cut the bok choy into bite-sized pieces on the brown wooden cutting board.",
+      "Place the black metal knife back on the counter.",
+      "Turn on the white metal stove to medium heat.",
+      "Place the black metal frying pan on the white metal stove.",
+      "Transfer the cut bok choy into the black metal frying pan.",
+      "Pick up the black plastic spatula from the counter.",
+      "Stir-fry the bok choy with the black plastic spatula until wilted.",
+      "Turn off the white metal stove."
+    ],
+    "rationale": "Person knows: stirring vegetables (38x), rinsing various items, cutting on board. Composition: wash+cut+cook applied to bok choy specifically.",
+    "task_query": "Help P01 wash, cut, and stir-fry the bok choy.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_novel_P01_set_table_for_meal",
+    "task_type": "fully_novel",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the drying rack.",
+      "Place the white ceramic plate on the table.",
+      "Pick up the white ceramic bowl from the counter.",
+      "Place the white ceramic bowl above the plate on the table.",
+      "Pick up the black metal knife from the counter.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the silver metal fork from the sink.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the blue ceramic cup from the counter.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity.",
+    "task_query": "Help P01 set the table for a meal with plate, bowl, and cutlery.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_novel_P01_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the silver metal sink.",
+      "Pick up the blue cotton cloth from the table.",
+      "Turn on the silver metal faucet.",
+      "Wet the blue cotton cloth under the silver metal faucet.",
+      "Turn off the silver metal faucet.",
+      "Wipe the countertop surface from one end to the other with the blue cotton cloth.",
+      "Rinse the blue cotton cloth under the silver metal faucet.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the blue cotton cloth.",
+      "Place the blue cotton cloth back on the table."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns.",
+    "task_query": "Help P01 clear and clean the entire kitchen countertop.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  },
+  {
+    "task_id": "generalize_novel_P01_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "video_id": "P01_105",
+    "participant_id": "P01",
+    "ground_truth_steps": [
+      "Pick up the green cucumber from the cutting board.",
+      "Turn on the silver metal faucet.",
+      "Rinse the cucumber under running water in the silver metal sink.",
+      "Turn off the silver metal faucet.",
+      "Place the cucumber on the brown wooden cutting board.",
+      "Pick up the black metal knife from the counter.",
+      "Cut the cucumber into slices on the brown wooden cutting board.",
+      "Transfer the cucumber slices to the white ceramic bowl.",
+      "Place the black metal knife back on the counter.",
+      "Mix the salad ingredients in the white ceramic bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category.",
+    "task_query": "Help P01 prepare a simple salad using available vegetables.",
+    "video_ids": [
+      "P01_102",
+      "P01_103",
+      "P01_104",
+      "P01_105",
+      "P01_106",
+      "P01_107",
+      "P01_108",
+      "P01_109"
+    ]
+  }
+]

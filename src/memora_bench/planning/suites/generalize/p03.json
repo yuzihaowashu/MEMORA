@@ -1,0 +1,214 @@
+[
+  {
+    "task_id": "generalize_transfer_P03_rinsing_bowl",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the bowl.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "rinsing",
+    "source_object": "plate",
+    "target_object": "bowl",
+    "ground_truth_steps": [
+      "Pick up the brown ceramic bowl from the countertop.",
+      "Carry the bowl to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the bowl with the blue foam sponge.",
+      "Rinse the bowl under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean bowl on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'plate' (14x observed). Transfer to 'bowl' (never observed with 'rinsing')."
+  },
+  {
+    "task_id": "generalize_transfer_P03_rinsing_cup",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the cup.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "rinsing",
+    "source_object": "plate",
+    "target_object": "cup",
+    "ground_truth_steps": [
+      "Pick up the green plastic cup from the counter.",
+      "Carry the cup to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the cup with the blue foam sponge.",
+      "Rinse the cup under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean cup on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'plate' (14x observed). Transfer to 'cup' (never observed with 'rinsing')."
+  },
+  {
+    "task_id": "generalize_transfer_P03_scrubbing_bowl",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the bowl.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "scrubbing",
+    "source_object": "plate",
+    "target_object": "bowl",
+    "ground_truth_steps": [
+      "Pick up the brown ceramic bowl from the countertop.",
+      "Carry the bowl to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the bowl with the blue foam sponge.",
+      "Rinse the bowl under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean bowl on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubbing' the 'plate' (33x observed). Transfer to 'bowl' (never observed with 'scrubbing')."
+  },
+  {
+    "task_id": "generalize_transfer_P03_scrubbing_pan",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the pan.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "scrubbing",
+    "source_object": "plate",
+    "target_object": "pan",
+    "ground_truth_steps": [
+      "Pick up the black metal pan from the sink.",
+      "Carry the pan to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the pan with the blue foam sponge.",
+      "Rinse the pan under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean pan on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubbing' the 'plate' (33x observed). Transfer to 'pan' (never observed with 'scrubbing')."
+  },
+  {
+    "task_id": "generalize_transfer_P03_scrubs_cup",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the cup.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "scrubs",
+    "source_object": "plate",
+    "target_object": "cup",
+    "ground_truth_steps": [
+      "Pick up the green plastic cup from the counter.",
+      "Carry the cup to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the cup with the blue foam sponge.",
+      "Rinse the cup under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean cup on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'plate' (11x observed). Transfer to 'cup' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P03_scrubs_pan",
+    "task_type": "transfer",
+    "task_query": "Help P03 clean the pan.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "source_action": "scrubs",
+    "source_object": "plate",
+    "target_object": "pan",
+    "ground_truth_steps": [
+      "Pick up the black metal pan from the sink.",
+      "Carry the pan to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the pan with the blue foam sponge.",
+      "Rinse the pan under running water.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the clean pan on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'plate' (11x observed). Transfer to 'pan' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_composition_P03_full_dishwashing_cycle",
+    "task_type": "composition",
+    "task_query": "Help P03 wash all the dirty dishes, dry them, and put them away.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "components": [
+      "scrubbing dishes",
+      "rinsing dishes",
+      "drying",
+      "storing"
+    ],
+    "ground_truth_steps": [
+      "Collect dirty dishes from the counter to the silver metal sink.",
+      "Turn on the silver metal chrome faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the white ceramic plate with the blue foam sponge.",
+      "Rinse the white ceramic plate under running water.",
+      "Place the clean white plate on the drying rack.",
+      "Scrub the brown ceramic bowl with the blue foam sponge.",
+      "Rinse the brown ceramic bowl under running water.",
+      "Place the clean bowl on the drying rack.",
+      "Turn off the silver metal chrome faucet."
+    ],
+    "rationale": "Person knows: scrubbing pot (29x), rinsing pot (3x). Composition: extend to full wash-dry-store cycle for all dishes."
+  },
+  {
+    "task_id": "generalize_novel_P03_set_table_for_meal",
+    "task_type": "fully_novel",
+    "task_query": "Help P03 set the table for a meal with plate, bowl, and cutlery.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the counter.",
+      "Place the white ceramic plate on the table.",
+      "Pick up the brown ceramic bowl from the countertop.",
+      "Place the brown ceramic bowl above the plate on the table.",
+      "Pick up the black metal knife from the sink.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the silver metal fork from the sink.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the green plastic cup from the counter.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity."
+  },
+  {
+    "task_id": "generalize_novel_P03_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "task_query": "Help P03 clear and clean the entire kitchen countertop.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the silver metal sink.",
+      "Pick up the gray cloth from the counter.",
+      "Turn on the silver metal chrome faucet.",
+      "Wet the gray cloth under the silver metal chrome faucet.",
+      "Turn off the silver metal chrome faucet.",
+      "Wipe the countertop surface from one end to the other with the gray cloth.",
+      "Rinse the gray cloth under the silver metal chrome faucet.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the gray cloth.",
+      "Place the gray cloth back on the counter."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns."
+  },
+  {
+    "task_id": "generalize_novel_P03_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "task_query": "Help P03 prepare a simple salad using available vegetables.",
+    "video_id": "P03_101",
+    "participant_id": "P03",
+    "ground_truth_steps": [
+      "Pick up the cucumber from the counter.",
+      "Turn on the silver metal chrome faucet.",
+      "Rinse the cucumber under running water in the silver metal sink.",
+      "Turn off the silver metal chrome faucet.",
+      "Place the cucumber on the white plastic cutting board.",
+      "Pick up the black metal knife from the sink.",
+      "Cut the cucumber into slices on the white plastic cutting board.",
+      "Transfer the cucumber slices to the brown ceramic bowl.",
+      "Place the black metal knife back on the sink.",
+      "Mix the salad ingredients in the brown ceramic bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category."
+  }
+]

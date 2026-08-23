@@ -1,0 +1,1874 @@
+[
+  {
+    "task_id": "plan_P37_101_021",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "meal_preparation",
+    "task_query": "Help P37 prepare the garlic by peeling off the skins.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_185",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:11:35.55",
+        "end_time": "00:11:36.17",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_186",
+        "narration": "smash garlic",
+        "verb": "smash",
+        "noun": "garlic",
+        "start_time": "00:11:36.27",
+        "end_time": "00:11:54.62",
+        "enriched_narration": "smash white plastic garlic on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_187",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:11:54.19",
+        "end_time": "00:12:06.99",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_188",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:12:06.99",
+        "end_time": "00:12:08.33",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_189",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:12:08.12",
+        "end_time": "00:12:14.91",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_190",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:12:14.88",
+        "end_time": "00:12:16.13",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_191",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:12:17.62",
+        "end_time": "00:12:33.62",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_192",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:12:33.58",
+        "end_time": "00:12:36.19",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_193",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:12:35.94",
+        "end_time": "00:12:42.31",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 66.8,
+    "primary_objects": [
+      "garlic skin",
+      "tap",
+      "garlic"
+    ],
+    "primary_verbs": [
+      "peel",
+      "discard",
+      "turn-off",
+      "smash"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_022",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "meal_preparation",
+    "task_query": "Help P37 prepare the garlic by peeling and smashing it.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_194",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:12:36.69",
+        "end_time": "00:12:49.09",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_195",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:12:47.82",
+        "end_time": "00:12:49.62",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_196",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:12:49.68",
+        "end_time": "00:13:03.61",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_197",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:13:03.53",
+        "end_time": "00:13:05.63",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_198",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:13:05.89",
+        "end_time": "00:13:20.48",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_199",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:13:20.50",
+        "end_time": "00:13:22.42",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_200",
+        "narration": "smash garlic",
+        "verb": "smash",
+        "noun": "garlic",
+        "start_time": "00:13:22.36",
+        "end_time": "00:13:30.06",
+        "enriched_narration": "smash white plastic garlic on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_201",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:13:29.95",
+        "end_time": "00:13:41.27",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_202",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:13:41.63",
+        "end_time": "00:13:42.25",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 65.6,
+    "primary_objects": [
+      "garlic skin",
+      "garlic"
+    ],
+    "primary_verbs": [
+      "peel",
+      "discard",
+      "smash"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_024",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "meal_preparation",
+    "task_query": "Help P37 prepare the garlic and shake the cooking pot.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_212",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:14:45.93",
+        "end_time": "00:14:47.39",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_213",
+        "narration": "shake cooking pot",
+        "verb": "shake",
+        "noun": "pot:cooking",
+        "start_time": "00:14:49.45",
+        "end_time": "00:14:52.83",
+        "enriched_narration": "shake cooking pot on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "potato",
+          "location": "on countertop",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P37_101_214",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:14:54.88",
+        "end_time": "00:14:59.12",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_215",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:14:59.20",
+        "end_time": "00:15:00.54",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_216",
+        "narration": "smash garlic",
+        "verb": "smash",
+        "noun": "garlic",
+        "start_time": "00:15:00.46",
+        "end_time": "00:15:07.19",
+        "enriched_narration": "smash white plastic garlic on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_217",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:15:06.36",
+        "end_time": "00:15:18.98",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_218",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:15:18.00",
+        "end_time": "00:15:20.90",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_219",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:15:22.23",
+        "end_time": "00:15:25.42",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_220",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:15:25.75",
+        "end_time": "00:15:26.75",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 40.8,
+    "primary_objects": [
+      "garlic skin",
+      "cooking pot",
+      "garlic"
+    ],
+    "primary_verbs": [
+      "discard",
+      "peel",
+      "shake",
+      "smash"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_025",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "meal_preparation",
+    "task_query": "Help P37 prepare the garlic by peeling and discarding the skins.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_221",
+        "narration": "smash garlic",
+        "verb": "smash",
+        "noun": "garlic",
+        "start_time": "00:15:28.40",
+        "end_time": "00:15:31.04",
+        "enriched_narration": "smash white plastic garlic on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_222",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:15:31.04",
+        "end_time": "00:15:40.27",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_223",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:15:39.97",
+        "end_time": "00:15:41.51",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_224",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:15:41.61",
+        "end_time": "00:15:50.98",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_225",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:15:50.78",
+        "end_time": "00:15:53.00",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_226",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:15:52.79",
+        "end_time": "00:15:58.58",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_227",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:15:58.68",
+        "end_time": "00:16:02.97",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_228",
+        "narration": "smash garlic",
+        "verb": "smash",
+        "noun": "garlic",
+        "start_time": "00:16:01.00",
+        "end_time": "00:16:05.19",
+        "enriched_narration": "smash white plastic garlic on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_229",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:16:05.19",
+        "end_time": "00:16:07.34",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 38.9,
+    "primary_objects": [
+      "garlic skin",
+      "garlic"
+    ],
+    "primary_verbs": [
+      "discard",
+      "peel",
+      "smash"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_008",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P37 prepare the pot with chicken thighs and water.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_72",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:52.75",
+        "end_time": "00:02:53.70",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_73",
+        "narration": "put chicken thighs in pot",
+        "verb": "put-in",
+        "noun": "thigh:chicken",
+        "start_time": "00:02:55.74",
+        "end_time": "00:02:59.32",
+        "enriched_narration": "put chicken thighs in pot on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "chicken_piece",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_101_74",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:03:01.06",
+        "end_time": "00:03:02.15",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_75",
+        "narration": "get some water with bowl",
+        "verb": "get-with",
+        "noun": "water",
+        "start_time": "00:03:02.02",
+        "end_time": "00:03:06.67"
+      },
+      {
+        "narration_id": "P37_101_76",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:03:06.91",
+        "end_time": "00:03:07.85",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_77",
+        "narration": "pour water into pot",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:03:09.75",
+        "end_time": "00:03:13.15"
+      },
+      {
+        "narration_id": "P37_101_78",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:03:14.42",
+        "end_time": "00:03:15.86",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_79",
+        "narration": "get some water with bowl",
+        "verb": "get-with",
+        "noun": "water",
+        "start_time": "00:03:16.14",
+        "end_time": "00:03:20.22"
+      },
+      {
+        "narration_id": "P37_101_80",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:03:20.23",
+        "end_time": "00:03:21.10",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 28.3,
+    "primary_objects": [
+      "tap",
+      "water",
+      "chicken thigh"
+    ],
+    "primary_verbs": [
+      "turn-off",
+      "turn-on",
+      "get-with",
+      "put-in",
+      "pour-into"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_027",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P37 clean up garlic skins and wash hands.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_239",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:17:14.00",
+        "end_time": "00:17:15.00",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_240",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:17:15.10",
+        "end_time": "00:17:23.42",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_241",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:17:23.52",
+        "end_time": "00:17:24.72",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_242",
+        "narration": "peel away garlic skins",
+        "verb": "peel",
+        "noun": "skin:garlic",
+        "start_time": "00:17:24.42",
+        "end_time": "00:17:33.65",
+        "enriched_narration": "peel away garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_243",
+        "narration": "discard garlic skins",
+        "verb": "discard",
+        "noun": "skin:garlic",
+        "start_time": "00:17:33.72",
+        "end_time": "00:17:35.06",
+        "enriched_narration": "discard garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_244",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:17:35.16",
+        "end_time": "00:17:37.37",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_245",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:17:37.29",
+        "end_time": "00:17:38.58"
+      },
+      {
+        "narration_id": "P37_101_246",
+        "narration": "take spatula",
+        "verb": "take",
+        "noun": "spatula",
+        "start_time": "00:17:38.68",
+        "end_time": "00:17:41.77"
+      },
+      {
+        "narration_id": "P37_101_247",
+        "narration": "stir chicken thighs in pot",
+        "verb": "stir-in",
+        "noun": "thigh:chicken",
+        "start_time": "00:17:41.84",
+        "end_time": "00:17:50.69",
+        "enriched_narration": "stir chicken thighs in pot on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "chicken_piece",
+          "memory_name": "chicken pieces"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36.7,
+    "primary_objects": [
+      "garlic skin",
+      "tap",
+      "hand",
+      "spatula",
+      "chicken thigh"
+    ],
+    "primary_verbs": [
+      "discard",
+      "peel",
+      "turn-on",
+      "wash",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_014",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P37 prepare cucumbers and clean up the packing materials.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_126",
+        "narration": "rinse knife",
+        "verb": "rinse",
+        "noun": "knife",
+        "start_time": "00:05:30.91",
+        "end_time": "00:05:31.62",
+        "enriched_narration": "rinse brown wood knife in hand",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "in hand",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P37_101_127",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:05:31.72",
+        "end_time": "00:05:32.21",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_128",
+        "narration": "cut cucumbers",
+        "verb": "cut",
+        "noun": "cucumber",
+        "start_time": "00:05:33.71",
+        "end_time": "00:05:36.53",
+        "enriched_narration": "cut green plastic cucumbers on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cucumbers",
+          "memory_name": "cucumbers"
+        }
+      },
+      {
+        "narration_id": "P37_101_129",
+        "narration": "tear packing bag",
+        "verb": "tear",
+        "noun": "bag:packing",
+        "start_time": "00:05:36.80",
+        "end_time": "00:05:43.73",
+        "enriched_narration": "tear packing bag on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_130",
+        "narration": "tear packing bag",
+        "verb": "tear",
+        "noun": "bag:packing",
+        "start_time": "00:05:43.57",
+        "end_time": "00:05:55.81",
+        "enriched_narration": "tear packing bag on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_131",
+        "narration": "put packing bags to bin",
+        "verb": "put-to",
+        "noun": "bag:packing",
+        "start_time": "00:05:55.63",
+        "end_time": "00:05:57.39",
+        "enriched_narration": "put packing bags to bin on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_132",
+        "narration": "pick up packing bag",
+        "verb": "pick-up",
+        "noun": "bag:packing",
+        "start_time": "00:05:56.93",
+        "end_time": "00:05:58.42",
+        "enriched_narration": "pick up packing bag on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_133",
+        "narration": "put packing bags to bin",
+        "verb": "put-to",
+        "noun": "bag:packing",
+        "start_time": "00:05:58.39",
+        "end_time": "00:05:59.25",
+        "enriched_narration": "put packing bags to bin on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 28.3,
+    "primary_objects": [
+      "packing bag",
+      "knife",
+      "tap",
+      "cucumber"
+    ],
+    "primary_verbs": [
+      "tear",
+      "put-to",
+      "rinse",
+      "turn-off",
+      "cut"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_017",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P37 prepare and cut the cucumbers for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_150",
+        "narration": "tear packing bag",
+        "verb": "tear",
+        "noun": "bag:packing",
+        "start_time": "00:07:43.08",
+        "end_time": "00:07:58.30",
+        "enriched_narration": "tear packing bag on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_151",
+        "narration": "put packing bags to bin",
+        "verb": "put-to",
+        "noun": "bag:packing",
+        "start_time": "00:07:58.37",
+        "end_time": "00:08:06.04",
+        "enriched_narration": "put packing bags to bin on countertop",
+        "matched_object": {
+          "color": "transparent",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "trash_bag",
+          "memory_name": "trash bag"
+        }
+      },
+      {
+        "narration_id": "P37_101_152",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:07.98",
+        "end_time": "00:08:08.86",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_153",
+        "narration": "rinse cucumbers",
+        "verb": "rinse",
+        "noun": "cucumber",
+        "start_time": "00:08:08.91",
+        "end_time": "00:08:09.59",
+        "enriched_narration": "rinse green plastic cucumbers on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cucumbers",
+          "memory_name": "cucumbers"
+        }
+      },
+      {
+        "narration_id": "P37_101_154",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:08:09.69",
+        "end_time": "00:08:10.09",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P37_101_155",
+        "narration": "shake cucumbers to remove water",
+        "verb": "shake",
+        "noun": "cucumber",
+        "start_time": "00:08:10.19",
+        "end_time": "00:08:11.57",
+        "enriched_narration": "shake green plastic cucumbers to remove water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cucumbers",
+          "memory_name": "cucumbers"
+        }
+      },
+      {
+        "narration_id": "P37_101_156",
+        "narration": "put cucumbers down",
+        "verb": "put-down",
+        "noun": "cucumber",
+        "start_time": "00:08:12.63",
+        "end_time": "00:08:13.71",
+        "enriched_narration": "put green plastic cucumbers down on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cucumbers",
+          "memory_name": "cucumbers"
+        }
+      },
+      {
+        "narration_id": "P37_101_157",
+        "narration": "cut cucumbers",
+        "verb": "cut",
+        "noun": "cucumber",
+        "start_time": "00:08:14.30",
+        "end_time": "00:08:25.80",
+        "enriched_narration": "cut green plastic cucumbers on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cucumbers",
+          "memory_name": "cucumbers"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 42.7,
+    "primary_objects": [
+      "cucumber",
+      "packing bag",
+      "tap"
+    ],
+    "primary_verbs": [
+      "tear",
+      "put-to",
+      "turn-on",
+      "rinse",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P37_103_008",
+    "participant_id": "P37",
+    "video_id": "P37_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P37 clean the pan and organize the workspace.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_103_66",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:06:12.45",
+        "end_time": "00:06:12.95",
+        "enriched_narration": "wash skin tone skin hands on countertop",
+        "matched_object": {
+          "color": "skin tone",
+          "material": "skin",
+          "location": "on countertop",
+          "memory_id": "hand_left",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P37_103_67",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:13.00",
+        "end_time": "00:06:13.59",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P37_103_68",
+        "narration": "wring out cleaning towel",
+        "verb": "wring-out",
+        "noun": "towel:cleaning",
+        "start_time": "00:06:13.68",
+        "end_time": "00:06:15.48",
+        "enriched_narration": "wring out cleaning towel on countertop",
+        "matched_object": {
+          "color": "various",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "cleaning_supplies",
+          "memory_name": "cleaning supplies"
+        }
+      },
+      {
+        "narration_id": "P37_103_69",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:06:15.92",
+        "end_time": "00:06:16.69",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P37_103_70",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:06:16.42",
+        "end_time": "00:06:17.29",
+        "enriched_narration": "wash skin tone skin hands on countertop",
+        "matched_object": {
+          "color": "skin tone",
+          "material": "skin",
+          "location": "on countertop",
+          "memory_id": "hand_left",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P37_103_71",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:17.17",
+        "end_time": "00:06:17.67",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P37_103_72",
+        "narration": "take pan",
+        "verb": "take",
+        "noun": "pan",
+        "start_time": "00:06:17.86",
+        "end_time": "00:06:23.77"
+      },
+      {
+        "narration_id": "P37_103_73",
+        "narration": "pour out boiled water",
+        "verb": "pour-out",
+        "noun": "water:boiled",
+        "start_time": "00:06:23.45",
+        "end_time": "00:06:32.66"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 20.2,
+    "primary_objects": [
+      "tap",
+      "hand",
+      "cleaning towel",
+      "pan",
+      "boiled water"
+    ],
+    "primary_verbs": [
+      "wash",
+      "turn-off",
+      "wring-out",
+      "turn-on",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P37_101_019",
+    "participant_id": "P37",
+    "video_id": "P37_101",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P37 dispose of the garlic skins in the bin.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_101_167",
+        "narration": "separate garlic cloves",
+        "verb": "separate",
+        "noun": "clove:garlic",
+        "start_time": "00:09:52.19",
+        "end_time": "00:09:53.74",
+        "enriched_narration": "separate garlic cloves on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_168",
+        "narration": "take garlic skins",
+        "verb": "take",
+        "noun": "skin:garlic",
+        "start_time": "00:10:07.00",
+        "end_time": "00:10:09.86",
+        "enriched_narration": "take garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_169",
+        "narration": "put garlic skins to bin",
+        "verb": "put-to",
+        "noun": "skin:garlic",
+        "start_time": "00:10:09.96",
+        "end_time": "00:10:11.58",
+        "enriched_narration": "put garlic skins to bin on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_170",
+        "narration": "separate garlic cloves",
+        "verb": "separate",
+        "noun": "clove:garlic",
+        "start_time": "00:10:11.68",
+        "end_time": "00:10:19.82",
+        "enriched_narration": "separate garlic cloves on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_171",
+        "narration": "put garlic skins to bin",
+        "verb": "put-to",
+        "noun": "skin:garlic",
+        "start_time": "00:10:20.05",
+        "end_time": "00:10:23.67",
+        "enriched_narration": "put garlic skins to bin on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_172",
+        "narration": "separate garlic cloves",
+        "verb": "separate",
+        "noun": "clove:garlic",
+        "start_time": "00:10:23.50",
+        "end_time": "00:10:48.93",
+        "enriched_narration": "separate garlic cloves on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_173",
+        "narration": "put garlic skins to bin",
+        "verb": "put-to",
+        "noun": "skin:garlic",
+        "start_time": "00:10:48.81",
+        "end_time": "00:10:51.84",
+        "enriched_narration": "put garlic skins to bin on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_174",
+        "narration": "take garlic skins",
+        "verb": "take",
+        "noun": "skin:garlic",
+        "start_time": "00:11:01.31",
+        "end_time": "00:11:05.32",
+        "enriched_narration": "take garlic skins on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P37_101_175",
+        "narration": "put garlic skins to bin",
+        "verb": "put-to",
+        "noun": "skin:garlic",
+        "start_time": "00:11:05.12",
+        "end_time": "00:11:06.88",
+        "enriched_narration": "put garlic skins to bin on cutting board",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 74.7,
+    "primary_objects": [
+      "garlic skin",
+      "garlic clove"
+    ],
+    "primary_verbs": [
+      "put-to",
+      "separate",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P37_103_001",
+    "participant_id": "P37",
+    "video_id": "P37_103",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P37 prepare chicken thighs by deboning and setting aside the bones.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_103_9",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:00:46.85",
+        "end_time": "00:00:54.64",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_10",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:00:52.29",
+        "end_time": "00:00:56.96",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_11",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:00:58.65",
+        "end_time": "00:01:04.70",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_12",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:02.32",
+        "end_time": "00:01:12.38",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_13",
+        "narration": "put chicken bones down",
+        "verb": "put-down",
+        "noun": "bone:chicken",
+        "start_time": "00:01:12.32",
+        "end_time": "00:01:13.28",
+        "enriched_narration": "put chicken bones down on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_14",
+        "narration": "take chicken thighs",
+        "verb": "take",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:13.45",
+        "end_time": "00:01:14.80",
+        "enriched_narration": "take chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_15",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:14.90",
+        "end_time": "00:01:17.93",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_16",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:18.00",
+        "end_time": "00:01:24.80",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_17",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:24.14",
+        "end_time": "00:01:31.39",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 44.5,
+    "primary_objects": [
+      "chicken thigh",
+      "chicken bone"
+    ],
+    "primary_verbs": [
+      "debone",
+      "put-down",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P37_103_002",
+    "participant_id": "P37",
+    "video_id": "P37_103",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P37 with the chicken thighs and bones preparation.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P37_103_18",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:30.74",
+        "end_time": "00:01:50.08",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_19",
+        "narration": "put chicken bones down",
+        "verb": "put-down",
+        "noun": "bone:chicken",
+        "start_time": "00:01:50.04",
+        "end_time": "00:01:50.54",
+        "enriched_narration": "put chicken bones down on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_20",
+        "narration": "take chicken thighs",
+        "verb": "take",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:50.64",
+        "end_time": "00:01:51.92",
+        "enriched_narration": "take chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_21",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:51.96",
+        "end_time": "00:01:54.08",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_22",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:01:54.09",
+        "end_time": "00:01:57.80",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_23",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:02:05.38",
+        "end_time": "00:02:10.43",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_24",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:02:05.96",
+        "end_time": "00:02:11.71",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      },
+      {
+        "narration_id": "P37_103_25",
+        "narration": "debone chicken thighs",
+        "verb": "debone",
+        "noun": "thigh:chicken",
+        "start_time": "00:02:11.81",
+        "end_time": "00:02:27.15",
+        "enriched_narration": "debone chicken thighs on plate",
+        "matched_object": {
+          "color": "pink",
+          "material": "meat",
+          "location": "on plate",
+          "memory_id": "chicken",
+          "memory_name": "chicken pieces"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 56.4,
+    "primary_objects": [
+      "chicken thigh",
+      "chicken bone"
+    ],
+    "primary_verbs": [
+      "debone",
+      "put-down",
+      "take"
+    ]
+  }
+]

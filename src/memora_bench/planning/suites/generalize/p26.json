@@ -1,0 +1,128 @@
+[
+  {
+    "task_id": "generalize_transfer_P26_scrubs_sink",
+    "task_type": "transfer",
+    "task_query": "Help P26 clean the sink.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "source_action": "scrubs",
+    "source_object": "pot",
+    "target_object": "sink",
+    "ground_truth_steps": [
+      "Pick up the not specified ceramic sink from the countertop.",
+      "Carry the sink to the not specified ceramic sink.",
+      "Turn on the metallic metal faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the sink with the blue foam sponge.",
+      "Rinse the sink under running water.",
+      "Turn off the metallic metal faucet.",
+      "Place the clean sink on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'pot' (113x observed). Transfer to 'sink' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P26_washes_onion",
+    "task_type": "transfer",
+    "task_query": "Help P26 wash the onion.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "source_action": "washes",
+    "source_object": "dirty_tray",
+    "target_object": "onion",
+    "ground_truth_steps": [
+      "Pick up the white onion from the stove burner.",
+      "Carry the onion to the not specified ceramic sink.",
+      "Turn on the metallic metal faucet.",
+      "Rinse the onion under running water.",
+      "Turn off the metallic metal faucet.",
+      "Place the clean onion on the drying rack."
+    ],
+    "rationale": "Person knows how to 'washes' the 'dirty_tray' (50x observed). Transfer to 'onion' (never observed with 'washes')."
+  },
+  {
+    "task_id": "generalize_composition_P26_full_dishwashing_cycle",
+    "task_type": "composition",
+    "task_query": "Help P26 wash all the dirty dishes, dry them, and put them away.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "components": [
+      "scrubbing dishes",
+      "rinsing dishes",
+      "drying",
+      "storing"
+    ],
+    "ground_truth_steps": [
+      "Collect dirty dishes from the counter to the not specified ceramic sink.",
+      "Turn on the metallic metal faucet.",
+      "Apply dish soap to the blue foam sponge.",
+      "Scrub the white ceramic plate with the blue foam sponge.",
+      "Rinse the white ceramic plate under running water.",
+      "Place the clean white plate on the drying rack.",
+      "Scrub the yellow ceramic bowl with the blue foam sponge.",
+      "Rinse the yellow ceramic bowl under running water.",
+      "Place the clean bowl on the drying rack.",
+      "Turn off the metallic metal faucet."
+    ],
+    "rationale": "Person knows: scrubbing pot (0x), rinsing pot (0x). Composition: extend to full wash-dry-store cycle for all dishes."
+  },
+  {
+    "task_id": "generalize_novel_P26_set_table_for_meal",
+    "task_type": "fully_novel",
+    "task_query": "Help P26 set the table for a meal with plate, bowl, and cutlery.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the stove.",
+      "Place the white ceramic plate on the table.",
+      "Pick up the yellow ceramic bowl from the countertop.",
+      "Place the yellow ceramic bowl above the plate on the table.",
+      "Pick up the silver metal knife from the countertop.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the silver metal fork from the sink.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the white plastic cup from the table.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity."
+  },
+  {
+    "task_id": "generalize_novel_P26_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "task_query": "Help P26 clear and clean the entire kitchen countertop.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the not specified ceramic sink.",
+      "Pick up the plaid cloth from the countertop.",
+      "Turn on the metallic metal faucet.",
+      "Wet the plaid cloth under the metallic metal faucet.",
+      "Turn off the metallic metal faucet.",
+      "Wipe the countertop surface from one end to the other with the plaid cloth.",
+      "Rinse the plaid cloth under the metallic metal faucet.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the plaid cloth.",
+      "Place the plaid cloth back on the countertop."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns."
+  },
+  {
+    "task_id": "generalize_novel_P26_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "task_query": "Help P26 prepare a simple salad using available vegetables.",
+    "video_id": "P26_101",
+    "participant_id": "P26",
+    "ground_truth_steps": [
+      "Pick up the cucumber from the counter.",
+      "Turn on the metallic metal faucet.",
+      "Rinse the cucumber under running water in the not specified ceramic sink.",
+      "Turn off the metallic metal faucet.",
+      "Place the cucumber on the black plastic cutting board.",
+      "Pick up the silver metal knife from the countertop.",
+      "Cut the cucumber into slices on the black plastic cutting board.",
+      "Transfer the cucumber slices to the yellow ceramic bowl.",
+      "Place the silver metal knife back on the countertop.",
+      "Mix the salad ingredients in the yellow ceramic bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category."
+  }
+]

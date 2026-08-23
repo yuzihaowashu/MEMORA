@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEMORA motion overview</title>
+    <link rel="stylesheet" href="motion-overview.css">
+  </head>
+  <body data-scene="0">
+    <main class="film" aria-label="Animated overview of the MEMORA lifecycle">
+      <header class="film-header">
+        <div>
+          <strong>MEMORA</strong>
+          <span>Embodied Action Memory</span>
+        </div>
+        <h1>Experience becomes memory. Memory guides action.</h1>
+        <p>P01 · observed experience to action</p>
+      </header>
+
+      <section class="film-grid">
+        <article class="film-panel experience-panel">
+          <div class="panel-title"><span>01</span><strong>Experience</strong></div>
+          <div class="video-shell human-video">
+            <video id="human-video" muted playsinline preload="auto">
+              <source src="assets/demo_videos/human-prepare-breakfast.mp4" type="video/mp4">
+            </video>
+            <div class="video-caption">
+              <span>Human egocentric observation</span>
+              <strong id="segment-time">00:00–00:10</strong>
+            </div>
+          </div>
+          <div class="segment-track" aria-hidden="true">
+            <span class="active">0–10 s</span>
+            <span>10–20 s</span>
+            <span>20–22 s</span>
+          </div>
+          <div class="observation-line" id="observation-line">
+            <span>Segment Encoder</span>
+            <strong>Breakfast items appear in a shared workspace.</strong>
+          </div>
+        </article>
+
+        <article class="film-panel memory-panel">
+          <div class="panel-title"><span>02</span><strong>Persistent memory</strong></div>
+          <div class="memory-flow">
+            <div class="memory-status"><i></i><span id="memory-status">Waiting for experience</span></div>
+
+            <div class="store-row env-store">
+              <span>Environment</span>
+              <p><strong>counter area</strong><br>shared preparation workspace</p>
+            </div>
+            <div class="store-row ent-store">
+              <span>Entity</span>
+              <p><strong>yellow bowl</strong><br><em>workspace → on table</em></p>
+            </div>
+            <div class="store-row act-store">
+              <span>Activity</span>
+              <p><strong>10–20 s</strong><br>assembles breakfast items</p>
+            </div>
+            <div class="store-row inf-store">
+              <span>Inferred Knowledge</span>
+              <p><strong>Across completed episodes</strong><br>repeated evidence becomes a reusable procedure</p>
+            </div>
+
+            <div class="edit-stream" aria-label="Meaningful memory edits">
+              <div><b>UPDATE</b><span>bread</span><small>wrapped → unwrapped</small></div>
+              <div><b>UPDATE</b><span>tea packet</span><small>hand → yellow bowl</small></div>
+              <div><b>ADD</b><span>yellow spoon</span><small>first observed</small></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="film-panel action-panel">
+          <div class="panel-title"><span>03</span><strong>Future action</strong></div>
+          <div class="goal-card">
+            <span>New goal</span>
+            <p>Prepare the participant's breakfast setup.</p>
+          </div>
+          <div class="evidence-query">
+            <span>Relevant memory</span>
+            <div><i class="ent-dot"></i>yellow bowl · red tea packet</div>
+            <div><i class="ent-dot"></i>yellow spoon · bread slices</div>
+            <div><i class="env-dot"></i>workspace · on table</div>
+          </div>
+          <div class="generated-plan">
+            <span>Memory-grounded plan</span>
+            <ol>
+              <li>Grasp the yellow bowl.</li>
+              <li>Retrieve the red tea packet.</li>
+              <li>Retrieve the yellow spoon.</li>
+              <li>Bring the bread slices.</li>
+            </ol>
+          </div>
+          <div class="video-shell robot-video">
+            <video id="robot-video" muted playsinline preload="auto">
+              <source src="assets/demo_videos/robot-prepare-breakfast.mp4" type="video/mp4">
+            </video>
+            <div class="video-caption"><span>Robot grounding</span><strong>2.0×</strong></div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="film-footer">
+        <div class="scene-progress" aria-hidden="true">
+          <span class="active"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p id="scene-caption">Experience unfolds in 10-second segments.</p>
+        <button id="replay-film" type="button" aria-label="Replay animation">Replay</button>
+      </footer>
+    </main>
+    <script src="motion-overview.js"></script>
+  </body>
+</html>

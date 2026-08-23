@@ -1,0 +1,1740 @@
+[
+  {
+    "task_id": "plan_P27_103_036",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P27 clean up the mixer and whisk after use.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_320",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:22:43.11",
+        "end_time": "00:23:14.94",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_321",
+        "narration": "turn off mixer",
+        "verb": "turn-off",
+        "noun": "mixer",
+        "start_time": "00:23:21.04",
+        "end_time": "00:23:21.79",
+        "enriched_narration": "turn off white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_322",
+        "narration": "turn on shaker",
+        "verb": "turn-on",
+        "noun": "shaker",
+        "start_time": "00:23:22.70",
+        "end_time": "00:23:34.68"
+      },
+      {
+        "narration_id": "P27_103_323",
+        "narration": "turn off mixer",
+        "verb": "turn-off",
+        "noun": "mixer",
+        "start_time": "00:23:43.74",
+        "end_time": "00:23:44.99",
+        "enriched_narration": "turn off white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_324",
+        "narration": "lift mixer",
+        "verb": "lift",
+        "noun": "mixer",
+        "start_time": "00:23:45.43",
+        "end_time": "00:23:54.59",
+        "enriched_narration": "lift white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_325",
+        "narration": "remove whisk",
+        "verb": "remove",
+        "noun": "whisk",
+        "start_time": "00:23:53.65",
+        "end_time": "00:24:00.20"
+      },
+      {
+        "narration_id": "P27_103_326",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:23:56.78",
+        "end_time": "00:23:59.97"
+      },
+      {
+        "narration_id": "P27_103_327",
+        "narration": "pick up whisk",
+        "verb": "pick-up",
+        "noun": "whisk",
+        "start_time": "00:23:59.69",
+        "end_time": "00:24:02.47"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 79.4,
+    "primary_objects": [
+      "mixer",
+      "whisk",
+      "container",
+      "shaker",
+      "button"
+    ],
+    "primary_verbs": [
+      "turn-off",
+      "turn",
+      "turn-on",
+      "lift",
+      "remove"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_020",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P27 tidy up the container and mixer in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_180",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:11:25.71",
+        "end_time": "00:11:26.04",
+        "enriched_narration": "turn off white metal tap on sink",
+        "matched_object": {
+          "color": "white",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P27_103_181",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:11:28.17",
+        "end_time": "00:11:44.80",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_182",
+        "narration": "turn off mixer",
+        "verb": "turn-off",
+        "noun": "mixer",
+        "start_time": "00:11:41.56",
+        "end_time": "00:11:44.79",
+        "enriched_narration": "turn off white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_183",
+        "narration": "lift mixer",
+        "verb": "lift",
+        "noun": "mixer",
+        "start_time": "00:11:44.79",
+        "end_time": "00:11:48.38",
+        "enriched_narration": "lift white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_184",
+        "narration": "check recipe book",
+        "verb": "check",
+        "noun": "book:recipe",
+        "start_time": "00:11:50.85",
+        "end_time": "00:12:03.60",
+        "enriched_narration": "check recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      },
+      {
+        "narration_id": "P27_103_185",
+        "narration": "pick up container",
+        "verb": "pick-up",
+        "noun": "container",
+        "start_time": "00:12:03.06",
+        "end_time": "00:12:04.50",
+        "enriched_narration": "pick up white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_186",
+        "narration": "put down container",
+        "verb": "put-down",
+        "noun": "container",
+        "start_time": "00:12:04.47",
+        "end_time": "00:12:07.60",
+        "enriched_narration": "put down white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_187",
+        "narration": "lift lid",
+        "verb": "lift",
+        "noun": "lid",
+        "start_time": "00:12:07.10",
+        "end_time": "00:12:09.15",
+        "enriched_narration": "lift clear glass lid on counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on counter",
+          "memory_id": "glass_door",
+          "memory_name": "sliding glass door"
+        }
+      },
+      {
+        "narration_id": "P27_103_188",
+        "narration": "turn on scale",
+        "verb": "turn-on",
+        "noun": "scale",
+        "start_time": "00:12:08.00",
+        "end_time": "00:12:11.52",
+        "enriched_narration": "turn on white plastic scale on table",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on table",
+          "memory_id": "scale",
+          "memory_name": "scale"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 45.8,
+    "primary_objects": [
+      "container",
+      "mixer",
+      "tap",
+      "recipe book",
+      "lid"
+    ],
+    "primary_verbs": [
+      "turn-off",
+      "lift",
+      "turn",
+      "check",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_026",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P27 mix flour in the container with the mixer.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_234",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:15:12.74",
+        "end_time": "00:15:23.49",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_235",
+        "narration": "put down mixer",
+        "verb": "put-down",
+        "noun": "mixer",
+        "start_time": "00:15:23.19",
+        "end_time": "00:15:24.16",
+        "enriched_narration": "put down white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_237",
+        "narration": "adjust mixer",
+        "verb": "adjust",
+        "noun": "mixer",
+        "start_time": "00:15:23.23",
+        "end_time": "00:15:25.01",
+        "enriched_narration": "adjust white plastic mixer on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "electric_mixer",
+          "memory_name": "white_blue_mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_236",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:15:25.82",
+        "end_time": "00:15:26.61",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_238",
+        "narration": "shake container",
+        "verb": "shake",
+        "noun": "container",
+        "start_time": "00:15:26.32",
+        "end_time": "00:15:28.20",
+        "enriched_narration": "shake white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_239",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:15:28.30",
+        "end_time": "00:15:45.58",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_240",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:15:45.53",
+        "end_time": "00:15:56.78",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_241",
+        "narration": "pick up plate",
+        "verb": "pick-up",
+        "noun": "plate",
+        "start_time": "00:15:56.88",
+        "end_time": "00:15:58.31",
+        "enriched_narration": "pick up white ceramic plate in sink",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "plate",
+          "memory_name": "white ceramic plate"
+        }
+      },
+      {
+        "narration_id": "P27_103_242",
+        "narration": "pour flour",
+        "verb": "pour",
+        "noun": "flour",
+        "start_time": "00:15:58.41",
+        "end_time": "00:16:01.44",
+        "enriched_narration": "pour white powder flour at on_table",
+        "matched_object": {
+          "color": "white",
+          "material": "powder",
+          "location": "on_table",
+          "memory_id": "flour_bag",
+          "memory_name": "flour_bag"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 48.7,
+    "primary_objects": [
+      "container",
+      "mixer",
+      "plate",
+      "flour"
+    ],
+    "primary_verbs": [
+      "turn",
+      "put-down",
+      "adjust",
+      "shake",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_037",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P27 clean the whisk and wash their hands.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_328",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:24:32.67",
+        "end_time": "00:24:33.75",
+        "enriched_narration": "turn on white metal tap on sink",
+        "matched_object": {
+          "color": "white",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P27_103_329",
+        "narration": "wash whisk",
+        "verb": "wash",
+        "noun": "whisk",
+        "start_time": "00:24:33.83",
+        "end_time": "00:24:37.01"
+      },
+      {
+        "narration_id": "P27_103_330",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:24:40.62",
+        "end_time": "00:24:47.19",
+        "enriched_narration": "wash black plastic hands in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "hand_mixer_white_blue",
+          "memory_name": "white and blue hand mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_331",
+        "narration": "wash whisk",
+        "verb": "wash",
+        "noun": "whisk",
+        "start_time": "00:24:45.46",
+        "end_time": "00:24:50.68"
+      },
+      {
+        "narration_id": "P27_103_332",
+        "narration": "pick up whisk",
+        "verb": "pick-up",
+        "noun": "whisk",
+        "start_time": "00:24:50.75",
+        "end_time": "00:24:51.98"
+      },
+      {
+        "narration_id": "P27_103_333",
+        "narration": "wash whisk",
+        "verb": "wash",
+        "noun": "whisk",
+        "start_time": "00:24:51.96",
+        "end_time": "00:24:54.61"
+      },
+      {
+        "narration_id": "P27_103_334",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:24:52.65",
+        "end_time": "00:24:54.42",
+        "enriched_narration": "wash black plastic hands in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "hand_mixer_white_blue",
+          "memory_name": "white and blue hand mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_335",
+        "narration": "pick up soap",
+        "verb": "pick-up",
+        "noun": "soap",
+        "start_time": "00:24:54.70",
+        "end_time": "00:24:55.99",
+        "enriched_narration": "pick up white plastic soap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "sink_area",
+          "memory_id": "soap_dispenser",
+          "memory_name": "soap dispenser"
+        }
+      },
+      {
+        "narration_id": "P27_103_336",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:24:55.94",
+        "end_time": "00:24:58.82",
+        "enriched_narration": "wash black plastic hands in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "hand_mixer_white_blue",
+          "memory_name": "white and blue hand mixer"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 26.1,
+    "primary_objects": [
+      "whisk",
+      "hand",
+      "tap",
+      "soap"
+    ],
+    "primary_verbs": [
+      "wash",
+      "pick-up",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_038",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P27 clean the container and remove any leftover chocolate.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_337",
+        "narration": "rinse hands",
+        "verb": "rinse",
+        "noun": "hand",
+        "start_time": "00:24:58.82",
+        "end_time": "00:25:04.21",
+        "enriched_narration": "rinse black plastic hands in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "hand_mixer_white_blue",
+          "memory_name": "white and blue hand mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_338",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:25:03.98",
+        "end_time": "00:25:04.77",
+        "enriched_narration": "turn off white metal tap on sink",
+        "matched_object": {
+          "color": "white",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P27_103_339",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:25:04.79",
+        "end_time": "00:25:08.75",
+        "enriched_narration": "dry black plastic hands in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "hand_mixer_white_blue",
+          "memory_name": "white and blue hand mixer"
+        }
+      },
+      {
+        "narration_id": "P27_103_340",
+        "narration": "pick up container",
+        "verb": "pick-up",
+        "noun": "container",
+        "start_time": "00:25:09.19",
+        "end_time": "00:25:12.22",
+        "enriched_narration": "pick up white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_341",
+        "narration": "scrape liquid",
+        "verb": "scrape",
+        "noun": "liquid",
+        "start_time": "00:25:18.79",
+        "end_time": "00:25:32.93"
+      },
+      {
+        "narration_id": "P27_103_342",
+        "narration": "pour chocolate",
+        "verb": "pour",
+        "noun": "chocolate",
+        "start_time": "00:25:31.89",
+        "end_time": "00:26:09.39"
+      },
+      {
+        "narration_id": "P27_103_343",
+        "narration": "put down container",
+        "verb": "put-down",
+        "noun": "container",
+        "start_time": "00:26:12.36",
+        "end_time": "00:26:13.48",
+        "enriched_narration": "put down white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_344",
+        "narration": "remove residue",
+        "verb": "remove",
+        "noun": "residue",
+        "start_time": "00:26:14.09",
+        "end_time": "00:26:16.35"
+      },
+      {
+        "narration_id": "P27_103_345",
+        "narration": "remove residue",
+        "verb": "remove",
+        "noun": "residue",
+        "start_time": "00:26:19.44",
+        "end_time": "00:26:25.12"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 86.3,
+    "primary_objects": [
+      "hand",
+      "container",
+      "residue",
+      "tap",
+      "liquid"
+    ],
+    "primary_verbs": [
+      "remove",
+      "rinse",
+      "turn-off",
+      "dry",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_033",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P27 prepare the ring cake by mixing ingredients in the mould.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_296",
+        "narration": "shake ring cake mould",
+        "verb": "shake",
+        "noun": "mould:ring:cake",
+        "start_time": "00:20:14.09",
+        "end_time": "00:20:16.19"
+      },
+      {
+        "narration_id": "P27_103_297",
+        "narration": "shake ring cake mould",
+        "verb": "shake",
+        "noun": "mould:ring:cake",
+        "start_time": "00:20:16.29",
+        "end_time": "00:20:25.54"
+      },
+      {
+        "narration_id": "P27_103_298",
+        "narration": "spread flour",
+        "verb": "spread",
+        "noun": "flour",
+        "start_time": "00:20:33.04",
+        "end_time": "00:20:44.56",
+        "enriched_narration": "spread white powder flour at on_table",
+        "matched_object": {
+          "color": "white",
+          "material": "powder",
+          "location": "on_table",
+          "memory_id": "flour_bag",
+          "memory_name": "flour_bag"
+        }
+      },
+      {
+        "narration_id": "P27_103_299",
+        "narration": "shake ring cake mould",
+        "verb": "shake",
+        "noun": "mould:ring:cake",
+        "start_time": "00:20:46.46",
+        "end_time": "00:20:48.86"
+      },
+      {
+        "narration_id": "P27_103_300",
+        "narration": "pick up container",
+        "verb": "pick-up",
+        "noun": "container",
+        "start_time": "00:20:50.19",
+        "end_time": "00:20:58.84",
+        "enriched_narration": "pick up white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_301",
+        "narration": "pour liquid",
+        "verb": "pour",
+        "noun": "liquid",
+        "start_time": "00:21:00.49",
+        "end_time": "00:21:31.29"
+      },
+      {
+        "narration_id": "P27_103_302",
+        "narration": "remove residue",
+        "verb": "remove",
+        "noun": "residue",
+        "start_time": "00:21:31.76",
+        "end_time": "00:21:37.29"
+      },
+      {
+        "narration_id": "P27_103_303",
+        "narration": "pick up spoon",
+        "verb": "pick-up",
+        "noun": "spoon",
+        "start_time": "00:21:43.73",
+        "end_time": "00:21:44.52",
+        "enriched_narration": "pick up black plastic spoon on kitchen_counter",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on kitchen_counter",
+          "memory_id": "spoon",
+          "memory_name": "black spoon"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 90.4,
+    "primary_objects": [
+      "ring:cake mould",
+      "flour",
+      "container",
+      "liquid",
+      "residue"
+    ],
+    "primary_verbs": [
+      "shake",
+      "pick-up",
+      "spread",
+      "pour",
+      "remove"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_034",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P27 prepare the stir-fry by mixing the ingredients.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_304",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:21:46.07",
+        "end_time": "00:21:50.25",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_305",
+        "narration": "remove residue",
+        "verb": "remove",
+        "noun": "residue",
+        "start_time": "00:21:47.06",
+        "end_time": "00:21:53.71"
+      },
+      {
+        "narration_id": "P27_103_306",
+        "narration": "stir liquid",
+        "verb": "stir",
+        "noun": "liquid",
+        "start_time": "00:21:51.31",
+        "end_time": "00:21:54.13"
+      },
+      {
+        "narration_id": "P27_103_307",
+        "narration": "shake spoon",
+        "verb": "shake",
+        "noun": "spoon",
+        "start_time": "00:21:54.46",
+        "end_time": "00:21:56.32",
+        "enriched_narration": "shake black plastic spoon on kitchen_counter",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on kitchen_counter",
+          "memory_id": "spoon",
+          "memory_name": "black spoon"
+        }
+      },
+      {
+        "narration_id": "P27_103_308",
+        "narration": "remove residue",
+        "verb": "remove",
+        "noun": "residue",
+        "start_time": "00:21:55.94",
+        "end_time": "00:22:06.76"
+      },
+      {
+        "narration_id": "P27_103_309",
+        "narration": "pick up package",
+        "verb": "pick-up",
+        "noun": "package",
+        "start_time": "00:22:11.65",
+        "end_time": "00:22:12.94"
+      },
+      {
+        "narration_id": "P27_103_310",
+        "narration": "open package",
+        "verb": "open",
+        "noun": "package",
+        "start_time": "00:22:12.74",
+        "end_time": "00:22:13.82"
+      },
+      {
+        "narration_id": "P27_103_311",
+        "narration": "remove bag",
+        "verb": "remove",
+        "noun": "bag",
+        "start_time": "00:22:13.89",
+        "end_time": "00:22:16.03",
+        "enriched_narration": "remove white powder bag at on_table",
+        "matched_object": {
+          "color": "white",
+          "material": "powder",
+          "location": "on_table",
+          "memory_id": "flour_bag",
+          "memory_name": "flour_bag"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 30,
+    "primary_objects": [
+      "residue",
+      "package",
+      "container",
+      "liquid",
+      "spoon"
+    ],
+    "primary_verbs": [
+      "remove",
+      "turn",
+      "stir",
+      "shake",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P27_101_015",
+    "participant_id": "P27",
+    "video_id": "P27_101",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P27 wash the spoon and plate.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_101_135",
+        "narration": "pick up spoon",
+        "verb": "pick-up",
+        "noun": "spoon",
+        "start_time": "00:05:57.32",
+        "end_time": "00:05:58.25",
+        "enriched_narration": "pick up black plastic spoon on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on stove",
+          "memory_id": "spoon",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_101_136",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:05:58.35",
+        "end_time": "00:06:02.29",
+        "enriched_narration": "wash black plastic spoon on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on stove",
+          "memory_id": "spoon",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_101_137",
+        "narration": "put down spoon",
+        "verb": "put-down",
+        "noun": "spoon",
+        "start_time": "00:06:01.90",
+        "end_time": "00:06:03.45",
+        "enriched_narration": "put down black plastic spoon on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on stove",
+          "memory_id": "spoon",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_101_138",
+        "narration": "pick up plate",
+        "verb": "pick-up",
+        "noun": "plate",
+        "start_time": "00:06:04.13",
+        "end_time": "00:06:05.26",
+        "enriched_narration": "pick up white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_139",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:06:05.35",
+        "end_time": "00:06:07.00",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_140",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:06:06.95",
+        "end_time": "00:06:07.25",
+        "enriched_narration": "turn on silver metal tap on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P27_101_141",
+        "narration": "rinse plate",
+        "verb": "rinse",
+        "noun": "plate",
+        "start_time": "00:06:07.30",
+        "end_time": "00:06:09.05",
+        "enriched_narration": "rinse white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_142",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:06:09.33",
+        "end_time": "00:06:16.90",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_143",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:06:11.76",
+        "end_time": "00:06:17.15",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 19.8,
+    "primary_objects": [
+      "plate",
+      "spoon",
+      "tap"
+    ],
+    "primary_verbs": [
+      "wash",
+      "pick-up",
+      "put-down",
+      "turn-on",
+      "rinse"
+    ]
+  },
+  {
+    "task_id": "plan_P27_101_023",
+    "participant_id": "P27",
+    "video_id": "P27_101",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P27 wash the plate and prepare it for drying.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_101_207",
+        "narration": "pick up plate",
+        "verb": "pick-up",
+        "noun": "plate",
+        "start_time": "00:08:46.15",
+        "end_time": "00:08:47.65",
+        "enriched_narration": "pick up white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_208",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:48.00",
+        "end_time": "00:08:49.00",
+        "enriched_narration": "turn on silver metal tap on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P27_101_209",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:08:49.40",
+        "end_time": "00:08:55.00",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_210",
+        "narration": "use soap",
+        "verb": "use",
+        "noun": "soap",
+        "start_time": "00:08:55.53",
+        "end_time": "00:08:56.67",
+        "enriched_narration": "use green plastic soap at sink",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "sink",
+          "memory_id": "soap_dispenser",
+          "memory_name": "soap_dispenser"
+        }
+      },
+      {
+        "narration_id": "P27_101_211",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:08:56.80",
+        "end_time": "00:09:08.05",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_212",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:09:09.04",
+        "end_time": "00:09:09.90",
+        "enriched_narration": "turn on silver metal tap on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P27_101_213",
+        "narration": "wash plate",
+        "verb": "wash",
+        "noun": "plate",
+        "start_time": "00:09:10.73",
+        "end_time": "00:09:19.01",
+        "enriched_narration": "wash white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_214",
+        "narration": "put down plate",
+        "verb": "put-down",
+        "noun": "plate",
+        "start_time": "00:09:19.17",
+        "end_time": "00:09:20.12",
+        "enriched_narration": "put down white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      },
+      {
+        "narration_id": "P27_101_215",
+        "narration": "pick up plate",
+        "verb": "pick-up",
+        "noun": "plate",
+        "start_time": "00:09:21.44",
+        "end_time": "00:09:22.35",
+        "enriched_narration": "pick up white ceramic plate on stove",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on stove",
+          "memory_id": "plate",
+          "memory_name": "plate"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36.2,
+    "primary_objects": [
+      "plate",
+      "tap",
+      "soap"
+    ],
+    "primary_verbs": [
+      "wash",
+      "pick-up",
+      "turn-on",
+      "use",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P27_101_042",
+    "participant_id": "P27",
+    "video_id": "P27_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P27 clean the baking tray and sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_101_378",
+        "narration": "use soap",
+        "verb": "use",
+        "noun": "soap",
+        "start_time": "00:17:17.11",
+        "end_time": "00:17:18.97",
+        "enriched_narration": "use green plastic soap at sink",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "sink",
+          "memory_id": "soap_dispenser",
+          "memory_name": "soap_dispenser"
+        }
+      },
+      {
+        "narration_id": "P27_101_379",
+        "narration": "wash sponge",
+        "verb": "wash",
+        "noun": "sponge",
+        "start_time": "00:17:19.04",
+        "end_time": "00:17:20.88",
+        "enriched_narration": "wash orange foam sponge at sink_area",
+        "matched_object": {
+          "color": "orange",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "red sponge"
+        }
+      },
+      {
+        "narration_id": "P27_101_380",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:17:21.18",
+        "end_time": "00:17:22.01",
+        "enriched_narration": "turn off silver metal tap on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P27_101_381",
+        "narration": "wash lid",
+        "verb": "wash",
+        "noun": "lid",
+        "start_time": "00:17:22.48",
+        "end_time": "00:17:34.26"
+      },
+      {
+        "narration_id": "P27_101_382",
+        "narration": "put down lid",
+        "verb": "put-down",
+        "noun": "lid",
+        "start_time": "00:17:46.12",
+        "end_time": "00:17:48.00"
+      },
+      {
+        "narration_id": "P27_101_383",
+        "narration": "pick up baking tray",
+        "verb": "pick-up",
+        "noun": "tray:baking",
+        "start_time": "00:17:48.99",
+        "end_time": "00:17:54.75"
+      },
+      {
+        "narration_id": "P27_101_384",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:17:54.67",
+        "end_time": "00:17:55.24",
+        "enriched_narration": "turn off silver metal tap on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P27_101_385",
+        "narration": "use soap",
+        "verb": "use",
+        "noun": "soap",
+        "start_time": "00:17:57.22",
+        "end_time": "00:17:58.46",
+        "enriched_narration": "use green plastic soap at sink",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "sink",
+          "memory_id": "soap_dispenser",
+          "memory_name": "soap_dispenser"
+        }
+      },
+      {
+        "narration_id": "P27_101_386",
+        "narration": "pick up sponge",
+        "verb": "pick-up",
+        "noun": "sponge",
+        "start_time": "00:18:03.18",
+        "end_time": "00:18:03.84",
+        "enriched_narration": "pick up orange foam sponge at sink_area",
+        "matched_object": {
+          "color": "orange",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "red sponge"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 46.7,
+    "primary_objects": [
+      "soap",
+      "sponge",
+      "tap",
+      "lid",
+      "baking tray"
+    ],
+    "primary_verbs": [
+      "use",
+      "wash",
+      "turn-off",
+      "pick-up",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_006",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P27 find and organize the recipe book and glasses.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_54",
+        "narration": "pick up recipe book",
+        "verb": "pick-up",
+        "noun": "book:recipe",
+        "start_time": "00:02:27.31",
+        "end_time": "00:02:28.28",
+        "enriched_narration": "pick up recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      },
+      {
+        "narration_id": "P27_103_55",
+        "narration": "pick glasses",
+        "verb": "pick",
+        "noun": "glass",
+        "start_time": "00:02:29.97",
+        "end_time": "00:02:30.87",
+        "enriched_narration": "pick clear glass glasses on counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on counter",
+          "memory_id": "glass_door",
+          "memory_name": "sliding glass door"
+        }
+      },
+      {
+        "narration_id": "P27_103_56",
+        "narration": "put down glasses",
+        "verb": "put-down",
+        "noun": "glass",
+        "start_time": "00:02:31.97",
+        "end_time": "00:02:32.52",
+        "enriched_narration": "put down clear glass glasses on counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on counter",
+          "memory_id": "glass_door",
+          "memory_name": "sliding glass door"
+        }
+      },
+      {
+        "narration_id": "P27_103_57",
+        "narration": "open recipe book",
+        "verb": "open",
+        "noun": "book:recipe",
+        "start_time": "00:02:36.48",
+        "end_time": "00:02:38.22",
+        "enriched_narration": "open recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      },
+      {
+        "narration_id": "P27_103_58",
+        "narration": "browse recipe book",
+        "verb": "browse",
+        "noun": "book:recipe",
+        "start_time": "00:02:38.74",
+        "end_time": "00:02:40.37",
+        "enriched_narration": "browse recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      },
+      {
+        "narration_id": "P27_103_59",
+        "narration": "browse recipe book",
+        "verb": "browse",
+        "noun": "book:recipe",
+        "start_time": "00:02:40.29",
+        "end_time": "00:02:42.46",
+        "enriched_narration": "browse recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      },
+      {
+        "narration_id": "P27_103_60",
+        "narration": "turn page",
+        "verb": "turn",
+        "noun": "page",
+        "start_time": "00:02:41.60",
+        "end_time": "00:02:43.79"
+      },
+      {
+        "narration_id": "P27_103_61",
+        "narration": "turn page",
+        "verb": "turn",
+        "noun": "page",
+        "start_time": "00:02:43.89",
+        "end_time": "00:02:44.64"
+      },
+      {
+        "narration_id": "P27_103_62",
+        "narration": "adjust recipe book",
+        "verb": "adjust",
+        "noun": "book:recipe",
+        "start_time": "00:02:45.67",
+        "end_time": "00:02:46.14",
+        "enriched_narration": "adjust recipe book on kitchen_counter",
+        "matched_object": {
+          "color": "red",
+          "material": "paper",
+          "location": "on kitchen_counter",
+          "memory_id": "recipe_book",
+          "memory_name": "recipe_book"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 18.8,
+    "primary_objects": [
+      "recipe book",
+      "glass",
+      "page"
+    ],
+    "primary_verbs": [
+      "browse",
+      "turn",
+      "pick-up",
+      "pick",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P27_103_023",
+    "participant_id": "P27",
+    "video_id": "P27_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P27 mix flour in the shaker.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P27_103_207",
+        "narration": "close lid",
+        "verb": "close",
+        "noun": "lid",
+        "start_time": "00:13:04.67",
+        "end_time": "00:13:09.22",
+        "enriched_narration": "close clear glass lid on counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on counter",
+          "memory_id": "glass_door",
+          "memory_name": "sliding glass door"
+        }
+      },
+      {
+        "narration_id": "P27_103_208",
+        "narration": "put down container",
+        "verb": "put-down",
+        "noun": "container",
+        "start_time": "00:13:09.79",
+        "end_time": "00:13:11.01",
+        "enriched_narration": "put down white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_209",
+        "narration": "pick up scale plate",
+        "verb": "pick-up",
+        "noun": "plate:scale",
+        "start_time": "00:13:10.90",
+        "end_time": "00:13:11.82",
+        "enriched_narration": "pick up scale plate in sink",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "plate",
+          "memory_name": "white ceramic plate"
+        }
+      },
+      {
+        "narration_id": "P27_103_210",
+        "narration": "lower shaker",
+        "verb": "lower",
+        "noun": "shaker",
+        "start_time": "00:13:15.69",
+        "end_time": "00:13:17.34"
+      },
+      {
+        "narration_id": "P27_103_211",
+        "narration": "turn on shaker",
+        "verb": "turn-on",
+        "noun": "shaker",
+        "start_time": "00:13:17.32",
+        "end_time": "00:13:18.49"
+      },
+      {
+        "narration_id": "P27_103_212",
+        "narration": "pour flour",
+        "verb": "pour",
+        "noun": "flour",
+        "start_time": "00:13:20.13",
+        "end_time": "00:13:33.03",
+        "enriched_narration": "pour white powder flour at on_table",
+        "matched_object": {
+          "color": "white",
+          "material": "powder",
+          "location": "on_table",
+          "memory_id": "flour_bag",
+          "memory_name": "flour_bag"
+        }
+      },
+      {
+        "narration_id": "P27_103_216",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:13:33.00",
+        "end_time": "00:13:45.27",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_213",
+        "narration": "turn container",
+        "verb": "turn",
+        "noun": "container",
+        "start_time": "00:13:33.13",
+        "end_time": "00:13:45.20",
+        "enriched_narration": "turn white plastic container at countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "container",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P27_103_214",
+        "narration": "pour flour",
+        "verb": "pour",
+        "noun": "flour",
+        "start_time": "00:13:44.82",
+        "end_time": "00:13:50.05",
+        "enriched_narration": "pour white powder flour at on_table",
+        "matched_object": {
+          "color": "white",
+          "material": "powder",
+          "location": "on_table",
+          "memory_id": "flour_bag",
+          "memory_name": "flour_bag"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 45.4,
+    "primary_objects": [
+      "container",
+      "shaker",
+      "flour",
+      "lid",
+      "scale plate"
+    ],
+    "primary_verbs": [
+      "pour",
+      "turn",
+      "close",
+      "put-down",
+      "pick-up"
+    ]
+  }
+]

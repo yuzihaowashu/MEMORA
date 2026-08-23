@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="150" viewBox="0 0 980 150" role="img" aria-labelledby="title desc">
+  <title id="title">Oral Presentation at RSS 2026 FM4RoboPlan</title>
+  <desc id="desc">MEMORA was accepted for an oral presentation at the RSS 2026 Workshop on Robot Planning in the Era of Foundation Models.</desc>
+  <defs>
+    <linearGradient id="watercolor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7EE0BC"/>
+      <stop offset="30%" stop-color="#8FBEFF"/>
+      <stop offset="57%" stop-color="#CBA2FF"/>
+      <stop offset="80%" stop-color="#FFAEA6"/>
+      <stop offset="100%" stop-color="#FFDE7D"/>
+    </linearGradient>
+    <filter id="soft-edge" x="-3%" y="-18%" width="106%" height="136%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect x="12" y="13" width="956" height="124" rx="5" fill="#F1EEE6"/>
+  <rect x="17" y="18" width="946" height="114" rx="4" fill="url(#watercolor)" fill-opacity="0.68" filter="url(#soft-edge)"/>
+  <text x="490" y="70" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850" fill="#449C56">
+    Oral Presentation
+  </text>
+  <text x="490" y="105" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="21" font-weight="750" fill="#51486D">
+    RSS 2026 FM4RoboPlan
+  </text>
+</svg>

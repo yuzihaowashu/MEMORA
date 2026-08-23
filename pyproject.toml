@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memora"
+version = "1.0.0"
+description = "Embodied Action Memory from egocentric video"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Zihao Yu"},
+  {name = "Xiu Yuan"},
+  {name = "Chongjie Zhang"},
+]
+dependencies = [
+  "numpy==2.2.6",
+  "openai==2.32.0",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "huggingface-hub==1.11.0",
+  "pandas>=2.0",
+]
+gpu = [
+  "accelerate==1.13.0",
+  "av>=12.0",
+  "decord>=0.6.0",
+  "pillow==12.2.0",
+  "qwen-omni-utils",
+  "safetensors==0.7.0",
+  "scikit-learn>=1.3",
+  "sentence-transformers>=3.0",
+  "tokenizers==0.22.2",
+  "tqdm==4.67.3",
+  "transformers==5.5.4",
+  "vllm==0.19.1",
+]
+[project.urls]
+Paper = "https://arxiv.org/abs/2607.14252"
+Homepage = "https://yuzihaowashu.github.io/MEMORA/"
+Dataset = "https://huggingface.co/datasets/DependableDavid/MEMORA"
+
+[project.scripts]
+memora-segment-encode = "memora.pipeline.segment_encoder:main"
+memora-memory-edit = "memora.pipeline.memory_editor.cli:main"
+memora-graph-build = "memora.pipeline.representation_builders.graph_2d:main"
+memora-eam-qa = "memora.evaluation.eam_qa.runner:main"
+memora-plan = "memora.evaluation.planning.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["memora*"]
+
+[tool.setuptools.package-data]
+"memora_bench" = ["**/*.json", "**/*.jsonl", "**/*.md"]

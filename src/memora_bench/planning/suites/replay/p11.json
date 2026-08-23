@@ -1,0 +1,1668 @@
+[
+  {
+    "task_id": "plan_P11_104_008",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P11 clean the work surface and dry the dish rag.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_72",
+        "narration": "move bowls",
+        "verb": "move",
+        "noun": "bowl",
+        "start_time": "00:04:44.01",
+        "end_time": "00:04:45.51",
+        "enriched_narration": "move green ceramic bowls on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "bowl",
+          "memory_name": "bowl"
+        }
+      },
+      {
+        "narration_id": "P11_104_73",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:04:48.15",
+        "end_time": "00:04:48.57",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_104_74",
+        "narration": "rinse dish rag",
+        "verb": "rinse",
+        "noun": "rag:dish",
+        "start_time": "00:04:48.70",
+        "end_time": "00:04:50.03",
+        "enriched_narration": "rinse dish rag at right",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "right",
+          "memory_id": "dish_rack",
+          "memory_name": "dish rack"
+        }
+      },
+      {
+        "narration_id": "P11_104_75",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:04:48.80",
+        "end_time": "00:04:50.30",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_104_76",
+        "narration": "spray down work surface",
+        "verb": "spray-down",
+        "noun": "surface:work",
+        "start_time": "00:04:52.16",
+        "end_time": "00:04:53.55"
+      },
+      {
+        "narration_id": "P11_104_77",
+        "narration": "wipe down work surface",
+        "verb": "wipe-down",
+        "noun": "surface:work",
+        "start_time": "00:04:55.73",
+        "end_time": "00:05:04.99"
+      },
+      {
+        "narration_id": "P11_104_78",
+        "narration": "rinse dish rag",
+        "verb": "rinse",
+        "noun": "rag:dish",
+        "start_time": "00:05:05.02",
+        "end_time": "00:05:07.82",
+        "enriched_narration": "rinse dish rag at right",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "right",
+          "memory_id": "dish_rack",
+          "memory_name": "dish rack"
+        }
+      },
+      {
+        "narration_id": "P11_104_79",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:05:07.87",
+        "end_time": "00:05:08.45",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_104_80",
+        "narration": "dry dish rag",
+        "verb": "dry",
+        "noun": "rag:dish",
+        "start_time": "00:05:08.21",
+        "end_time": "00:05:09.61",
+        "enriched_narration": "dry dish rag at right",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "right",
+          "memory_id": "dish_rack",
+          "memory_name": "dish rack"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 25.6,
+    "primary_objects": [
+      "tap",
+      "dish rag",
+      "work surface",
+      "bowl"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "turn-off",
+      "move",
+      "turn-on",
+      "spray-down"
+    ]
+  },
+  {
+    "task_id": "plan_P11_102_004",
+    "participant_id": "P11",
+    "video_id": "P11_102",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P11 wash and dry the leek in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_102_37",
+        "narration": "wash leek",
+        "verb": "wash",
+        "noun": "leek",
+        "start_time": "00:01:50.38",
+        "end_time": "00:01:52.65",
+        "enriched_narration": "wash green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_38",
+        "narration": "shake off leek",
+        "verb": "shake-off",
+        "noun": "leek",
+        "start_time": "00:01:51.90",
+        "end_time": "00:01:54.09",
+        "enriched_narration": "shake off green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_40",
+        "narration": "wash leek",
+        "verb": "wash",
+        "noun": "leek",
+        "start_time": "00:01:52.00",
+        "end_time": "00:01:56.10",
+        "enriched_narration": "wash green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_39",
+        "narration": "put down leek",
+        "verb": "put-down",
+        "noun": "leek",
+        "start_time": "00:01:54.12",
+        "end_time": "00:01:54.74",
+        "enriched_narration": "put down green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_36",
+        "narration": "dry off leek",
+        "verb": "dry-off",
+        "noun": "leek",
+        "start_time": "00:01:54.12",
+        "end_time": "00:01:54.55",
+        "enriched_narration": "dry off green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_41",
+        "narration": "adjust tap",
+        "verb": "adjust",
+        "noun": "tap",
+        "start_time": "00:01:56.12",
+        "end_time": "00:01:57.05",
+        "enriched_narration": "adjust silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_102_42",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:01:57.59",
+        "end_time": "00:01:58.36",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_102_43",
+        "narration": "shake off leek",
+        "verb": "shake-off",
+        "noun": "leek",
+        "start_time": "00:01:58.20",
+        "end_time": "00:02:00.52",
+        "enriched_narration": "shake off green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      },
+      {
+        "narration_id": "P11_102_44",
+        "narration": "put down leek",
+        "verb": "put-down",
+        "noun": "leek",
+        "start_time": "00:02:00.63",
+        "end_time": "00:02:01.23",
+        "enriched_narration": "put down green vegetable leek on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "vegetable",
+          "location": "on countertop",
+          "memory_id": "leek_bunch",
+          "memory_name": "green leek bunch"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 10.9,
+    "primary_objects": [
+      "leek",
+      "tap"
+    ],
+    "primary_verbs": [
+      "wash",
+      "shake-off",
+      "put-down",
+      "dry-off",
+      "adjust"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_012",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P11 prepare the fish by handling the fish skins and pan.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_107",
+        "narration": "move fish skin",
+        "verb": "move",
+        "noun": "skin:fish",
+        "start_time": "00:07:56.44",
+        "end_time": "00:07:59.24",
+        "enriched_narration": "move fish skin in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_109",
+        "narration": "move pan",
+        "verb": "move",
+        "noun": "pan",
+        "start_time": "00:08:20.53",
+        "end_time": "00:08:21.50",
+        "enriched_narration": "move black metal pan on stove_burner",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove_burner",
+          "memory_id": "pan",
+          "memory_name": "frying pan with fish"
+        }
+      },
+      {
+        "narration_id": "P11_104_110",
+        "narration": "flip fish skin",
+        "verb": "flip",
+        "noun": "skin:fish",
+        "start_time": "00:08:21.58",
+        "end_time": "00:08:25.73",
+        "enriched_narration": "flip fish skin in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_111",
+        "narration": "shake pan",
+        "verb": "shake",
+        "noun": "pan",
+        "start_time": "00:08:29.63",
+        "end_time": "00:08:31.05",
+        "enriched_narration": "shake black metal pan on stove_burner",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove_burner",
+          "memory_id": "pan",
+          "memory_name": "frying pan with fish"
+        }
+      },
+      {
+        "narration_id": "P11_104_112",
+        "narration": "back away",
+        "verb": "transition",
+        "noun": "floor",
+        "start_time": "00:08:34.30",
+        "end_time": "00:08:47.33"
+      },
+      {
+        "narration_id": "P11_104_113",
+        "narration": "adjust hob",
+        "verb": "adjust",
+        "noun": "hob",
+        "start_time": "00:08:50.72",
+        "end_time": "00:08:52.98",
+        "enriched_narration": "adjust black metal hob on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P11_104_114",
+        "narration": "shake pan",
+        "verb": "shake",
+        "noun": "pan",
+        "start_time": "00:08:52.89",
+        "end_time": "00:08:55.07",
+        "enriched_narration": "shake black metal pan on stove_burner",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove_burner",
+          "memory_id": "pan",
+          "memory_name": "frying pan with fish"
+        }
+      },
+      {
+        "narration_id": "P11_104_115",
+        "narration": "remove fish skins",
+        "verb": "remove",
+        "noun": "skin:fish",
+        "start_time": "00:08:55.77",
+        "end_time": "00:08:58.97",
+        "enriched_narration": "remove fish skins in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_116",
+        "narration": "remove fish skins",
+        "verb": "remove",
+        "noun": "skin:fish",
+        "start_time": "00:08:58.86",
+        "end_time": "00:09:07.10",
+        "enriched_narration": "remove fish skins in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 70.7,
+    "primary_objects": [
+      "fish skin",
+      "pan",
+      "floor",
+      "hob"
+    ],
+    "primary_verbs": [
+      "move",
+      "shake",
+      "remove",
+      "flip",
+      "transition"
+    ]
+  },
+  {
+    "task_id": "plan_P11_109_004",
+    "participant_id": "P11",
+    "video_id": "P11_109",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P11 organize the glasses in the cupboard.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_109_37",
+        "narration": "open cupboard",
+        "verb": "open",
+        "noun": "cupboard",
+        "start_time": "00:01:02.74",
+        "end_time": "00:01:03.26"
+      },
+      {
+        "narration_id": "P11_109_38",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:04.54",
+        "end_time": "00:01:09.17",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_41",
+        "narration": "put away glasses",
+        "verb": "put-away",
+        "noun": "glass",
+        "start_time": "00:01:06.02",
+        "end_time": "00:01:08.85",
+        "enriched_narration": "put away clear glass glasses on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_40",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:06.08",
+        "end_time": "00:01:07.72",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_39",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:07.97",
+        "end_time": "00:01:09.17",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_42",
+        "narration": "pick up glasses",
+        "verb": "pick-up",
+        "noun": "glass",
+        "start_time": "00:01:10.86",
+        "end_time": "00:01:13.49",
+        "enriched_narration": "pick up clear glass glasses on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_43",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:13.45",
+        "end_time": "00:01:14.13",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_44",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:14.17",
+        "end_time": "00:01:16.09",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      },
+      {
+        "narration_id": "P11_109_45",
+        "narration": "unload glass",
+        "verb": "unload",
+        "noun": "glass",
+        "start_time": "00:01:16.19",
+        "end_time": "00:01:18.37",
+        "enriched_narration": "unload clear glass glass on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_cup",
+          "memory_name": "glass cup"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 15.6,
+    "primary_objects": [
+      "glass",
+      "cupboard"
+    ],
+    "primary_verbs": [
+      "unload",
+      "open",
+      "put-away",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P11_101_001",
+    "participant_id": "P11",
+    "video_id": "P11_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P11 set up the sous vide machine in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_101_9",
+        "narration": "put down sous vide machine",
+        "verb": "put-down",
+        "noun": "machine:sous:vide",
+        "start_time": "00:00:29.54",
+        "end_time": "00:00:32.29"
+      },
+      {
+        "narration_id": "P11_101_10",
+        "narration": "empty pot",
+        "verb": "empty",
+        "noun": "pot",
+        "start_time": "00:00:32.11",
+        "end_time": "00:00:37.39",
+        "enriched_narration": "empty silver metal pot on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "pot",
+          "memory_name": "metallic pot"
+        }
+      },
+      {
+        "narration_id": "P11_101_11",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:54.00",
+        "end_time": "00:00:58.07",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_101_12",
+        "narration": "place down pot",
+        "verb": "place-down",
+        "noun": "pot",
+        "start_time": "00:00:58.10",
+        "end_time": "00:01:01.04",
+        "enriched_narration": "place down silver metal pot on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "pot",
+          "memory_name": "metallic pot"
+        }
+      },
+      {
+        "narration_id": "P11_101_13",
+        "narration": "plug in sous vide machine",
+        "verb": "plug-in",
+        "noun": "machine:sous:vide",
+        "start_time": "00:01:01.87",
+        "end_time": "00:01:05.61"
+      },
+      {
+        "narration_id": "P11_101_14",
+        "narration": "put sous vide machine in pot",
+        "verb": "put-in",
+        "noun": "machine:sous:vide",
+        "start_time": "00:01:06.16",
+        "end_time": "00:01:08.82"
+      },
+      {
+        "narration_id": "P11_101_15",
+        "narration": "turn on sous vide machine",
+        "verb": "turn-on",
+        "noun": "machine:sous:vide",
+        "start_time": "00:01:09.15",
+        "end_time": "00:01:14.51"
+      },
+      {
+        "narration_id": "P11_101_16",
+        "narration": "set sous vide machine",
+        "verb": "set",
+        "noun": "machine:sous:vide",
+        "start_time": "00:01:14.61",
+        "end_time": "00:01:39.97"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 70.4,
+    "primary_objects": [
+      "sous:vide machine",
+      "pot",
+      "tap"
+    ],
+    "primary_verbs": [
+      "put-down",
+      "empty",
+      "turn-off",
+      "place-down",
+      "plug-in"
+    ]
+  },
+  {
+    "task_id": "plan_P11_103_003",
+    "participant_id": "P11",
+    "video_id": "P11_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P11 clean and organize the chopping block and drying rack.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_103_26",
+        "narration": "open dishwasher",
+        "verb": "open",
+        "noun": "dishwasher",
+        "start_time": "00:01:20.87",
+        "end_time": "00:01:22.45"
+      },
+      {
+        "narration_id": "P11_103_27",
+        "narration": "rinse chopping block",
+        "verb": "rinse",
+        "noun": "block:chopping",
+        "start_time": "00:01:24.76",
+        "end_time": "00:01:28.52"
+      },
+      {
+        "narration_id": "P11_103_28",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:01:28.32",
+        "end_time": "00:01:29.07",
+        "enriched_narration": "turn off metallic metal tap on sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_103_29",
+        "narration": "shake off chopping block",
+        "verb": "shake-off",
+        "noun": "block:chopping",
+        "start_time": "00:01:29.49",
+        "end_time": "00:01:30.27"
+      },
+      {
+        "narration_id": "P11_103_30",
+        "narration": "put chopping block on drying rack",
+        "verb": "put-on",
+        "noun": "block:chopping",
+        "start_time": "00:01:30.31",
+        "end_time": "00:01:31.34"
+      },
+      {
+        "narration_id": "P11_103_31",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:31.43",
+        "end_time": "00:01:32.46",
+        "enriched_narration": "turn on metallic metal tap on sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_103_32",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:01:32.13",
+        "end_time": "00:01:32.99"
+      },
+      {
+        "narration_id": "P11_103_34",
+        "narration": "dry off hands",
+        "verb": "dry-off",
+        "noun": "hand",
+        "start_time": "00:01:32.35",
+        "end_time": "00:01:34.11"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 13.2,
+    "primary_objects": [
+      "chopping block",
+      "tap",
+      "hand",
+      "dishwasher"
+    ],
+    "primary_verbs": [
+      "open",
+      "rinse",
+      "turn-off",
+      "shake-off",
+      "put-on"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_018",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P11 prepare the black bean sauce with soy sauce.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_159",
+        "narration": "shut cupboard",
+        "verb": "shut",
+        "noun": "cupboard",
+        "start_time": "00:11:16.32",
+        "end_time": "00:11:17.41"
+      },
+      {
+        "narration_id": "P11_104_160",
+        "narration": "pick up black bean sauce",
+        "verb": "pick-up",
+        "noun": "sauce:black:bean",
+        "start_time": "00:11:18.47",
+        "end_time": "00:11:19.34"
+      },
+      {
+        "narration_id": "P11_104_161",
+        "narration": "pour on soy sauce",
+        "verb": "pour-on",
+        "noun": "sauce:soy",
+        "start_time": "00:11:19.38",
+        "end_time": "00:11:21.45",
+        "enriched_narration": "pour on soy sauce on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_162",
+        "narration": "pour on soy sauce",
+        "verb": "pour-on",
+        "noun": "sauce:soy",
+        "start_time": "00:11:21.30",
+        "end_time": "00:11:23.00",
+        "enriched_narration": "pour on soy sauce on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_163",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:11:28.13",
+        "end_time": "00:11:29.50",
+        "enriched_narration": "wash hands in sink",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in sink",
+          "memory_id": "hands",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_164",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:11:29.50",
+        "end_time": "00:11:29.92",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P11_104_165",
+        "narration": "pick up paper towel",
+        "verb": "pick-up",
+        "noun": "towel:paper",
+        "start_time": "00:11:31.08",
+        "end_time": "00:11:35.31",
+        "enriched_narration": "pick up paper towel on floor",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on floor",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper_towel_roll"
+        }
+      },
+      {
+        "narration_id": "P11_104_166",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:11:35.36",
+        "end_time": "00:11:36.51",
+        "enriched_narration": "dry hands in sink",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in sink",
+          "memory_id": "hands",
+          "memory_name": ""
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 20.2,
+    "primary_objects": [
+      "soy sauce",
+      "hand",
+      "cupboard",
+      "black:bean sauce",
+      "tap"
+    ],
+    "primary_verbs": [
+      "pick-up",
+      "pour-on",
+      "shut",
+      "wash",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_019",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P11 clean the wall and organize the vegetables in the jar.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_167",
+        "narration": "clean soy sauce off wall",
+        "verb": "clean",
+        "noun": "sauce:soy",
+        "start_time": "00:11:36.03",
+        "end_time": "00:11:39.43",
+        "enriched_narration": "clean soy sauce off wall on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_168",
+        "narration": "clean soy sauce off wall",
+        "verb": "clean",
+        "noun": "sauce:soy",
+        "start_time": "00:11:39.53",
+        "end_time": "00:11:42.39",
+        "enriched_narration": "clean soy sauce off wall on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_169",
+        "narration": "wipe wall",
+        "verb": "wipe",
+        "noun": "wall",
+        "start_time": "00:11:50.51",
+        "end_time": "00:11:53.37"
+      },
+      {
+        "narration_id": "P11_104_170",
+        "narration": "throw away paper towel",
+        "verb": "throw-away",
+        "noun": "towel:paper",
+        "start_time": "00:11:53.45",
+        "end_time": "00:11:57.06",
+        "enriched_narration": "throw away paper towel on floor",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on floor",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper_towel_roll"
+        }
+      },
+      {
+        "narration_id": "P11_104_171",
+        "narration": "put vegetables in jar",
+        "verb": "put-in",
+        "noun": "vegetable",
+        "start_time": "00:11:59.33",
+        "end_time": "00:12:07.93",
+        "enriched_narration": "put vegetables in jar in bowl",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in bowl",
+          "memory_id": "vegetables",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_172",
+        "narration": "drop jar lid",
+        "verb": "drop",
+        "noun": "lid:jar",
+        "start_time": "00:12:08.73",
+        "end_time": "00:12:11.24",
+        "enriched_narration": "drop jar lid on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "jar",
+          "memory_name": "jar"
+        }
+      },
+      {
+        "narration_id": "P11_104_173",
+        "narration": "put lid on jar",
+        "verb": "put-on",
+        "noun": "lid",
+        "start_time": "00:12:11.34",
+        "end_time": "00:12:14.35"
+      },
+      {
+        "narration_id": "P11_104_174",
+        "narration": "shake jar",
+        "verb": "shake",
+        "noun": "jar",
+        "start_time": "00:12:14.40",
+        "end_time": "00:12:19.39",
+        "enriched_narration": "shake brown plastic jar on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "jar",
+          "memory_name": "jar"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 43.4,
+    "primary_objects": [
+      "soy sauce",
+      "wall",
+      "paper towel",
+      "vegetable",
+      "jar lid"
+    ],
+    "primary_verbs": [
+      "clean",
+      "wipe",
+      "throw-away",
+      "put-in",
+      "drop"
+    ]
+  },
+  {
+    "task_id": "plan_P11_107_002",
+    "participant_id": "P11",
+    "video_id": "P11_107",
+    "task_type": "meal_preparation",
+    "task_query": "Help P11 cut the pizza and load the scissors into the dishwasher.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_107_16",
+        "narration": "cut pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:00:40.62",
+        "end_time": "00:00:45.77",
+        "enriched_narration": "cut various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_17",
+        "narration": "continue cutting pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:00:45.87",
+        "end_time": "00:00:48.89",
+        "enriched_narration": "continue cutting various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_18",
+        "narration": "cut pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:00:50.84",
+        "end_time": "00:00:58.49",
+        "enriched_narration": "cut various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_19",
+        "narration": "cut pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:01:04.39",
+        "end_time": "00:01:11.63",
+        "enriched_narration": "cut various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_20",
+        "narration": "cut pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:01:12.94",
+        "end_time": "00:01:19.21",
+        "enriched_narration": "cut various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_21",
+        "narration": "cut pizza",
+        "verb": "cut",
+        "noun": "pizza",
+        "start_time": "00:01:21.39",
+        "end_time": "00:01:30.01",
+        "enriched_narration": "cut various colors, including red and green food pizza on stove",
+        "matched_object": {
+          "color": "various colors, including red and green",
+          "material": "food",
+          "location": "on stove",
+          "memory_id": "pizza",
+          "memory_name": "pizza with various toppings"
+        }
+      },
+      {
+        "narration_id": "P11_107_22",
+        "narration": "open dishwasher",
+        "verb": "open",
+        "noun": "dishwasher",
+        "start_time": "00:01:33.45",
+        "end_time": "00:01:34.24",
+        "enriched_narration": "open white plastic dishwasher on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "dishwasher",
+          "memory_name": "dishwasher"
+        }
+      },
+      {
+        "narration_id": "P11_107_23",
+        "narration": "put down scissors in dishwasher",
+        "verb": "put-down",
+        "noun": "scissors",
+        "start_time": "00:01:34.32",
+        "end_time": "00:01:35.47",
+        "enriched_narration": "put down metallic metal scissors in dishwasher in hand",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "scissors",
+          "memory_name": "metal scissors"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 54.8,
+    "primary_objects": [
+      "pizza",
+      "dishwasher",
+      "scissors"
+    ],
+    "primary_verbs": [
+      "cut",
+      "open",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_009",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "meal_preparation",
+    "task_query": "Help P11 peel the fish and prepare the bowls.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_81",
+        "narration": "hang up dish rag",
+        "verb": "hang-up",
+        "noun": "rag:dish",
+        "start_time": "00:05:11.02",
+        "end_time": "00:05:11.79",
+        "enriched_narration": "hang up dish rag at right",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "right",
+          "memory_id": "dish_rack",
+          "memory_name": "dish rack"
+        }
+      },
+      {
+        "narration_id": "P11_104_82",
+        "narration": "rinse hands",
+        "verb": "rinse",
+        "noun": "hand",
+        "start_time": "00:05:11.95",
+        "end_time": "00:05:12.70",
+        "enriched_narration": "rinse hands in sink",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in sink",
+          "memory_id": "hands",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_83",
+        "narration": "pick up bowls",
+        "verb": "pick-up",
+        "noun": "bowl",
+        "start_time": "00:05:14.81",
+        "end_time": "00:05:15.87",
+        "enriched_narration": "pick up green ceramic bowls on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "bowl",
+          "memory_name": "bowl"
+        }
+      },
+      {
+        "narration_id": "P11_104_84",
+        "narration": "put down bowls",
+        "verb": "put-down",
+        "noun": "bowl",
+        "start_time": "00:05:16.76",
+        "end_time": "00:05:17.91",
+        "enriched_narration": "put down green ceramic bowls on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "bowl",
+          "memory_name": "bowl"
+        }
+      },
+      {
+        "narration_id": "P11_104_85",
+        "narration": "pour olive oil in pan",
+        "verb": "pour-in",
+        "noun": "oil:olive",
+        "start_time": "00:05:29.34",
+        "end_time": "00:05:31.32"
+      },
+      {
+        "narration_id": "P11_104_86",
+        "narration": "put down olive oil",
+        "verb": "put-down",
+        "noun": "oil:olive",
+        "start_time": "00:05:32.60",
+        "end_time": "00:05:33.60"
+      },
+      {
+        "narration_id": "P11_104_87",
+        "narration": "move oil around in pan",
+        "verb": "move-in",
+        "noun": "oil",
+        "start_time": "00:05:34.42",
+        "end_time": "00:05:35.95"
+      },
+      {
+        "narration_id": "P11_104_88",
+        "narration": "peel fish skin",
+        "verb": "peel",
+        "noun": "skin:fish",
+        "start_time": "00:05:36.67",
+        "end_time": "00:05:44.32",
+        "enriched_narration": "peel fish skin in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_89",
+        "narration": "peel fish skin",
+        "verb": "peel",
+        "noun": "skin:fish",
+        "start_time": "00:05:48.00",
+        "end_time": "00:06:07.78",
+        "enriched_narration": "peel fish skin in frying_pan",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in frying_pan",
+          "memory_id": "fish",
+          "memory_name": ""
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 56.8,
+    "primary_objects": [
+      "bowl",
+      "olive oil",
+      "fish skin",
+      "dish rag",
+      "hand"
+    ],
+    "primary_verbs": [
+      "put-down",
+      "peel",
+      "hang-up",
+      "rinse",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_017",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P11 gather and organize the soy and black bean sauces.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_151",
+        "narration": "shake out black bean sauce",
+        "verb": "shake-out",
+        "noun": "sauce:black:bean",
+        "start_time": "00:10:44.00",
+        "end_time": "00:10:49.30"
+      },
+      {
+        "narration_id": "P11_104_152",
+        "narration": "open cupboard",
+        "verb": "open",
+        "noun": "cupboard",
+        "start_time": "00:10:55.07",
+        "end_time": "00:10:55.84"
+      },
+      {
+        "narration_id": "P11_104_153",
+        "narration": "take out soy sauce",
+        "verb": "take-out",
+        "noun": "sauce:soy",
+        "start_time": "00:10:55.90",
+        "end_time": "00:11:00.65",
+        "enriched_narration": "take out soy sauce on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_154",
+        "narration": "take out black bean sauce",
+        "verb": "take-out",
+        "noun": "sauce:black:bean",
+        "start_time": "00:11:00.32",
+        "end_time": "00:11:06.00"
+      },
+      {
+        "narration_id": "P11_104_155",
+        "narration": "put away soy sauce",
+        "verb": "put-away",
+        "noun": "sauce:soy",
+        "start_time": "00:11:06.10",
+        "end_time": "00:11:10.09",
+        "enriched_narration": "put away soy sauce on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_156",
+        "narration": "take out soy sauce",
+        "verb": "take-out",
+        "noun": "sauce:soy",
+        "start_time": "00:11:08.95",
+        "end_time": "00:11:14.70",
+        "enriched_narration": "take out soy sauce on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_sauce",
+          "memory_name": "bottle_of_sauce"
+        }
+      },
+      {
+        "narration_id": "P11_104_157",
+        "narration": "put down black bean sauce",
+        "verb": "put-down",
+        "noun": "sauce:black:bean",
+        "start_time": "00:11:13.90",
+        "end_time": "00:11:18.78"
+      },
+      {
+        "narration_id": "P11_104_158",
+        "narration": "put away box",
+        "verb": "put",
+        "noun": "box",
+        "start_time": "00:11:14.41",
+        "end_time": "00:11:15.09"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 31.1,
+    "primary_objects": [
+      "black:bean sauce",
+      "soy sauce",
+      "cupboard",
+      "box"
+    ],
+    "primary_verbs": [
+      "take-out",
+      "shake-out",
+      "open",
+      "put-away",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P11_104_020",
+    "participant_id": "P11",
+    "video_id": "P11_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P11 clean the jar and wash their hands.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P11_104_175",
+        "narration": "pour out jar",
+        "verb": "pour-out",
+        "noun": "jar",
+        "start_time": "00:12:20.07",
+        "end_time": "00:12:21.98",
+        "enriched_narration": "pour out brown plastic jar on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "jar",
+          "memory_name": "jar"
+        }
+      },
+      {
+        "narration_id": "P11_104_176",
+        "narration": "rinse jar",
+        "verb": "rinse",
+        "noun": "jar",
+        "start_time": "00:12:23.61",
+        "end_time": "00:12:25.45",
+        "enriched_narration": "rinse brown plastic jar on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "jar",
+          "memory_name": "jar"
+        }
+      },
+      {
+        "narration_id": "P11_104_177",
+        "narration": "rinse hands",
+        "verb": "rinse",
+        "noun": "hand",
+        "start_time": "00:12:25.55",
+        "end_time": "00:12:26.27",
+        "enriched_narration": "rinse hands in sink",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in sink",
+          "memory_id": "hands",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_178",
+        "narration": "put soap on hands",
+        "verb": "put-on",
+        "noun": "soap",
+        "start_time": "00:12:26.14",
+        "end_time": "00:12:27.50",
+        "enriched_narration": "put clear plastic soap on hands on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "bottle_of_dish_soap",
+          "memory_name": "bottle"
+        }
+      },
+      {
+        "narration_id": "P11_104_179",
+        "narration": "rinse hands",
+        "verb": "rinse",
+        "noun": "hand",
+        "start_time": "00:12:27.56",
+        "end_time": "00:12:34.39",
+        "enriched_narration": "rinse hands in sink",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "in sink",
+          "memory_id": "hands",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P11_104_180",
+        "narration": "open jar",
+        "verb": "open",
+        "noun": "jar",
+        "start_time": "00:12:38.90",
+        "end_time": "00:12:57.16",
+        "enriched_narration": "open brown plastic jar on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "jar",
+          "memory_name": "jar"
+        }
+      },
+      {
+        "narration_id": "P11_104_181",
+        "narration": "use knife to open jar",
+        "verb": "open",
+        "noun": "knife",
+        "start_time": "00:12:57.61",
+        "end_time": "00:13:10.46"
+      },
+      {
+        "narration_id": "P11_104_182",
+        "narration": "put back knife",
+        "verb": "put-back",
+        "noun": "knife",
+        "start_time": "00:13:09.96",
+        "end_time": "00:13:11.53"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 51.5,
+    "primary_objects": [
+      "jar",
+      "hand",
+      "knife",
+      "soap"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "open",
+      "pour-out",
+      "put-on",
+      "put-back"
+    ]
+  }
+]

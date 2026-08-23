@@ -1,0 +1,2709 @@
+{
+  "questions": [
+    {
+      "question_id": "p35_q0000",
+      "question": "Across videos, how does P35 usually handle lids during container work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Picks up lids directly",
+        "Bags lids for disposal",
+        "Stacks lids while open",
+        "Leaves lids beside sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 picks up lids to close or clean them.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0001",
+      "question": "Across videos, what finishing step does P35 often use after washing glass or pan items?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves water inside",
+        "Drains the wet item",
+        "Towel-dries each item",
+        "Shakes over counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 drains items rather than towel-finishing immediately.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103",
+        "P35_104",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0002",
+      "question": "When P35 picks up a lid during cleanup, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "set it down on the counter",
+        "rinse it under the tap",
+        "place it into the dishwasher",
+        "dry it off with a towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "rinse it under the tap",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0003",
+      "question": "Across videos, what is P35's preferred way of treating a knife during cleanup or preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stores knife in drawer",
+        "Leaves knife on board",
+        "Wipes knife on towel",
+        "Washes or scrubs knife",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cleans the knife under the tap rather than setting it aside dirty.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p12",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0004",
+      "question": "How does P35 handle the cooked pasta when shifting it from the cooking area at this point?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps it stationary while mixing sauce into it in the pan.",
+        "Leaves it in the pot and portions it with a serving spoon.",
+        "Picks up the pasta and pours it across in transfer passes.",
+        "Drains it first, then scoops it across with kitchen tongs.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the pasta and pours it across in transfer passes.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0005",
+      "question": "What is P35's approach to adding pasta during this part of the task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds the pasta in small pours, picking it up again between pours.",
+        "Sets the pasta aside while preparing the pot, then adds it near the end.",
+        "Measures the pasta first in a separate bowl, then adds it all at once.",
+        "Transfers the pasta with a utensil, then levels it before cooking.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds the pasta in small pours, picking it up again between pours.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0006",
+      "question": "After P35 gives the pot lid a quick shake, what do they usually do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Hang it back on its hook.",
+        "Wipe it dry with a towel.",
+        "Set it flat on the counter.",
+        "Rinse it under the faucet.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Hang it back on its hook.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0007",
+      "question": "How does P35 manage hot cookware that is not just an oven tray?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses utensils only and never changes the position of hot items.",
+        "Avoids moving hot cookware and waits for everything to cool.",
+        "Transfers hot contents to cold bowls before touching the cookware.",
+        "Uses cloth-assisted handling while repositioning hot cookware or trays.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses cloth-assisted handling while repositioning hot cookware or trays.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0008",
+      "question": "What is P35's approach when handling several plates at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He stacks the plates together first, then rinses them as one batch.",
+        "He rinses one plate, sets it down, then starts on another plate.",
+        "He dries each plate with a towel before moving on to the next.",
+        "He leaves each plate in the sink while continuing with the next.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He rinses one plate, sets it down, then starts on another plate.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0009",
+      "question": "What approach does P35 take when handling the drinking glass during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the glass aside and leaves dishwashing for a later batch.",
+        "Moves the glass to storage without cleaning it in between.",
+        "Wipes the glass with a cloth instead of using the sink.",
+        "Picks up the glass and washes it right away at the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the glass and washes it right away at the sink.",
+      "video_id": "P35_101",
+      "video_ids": [
+        "P35_101"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0010",
+      "question": "Across videos, which utensil does P35 usually reach for when mixing food on the stove?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Picks up a spoon",
+        "Picks up a spatula",
+        "Picks up tongs",
+        "Picks up a fork",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses a spoon as the stirring utensil.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0011",
+      "question": "In video P35_???, P35 handled onion. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P35 picked up the onion, then put down the eggs.",
+        "P35 picked up the onion, then picked up the eggs.",
+        "P35 put down the onion, then picked up a potato.",
+        "P35 put down the onion, then put down a potato.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "P35 put down the onion, then picked up a potato.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p01",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0012",
+      "question": "When P35 finishes rinsing a plate, what do they typically do next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Load the plate into dishwasher",
+        "Set the plate down nearby",
+        "Dry the plate with a towel",
+        "Move the plate to a rack",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set the plate down nearby",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0013",
+      "question": "Across videos, how does P35 usually manage plates during dish handling?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Loads plates straight away",
+        "Leaves plates piled together",
+        "Wipes plates on counter",
+        "Picks up plates manually",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 repeatedly handles plates one at a time.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_107",
+        "P35_108",
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0014",
+      "question": "When P35 adds flavorings or extras, what strategy best describes the approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pre-measure all flavorings into bowls before touching the main ingredient.",
+        "Finish cooking first and season only after the food is plated.",
+        "Add individual flavorings directly as the current mixture or pan develops.",
+        "Avoid seasonings and rely only on the original packaged ingredients.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Add individual flavorings directly as the current mixture or pan develops.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0015",
+      "question": "What is P35's approach to handling wet plates during this cleanup segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps the plate in hand while reaching for another item.",
+        "Wipes the plate dry with a towel before setting it aside.",
+        "Lets water run off the plate, then places it down.",
+        "Stacks the plate directly with others without pausing first.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lets water run off the plate, then places it down.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0016",
+      "question": "How does P35 handle plates during this part of the cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Lifts one plate, drains it, then sets it down before repeating.",
+        "Wipes each plate with a towel before stacking it with others.",
+        "Leaves the plates on the counter to air-dry without lifting them.",
+        "Moves plates directly into storage without draining them first.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts one plate, drains it, then sets it down before repeating.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0017",
+      "question": "Across videos, where does P35 commonly interact with stored kitchen items?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses floor storage",
+        "Uses open wall shelves",
+        "Uses kitchen cupboards",
+        "Uses counter baskets",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses cupboards for storage access.",
+      "video_id": "P35_101",
+      "video_ids": [
+        "P35_101",
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0018",
+      "question": "Across videos, what is P35's pattern when pausing between sink tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Fills sink basin",
+        "Keeps water running",
+        "Lowers water pressure",
+        "Turns off the tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 turns off the tap between steps.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108",
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0019",
+      "question": "In video P35_104, P35 handled the sponge. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the sponge, put it down, and then rinsed their hands.",
+        "They picked up the sponge, rinsed it, and then turned off the tap.",
+        "They rinsed their hands, turned off the tap, and then picked up the sponge.",
+        "They rinsed the sponge, put it down, and then turned off the tap.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the sponge, rinsed it, and then turned off the tap.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0020",
+      "question": "When P35 begins handling the meat pieces, what action is most characteristic before other processing continues?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "season chicken wings",
+        "slice chicken breasts",
+        "take chicken thighs",
+        "weigh pork pieces",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "take chicken thighs before continuing prep",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": true,
+      "source_participant": "p37",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0021",
+      "question": "Across videos, what handling style does P35 usually use for food storage boxes during kitchen work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes containers without lifting",
+        "Picks up containers by hand",
+        "Leaves containers soaking unattended",
+        "Stacks containers while unwashed",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 lifts containers and handles them directly rather than leaving them to soak.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0022",
+      "question": "In video P35_104, P35 handled a cloth. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They put down the cloth, then picked it up again.",
+        "They picked up the cloth, then wrung it out.",
+        "They wrung the cloth, then put it down.",
+        "They put down the cloth, then wrung it out.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They wrung the cloth, then put it down.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0023",
+      "question": "In video P35_105, P35 handled mushrooms after first setting them down. What did they do with them immediately after that?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They put down the mushrooms and then opened the drawer.",
+        "They opened the mushrooms and then put them down again.",
+        "They opened the drawer and then moved a container.",
+        "They picked up the mushrooms and then opened them.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the mushrooms and then opened them.",
+      "video_id": "P35_105",
+      "video_ids": [
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0024",
+      "question": "In video P35_108, P35 handled a glass. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P35 picked up the glass, put it down, and then drained it.",
+        "P35 drained the glass, picked it up, and then put it down.",
+        "P35 picked up the glass, drained it, and then put it down.",
+        "P35 put down the glass, picked it up, and then drained it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "P35 picked up the glass, drained it, and then put it down.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0025",
+      "question": "Across videos, what does P35 do after hands or cloths become wet?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Lets hands air-dry",
+        "Uses paper napkins",
+        "Uses cloth-based drying",
+        "Shakes water off",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses cloth-based drying or wiping.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_105",
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0026",
+      "question": "What is P35's approach to cleaning the pan at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He wipes the pan with a cloth first, then washes it only at the end.",
+        "He lets the pan soak with water before doing any scrubbing or soap work.",
+        "He gives the pan a single soapy pass, rinses it, and sets it aside.",
+        "He alternates soap and draining, returning to another soapy pass on the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He alternates soap and draining, returning to another soapy pass on the pan.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0027",
+      "question": "When P35 finishes cleaning the knife, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wipe the blade with towel",
+        "put the knife down again",
+        "keep using it to cut",
+        "place the knife in drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put the knife down again",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0028",
+      "question": "Across videos, what does P35 tend to use when adding detergent during sink cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Picks up the soap",
+        "Uses only hot water",
+        "Uses vinegar spray",
+        "Uses baking soda",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 reaches for soap rather than relying on water alone.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0029",
+      "question": "Across sessions, what does P35 usually do immediately after close drawer?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "move kettle",
+        "close cupboard",
+        "pick-up knife",
+        "open drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "open drawer",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0030",
+      "question": "What is P35's approach to cleaning the baking tray?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Soaks the baking tray first and comes back to scrub it later.",
+        "Scrapes the baking tray first and rinses it without adding lather.",
+        "Lifts the baking tray and applies lather directly while handling it.",
+        "Leaves the baking tray flat and wipes it dry with a cloth.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts the baking tray and applies lather directly while handling it.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0031",
+      "question": "After P35 rinses a drinking glass, what do they typically do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dry the glass with a towel",
+        "Return the glass to the cupboard",
+        "Set the glass down nearby",
+        "Place the glass in the dishwasher",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set the glass down nearby",
+      "video_id": "P35_109",
+      "video_ids": [
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0032",
+      "question": "In video P35_103, P35 handled the cloth. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They folded the cloth and then set it aside.",
+        "They picked up the cloth and then wiped with it.",
+        "They wrung the cloth and then put it down.",
+        "They lifted the cloth and then moved it away.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They wrung the cloth and then put it down.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0033",
+      "question": "What strategy does P35 use for distributing flour during this part of the preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Brushes it into the hands, then throws it by hand onto the area.",
+        "Scoops it with a utensil, then shakes the utensil over the work area.",
+        "Leaves it in the container, then measures it out only as needed.",
+        "Transfers it to a bowl, then sprinkles it from the bowl afterward.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Brushes it into the hands, then throws it by hand onto the area.",
+      "video_id": "P35_105",
+      "video_ids": [
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0034",
+      "question": "What is P35's approach to moving through the plates during this sink task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves plates stacked at the sink and handles them later.",
+        "Sets one plate aside, then immediately starts working on another.",
+        "Keeps several plates in hand until they are ready together.",
+        "Transfers each plate directly to storage before handling another.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Sets one plate aside, then immediately starts working on another.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0035",
+      "question": "What is P35's hot-water setup strategy across drink-making tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P35 heats small amounts in a mug before pouring them into the kettle.",
+        "P35 keeps prefilled kettle water ready and rarely refills during the task.",
+        "P35 fills the kettle directly under the tap before starting other drink items.",
+        "P35 uses a jug as the water-transfer tool before filling the kettle.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P35 uses a jug as the water-transfer tool before filling the kettle.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p30",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0036",
+      "question": "After P35 first makes contact with a plate, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wipe the plate with a cloth",
+        "stack the plate with dishes",
+        "pick the plate up",
+        "slide the plate aside",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick the plate up",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0037",
+      "question": "Across videos, what storage area does P35 use for smaller kitchen tools?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses hanging hooks",
+        "Uses kitchen drawers",
+        "Uses countertop jars",
+        "Uses open shelves",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses drawers rather than leaving tools out.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0038",
+      "question": "What is P35's overall cleanup timing during meal preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Interleaves disposal, washing, and cooking instead of waiting.",
+        "Finishes cooking completely before starting any cleanup actions.",
+        "Clears only dishes first and leaves food waste for later.",
+        "Focuses on ingredient prep and ignores workspace maintenance.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Interleaves disposal, washing, and cooking instead of waiting.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p12",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0039",
+      "question": "Across videos, what does P35 tend to do with unwanted bags or loose waste items?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Folds it for reuse",
+        "Stores it in drawer",
+        "Throws it away",
+        "Leaves it on counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 throws the item away.",
+      "video_id": "P35_101",
+      "video_ids": [
+        "P35_101",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0040",
+      "question": "Across videos, what is P35's overall cleanup rhythm around the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Soaks everything together",
+        "Finishes all washing first",
+        "Alternates handle and sink",
+        "Only dries at end",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 alternates handling items with sink actions.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0041",
+      "question": "In video P35_108, P35 handled a plate. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They drained the plate and then picked it up.",
+        "They picked up the plate and then drained it.",
+        "They put down the plate and then drained it.",
+        "They picked up the plate and then put it down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the plate and then drained it.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0042",
+      "question": "Across videos, what is P35's usual approach when handling drinking glasses at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Loads glasses into dishwasher",
+        "Soaks glasses in a basin",
+        "Picks up glasses individually",
+        "Wipes glasses on counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 picks up glasses for individual handling.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_107",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0043",
+      "question": "What is P35's strategy for handling the cutting board during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Carries it straight to storage without addressing moisture on it",
+        "Leaves it on the counter to air-dry without handling it further",
+        "Wipes it with a towel while it stays flat on the surface",
+        "Lifts it off the surface and drains away water while handling it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts it off the surface and drains away water while handling it",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0044",
+      "question": "When P35 finishes rinsing a spoon, what do they typically do next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wipe the spoon dry",
+        "place it in a drawer",
+        "set the spoon down",
+        "leave it in the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "set the spoon down",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0045",
+      "question": "What is P35's strategy for handling the pot during this cleanup step?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the pot in the sink to drain on its own.",
+        "Sets the wet pot aside and returns to it later.",
+        "Drains the pot, dries it, then sets it down.",
+        "Wipes the pot without first emptying out liquid.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Drains the pot, dries it, then sets it down.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0046",
+      "question": "What is P35's approach to managing the drying rack during cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the rack in place and wipes the nearby counter.",
+        "Sets dishes aside and washes the rack later in a batch.",
+        "Moves the rack aside and dries it with a cloth.",
+        "Lifts the rack and drains out the collected water.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts the rack and drains out the collected water.",
+      "video_id": "P35_109",
+      "video_ids": [
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0047",
+      "question": "In video P35_107, P35 handled a plate. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They lathered the plate and then put it down.",
+        "They put down the plate and then picked it up again.",
+        "They picked up the plate and then lathered it.",
+        "They picked up the plate and then put it down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the plate and then lathered it.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0048",
+      "question": "Across videos, what does P35 usually use when stirring or adjusting food on heat?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a fork",
+        "Uses tongs",
+        "Shakes the pan",
+        "Uses a spoon",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses a spoon rather than a pan-only motion.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0049",
+      "question": "Across videos, how does P35 usually handle salt during cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses spice mix only",
+        "Uses sauce instead",
+        "Uses salt separately",
+        "Uses no seasoning",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 handles salt directly as a separate ingredient.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0050",
+      "question": "What is P35's approach to handling a wet plate during cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the plate flat in place and returns to it later",
+        "Stacks the plate with others while it is still wet",
+        "Lifts the plate and lets excess water run off right away",
+        "Wipes the plate dry with a cloth before moving it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts the plate and lets excess water run off right away",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0051",
+      "question": "Across videos, what style does P35 favor when working with pasta or similar cooked food?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Serves with tongs",
+        "Leaves it in pot",
+        "Scoops portions slowly",
+        "Pours or drains it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 pours or drains food rather than spooning each portion.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103",
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0052",
+      "question": "When P35 prepares hot water for cooking, what workflow does P35 tend to use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P35 waits until all ingredients are cooked before adding water.",
+        "P35 fills the cooking pan directly and heats water only on the hob.",
+        "P35 uses preheated bottled water and skips the sink entirely.",
+        "P35 heats water in the kettle before using it for the dish.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P35 heats water in the kettle before using it for the dish.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0053",
+      "question": "Across videos, what does P35 tend to do with jars or jar-like closures?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves jars uncapped",
+        "Stores jars open",
+        "Discards jar lids",
+        "Closes lids by hand",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 manipulates lids and closures by hand.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0054",
+      "question": "Across videos, when P35 has chopped ingredients on a board, how are they commonly moved into the cooking process?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use measuring cup",
+        "Pour from colander",
+        "Scrape from board",
+        "Carry by hand",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "scrape ingredients from chopping board",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0055",
+      "question": "When P35 finishes rinsing a container during this repeated sink routine, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dries the container with a towel",
+        "scrubs the container with a sponge",
+        "fills the container with food",
+        "sets the container down again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "sets the container down again",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0056",
+      "question": "After P35 finishes washing a glass, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dry it with a towel",
+        "Place it in dishwasher",
+        "Fill it with water",
+        "Set it down nearby",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set it down nearby",
+      "video_id": "P35_109",
+      "video_ids": [
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0057",
+      "question": "When P35 finishes cleaning a container, what do they typically do with it right afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "set it down on the counter",
+        "stack it inside a cabinet",
+        "dry it with a towel",
+        "place it into the dishwasher",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "set it down on the counter",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0058",
+      "question": "In video P35_107, P35 handled the container. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P35 picked up the pan, washed the pan, and then put down the container.",
+        "P35 put down the container, picked up the pan, and washed the pan.",
+        "P35 picked up the container, washed the container, and put down the container.",
+        "P35 put down the glass, picked up the container, and washed the container.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "P35 picked up the container, washed the container, and put down the container.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0059",
+      "question": "Across videos, what method does P35 favor for cleaning forks and similar small cutlery?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Loads cutlery in basket",
+        "Lathers cutlery by hand",
+        "Scrapes cutlery on plate",
+        "Soaks cutlery in bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 lathers and rinses cutlery by hand.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0060",
+      "question": "How does P35 manage the cleaning cloth during this short cleanup segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Hangs the cloth to dry, leaving it unused for the moment.",
+        "Wrings the cloth, parks it briefly, then takes it up again.",
+        "Sets aside the damp cloth and switches to another cleaning item.",
+        "Keeps the cloth in hand after squeezing it, continuing without a pause.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Wrings the cloth, parks it briefly, then takes it up again.",
+      "video_id": "P35_103",
+      "video_ids": [
+        "P35_103"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0061",
+      "question": "How does P35 handle the knife during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the knife aside and leaves it for a later cleaning batch.",
+        "Wipes the knife with a cloth and returns it to the work area.",
+        "Cleans the knife in repeated passes, setting it down between washes.",
+        "Moves the knife directly to storage after a single quick rinse.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans the knife in repeated passes, setting it down between washes.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0062",
+      "question": "What is P35's approach to handling the containers during this cleanup segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Puts the containers away directly without individually drying them.",
+        "Rinses each container again before stacking them near the sink.",
+        "Repositions the containers, lifts one, and dries it by hand.",
+        "Leaves the containers grouped together to air-dry on the counter.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Repositions the containers, lifts one, and dries it by hand.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0063",
+      "question": "When P35 handles drinking glasses during cleanup, what is P35's typical item-handling approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves glasses on the table until the rest of the kitchen is done.",
+        "Stores glasses away directly without sink work when they look clean.",
+        "Collects every glass first and washes them only as one group.",
+        "Handles one glass through washing or rinsing before setting it down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Handles one glass through washing or rinsing before setting it down.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 16,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0064",
+      "question": "In video P35_101, P35 handled the bag. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the bag, closed the freezer, and put down the bag.",
+        "They moved the bag, closed the freezer, and opened the cupboard.",
+        "They moved the bag, opened the cupboard, and picked up the pot.",
+        "They picked up the bag, opened the cupboard, and picked up the pot.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the bag, closed the freezer, and put down the bag.",
+      "video_id": "P35_101",
+      "video_ids": [
+        "P35_101"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0065",
+      "question": "What is P35's approach to moving the pasta during this part of preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Works in small passes, pouring some pasta, lifting more, then pouring again.",
+        "Measures a portion separately first, then transfers it only once.",
+        "Mixes the pasta in the pot first, then serves it in one scoop.",
+        "Empties all pasta in one continuous pour, then sets the container aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Works in small passes, pouring some pasta, lifting more, then pouring again.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0066",
+      "question": "Across videos, how does P35 handle water collection around the drying area?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves rack outside",
+        "Wipes rack with towel",
+        "Drains wet dish area",
+        "Leaves rack to drip",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 drains the rack or wet items.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0067",
+      "question": "Across cleanup videos, when P35 handles cups, cans, or glasses, what preliminary action is used before disposal or storage?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Empties them first",
+        "Stacks them dry",
+        "Refills them first",
+        "Wraps them in cloth",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Empties or drains the containers first.",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???",
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0068",
+      "question": "When P35 takes a plate in hand during cleanup, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dry the plate with towel",
+        "set the plate on counter",
+        "wash the plate right away",
+        "load the plate into dishwasher",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "wash the plate right away",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0069",
+      "question": "How does P35 handle the saucepan after removing liquid from it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the emptied saucepan on the counter to air-dry.",
+        "Actively dries the emptied saucepan right away.",
+        "Sets the emptied saucepan aside for later washing.",
+        "Rinses the emptied saucepan again before setting it aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Actively dries the emptied saucepan right away.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0070",
+      "question": "Across videos, what item does P35 commonly use when finishing wet-hand or cleanup tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Picks up a cloth",
+        "Uses apron fabric",
+        "Uses bare hands",
+        "Uses paper towels",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 uses a cloth for drying or wiping.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104",
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0071",
+      "question": "What is P35's approach to handling wet plates at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes each plate with a towel, then puts it directly into storage.",
+        "Picks up each plate and drains off water before setting it back down.",
+        "Keeps plates flat in the basin, then rinses the stack as a group.",
+        "Stacks wet plates together first, then leaves them to air-dry on the counter.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up each plate and drains off water before setting it back down.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0072",
+      "question": "What is P35's approach to cleaning a container in this kitchen sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes the container with a cloth while it stays on the counter.",
+        "Rinses the container briefly and leaves detailed cleaning for later.",
+        "Holds the container and works soap onto it directly.",
+        "Sets the container aside to soak before washing it later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Holds the container and works soap onto it directly.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0073",
+      "question": "What is P35's approach to the knife during this part of the workflow?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses the knife and keeps it ready for use.",
+        "Picks up the knife and lathers it right away.",
+        "Sets the knife aside and waits to wash it later.",
+        "Wipes the knife dry and returns it to storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the knife and lathers it right away.",
+      "video_id": "P35_107",
+      "video_ids": [
+        "P35_107"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0074",
+      "question": "What is P35's approach to handling a plate during this part of dish cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stacks the plates aside first and leaves washing for a later batch.",
+        "Soaks the plate in the sink while continuing with other dishes.",
+        "Rinses a plate, then sets it down before moving to another plate.",
+        "Wipes each plate with a cloth before returning it to storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Rinses a plate, then sets it down before moving to another plate.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0075",
+      "question": "In video P35_105, P35 handled a cloth. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They rinsed the cloth, left the tap running, and wiped the sink area.",
+        "They rinsed the cloth, turned off the tap, and cleaned the counter top.",
+        "They folded the cloth, set it beside the tap, and cleared the counter.",
+        "They squeezed the cloth, turned on the tap, and rinsed the counter top.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They rinsed the cloth, turned off the tap, and cleaned the counter top.",
+      "video_id": "P35_105",
+      "video_ids": [
+        "P35_105"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0076",
+      "question": "When P35 is fine-tuning a tray's position and has just moved it, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "push the tray farther away",
+        "set another item on it",
+        "rotate the tray in place",
+        "lift the tray off the surface",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "rotate the tray in place",
+      "video_id": "P35_???",
+      "video_ids": [
+        "P35_???"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???",
+        "P35_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p35"
+    },
+    {
+      "question_id": "p35_q0077",
+      "question": "In video P35_109, P35 handled a colander. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the colander, then put down a container.",
+        "They moved the colander aside, then adjusted another container nearby.",
+        "They kept holding the colander, then picked up a container later.",
+        "They put down the colander, then picked up a container.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They put down the colander, then picked up a container.",
+      "video_id": "P35_109",
+      "video_ids": [
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0078",
+      "question": "Across videos, how does P35 manage cups or mugs during kitchen tidying?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets drinkware down",
+        "Stores drinkware immediately",
+        "Fills drinkware again",
+        "Leaves drinkware soaking",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P35 sets drinkware down after handling.",
+      "video_id": "P35_108",
+      "video_ids": [
+        "P35_108",
+        "P35_109"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p35_q0079",
+      "question": "How does P35 handle plates during this cleanup sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves plates in the sink to soak between handling rounds.",
+        "Stacks multiple plates first, then rinses them together later.",
+        "Rinses a plate and sets it down before starting another.",
+        "Wipes each plate with a cloth before setting it aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Rinses a plate and sets it down before starting another.",
+      "video_id": "P35_104",
+      "video_ids": [
+        "P35_104"
+      ],
+      "participant_id": "P35",
+      "video_scope": [
+        "P35_107",
+        "P35_109",
+        "P35_101",
+        "P35_105",
+        "P35_108",
+        "P35_104",
+        "P35_103"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    }
+  ],
+  "metadata": {
+    "format": "multiple_choice_5",
+    "option_e": "The information is not available based on the given context",
+    "source": "EAM-QA source: per_participant_final/P35.json",
+    "n": 64,
+    "by_type": {
+      "SPref": 21,
+      "SHabit": 8,
+      "SRoutine": 24,
+      "ERecall": 11
+    },
+    "skipped": 0,
+    "eam_qa_unanswerable_augmentation": {
+      "n_answerable": 64,
+      "n_unanswerable": 16,
+      "unanswerable_ratio": 0.2,
+      "donor_pids": [
+        "p01",
+        "p02",
+        "p04",
+        "p06",
+        "p09",
+        "p11",
+        "p12",
+        "p22",
+        "p26",
+        "p28",
+        "p30",
+        "p37"
+      ]
+    }
+  }
+}

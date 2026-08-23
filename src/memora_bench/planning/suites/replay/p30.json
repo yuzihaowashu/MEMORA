@@ -1,0 +1,1761 @@
+[
+  {
+    "task_id": "plan_P30_107_075",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "meal_preparation",
+    "task_query": "Help P30 prepare the garlic by crushing, peeling, and chopping it.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_674",
+        "narration": "squash garlic clove with knife",
+        "verb": "squash",
+        "noun": "clove:garlic",
+        "start_time": "00:35:32.57",
+        "end_time": "00:35:33.74",
+        "enriched_narration": "squash garlic clove with knife on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_675",
+        "narration": "squash garlic clove with knife",
+        "verb": "squash",
+        "noun": "clove:garlic",
+        "start_time": "00:35:33.80",
+        "end_time": "00:35:38.93",
+        "enriched_narration": "squash garlic clove with knife on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_676",
+        "narration": "squash garlic clove with knife",
+        "verb": "squash",
+        "noun": "clove:garlic",
+        "start_time": "00:35:34.00",
+        "end_time": "00:35:39.75",
+        "enriched_narration": "squash garlic clove with knife on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_677",
+        "narration": "peel garlic clove",
+        "verb": "peel",
+        "noun": "clove:garlic",
+        "start_time": "00:35:38.61",
+        "end_time": "00:35:40.45",
+        "enriched_narration": "peel garlic clove on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_678",
+        "narration": "peel garlic clove",
+        "verb": "peel",
+        "noun": "clove:garlic",
+        "start_time": "00:35:41.05",
+        "end_time": "00:35:46.77",
+        "enriched_narration": "peel garlic clove on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_679",
+        "narration": "peel garlic clove",
+        "verb": "peel",
+        "noun": "clove:garlic",
+        "start_time": "00:35:46.87",
+        "end_time": "00:35:50.65",
+        "enriched_narration": "peel garlic clove on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_680",
+        "narration": "slice garlic",
+        "verb": "slice",
+        "noun": "garlic",
+        "start_time": "00:35:53.12",
+        "end_time": "00:36:11.79",
+        "enriched_narration": "slice white paper garlic on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_681",
+        "narration": "dice garlic",
+        "verb": "dice",
+        "noun": "garlic",
+        "start_time": "00:36:13.94",
+        "end_time": "00:36:20.01",
+        "enriched_narration": "dice white paper garlic on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      },
+      {
+        "narration_id": "P30_107_682",
+        "narration": "scrape bits of garlic off knife",
+        "verb": "scrape-off",
+        "noun": "bit:garlic",
+        "start_time": "00:36:20.24",
+        "end_time": "00:36:20.79",
+        "enriched_narration": "scrape bits of garlic off knife on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "garlic",
+          "memory_name": "garlic"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 48.2,
+    "primary_objects": [
+      "garlic clove",
+      "garlic",
+      "garlic bit"
+    ],
+    "primary_verbs": [
+      "squash",
+      "peel",
+      "slice",
+      "dice",
+      "scrape-off"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_046",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P30 clean the packaging before use.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_413",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:21:39.69",
+        "end_time": "00:21:41.47",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_414",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:21:41.29",
+        "end_time": "00:21:41.64",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_415",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:21:41.74",
+        "end_time": "00:21:52.99",
+        "enriched_narration": "wash silver metal hands on cabinet",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on cabinet",
+          "memory_id": "cabinet_handle",
+          "memory_name": "cabinet_handle"
+        }
+      },
+      {
+        "narration_id": "P30_107_416",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:21:42.00",
+        "end_time": "00:21:44.87",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_417",
+        "narration": "rinse hand",
+        "verb": "rinse",
+        "noun": "hand",
+        "start_time": "00:21:45.26",
+        "end_time": "00:21:46.35",
+        "enriched_narration": "rinse silver metal hand on cabinet",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on cabinet",
+          "memory_id": "cabinet_handle",
+          "memory_name": "cabinet_handle"
+        }
+      },
+      {
+        "narration_id": "P30_107_418",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:21:46.82",
+        "end_time": "00:21:48.06",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_422",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:21:52.74",
+        "end_time": "00:22:09.91",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_419",
+        "narration": "take packaging",
+        "verb": "take",
+        "noun": "packaging",
+        "start_time": "00:21:53.36",
+        "end_time": "00:21:54.16"
+      },
+      {
+        "narration_id": "P30_107_420",
+        "narration": "wash packaging",
+        "verb": "wash",
+        "noun": "packaging",
+        "start_time": "00:21:53.91",
+        "end_time": "00:22:05.62"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 25.9,
+    "primary_objects": [
+      "tap",
+      "hand",
+      "packaging"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "turn-off",
+      "wash",
+      "rinse",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_060",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P30 clean the chopping board and wash their hands.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_539",
+        "narration": "rinse chopping board",
+        "verb": "rinse",
+        "noun": "board:chopping",
+        "start_time": "00:26:45.78",
+        "end_time": "00:26:51.12",
+        "enriched_narration": "rinse chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P30_107_541",
+        "narration": "pick up sponge",
+        "verb": "pick-up",
+        "noun": "sponge",
+        "start_time": "00:26:51.16",
+        "end_time": "00:26:51.89",
+        "enriched_narration": "pick up green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P30_107_540",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:26:51.29",
+        "end_time": "00:26:52.15",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_542",
+        "narration": "scrub chopping board",
+        "verb": "scrub",
+        "noun": "board:chopping",
+        "start_time": "00:26:51.92",
+        "end_time": "00:26:54.47",
+        "enriched_narration": "scrub chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P30_107_543",
+        "narration": "apply washing up liquid to chopping board",
+        "verb": "apply",
+        "noun": "liquid:washing:up",
+        "start_time": "00:26:54.38",
+        "end_time": "00:26:55.82"
+      },
+      {
+        "narration_id": "P30_107_544",
+        "narration": "scrub chopping board",
+        "verb": "scrub",
+        "noun": "board:chopping",
+        "start_time": "00:26:55.92",
+        "end_time": "00:27:15.49",
+        "enriched_narration": "scrub chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P30_107_546",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:27:15.98",
+        "end_time": "00:27:17.69",
+        "enriched_narration": "wash silver metal hands on cabinet",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on cabinet",
+          "memory_id": "cabinet_handle",
+          "memory_name": "cabinet_handle"
+        }
+      },
+      {
+        "narration_id": "P30_107_545",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:27:16.09",
+        "end_time": "00:27:17.33",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_547",
+        "narration": "rinse chopping board",
+        "verb": "rinse",
+        "noun": "board:chopping",
+        "start_time": "00:27:17.25",
+        "end_time": "00:27:22.19",
+        "enriched_narration": "rinse chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36.4,
+    "primary_objects": [
+      "chopping board",
+      "tap",
+      "sponge",
+      "washing:up liquid",
+      "hand"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "scrub",
+      "pick-up",
+      "turn-off",
+      "apply"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_064",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P30 clean the bowl and sponge after washing dishes.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_575",
+        "narration": "rinse bowl",
+        "verb": "rinse",
+        "noun": "bowl",
+        "start_time": "00:29:08.43",
+        "end_time": "00:29:14.24",
+        "enriched_narration": "rinse white ceramic bowl on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "white_bowl",
+          "memory_name": "white_bowl"
+        }
+      },
+      {
+        "narration_id": "P30_107_576",
+        "narration": "put bowl in drying rack",
+        "verb": "put-in",
+        "noun": "bowl",
+        "start_time": "00:29:13.87",
+        "end_time": "00:29:14.84",
+        "enriched_narration": "put white ceramic bowl in drying rack on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "white_bowl",
+          "memory_name": "white_bowl"
+        }
+      },
+      {
+        "narration_id": "P30_107_577",
+        "narration": "empty washing up bowl",
+        "verb": "empty",
+        "noun": "bowl:washing:up",
+        "start_time": "00:29:15.10",
+        "end_time": "00:29:16.74"
+      },
+      {
+        "narration_id": "P30_107_578",
+        "narration": "rinse washing up bowl",
+        "verb": "rinse",
+        "noun": "bowl:washing:up",
+        "start_time": "00:29:16.39",
+        "end_time": "00:29:18.19"
+      },
+      {
+        "narration_id": "P30_107_579",
+        "narration": "apply water to sponge",
+        "verb": "apply",
+        "noun": "water",
+        "start_time": "00:29:19.14",
+        "end_time": "00:29:19.92",
+        "enriched_narration": "apply clear glass water to sponge on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "bottle_water",
+          "memory_name": "bottle of water"
+        }
+      },
+      {
+        "narration_id": "P30_107_580",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:29:20.02",
+        "end_time": "00:29:21.14",
+        "enriched_narration": "rinse green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P30_107_581",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:29:21.24",
+        "end_time": "00:29:22.25",
+        "enriched_narration": "wash silver metal hands on cabinet",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on cabinet",
+          "memory_id": "cabinet_handle",
+          "memory_name": "cabinet_handle"
+        }
+      },
+      {
+        "narration_id": "P30_107_582",
+        "narration": "empty washing up bowl",
+        "verb": "empty",
+        "noun": "bowl:washing:up",
+        "start_time": "00:29:22.14",
+        "end_time": "00:29:23.62"
+      },
+      {
+        "narration_id": "P30_107_583",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:29:23.29",
+        "end_time": "00:29:24.29",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 15.9,
+    "primary_objects": [
+      "washing:up bowl",
+      "bowl",
+      "water",
+      "sponge",
+      "hand"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "empty",
+      "put-in",
+      "apply",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_090",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P30 clean the chopping board and wash their hands.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_809",
+        "narration": "turn on water",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:43:04.41",
+        "end_time": "00:43:06.92",
+        "enriched_narration": "turn on water above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_810",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:43:06.90",
+        "end_time": "00:43:07.86",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_811",
+        "narration": "scrub chopping board",
+        "verb": "scrub",
+        "noun": "board:chopping",
+        "start_time": "00:43:07.87",
+        "end_time": "00:43:17.55",
+        "enriched_narration": "scrub chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P30_107_812",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:43:17.57",
+        "end_time": "00:43:18.60",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_813",
+        "narration": "rinse chopping board",
+        "verb": "rinse",
+        "noun": "board:chopping",
+        "start_time": "00:43:18.68",
+        "end_time": "00:43:24.90",
+        "enriched_narration": "rinse chopping board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P30_107_814",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:43:24.89",
+        "end_time": "00:43:25.58",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_815",
+        "narration": "gather pieces",
+        "verb": "gather",
+        "noun": "meat",
+        "start_time": "00:43:29.60",
+        "end_time": "00:43:34.25",
+        "enriched_narration": "gather pieces in pan",
+        "matched_object": {
+          "color": "brown",
+          "material": "ceramic",
+          "location": "in pan",
+          "memory_id": "meat",
+          "memory_name": "meat"
+        }
+      },
+      {
+        "narration_id": "P30_107_816",
+        "narration": "put pieces into bin",
+        "verb": "put-into",
+        "noun": "bin",
+        "start_time": "00:43:36.19",
+        "end_time": "00:43:38.53",
+        "enriched_narration": "put pieces into brown wood bin on wall",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on wall",
+          "memory_id": "kitchen_cabinet",
+          "memory_name": "kitchen_cabinet"
+        }
+      },
+      {
+        "narration_id": "P30_107_817",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:43:38.93",
+        "end_time": "00:43:40.37",
+        "enriched_narration": "wash silver metal hands on cabinet",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on cabinet",
+          "memory_id": "cabinet_handle",
+          "memory_name": "cabinet_handle"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36,
+    "primary_objects": [
+      "tap",
+      "chopping board",
+      "meat",
+      "bin",
+      "hand"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "turn-off",
+      "scrub",
+      "rinse",
+      "gather"
+    ]
+  },
+  {
+    "task_id": "plan_P30_111_021",
+    "participant_id": "P30",
+    "video_id": "P30_111",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P30 clean and refill the passata bottle.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_111_189",
+        "narration": "shake passata bottle",
+        "verb": "shake",
+        "noun": "bottle:passata",
+        "start_time": "00:07:48.54",
+        "end_time": "00:07:50.17",
+        "enriched_narration": "shake passata bottle at on_counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on_counter",
+          "memory_id": "bottle_clear",
+          "memory_name": "bottle"
+        }
+      },
+      {
+        "narration_id": "P30_111_190",
+        "narration": "open passata bottle",
+        "verb": "open",
+        "noun": "bottle:passata",
+        "start_time": "00:07:50.11",
+        "end_time": "00:07:50.84",
+        "enriched_narration": "open passata bottle at on_counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on_counter",
+          "memory_id": "bottle_clear",
+          "memory_name": "bottle"
+        }
+      },
+      {
+        "narration_id": "P30_111_191",
+        "narration": "pour passata into pan",
+        "verb": "pour-into",
+        "noun": "passata",
+        "start_time": "00:07:50.94",
+        "end_time": "00:07:53.08"
+      },
+      {
+        "narration_id": "P30_111_192",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:07:55.19",
+        "end_time": "00:07:55.69",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P30_111_193",
+        "narration": "fill passata bottle with water",
+        "verb": "fill-with",
+        "noun": "bottle:passata",
+        "start_time": "00:07:55.83",
+        "end_time": "00:07:58.09",
+        "enriched_narration": "fill passata bottle with water at on_counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on_counter",
+          "memory_id": "bottle_clear",
+          "memory_name": "bottle"
+        }
+      },
+      {
+        "narration_id": "P30_111_194",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:07:57.72",
+        "end_time": "00:07:58.11",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P30_111_195",
+        "narration": "pour water from bottle into sink",
+        "verb": "pour-from",
+        "noun": "water",
+        "start_time": "00:07:57.75",
+        "end_time": "00:07:58.00",
+        "enriched_narration": "pour clear plastic water from bottle into sink at left",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "left",
+          "memory_id": "water_bottle",
+          "memory_name": "water bottle"
+        }
+      },
+      {
+        "narration_id": "P30_111_196",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:07:59.17",
+        "end_time": "00:08:00.04",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P30_111_197",
+        "narration": "rinse bottle lid",
+        "verb": "rinse",
+        "noun": "lid:bottle",
+        "start_time": "00:08:00.14",
+        "end_time": "00:08:00.72",
+        "enriched_narration": "rinse bottle lid at on_counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on_counter",
+          "memory_id": "bottle_clear",
+          "memory_name": "bottle"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 12.2,
+    "primary_objects": [
+      "passata bottle",
+      "tap",
+      "passata",
+      "water",
+      "bottle lid"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "shake",
+      "open",
+      "pour-into",
+      "fill-with"
+    ]
+  },
+  {
+    "task_id": "plan_P30_103_002",
+    "participant_id": "P30",
+    "video_id": "P30_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P30 fill the kettle with water.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_103_18",
+        "narration": "fill jug with water",
+        "verb": "fill-with",
+        "noun": "jug",
+        "start_time": "00:00:31.61",
+        "end_time": "00:00:34.16"
+      },
+      {
+        "narration_id": "P30_103_19",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:33.80",
+        "end_time": "00:00:34.55",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_103_20",
+        "narration": "open kettle",
+        "verb": "open",
+        "noun": "kettle",
+        "start_time": "00:00:35.05",
+        "end_time": "00:00:35.62",
+        "enriched_narration": "open white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle",
+          "memory_name": "kettle"
+        }
+      },
+      {
+        "narration_id": "P30_103_21",
+        "narration": "pour water into kettle",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:00:35.93",
+        "end_time": "00:00:37.35",
+        "enriched_narration": "pour clear glass water into kettle on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_water",
+          "memory_name": "glass of water"
+        }
+      },
+      {
+        "narration_id": "P30_103_22",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:38.27",
+        "end_time": "00:00:39.34",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_103_23",
+        "narration": "fill up jug with water",
+        "verb": "fill-up",
+        "noun": "jug",
+        "start_time": "00:00:38.75",
+        "end_time": "00:00:39.75"
+      },
+      {
+        "narration_id": "P30_103_24",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:39.54",
+        "end_time": "00:00:39.93",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_103_25",
+        "narration": "pour water into kettle from jug",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:00:40.89",
+        "end_time": "00:00:41.95",
+        "enriched_narration": "pour clear glass water into kettle from jug on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "glass_water",
+          "memory_name": "glass of water"
+        }
+      },
+      {
+        "narration_id": "P30_103_26",
+        "narration": "close kettle",
+        "verb": "close",
+        "noun": "kettle",
+        "start_time": "00:00:41.73",
+        "end_time": "00:00:42.65",
+        "enriched_narration": "close white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle",
+          "memory_name": "kettle"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 11,
+    "primary_objects": [
+      "tap",
+      "jug",
+      "kettle",
+      "water"
+    ],
+    "primary_verbs": [
+      "turn-off",
+      "pour-into",
+      "fill-with",
+      "open",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_063",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P30 gather a spoon and prepare the mixing bowl.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_566",
+        "narration": "open drawer",
+        "verb": "open",
+        "noun": "drawer",
+        "start_time": "00:28:19.58",
+        "end_time": "00:28:20.27"
+      },
+      {
+        "narration_id": "P30_107_567",
+        "narration": "pick up spoon",
+        "verb": "pick-up",
+        "noun": "spoon",
+        "start_time": "00:28:20.18",
+        "end_time": "00:28:21.60",
+        "enriched_narration": "pick up brown wood spoon in hand",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P30_107_568",
+        "narration": "spoon mixture into pan",
+        "verb": "spoon-into",
+        "noun": "mixture",
+        "start_time": "00:28:21.41",
+        "end_time": "00:28:23.42"
+      },
+      {
+        "narration_id": "P30_107_569",
+        "narration": "stir mixture",
+        "verb": "stir",
+        "noun": "mixture",
+        "start_time": "00:28:23.52",
+        "end_time": "00:28:48.08"
+      },
+      {
+        "narration_id": "P30_107_570",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:28:51.81",
+        "end_time": "00:28:52.42",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_571",
+        "narration": "rinse bowl",
+        "verb": "rinse",
+        "noun": "bowl",
+        "start_time": "00:28:52.20",
+        "end_time": "00:28:56.70",
+        "enriched_narration": "rinse white ceramic bowl on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "white_bowl",
+          "memory_name": "white_bowl"
+        }
+      },
+      {
+        "narration_id": "P30_107_572",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:28:57.81",
+        "end_time": "00:28:58.22",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_573",
+        "narration": "scrub bowl",
+        "verb": "scrub",
+        "noun": "bowl",
+        "start_time": "00:28:58.00",
+        "end_time": "00:29:07.34",
+        "enriched_narration": "scrub white ceramic bowl on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "white_bowl",
+          "memory_name": "white_bowl"
+        }
+      },
+      {
+        "narration_id": "P30_107_574",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:29:07.57",
+        "end_time": "00:29:08.08",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 48.5,
+    "primary_objects": [
+      "tap",
+      "mixture",
+      "bowl",
+      "drawer",
+      "spoon"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "open",
+      "pick-up",
+      "spoon-into",
+      "stir"
+    ]
+  },
+  {
+    "task_id": "plan_P30_107_085",
+    "participant_id": "P30",
+    "video_id": "P30_107",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P30 water the basil plant in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_107_764",
+        "narration": "let go of spoon",
+        "verb": "let",
+        "noun": "spoon",
+        "start_time": "00:40:37.52",
+        "end_time": "00:40:38.14",
+        "enriched_narration": "let go of brown wood spoon in hand",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P30_107_765",
+        "narration": "adjust temperature on hob",
+        "verb": "adjust-on",
+        "noun": "temperature",
+        "start_time": "00:40:39.76",
+        "end_time": "00:40:40.53"
+      },
+      {
+        "narration_id": "P30_107_766",
+        "narration": "pick up basil plant",
+        "verb": "pick-up",
+        "noun": "plant:basil",
+        "start_time": "00:40:47.05",
+        "end_time": "00:40:48.61",
+        "enriched_narration": "pick up basil plant on window sill",
+        "matched_object": {
+          "color": "green",
+          "material": "soil",
+          "location": "on window sill",
+          "memory_id": "plant",
+          "memory_name": "green plant"
+        }
+      },
+      {
+        "narration_id": "P30_107_767",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:40:50.09",
+        "end_time": "00:40:50.99",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_768",
+        "narration": "check tap temperature",
+        "verb": "check",
+        "noun": "temperature:tap",
+        "start_time": "00:40:51.09",
+        "end_time": "00:40:52.31"
+      },
+      {
+        "narration_id": "P30_107_769",
+        "narration": "pour water into basil plant",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:40:52.41",
+        "end_time": "00:40:55.08",
+        "enriched_narration": "pour clear glass water into basil plant on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "bottle_water",
+          "memory_name": "bottle of water"
+        }
+      },
+      {
+        "narration_id": "P30_107_770",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:40:55.01",
+        "end_time": "00:40:55.84",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P30_107_771",
+        "narration": "put basil plant down",
+        "verb": "put-down",
+        "noun": "plant:basil",
+        "start_time": "00:40:58.97",
+        "end_time": "00:41:00.72",
+        "enriched_narration": "put basil plant down on window sill",
+        "matched_object": {
+          "color": "green",
+          "material": "soil",
+          "location": "on window sill",
+          "memory_id": "plant",
+          "memory_name": "green plant"
+        }
+      },
+      {
+        "narration_id": "P30_107_772",
+        "narration": "turn off hob",
+        "verb": "turn-off",
+        "noun": "hob",
+        "start_time": "00:41:00.34",
+        "end_time": "00:41:02.34",
+        "enriched_narration": "turn off brown metal hob on stove",
+        "matched_object": {
+          "color": "brown",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove burner"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 24.8,
+    "primary_objects": [
+      "basil plant",
+      "tap",
+      "spoon",
+      "temperature",
+      "tap temperature"
+    ],
+    "primary_verbs": [
+      "turn-off",
+      "let",
+      "adjust-on",
+      "pick-up",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P30_111_045",
+    "participant_id": "P30",
+    "video_id": "P30_111",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P30 prepare and dispose of pepper pieces in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_111_405",
+        "narration": "eat pepper",
+        "verb": "eat",
+        "noun": "pepper",
+        "start_time": "00:17:07.68",
+        "end_time": "00:17:08.63",
+        "enriched_narration": "eat yellow vegetable pepper on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_406",
+        "narration": "gather pepper pieces",
+        "verb": "gather",
+        "noun": "piece:pepper",
+        "start_time": "00:17:08.47",
+        "end_time": "00:17:11.05",
+        "enriched_narration": "gather pepper pieces on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_407",
+        "narration": "pick up pepper pieces",
+        "verb": "pick-up",
+        "noun": "piece:pepper",
+        "start_time": "00:17:10.96",
+        "end_time": "00:17:11.56",
+        "enriched_narration": "pick up pepper pieces on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_408",
+        "narration": "throw pepper pieces into bin",
+        "verb": "throw-into",
+        "noun": "piece:pepper",
+        "start_time": "00:17:11.91",
+        "end_time": "00:17:12.68",
+        "enriched_narration": "throw pepper pieces into bin on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_409",
+        "narration": "gather pepper pieces",
+        "verb": "gather",
+        "noun": "piece:pepper",
+        "start_time": "00:17:12.76",
+        "end_time": "00:17:14.55",
+        "enriched_narration": "gather pepper pieces on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_410",
+        "narration": "throw pepper pieces into bin",
+        "verb": "throw-into",
+        "noun": "piece:pepper",
+        "start_time": "00:17:14.98",
+        "end_time": "00:17:15.87",
+        "enriched_narration": "throw pepper pieces into bin on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_411",
+        "narration": "pick up knife",
+        "verb": "pick-up",
+        "noun": "knife",
+        "start_time": "00:17:15.82",
+        "end_time": "00:17:17.18",
+        "enriched_narration": "pick up black wooden knife at cutting_board_wooden",
+        "matched_object": {
+          "color": "black",
+          "material": "wooden",
+          "location": "cutting_board_wooden",
+          "memory_id": "knife_black",
+          "memory_name": "black plastic knife"
+        }
+      },
+      {
+        "narration_id": "P30_111_412",
+        "narration": "cut pepper",
+        "verb": "cut",
+        "noun": "pepper",
+        "start_time": "00:17:17.19",
+        "end_time": "00:17:18.29",
+        "enriched_narration": "cut yellow vegetable pepper on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      },
+      {
+        "narration_id": "P30_111_413",
+        "narration": "eat pepper piece",
+        "verb": "eat",
+        "noun": "piece:pepper",
+        "start_time": "00:17:18.39",
+        "end_time": "00:17:19.08",
+        "enriched_narration": "eat pepper piece on cutting board",
+        "matched_object": {
+          "color": "yellow",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "pepper_grinder",
+          "memory_name": "pepper grinder"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 11.4,
+    "primary_objects": [
+      "pepper piece",
+      "pepper",
+      "knife"
+    ],
+    "primary_verbs": [
+      "eat",
+      "gather",
+      "pick-up",
+      "throw-into",
+      "cut"
+    ]
+  },
+  {
+    "task_id": "plan_P30_101_022",
+    "participant_id": "P30",
+    "video_id": "P30_101",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P30 prepare and enjoy pitta with hummus.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_101_198",
+        "narration": "pick up jug",
+        "verb": "pick-up",
+        "noun": "jug",
+        "start_time": "00:06:23.66",
+        "end_time": "00:06:24.50"
+      },
+      {
+        "narration_id": "P30_101_199",
+        "narration": "pour water into v60",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:24.60",
+        "end_time": "00:06:30.61"
+      },
+      {
+        "narration_id": "P30_101_200",
+        "narration": "put down jug",
+        "verb": "put-down",
+        "noun": "jug",
+        "start_time": "00:06:30.57",
+        "end_time": "00:06:32.16"
+      },
+      {
+        "narration_id": "P30_101_201",
+        "narration": "pick up pitta piece",
+        "verb": "pick-up",
+        "noun": "piece:pitta",
+        "start_time": "00:06:42.21",
+        "end_time": "00:06:42.80"
+      },
+      {
+        "narration_id": "P30_101_202",
+        "narration": "dip pitta piece into hummus",
+        "verb": "dip",
+        "noun": "piece:pitta",
+        "start_time": "00:06:42.81",
+        "end_time": "00:06:43.87"
+      },
+      {
+        "narration_id": "P30_101_203",
+        "narration": "eat pitta piece",
+        "verb": "eat",
+        "noun": "piece:pitta",
+        "start_time": "00:06:44.16",
+        "end_time": "00:06:45.41"
+      },
+      {
+        "narration_id": "P30_101_204",
+        "narration": "dip pitta piece into hummus",
+        "verb": "dip",
+        "noun": "piece:pitta",
+        "start_time": "00:06:46.03",
+        "end_time": "00:06:47.06"
+      },
+      {
+        "narration_id": "P30_101_205",
+        "narration": "eat pitta piece",
+        "verb": "eat",
+        "noun": "piece:pitta",
+        "start_time": "00:06:46.90",
+        "end_time": "00:06:58.21"
+      },
+      {
+        "narration_id": "P30_101_206",
+        "narration": "jiggle v60",
+        "verb": "jiggle",
+        "noun": "v60",
+        "start_time": "00:07:04.19",
+        "end_time": "00:07:10.10"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 46.4,
+    "primary_objects": [
+      "pitta piece",
+      "jug",
+      "water",
+      "v60"
+    ],
+    "primary_verbs": [
+      "pick-up",
+      "dip",
+      "eat",
+      "pour-into",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P30_101_023",
+    "participant_id": "P30",
+    "video_id": "P30_101",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P30 enjoy a pitta piece with hummus.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P30_101_207",
+        "narration": "pick up pitta piece",
+        "verb": "pick-up",
+        "noun": "piece:pitta",
+        "start_time": "00:07:10.68",
+        "end_time": "00:07:11.13"
+      },
+      {
+        "narration_id": "P30_101_208",
+        "narration": "dip pitta piece into hummus",
+        "verb": "dip",
+        "noun": "piece:pitta",
+        "start_time": "00:07:11.97",
+        "end_time": "00:07:12.84"
+      },
+      {
+        "narration_id": "P30_101_209",
+        "narration": "eat pitta piece",
+        "verb": "eat",
+        "noun": "piece:pitta",
+        "start_time": "00:07:13.27",
+        "end_time": "00:07:14.13"
+      },
+      {
+        "narration_id": "P30_101_210",
+        "narration": "put down pitta piece",
+        "verb": "put-down",
+        "noun": "piece:pitta",
+        "start_time": "00:07:16.21",
+        "end_time": "00:07:16.86"
+      },
+      {
+        "narration_id": "P30_101_211",
+        "narration": "pick up pitta piece",
+        "verb": "pick-up",
+        "noun": "piece:pitta",
+        "start_time": "00:07:27.83",
+        "end_time": "00:07:28.69"
+      },
+      {
+        "narration_id": "P30_101_212",
+        "narration": "dip pitta piece into hummus",
+        "verb": "dip",
+        "noun": "piece:pitta",
+        "start_time": "00:07:28.10",
+        "end_time": "00:07:30.45"
+      },
+      {
+        "narration_id": "P30_101_213",
+        "narration": "eat pitta piece",
+        "verb": "eat",
+        "noun": "piece:pitta",
+        "start_time": "00:07:30.55",
+        "end_time": "00:07:32.02"
+      },
+      {
+        "narration_id": "P30_101_214",
+        "narration": "dip pitta piece into hummus",
+        "verb": "dip",
+        "noun": "piece:pitta",
+        "start_time": "00:07:32.31",
+        "end_time": "00:07:34.11"
+      },
+      {
+        "narration_id": "P30_101_215",
+        "narration": "eat pitta piece",
+        "verb": "eat",
+        "noun": "piece:pitta",
+        "start_time": "00:07:34.22",
+        "end_time": "00:07:56.61"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 45.9,
+    "primary_objects": [
+      "pitta piece"
+    ],
+    "primary_verbs": [
+      "dip",
+      "eat",
+      "pick-up",
+      "put-down"
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "task_id": "generalize_transfer_P23_peeling_onion",
+    "task_type": "transfer",
+    "task_query": "Help P23 peel the onion.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "source_action": "peeling",
+    "source_object": "garlic",
+    "target_object": "onion",
+    "ground_truth_steps": [
+      "Pick up the silver metal onion from the metal tray.",
+      "Pick up the peeler from the counter.",
+      "Hold the silver metal onion steady with one hand.",
+      "Peel the silver metal onion skin with the peeler.",
+      "Rotate the onion and continue peeling until fully peeled.",
+      "Place the peeled onion on the brown wood metal cutting board.",
+      "Discard the peelings in the bin."
+    ],
+    "rationale": "Person knows how to 'peeling' the 'garlic' (17x observed). Transfer to 'onion' (never observed with 'peeling')."
+  },
+  {
+    "task_id": "generalize_transfer_P23_scrubs_sink",
+    "task_type": "transfer",
+    "task_query": "Help P23 clean the sink.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "source_action": "scrubs",
+    "source_object": "pot",
+    "target_object": "sink",
+    "ground_truth_steps": [
+      "Pick up the white ceramic sink from the center.",
+      "Carry the sink to the white ceramic sink.",
+      "Turn on the silver metal faucet chrome.",
+      "Apply dish soap to the yellow foam sponge.",
+      "Scrub the sink with the yellow foam sponge.",
+      "Rinse the sink under running water.",
+      "Turn off the silver metal faucet chrome.",
+      "Place the clean sink on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'pot' (4x observed). Transfer to 'sink' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P23_washes_garlic",
+    "task_type": "transfer",
+    "task_query": "Help P23 wash the garlic.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "source_action": "washes",
+    "source_object": "yellow_towel",
+    "target_object": "garlic",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate with garlic from the stove.",
+      "Carry the garlic to the white ceramic sink.",
+      "Turn on the silver metal faucet chrome.",
+      "Rinse the garlic under running water.",
+      "Turn off the silver metal faucet chrome.",
+      "Place the clean garlic on the drying rack."
+    ],
+    "rationale": "Person knows how to 'washes' the 'yellow_towel' (36x observed). Transfer to 'garlic' (never observed with 'washes')."
+  },
+  {
+    "task_id": "generalize_composition_P23_full_dishwashing_cycle",
+    "task_type": "composition",
+    "task_query": "Help P23 wash all the dirty dishes, dry them, and put them away.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "components": [
+      "scrubbing dishes",
+      "rinsing dishes",
+      "drying",
+      "storing"
+    ],
+    "ground_truth_steps": [
+      "Collect dirty dishes from the counter to the white ceramic sink.",
+      "Turn on the silver metal faucet chrome.",
+      "Apply dish soap to the yellow foam sponge.",
+      "Scrub the silver metal plate with the yellow foam sponge.",
+      "Rinse the silver metal plate under running water.",
+      "Place the clean silver plate on the drying rack.",
+      "Scrub the black metal bowl with the yellow foam sponge.",
+      "Rinse the black metal bowl under running water.",
+      "Place the clean bowl on the drying rack.",
+      "Turn off the silver metal faucet chrome."
+    ],
+    "rationale": "Person knows: scrubbing pot (0x), rinsing pot (0x). Composition: extend to full wash-dry-store cycle for all dishes."
+  },
+  {
+    "task_id": "generalize_novel_P23_set_table_for_meal",
+    "task_type": "fully_novel",
+    "task_query": "Help P23 set the table for a meal with plate, bowl, and cutlery.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "ground_truth_steps": [
+      "Pick up the silver metal plate from the countertop.",
+      "Place the silver metal plate on the table.",
+      "Pick up the black metal bowl from the countertop.",
+      "Place the black metal bowl above the plate on the table.",
+      "Pick up the black metal knife from the countertop.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the fork from the counter.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the silver metal cup from the sink.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity."
+  },
+  {
+    "task_id": "generalize_novel_P23_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "task_query": "Help P23 clear and clean the entire kitchen countertop.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the white ceramic sink.",
+      "Pick up the yellow cloth from the counter.",
+      "Turn on the silver metal faucet chrome.",
+      "Wet the yellow cloth under the silver metal faucet chrome.",
+      "Turn off the silver metal faucet chrome.",
+      "Wipe the countertop surface from one end to the other with the yellow cloth.",
+      "Rinse the yellow cloth under the silver metal faucet chrome.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the yellow cloth.",
+      "Place the yellow cloth back on the counter."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns."
+  },
+  {
+    "task_id": "generalize_novel_P23_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "task_query": "Help P23 prepare a simple salad using available vegetables.",
+    "video_id": "P23_101",
+    "participant_id": "P23",
+    "ground_truth_steps": [
+      "Pick up the cucumber from the counter.",
+      "Turn on the silver metal faucet chrome.",
+      "Rinse the cucumber under running water in the white ceramic sink.",
+      "Turn off the silver metal faucet chrome.",
+      "Place the cucumber on the brown wood metal cutting board.",
+      "Pick up the black metal knife from the countertop.",
+      "Cut the cucumber into slices on the brown wood metal cutting board.",
+      "Transfer the cucumber slices to the black metal bowl.",
+      "Place the black metal knife back on the countertop.",
+      "Mix the salad ingredients in the black metal bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category."
+  }
+]

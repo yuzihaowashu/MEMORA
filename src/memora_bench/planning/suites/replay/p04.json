@@ -1,0 +1,1574 @@
+[
+  {
+    "task_id": "plan_P04_104_019",
+    "participant_id": "P04",
+    "video_id": "P04_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P04 fill the bowl with water using the spoon.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_104_172",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:06:19.06",
+        "end_time": "00:06:19.92",
+        "enriched_narration": "turn on silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_173",
+        "narration": "put spoon under tap",
+        "verb": "put-under",
+        "noun": "spoon",
+        "start_time": "00:06:19.82",
+        "end_time": "00:06:20.36",
+        "enriched_narration": "put green plastic spoon under tap on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P04_104_174",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:20.08",
+        "end_time": "00:06:20.78",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_175",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:21.15",
+        "end_time": "00:06:22.17"
+      },
+      {
+        "narration_id": "P04_104_176",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:06:23.01",
+        "end_time": "00:06:23.66",
+        "enriched_narration": "turn on silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_177",
+        "narration": "fill spoon with water",
+        "verb": "fill-with",
+        "noun": "spoon",
+        "start_time": "00:06:23.62",
+        "end_time": "00:06:24.47",
+        "enriched_narration": "fill green plastic spoon with water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P04_104_178",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:24.55",
+        "end_time": "00:06:25.07",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_179",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:25.65",
+        "end_time": "00:06:26.42"
+      },
+      {
+        "narration_id": "P04_104_180",
+        "narration": "fill spoon with water",
+        "verb": "fill-with",
+        "noun": "spoon",
+        "start_time": "00:06:26.99",
+        "end_time": "00:06:28.52",
+        "enriched_narration": "fill green plastic spoon with water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 9.5,
+    "primary_objects": [
+      "tap",
+      "spoon",
+      "water"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "turn-off",
+      "pour-into",
+      "fill-with",
+      "put-under"
+    ]
+  },
+  {
+    "task_id": "plan_P04_104_020",
+    "participant_id": "P04",
+    "video_id": "P04_104",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P04 fill the bowl with water using the spoon.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_104_181",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:28.60",
+        "end_time": "00:06:28.87",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_182",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:29.22",
+        "end_time": "00:06:30.36"
+      },
+      {
+        "narration_id": "P04_104_183",
+        "narration": "fill spoon with water",
+        "verb": "fill-with",
+        "noun": "spoon",
+        "start_time": "00:06:30.62",
+        "end_time": "00:06:33.16",
+        "enriched_narration": "fill green plastic spoon with water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P04_104_185",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:31.00",
+        "end_time": "00:06:34.79"
+      },
+      {
+        "narration_id": "P04_104_184",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:33.17",
+        "end_time": "00:06:33.70",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "sink_with_faucet",
+          "memory_name": "sink with faucet"
+        }
+      },
+      {
+        "narration_id": "P04_104_186",
+        "narration": "fill spoon with water",
+        "verb": "fill-with",
+        "noun": "spoon",
+        "start_time": "00:06:35.25",
+        "end_time": "00:06:37.59",
+        "enriched_narration": "fill green plastic spoon with water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P04_104_187",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:36.65",
+        "end_time": "00:06:38.29"
+      },
+      {
+        "narration_id": "P04_104_189",
+        "narration": "pour water into bowl",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:06:37.80",
+        "end_time": "00:06:39.80"
+      },
+      {
+        "narration_id": "P04_104_188",
+        "narration": "fill spoon with water",
+        "verb": "fill-with",
+        "noun": "spoon",
+        "start_time": "00:06:39.84",
+        "end_time": "00:06:41.51",
+        "enriched_narration": "fill green plastic spoon with water on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 12.9,
+    "primary_objects": [
+      "water",
+      "spoon",
+      "tap"
+    ],
+    "primary_verbs": [
+      "pour-into",
+      "fill-with",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P04_107_025",
+    "participant_id": "P04",
+    "video_id": "P04_107",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P04 shape the dough by rolling and flipping it.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_107_225",
+        "narration": "roll dough",
+        "verb": "roll",
+        "noun": "dough",
+        "start_time": "00:07:38.88",
+        "end_time": "00:07:40.77",
+        "enriched_narration": "roll white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_226",
+        "narration": "turn over dough",
+        "verb": "turn-over",
+        "noun": "dough",
+        "start_time": "00:07:41.73",
+        "end_time": "00:07:42.42",
+        "enriched_narration": "turn over white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_227",
+        "narration": "roll dough",
+        "verb": "roll",
+        "noun": "dough",
+        "start_time": "00:07:42.93",
+        "end_time": "00:07:47.06",
+        "enriched_narration": "roll white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_228",
+        "narration": "turn over dough",
+        "verb": "turn-over",
+        "noun": "dough",
+        "start_time": "00:07:47.16",
+        "end_time": "00:07:48.08",
+        "enriched_narration": "turn over white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_229",
+        "narration": "roll dough",
+        "verb": "roll",
+        "noun": "dough",
+        "start_time": "00:07:48.56",
+        "end_time": "00:07:49.96",
+        "enriched_narration": "roll white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_230",
+        "narration": "unfold dough",
+        "verb": "unfold",
+        "noun": "dough",
+        "start_time": "00:07:52.84",
+        "end_time": "00:07:54.91",
+        "enriched_narration": "unfold white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_231",
+        "narration": "roll out dough",
+        "verb": "roll-out",
+        "noun": "dough",
+        "start_time": "00:07:55.01",
+        "end_time": "00:07:57.03",
+        "enriched_narration": "roll out white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_232",
+        "narration": "flip over dough",
+        "verb": "flip-over",
+        "noun": "dough",
+        "start_time": "00:07:56.95",
+        "end_time": "00:07:58.18",
+        "enriched_narration": "flip over white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_233",
+        "narration": "roll out dough",
+        "verb": "roll-out",
+        "noun": "dough",
+        "start_time": "00:07:58.46",
+        "end_time": "00:08:01.05",
+        "enriched_narration": "roll out white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.2,
+    "primary_objects": [
+      "dough"
+    ],
+    "primary_verbs": [
+      "roll",
+      "turn-over",
+      "roll-out",
+      "unfold",
+      "flip-over"
+    ]
+  },
+  {
+    "task_id": "plan_P04_107_049",
+    "participant_id": "P04",
+    "video_id": "P04_107",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P04 shape the dough and prevent sticking with flour.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_107_441",
+        "narration": "peel dough off rolling pin",
+        "verb": "peel-off",
+        "noun": "dough",
+        "start_time": "00:13:09.69",
+        "end_time": "00:13:10.52",
+        "enriched_narration": "peel white plastic dough off rolling pin on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_442",
+        "narration": "lift up rolling pin",
+        "verb": "lift-up",
+        "noun": "pin:rolling",
+        "start_time": "00:13:10.75",
+        "end_time": "00:13:11.50",
+        "enriched_narration": "lift up rolling pin on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "wood",
+          "location": "on counter",
+          "memory_id": "rolling_pin",
+          "memory_name": "rolling pin"
+        }
+      },
+      {
+        "narration_id": "P04_107_443",
+        "narration": "flip over dough",
+        "verb": "flip-over",
+        "noun": "dough",
+        "start_time": "00:13:11.10",
+        "end_time": "00:13:11.45",
+        "enriched_narration": "flip over white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_444",
+        "narration": "roll out dough",
+        "verb": "roll-out",
+        "noun": "dough",
+        "start_time": "00:13:11.45",
+        "end_time": "00:13:13.79",
+        "enriched_narration": "roll out white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P04_107_445",
+        "narration": "let go of rolling pin",
+        "verb": "let",
+        "noun": "pin:rolling",
+        "start_time": "00:13:13.63",
+        "end_time": "00:13:14.50",
+        "enriched_narration": "let go of rolling pin on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "wood",
+          "location": "on counter",
+          "memory_id": "rolling_pin",
+          "memory_name": "rolling pin"
+        }
+      },
+      {
+        "narration_id": "P04_107_446",
+        "narration": "grab flour",
+        "verb": "grab",
+        "noun": "flour",
+        "start_time": "00:13:14.39",
+        "end_time": "00:13:15.76",
+        "enriched_narration": "grab brown paper flour on counter",
+        "matched_object": {
+          "color": "brown",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "flour_bags",
+          "memory_name": "flour bags"
+        }
+      },
+      {
+        "narration_id": "P04_107_447",
+        "narration": "sprinkle flour over dough",
+        "verb": "sprinkle-over",
+        "noun": "flour",
+        "start_time": "00:13:15.79",
+        "end_time": "00:13:16.76",
+        "enriched_narration": "sprinkle brown paper flour over dough on counter",
+        "matched_object": {
+          "color": "brown",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "flour_bags",
+          "memory_name": "flour bags"
+        }
+      },
+      {
+        "narration_id": "P04_107_448",
+        "narration": "rub flour over rolling pin",
+        "verb": "rub-over",
+        "noun": "flour",
+        "start_time": "00:13:16.64",
+        "end_time": "00:13:17.65",
+        "enriched_narration": "rub brown paper flour over rolling pin on counter",
+        "matched_object": {
+          "color": "brown",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "flour_bags",
+          "memory_name": "flour bags"
+        }
+      },
+      {
+        "narration_id": "P04_107_449",
+        "narration": "roll out dough",
+        "verb": "roll-out",
+        "noun": "dough",
+        "start_time": "00:13:18.18",
+        "end_time": "00:13:19.82",
+        "enriched_narration": "roll out white plastic dough on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bowl_with_dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 10.1,
+    "primary_objects": [
+      "dough",
+      "flour",
+      "rolling pin"
+    ],
+    "primary_verbs": [
+      "roll-out",
+      "peel-off",
+      "lift-up",
+      "flip-over",
+      "let"
+    ]
+  },
+  {
+    "task_id": "plan_P04_113_027",
+    "participant_id": "P04",
+    "video_id": "P04_113",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P04 clean and prepare the jar for use.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_113_243",
+        "narration": "fill jar with water",
+        "verb": "fill-with",
+        "noun": "jar",
+        "start_time": "00:07:27.66",
+        "end_time": "00:07:30.39",
+        "enriched_narration": "fill red ceramic jar with water in sink",
+        "matched_object": {
+          "color": "red",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "jar",
+          "memory_name": "glass jar"
+        }
+      },
+      {
+        "narration_id": "P04_113_244",
+        "narration": "empty jar",
+        "verb": "empty",
+        "noun": "jar",
+        "start_time": "00:07:30.50",
+        "end_time": "00:07:31.31",
+        "enriched_narration": "empty red ceramic jar in sink",
+        "matched_object": {
+          "color": "red",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "jar",
+          "memory_name": "glass jar"
+        }
+      },
+      {
+        "narration_id": "P04_113_245",
+        "narration": "rinse rim of jar",
+        "verb": "rinse",
+        "noun": "rim:jar",
+        "start_time": "00:07:31.35",
+        "end_time": "00:07:37.10",
+        "enriched_narration": "rinse rim of jar in sink",
+        "matched_object": {
+          "color": "red",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "jar",
+          "memory_name": "glass jar"
+        }
+      },
+      {
+        "narration_id": "P04_113_246",
+        "narration": "rinse rim of jar",
+        "verb": "rinse",
+        "noun": "rim:jar",
+        "start_time": "00:07:37.20",
+        "end_time": "00:07:46.95",
+        "enriched_narration": "rinse rim of jar in sink",
+        "matched_object": {
+          "color": "red",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "jar",
+          "memory_name": "glass jar"
+        }
+      },
+      {
+        "narration_id": "P04_113_247",
+        "narration": "inspect jar",
+        "verb": "inspect",
+        "noun": "jar",
+        "start_time": "00:07:42.72",
+        "end_time": "00:07:45.35",
+        "enriched_narration": "inspect red ceramic jar in sink",
+        "matched_object": {
+          "color": "red",
+          "material": "ceramic",
+          "location": "in sink",
+          "memory_id": "jar",
+          "memory_name": "glass jar"
+        }
+      },
+      {
+        "narration_id": "P04_113_249",
+        "narration": "shake water out of jar",
+        "verb": "shake-out",
+        "noun": "water",
+        "start_time": "00:07:45.70",
+        "end_time": "00:07:46.70"
+      },
+      {
+        "narration_id": "P04_113_248",
+        "narration": "rub sauce off thumb",
+        "verb": "rub",
+        "noun": "sauce",
+        "start_time": "00:07:45.96",
+        "end_time": "00:07:46.92",
+        "enriched_narration": "rub clear plastic sauce off thumb on counter",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "bottled_sauce",
+          "memory_name": "bottled sauce"
+        }
+      },
+      {
+        "narration_id": "P04_113_250",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:07:46.80",
+        "end_time": "00:07:47.80",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "faucet",
+          "memory_name": "sink faucet"
+        }
+      },
+      {
+        "narration_id": "P04_113_251",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:07:47.90",
+        "end_time": "00:07:48.74",
+        "enriched_narration": "turn on silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "faucet",
+          "memory_name": "sink faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 21.1,
+    "primary_objects": [
+      "jar",
+      "jar rim",
+      "tap",
+      "water",
+      "sauce"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "fill-with",
+      "empty",
+      "inspect",
+      "shake-out"
+    ]
+  },
+  {
+    "task_id": "plan_P04_113_037",
+    "participant_id": "P04",
+    "video_id": "P04_113",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P04 clean the tupperware and food remnants thoroughly.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_113_333",
+        "narration": "dip tupperware tub in water",
+        "verb": "dip",
+        "noun": "tub:tupperware",
+        "start_time": "00:10:22.62",
+        "end_time": "00:10:23.34"
+      },
+      {
+        "narration_id": "P04_113_334",
+        "narration": "wash tupperware tub",
+        "verb": "wash",
+        "noun": "tub:tupperware",
+        "start_time": "00:10:23.38",
+        "end_time": "00:10:26.59"
+      },
+      {
+        "narration_id": "P04_113_335",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:10:26.98",
+        "end_time": "00:10:27.37",
+        "enriched_narration": "turn off silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "faucet",
+          "memory_name": "sink faucet"
+        }
+      },
+      {
+        "narration_id": "P04_113_336",
+        "narration": "wash tupperware tub",
+        "verb": "wash",
+        "noun": "tub:tupperware",
+        "start_time": "00:10:27.91",
+        "end_time": "00:10:33.32"
+      },
+      {
+        "narration_id": "P04_113_337",
+        "narration": "pick food off tupperware tub",
+        "verb": "pick-off",
+        "noun": "food",
+        "start_time": "00:10:40.00",
+        "end_time": "00:10:41.81",
+        "enriched_narration": "pick white plastic food off tupperware tub in hand",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "food_packaging",
+          "memory_name": "food_packaging"
+        }
+      },
+      {
+        "narration_id": "P04_113_338",
+        "narration": "pick food off tupperware tub",
+        "verb": "pick-off",
+        "noun": "food",
+        "start_time": "00:10:41.92",
+        "end_time": "00:10:49.75",
+        "enriched_narration": "pick white plastic food off tupperware tub in hand",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "food_packaging",
+          "memory_name": "food_packaging"
+        }
+      },
+      {
+        "narration_id": "P04_113_339",
+        "narration": "dip sponge in water",
+        "verb": "dip",
+        "noun": "sponge",
+        "start_time": "00:10:49.85",
+        "end_time": "00:10:50.47",
+        "enriched_narration": "dip yellow foam sponge in water in sink",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "in sink",
+          "memory_id": "sponge",
+          "memory_name": "foam sponge"
+        }
+      },
+      {
+        "narration_id": "P04_113_340",
+        "narration": "wash tupperware tub",
+        "verb": "wash",
+        "noun": "tub:tupperware",
+        "start_time": "00:10:50.37",
+        "end_time": "00:10:51.68"
+      },
+      {
+        "narration_id": "P04_113_341",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:10:52.59",
+        "end_time": "00:10:53.58",
+        "enriched_narration": "turn on silver metal tap on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "faucet",
+          "memory_name": "sink faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 31,
+    "primary_objects": [
+      "tupperware tub",
+      "tap",
+      "food",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "wash",
+      "dip",
+      "pick-off",
+      "turn-off",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P04_116_004",
+    "participant_id": "P04",
+    "video_id": "P04_116",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P04 scramble the egg in the saucepan, ensuring it doesn't stick.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_116_35",
+        "narration": "scrape egg off bottom of saucepan",
+        "verb": "scrape-off",
+        "noun": "egg",
+        "start_time": "00:00:57.07",
+        "end_time": "00:00:58.12",
+        "enriched_narration": "scrape white plastic egg off bottom of saucepan on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_37",
+        "narration": "lower saucepan",
+        "verb": "lower",
+        "noun": "saucepan",
+        "start_time": "00:00:59.46",
+        "end_time": "00:01:00.61",
+        "enriched_narration": "lower black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_38",
+        "narration": "stir egg in pan using spatula",
+        "verb": "stir-in",
+        "noun": "egg",
+        "start_time": "00:01:00.71",
+        "end_time": "00:01:09.16",
+        "enriched_narration": "stir white plastic egg in pan using spatula on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_39",
+        "narration": "let go of saucepan handle",
+        "verb": "let",
+        "noun": "handle:saucepan",
+        "start_time": "00:01:06.53",
+        "end_time": "00:01:09.84",
+        "enriched_narration": "let go of saucepan handle on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pan",
+          "memory_name": "pan"
+        }
+      },
+      {
+        "narration_id": "P04_116_40",
+        "narration": "hold onto saucepan",
+        "verb": "hold-onto",
+        "noun": "saucepan",
+        "start_time": "00:01:09.92",
+        "end_time": "00:01:15.10",
+        "enriched_narration": "hold onto black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_41",
+        "narration": "tilt saucepan",
+        "verb": "tilt",
+        "noun": "saucepan",
+        "start_time": "00:01:15.50",
+        "end_time": "00:01:17.48",
+        "enriched_narration": "tilt black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_42",
+        "narration": "scrape egg off bottom of saucepan with spatula",
+        "verb": "scrape-off",
+        "noun": "egg",
+        "start_time": "00:01:17.32",
+        "end_time": "00:01:21.10",
+        "enriched_narration": "scrape white plastic egg off bottom of saucepan with spatula on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_43",
+        "narration": "untilt saucepan",
+        "verb": "untilt",
+        "noun": "saucepan",
+        "start_time": "00:01:27.00",
+        "end_time": "00:01:28.49",
+        "enriched_narration": "untilt black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_44",
+        "narration": "stir egg in pan using spatula",
+        "verb": "stir-in",
+        "noun": "egg",
+        "start_time": "00:01:28.59",
+        "end_time": "00:01:32.17",
+        "enriched_narration": "stir white plastic egg in pan using spatula on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 35.1,
+    "primary_objects": [
+      "egg",
+      "saucepan",
+      "saucepan handle"
+    ],
+    "primary_verbs": [
+      "scrape-off",
+      "stir-in",
+      "lower",
+      "let",
+      "hold-onto"
+    ]
+  },
+  {
+    "task_id": "plan_P04_116_005",
+    "participant_id": "P04",
+    "video_id": "P04_116",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P04 cook the egg in the saucepan, stirring and scraping as needed.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_116_45",
+        "narration": "tilt saucepan",
+        "verb": "tilt",
+        "noun": "saucepan",
+        "start_time": "00:01:29.51",
+        "end_time": "00:01:32.08",
+        "enriched_narration": "tilt black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_47",
+        "narration": "stir egg in pan using spatula",
+        "verb": "stir-in",
+        "noun": "egg",
+        "start_time": "00:01:32.63",
+        "end_time": "00:01:35.25",
+        "enriched_narration": "stir white plastic egg in pan using spatula on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_46",
+        "narration": "scrape egg off bottom of pan",
+        "verb": "scrape-off",
+        "noun": "egg",
+        "start_time": "00:01:33.98",
+        "end_time": "00:01:35.91",
+        "enriched_narration": "scrape white plastic egg off bottom of pan on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_48",
+        "narration": "tilt saucepan",
+        "verb": "tilt",
+        "noun": "saucepan",
+        "start_time": "00:01:35.35",
+        "end_time": "00:01:40.52",
+        "enriched_narration": "tilt black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_50",
+        "narration": "lower saucepan",
+        "verb": "lower",
+        "noun": "saucepan",
+        "start_time": "00:01:40.57",
+        "end_time": "00:01:41.56",
+        "enriched_narration": "lower black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P04_116_49",
+        "narration": "scrape egg off bottom of pan",
+        "verb": "scrape-off",
+        "noun": "egg",
+        "start_time": "00:01:40.62",
+        "end_time": "00:01:56.56",
+        "enriched_narration": "scrape white plastic egg off bottom of pan on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_51",
+        "narration": "stir egg in pan using spatula",
+        "verb": "stir-in",
+        "noun": "egg",
+        "start_time": "00:01:40.72",
+        "end_time": "00:01:51.70",
+        "enriched_narration": "stir white plastic egg in pan using spatula on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on counter",
+          "memory_id": "egg_carton",
+          "memory_name": "closed egg carton"
+        }
+      },
+      {
+        "narration_id": "P04_116_52",
+        "narration": "hold onto saucepan handle",
+        "verb": "hold-onto",
+        "noun": "handle:saucepan",
+        "start_time": "00:01:46.31",
+        "end_time": "00:01:56.60",
+        "enriched_narration": "hold onto saucepan handle on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pan",
+          "memory_name": "pan"
+        }
+      },
+      {
+        "narration_id": "P04_116_53",
+        "narration": "tilt saucepan",
+        "verb": "tilt",
+        "noun": "saucepan",
+        "start_time": "00:01:54.00",
+        "end_time": "00:01:56.76",
+        "enriched_narration": "tilt black metal saucepan on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 27.2,
+    "primary_objects": [
+      "saucepan",
+      "egg",
+      "saucepan handle"
+    ],
+    "primary_verbs": [
+      "tilt",
+      "stir-in",
+      "scrape-off",
+      "lower",
+      "hold-onto"
+    ]
+  },
+  {
+    "task_id": "plan_P04_117_001",
+    "participant_id": "P04",
+    "video_id": "P04_117",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P04 prepare and toast bread using the toaster and chopping board.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_117_9",
+        "narration": "turn on toaster",
+        "verb": "turn-on",
+        "noun": "toaster",
+        "start_time": "00:00:24.55",
+        "end_time": "00:00:25.57",
+        "enriched_narration": "turn on brown bread toaster on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on countertop",
+          "memory_id": "countertop_toaster",
+          "memory_name": "toaster"
+        }
+      },
+      {
+        "narration_id": "P04_117_10",
+        "narration": "push down toaster lever",
+        "verb": "push",
+        "noun": "lever:toaster",
+        "start_time": "00:00:25.67",
+        "end_time": "00:00:26.91",
+        "enriched_narration": "push down toaster lever on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on countertop",
+          "memory_id": "countertop_toaster",
+          "memory_name": "toaster"
+        }
+      },
+      {
+        "narration_id": "P04_117_11",
+        "narration": "push down toaster lever",
+        "verb": "push",
+        "noun": "lever:toaster",
+        "start_time": "00:00:27.01",
+        "end_time": "00:00:29.00",
+        "enriched_narration": "push down toaster lever on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on countertop",
+          "memory_id": "countertop_toaster",
+          "memory_name": "toaster"
+        }
+      },
+      {
+        "narration_id": "P04_117_12",
+        "narration": "unplug plug",
+        "verb": "unplug",
+        "noun": "plug",
+        "start_time": "00:00:28.76",
+        "end_time": "00:00:30.44"
+      },
+      {
+        "narration_id": "P04_117_13",
+        "narration": "plug in toaster",
+        "verb": "plug-in",
+        "noun": "toaster",
+        "start_time": "00:00:30.10",
+        "end_time": "00:00:32.66",
+        "enriched_narration": "plug in brown bread toaster on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on countertop",
+          "memory_id": "countertop_toaster",
+          "memory_name": "toaster"
+        }
+      },
+      {
+        "narration_id": "P04_117_14",
+        "narration": "turn on toaster",
+        "verb": "turn-on",
+        "noun": "toaster",
+        "start_time": "00:00:33.27",
+        "end_time": "00:00:34.13",
+        "enriched_narration": "turn on brown bread toaster on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on countertop",
+          "memory_id": "countertop_toaster",
+          "memory_name": "toaster"
+        }
+      },
+      {
+        "narration_id": "P04_117_18",
+        "narration": "slide bread",
+        "verb": "slide",
+        "noun": "bread",
+        "start_time": "00:00:34.00",
+        "end_time": "00:00:38.20",
+        "enriched_narration": "slide brown bread bread on plate",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on plate",
+          "memory_id": "countertop_bread",
+          "memory_name": "bread"
+        }
+      },
+      {
+        "narration_id": "P04_117_15",
+        "narration": "hold onto bread",
+        "verb": "hold-onto",
+        "noun": "bread",
+        "start_time": "00:00:34.16",
+        "end_time": "00:00:35.40",
+        "enriched_narration": "hold onto brown bread bread on plate",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on plate",
+          "memory_id": "countertop_bread",
+          "memory_name": "bread"
+        }
+      },
+      {
+        "narration_id": "P04_117_16",
+        "narration": "slide bread in chopping board",
+        "verb": "slide",
+        "noun": "bread",
+        "start_time": "00:00:35.14",
+        "end_time": "00:00:35.85",
+        "enriched_narration": "slide brown bread bread in chopping board on plate",
+        "matched_object": {
+          "color": "brown",
+          "material": "bread",
+          "location": "on plate",
+          "memory_id": "countertop_bread",
+          "memory_name": "bread"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 11.3,
+    "primary_objects": [
+      "toaster",
+      "bread",
+      "toaster lever",
+      "plug"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "push",
+      "slide",
+      "unplug",
+      "plug-in"
+    ]
+  },
+  {
+    "task_id": "plan_P04_117_012",
+    "participant_id": "P04",
+    "video_id": "P04_117",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P04 cook eggs and place them on bread.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P04_117_108",
+        "narration": "lay eggs on slice of bread",
+        "verb": "lay-on",
+        "noun": "egg",
+        "start_time": "00:03:56.10",
+        "end_time": "00:03:59.50",
+        "enriched_narration": "lay yellow scrambled eggs eggs on slice of bread on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_109",
+        "narration": "gather eggs in pan with spatula",
+        "verb": "gather-in",
+        "noun": "egg",
+        "start_time": "00:04:00.19",
+        "end_time": "00:04:01.17",
+        "enriched_narration": "gather yellow scrambled eggs eggs in pan with spatula on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_110",
+        "narration": "scoop egg out of pan with spatula",
+        "verb": "scoop-out",
+        "noun": "egg",
+        "start_time": "00:04:01.55",
+        "end_time": "00:04:02.30",
+        "enriched_narration": "scoop yellow scrambled eggs egg out of pan with spatula on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_111",
+        "narration": "shake eggs onto slice of bread",
+        "verb": "shake-onto",
+        "noun": "egg",
+        "start_time": "00:04:02.75",
+        "end_time": "00:04:03.90",
+        "enriched_narration": "shake yellow scrambled eggs eggs onto slice of bread on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_112",
+        "narration": "wipe eggs off spatula using side of pan",
+        "verb": "wipe-off",
+        "noun": "egg",
+        "start_time": "00:04:04.10",
+        "end_time": "00:04:04.85",
+        "enriched_narration": "wipe yellow scrambled eggs eggs off spatula using side of pan on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_113",
+        "narration": "scoop up eggs with spatula",
+        "verb": "scoop-up",
+        "noun": "egg",
+        "start_time": "00:04:04.95",
+        "end_time": "00:04:05.75",
+        "enriched_narration": "scoop up yellow scrambled eggs eggs with spatula on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_114",
+        "narration": "lay eggs onto bread",
+        "verb": "lay-onto",
+        "noun": "egg",
+        "start_time": "00:04:06.19",
+        "end_time": "00:04:06.74",
+        "enriched_narration": "lay yellow scrambled eggs eggs onto bread on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_115",
+        "narration": "scoop eggs using spatula",
+        "verb": "scoop",
+        "noun": "egg",
+        "start_time": "00:04:08.19",
+        "end_time": "00:04:11.24",
+        "enriched_narration": "scoop yellow scrambled eggs eggs using spatula on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      },
+      {
+        "narration_id": "P04_117_116",
+        "narration": "lay eggs onto bread",
+        "verb": "lay-onto",
+        "noun": "egg",
+        "start_time": "00:04:11.49",
+        "end_time": "00:04:14.34",
+        "enriched_narration": "lay yellow scrambled eggs eggs onto bread on plate",
+        "matched_object": {
+          "color": "yellow",
+          "material": "scrambled eggs",
+          "location": "on plate",
+          "memory_id": "scrambled_eggs",
+          "memory_name": "scrambled eggs"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 18.2,
+    "primary_objects": [
+      "egg"
+    ],
+    "primary_verbs": [
+      "lay-onto",
+      "lay-on",
+      "gather-in",
+      "scoop-out",
+      "shake-onto"
+    ]
+  }
+]

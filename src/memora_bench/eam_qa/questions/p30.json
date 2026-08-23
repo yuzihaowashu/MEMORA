@@ -1,0 +1,5244 @@
+{
+  "questions": [
+    {
+      "question_id": "p30_q0000",
+      "question": "When P30 has just set a bowl down during cleanup, what do they seem to prefer doing next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stacks it with other dishes",
+        "Leaves it nearby to air-dry",
+        "Rinses it again in the sink",
+        "Lifts it again to dry it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Lifts it again to dry it",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0001",
+      "question": "What is P30's broader setup style when preparing hot drinks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 prepares only cold ingredients and skips kettle setup until serving.",
+        "P30 finishes cup assembly completely before thinking about heating water.",
+        "P30 gets kettle water underway early while organizing drink components.",
+        "P30 alternates kettle filling with eating and returns to the drink later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 gets kettle water underway early while organizing drink components.",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_103",
+        "P30_101",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0002",
+      "question": "What is P30's fridge-management style when handling stored food?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 removes all chilled items at once and keeps the fridge open throughout.",
+        "P30 avoids the fridge during active cooking and uses only shelf-stable items.",
+        "P30 opens the fridge repeatedly for single items without checking anything else.",
+        "P30 clusters fridge access around taking, storing, and checking chilled items.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 clusters fridge access around taking, storing, and checking chilled items.",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_101",
+        "P30_111",
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0003",
+      "question": "What is P30's serving setup strategy for coffee brewing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 places the filter in the mug itself and skips the V60 dripper.",
+        "P30 brews coffee in a separate pot and transfers it to the mug later.",
+        "P30 keeps the dripper stored away until after hot water has been poured.",
+        "P30 assembles the V60 directly on the mug before adding coffee and water.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 assembles the V60 directly on the mug before adding coffee and water.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0004",
+      "question": "When getting a paper coffee filter ready for use, what shaping method does P30 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses it before putting it in",
+        "Folds it, then opens it out",
+        "Trims it to fit the cone",
+        "Places it flat in the holder",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Folds it, then opens it out",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0005",
+      "question": "What is P30's strategy for preparing the sink area before washing-up?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 fills the sink first and soaks everything before handling individual items.",
+        "P30 moves dirty items straight to storage and delays sink setup until later.",
+        "P30 leaves the basin untouched and washes each item directly in the sink.",
+        "P30 empties and rinses the washing-up bowl before continuing with dishes.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 empties and rinses the washing-up bowl before continuing with dishes.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_111",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0006",
+      "question": "When P30 is about to set the teapot aside, what step do they take first?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dries the teapot off",
+        "Fills the teapot with water",
+        "Rinses the teapot again",
+        "Places the teapot on heat",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Dries the teapot off",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0007",
+      "question": "When P30 finishes drying a spoon, what do they typically do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Set it on the drying rack",
+        "Place it back in the sink",
+        "Leave it out on the counter",
+        "Put it away in a drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Put it away in a drawer",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0008",
+      "question": "What is P30's approach after cleaning mugs?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 dries mugs fully and returns them straight into the cupboard.",
+        "P30 reuses rinsed mugs immediately for another drink without setting them down.",
+        "P30 leaves mugs in the washing-up bowl until the entire sink is clear.",
+        "P30 places cleaned mugs onto a drying surface rather than immediate storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 places cleaned mugs onto a drying surface rather than immediate storage.",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114",
+        "P30_109",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0009",
+      "question": "Across videos, when P30 prepares an oven tray with oil, what style of oil application is used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pours bottled oil",
+        "Sprays canned oil",
+        "Rubs with paper",
+        "Brushes melted butter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Opens an oil bottle and pours oil.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0010",
+      "question": "What is P30's approach to edible waste before continuing with other kitchen work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 leaves scraps on plates until the final full cleanup at the end.",
+        "P30 stores food waste temporarily in bowls beside the sink.",
+        "P30 wraps all scraps in paper before putting anything into the bin.",
+        "P30 clears small waste directly to the bin before washing or preparing more.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 clears small waste directly to the bin before washing or preparing more.",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114",
+        "P30_110",
+        "P30_109",
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0011",
+      "question": "After cutting a pepper, what does P30 typically do next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wipes the cutting board",
+        "picks up the pepper",
+        "moves the knife away",
+        "leaves the pepper on board",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "picks up the pepper",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0012",
+      "question": "What is P30's coffee-filter setup strategy?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 takes paper filters from storage and hand-prepares one for the dripper.",
+        "P30 keeps a reusable metal filter in the dripper and skips paper setup.",
+        "P30 brews directly into the mug without using a separate dripper filter.",
+        "P30 preloads several paper filters together before choosing one for brewing.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 takes paper filters from storage and hand-prepares one for the dripper.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0013",
+      "question": "Across videos, which coffee-making setup does P30 repeatedly return to for brewed coffee?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use instant granules",
+        "Use a V60 dripper",
+        "Use an espresso maker",
+        "Use a cafetiere pot",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 uses a V60 dripper placed with a mug.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_103",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0014",
+      "question": "When cleaning a bowl at the sink, what method does P30 appear to use before putting it aside?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sprays the bowl, shakes it, then towels it",
+        "Wipes the bowl, dries it, then shelves it",
+        "Soaks the bowl, drains it, then racks it",
+        "Rinses the bowl, scrubs it, then rinses again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Rinses the bowl, scrubs it, then rinses again",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0015",
+      "question": "When getting a pan ready with olive oil, what method did P30 use to coat it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves the poured oil around the pan.",
+        "Wipes the surface using a paper towel.",
+        "Brushes the surface with a pastry brush.",
+        "Sprays a thin layer across the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Moves the poured oil around the pan.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0016",
+      "question": "When P30 clears small food debris from a surface, what is their clearing approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They brush debris straight onto the floor and sweep it later.",
+        "They use a board to gather debris before tipping it into the food bin.",
+        "They vacuum the counter area before returning to food preparation.",
+        "They leave crumbs until the end and clean the full kitchen at once.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "They use a board to gather debris before tipping it into the food bin.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0017",
+      "question": "When P30 opens the bread box, what do they typically remove next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Take out a bread roll",
+        "Take out pitta bread",
+        "Take out sliced bread",
+        "Take out a plain bagel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Take out pitta bread",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0018",
+      "question": "Across sessions, when P30 has just opened a cupboard while getting crockery, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take plate",
+        "take sponge",
+        "open fridge",
+        "rinse mug",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take plate",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_107",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0019",
+      "question": "What is P30's workflow strategy around preparing the prawns in this segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves the chicken first, cuts the prawns, then starts seasoning immediately.",
+        "Bins trash first, cuts the prawns, then cleans hands before switching.",
+        "Keeps the trash nearby, cuts the prawns, and saves cleanup for later.",
+        "Seasons the prawns first, handles chicken, and cleans only at the end.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Bins trash first, cuts the prawns, then cleans hands before switching.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0020",
+      "question": "Across sink-work videos, how does P30 manage water while rinsing and washing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leave tap running",
+        "Use bowl only",
+        "Use bottled water",
+        "Cycle tap on-off",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 uses short tap cycles rather than leaving it running.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_103",
+        "P30_107",
+        "P30_108",
+        "P30_109",
+        "P30_111",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0021",
+      "question": "When P30 picks up a cup at the sink, what do they tend to do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Run water over the cup",
+        "Fill it with a drink",
+        "Wipe it with a towel",
+        "Set it on the drying rack",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Run water over the cup",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0022",
+      "question": "Across tidying videos, what does P30 do with empty packaging or containers that are not being kept?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wash for reuse",
+        "Put in recycling box",
+        "Leave on counter",
+        "Put in general bin",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 puts recyclable containers into a recycling box.",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0023",
+      "question": "What is P30's approach to gathering vegetables for use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Checks the vegetables first, leaves the packet aside, then chooses a mixed handful.",
+        "Picks a single vegetable directly, then looks for a packet to carry it.",
+        "Gets a packet ready, searches the vegetables, then selects lady's fingers.",
+        "Sorts several vegetables on the counter first, then decides what to keep.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gets a packet ready, searches the vegetables, then selects lady's fingers.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p23",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0024",
+      "question": "Across tea-related videos, what equipment does P30 handle for loose or strained tea tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use saucepan brew",
+        "Use teapot strainer",
+        "Use tea pods",
+        "Use kettle only",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 uses a teapot and tea strainer setup.",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104",
+        "P30_107",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0025",
+      "question": "What is P30's strategy for collecting dirty dishes before washing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 collects used items in the washing-up bowl before detailed washing.",
+        "P30 puts dirty items straight into cupboards and washes them later.",
+        "P30 leaves dirty items on the table until the next meal begins.",
+        "P30 washes every item immediately at the place where it was used.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 collects used items in the washing-up bowl before detailed washing.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_107",
+        "P30_110",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0026",
+      "question": "What is P30's washing-up workflow for individual dishes?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 runs dishes through an appliance and avoids hand-scrubbing at the sink.",
+        "P30 wipes dishes with a towel and only rinses them if food remains.",
+        "P30 soaks a large batch first and scrubs everything after a long wait.",
+        "P30 handles single items with the sponge rather than building a large batch.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 handles single items with the sponge rather than building a large batch.",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_108",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0027",
+      "question": "Across videos, what implement does P30 typically choose when cleaning plates, bowls, mugs, and cutlery?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use a dish brush",
+        "Use a cloth rag",
+        "Use a sponge pad",
+        "Use steel wool",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 uses a sponge for washing up.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_107",
+        "P30_108",
+        "P30_111",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0028",
+      "question": "When handling the chopped pepper pieces after cutting, where does P30 move them after bringing them together?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "moves them into a frying pan",
+        "sets them onto a plate",
+        "puts them into a bowl",
+        "spreads them across the cutting board",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "puts them into a bowl",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0029",
+      "question": "Across grocery-tidying videos, what does P30 do with chilled purchases after taking them from bags?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Put them in fridge",
+        "Sort them on counter",
+        "Leave them in bag",
+        "Put them in pantry",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 opens the fridge and puts chilled items away.",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109",
+        "P30_110",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0030",
+      "question": "In video P30_???, P30 handled their hands after rinsing them. What did they do with them next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They dried their hands, and immediately afterward they shook their hands.",
+        "They shook their hands, and immediately afterward they dried their hands.",
+        "They shook their hands, and immediately afterward they rinsed their hands.",
+        "They rinsed their hands, and immediately afterward they dried their hands.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They shook their hands, and immediately afterward they dried their hands.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0031",
+      "question": "What is P30's approach to getting a used glass ready again?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Gives it a cleaning pass, then follows with a wash.",
+        "Wipes it briefly with a cloth and continues using it.",
+        "Washes it once and places it aside without extra handling.",
+        "Leaves it near the sink to clean with other dishes later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gives it a cleaning pass, then follows with a wash.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p23",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0032",
+      "question": "Across drawer-use sessions, when P30 has just opened a drawer, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pour coffee",
+        "close fridge",
+        "pick-up spoon",
+        "put-on mug",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick-up spoon",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_109",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0033",
+      "question": "What is P30's hot-water setup strategy across drink-making tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 heats small amounts in a mug before pouring them into the kettle.",
+        "P30 keeps prefilled kettle water ready and rarely refills during the task.",
+        "P30 fills the kettle directly under the tap before starting other drink items.",
+        "P30 uses a jug as the water-transfer tool before filling the kettle.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 uses a jug as the water-transfer tool before filling the kettle.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_108",
+        "P30_109",
+        "P30_101",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0034",
+      "question": "What is P30's approach to soap during dishwashing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 avoids detergent and relies on hot water for all dish cleaning.",
+        "P30 applies soap only after dishes have already been fully rinsed clean.",
+        "P30 fills the entire sink with detergent and soaks everything first.",
+        "P30 prepares the sponge with washing-up liquid before scrubbing items.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 prepares the sponge with washing-up liquid before scrubbing items.",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_107",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0035",
+      "question": "In video P30_103, P30 handled a fork. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the fork and put it back into the drawer.",
+        "They picked up the fork and set it beside the washing up bowl.",
+        "They opened the drawer and put the fork down inside it.",
+        "They picked up the fork and put it into the washing up bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the fork and put it into the washing up bowl.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0036",
+      "question": "What is P30's strategy for freeing the drying area during cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 clears or stores bulky dry items to make space for newly washed items.",
+        "P30 avoids the drying rack and dries every item with paper towels.",
+        "P30 piles newly washed items on top of whatever is already drying.",
+        "P30 stops washing once the rack is full and waits for it to empty.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 clears or stores bulky dry items to make space for newly washed items.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_108"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0037",
+      "question": "What was P30 doing in video P30_114?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinsed sauce pan after cooking pasta",
+        "Scrubbed salad bowl after scraping remnants",
+        "Packed leftovers into plastic container",
+        "Tossed fresh salad in serving bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Scrubbed salad bowl after scraping remnants",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0038",
+      "question": "When P30 takes hold of the teapot during cleanup, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dries the teapot off",
+        "sets the teapot on stove",
+        "fills the teapot with water",
+        "places the teapot in cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "dries the teapot off",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0039",
+      "question": "When P30 is handling a jug at the sink, what pattern do they seem to favor?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses the jug briefly, then stores it",
+        "Uses a cup instead of handling the jug",
+        "Refills the jug after pouring it out",
+        "Fills the jug once, then sets it aside",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Refills the jug after pouring it out",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0040",
+      "question": "What is P30's quality-control habit with stored ingredients?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 uses sensory checks before deciding how to proceed with stored items.",
+        "P30 cooks questionable ingredients first and evaluates them only after heating.",
+        "P30 relies entirely on package dates and never examines items during use.",
+        "P30 discards stored items automatically once they have been opened before.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 uses sensory checks before deciding how to proceed with stored items.",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111",
+        "P30_109",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0041",
+      "question": "Across sink videos, what does P30 usually do with hands during messy food prep and washing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipe on apron",
+        "Wash at tap",
+        "Use paper wipes",
+        "Use sanitizer only",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 washes and rinses hands at the tap.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0042",
+      "question": "During this storage-area moment, what does P30 seem to do while checking the cupboards?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "moves to the counter before checking storage",
+        "keeps one cupboard open while checking elsewhere",
+        "opens one cupboard, then shuts it and leaves",
+        "shuts a cupboard, then opens cupboards again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shuts a cupboard, then opens cupboards again",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0043",
+      "question": "Across videos, where does P30 return saucepans or similar cookware after tidying?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Store in cupboard",
+        "Leave on hob",
+        "Hang on rail",
+        "Stack in sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 stores cookware in a cupboard.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0044",
+      "question": "Across hand-washing moments, when P30 has just washed a hand, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open oven",
+        "rinse hand",
+        "take pitta",
+        "close fridge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "rinse hand",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_108",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0045",
+      "question": "How does P30 handle small utensil cleanup across dishwashing sessions?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washes only one utensil, dries it, and stores it before continuing.",
+        "Puts utensils straight into storage and delays washing entirely.",
+        "Soaks all utensils in a bowl and returns to them much later.",
+        "Washes several small utensils together in a grouped cleanup pass.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes several small utensils together in a grouped cleanup pass.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 8,
+      "is_unanswerable": true,
+      "source_participant": "p01",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0046",
+      "question": "What is P30's storage style for mugs that are already clean?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 washes clean mugs again before choosing where to place them.",
+        "P30 hangs or places clean mugs on a dedicated mug holder.",
+        "P30 leaves clean mugs loose on the main preparation surface.",
+        "P30 stores clean mugs stacked inside bowls near the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 hangs or places clean mugs on a dedicated mug holder.",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0047",
+      "question": "How does P30 manage the transition from handling chicken to using other ingredients?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cuts the chicken, sets tools aside, and keeps working without cleaning.",
+        "Seasons first, then cuts the chicken and washes afterward.",
+        "Cuts the chicken, cleans hands, then reaches for condiments.",
+        "Cleans hands first, gathers condiments, then cuts the chicken.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cuts the chicken, cleans hands, then reaches for condiments.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0048",
+      "question": "In video P30_113, P30 handled a glass. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They drank from the glass, put the glass down, and then washed the glass.",
+        "They rinsed the glass, put the glass down, and then washed the plates.",
+        "They washed the glass first, drank from the glass, and then put the glass down.",
+        "They put the glass down, rinsed the glass, and then drank from the glass.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They drank from the glass, put the glass down, and then washed the glass.",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0049",
+      "question": "What was P30 doing in video P30_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed saucepan at kitchen sink",
+        "Organized cutlery in kitchen drawer",
+        "Wiped fridge shelf with cloth",
+        "Sliced bread on cutting board",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Organized cutlery in kitchen drawer",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 16,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0050",
+      "question": "After P30 closes the coffee bean container, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "sets the tin aside",
+        "picks the tin up",
+        "wipes the tin lid",
+        "opens the tin again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "picks the tin up",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0051",
+      "question": "When starting to clean the saucepan, what does P30 choose to add into it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "A sprinkle of table salt",
+        "A splash of plain tap water",
+        "A squeeze of washing-up liquid",
+        "A spoonful of baking soda",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "A squeeze of washing-up liquid",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0052",
+      "question": "In video P30_???, P01 handled a knife. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They lathered the knife, picked it up, and put it down.",
+        "They picked up the knife, lathered it, and rinsed it.",
+        "They picked up the knife, rinsed it, and put it down.",
+        "They picked up the knife, put it down, and rinsed it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the knife, lathered it, and rinsed it.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0053",
+      "question": "In video P30_101, P30 handled the sponge. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They turned on the tap, rinsed the sponge, and applied washing up liquid.",
+        "They closed the kettle, turned on the tap, and then rinsed the sponge.",
+        "They picked up the plate, closed the kettle, and then rinsed the sponge.",
+        "They turned on the tap, picked up the plate, and then closed the kettle.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They turned on the tap, rinsed the sponge, and applied washing up liquid.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0054",
+      "question": "What was P30 doing in video P30_103?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleaned sink after washing dishes",
+        "Toasted bread and spread butter",
+        "Prepared loose-leaf tea in teapot",
+        "Prepared V60 coffee with filter and grinder",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Prepared V60 coffee with filter and grinder",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0055",
+      "question": "After P30 empty washing up bowl during dish cleanup, what is the next recurring sink action?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap at sink",
+        "pick-up towel to dry",
+        "open drawer for cutlery",
+        "close cupboard above sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_111",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0056",
+      "question": "When P30 was checking the storage area, what order did they favor with the cupboard doors?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens one cupboard and leaves it open",
+        "Checks a drawer instead of the cupboard doors",
+        "Closes one cupboard before opening the next one",
+        "Opens two cupboards before closing either door",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Opens two cupboards before closing either door",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0057",
+      "question": "In video P30_???, P30 handled the bowl. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They filled the bowl and then poured it out.",
+        "They picked up the bowl and put it down.",
+        "They filled the bowl and then set it down.",
+        "They moved the tap and then picked up the bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They filled the bowl and then poured it out.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0058",
+      "question": "Across kettle-preparation sessions, when P30 has just picked up the jug, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take hummus",
+        "open drawer",
+        "turn-on tap",
+        "rinse fork",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_109",
+        "P30_108",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0059",
+      "question": "Across sink sessions, when P30 has just put the sponge down, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap",
+        "open fridge",
+        "close cupboard",
+        "take mushroom",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_108",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0060",
+      "question": "When P30 picks up the seasoning container during prep, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pour it into the mixing bowl",
+        "set it beside the cutting board",
+        "shake it over the hot pan",
+        "carry it back to the cabinet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pour it into the mixing bowl",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0061",
+      "question": "What is P30's approach to starting the pan cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Puts detergent on a sponge before scrubbing the pan.",
+        "Applies washing liquid directly onto the pan from the bottle.",
+        "Sets the pan aside to soak before adding detergent.",
+        "Adds water to the pan before using any detergent.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Applies washing liquid directly onto the pan from the bottle.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0062",
+      "question": "In video P30_111, P30 handled tonic water. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They took the tonic water from a bag, opened a cupboard, and placed the bottle there.",
+        "They took the tonic water from a bag, opened the teapot, and set the bottle beside it.",
+        "They took the tonic water from a bag, opened the fridge, and poured it into a cup.",
+        "They took the tonic water from a bag, opened the fridge, and put the bottle inside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They took the tonic water from a bag, opened the fridge, and put the bottle inside.",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0063",
+      "question": "Across dish-rinsing sessions, when P30 has just rinsed a plate, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rotate pizza",
+        "take noodles",
+        "put-on plate",
+        "open fridge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-on plate",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_101",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0064",
+      "question": "What is P30's broader approach when tidying while preparing drinks or food?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 leaves unrelated clutter untouched until the meal or drink is finished.",
+        "P30 stops all preparation until every kitchen item has been put away.",
+        "P30 folds tidying and storage tasks into the preparation workflow.",
+        "P30 clears only waste and avoids putting cookware or dishes into storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 folds tidying and storage tasks into the preparation workflow.",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_109",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0065",
+      "question": "Across sessions, when P30 has just filled the jug during kettle preparation, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open cupboard",
+        "rinse plate",
+        "pick-up sponge",
+        "turn-off tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-off tap",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_108",
+        "P30_113",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0066",
+      "question": "In video P30_114, P01 handled the fork. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the bowl, took the fork from it, and put the fork into the washing up bowl.",
+        "They took the fork from the bowl, scraped the salad remnants together, and scraped the remnants into the bin.",
+        "They scraped the salad remnants together, put the fork into the washing up bowl, and turned on the tap.",
+        "They took the fork from the bowl, put it into the washing up bowl, and turned on the tap.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They took the fork from the bowl, scraped the salad remnants together, and scraped the remnants into the bin.",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0067",
+      "question": "In video P30_110, P30 handled the bread bin. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They opened the fridge, took tupperware, and then put the bread bin in the cupboard.",
+        "They closed the bread bin, opened the fridge, and took tupperware from inside.",
+        "They closed the bread bin, opened the cupboard, and put the bread bin inside.",
+        "They put the lid on the bread bin, opened the fridge, and took tupperware afterward.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They closed the bread bin, opened the cupboard, and put the bread bin inside.",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0068",
+      "question": "Across cleanup videos, where does P30 usually send teabags, food scraps, or plate remnants?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Bag waste separately",
+        "Leave waste aside",
+        "Put waste in bin",
+        "Rinse waste away",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 puts the waste into the bin.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_109",
+        "P30_110",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0069",
+      "question": "Across washing-up videos, where does P30 place clean wet dishes or utensils after rinsing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Put in cupboard",
+        "Leave in basin",
+        "Use drying rack",
+        "Dry with paper",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 places them on or into the drying rack.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_104",
+        "P30_107",
+        "P30_113",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0070",
+      "question": "Across videos, how does P30 usually prepare coffee grounds before brewing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use coffee pods",
+        "Use ready-ground coffee",
+        "Crush beans by hand",
+        "Use an electric grinder",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 grinds coffee with a grinder before using the V60.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0071",
+      "question": "When P30 picks up a knife while tidying up, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse the knife in the sink",
+        "dry the knife before putting it away",
+        "place the knife on a rack",
+        "set the knife on the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "dry the knife before putting it away",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0072",
+      "question": "In video P30_104, P30 handled the kettle. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They opened the kettle, poured water from the jug into it, and then placed it down.",
+        "They opened the kettle, poured water from it, and then put the jug down.",
+        "They placed the kettle, put down the jug, and then opened the apple bag.",
+        "They opened the kettle, put down the jug, and then turned the kettle on.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They opened the kettle, poured water from the jug into it, and then placed it down.",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0073",
+      "question": "When serving warmed pies or baked pies, what destination does P30 prefer?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers pies onto a plate",
+        "Keeps pies in the pan",
+        "Places pies in a bowl",
+        "Wraps pies in paper",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Transfers the pies onto a plate.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0074",
+      "question": "Across videos, what method does P30 usually use when adding water to the kettle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Fill using a pan",
+        "Fill through a jug",
+        "Fill kettle directly",
+        "Fill with bottled water",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 fills a jug at the tap and pours from it into the kettle.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_103",
+        "P30_104",
+        "P30_108",
+        "P30_109",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0075",
+      "question": "In video P30_107, P30 handled the tea strainer. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the tea strainer and left it near the tea pot.",
+        "They rinsed the tea strainer and set it beside the tea pot.",
+        "They dried the tea strainer and put it in the tea pot.",
+        "They checked the tea strainer and moved it away from the tea pot.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They dried the tea strainer and put it in the tea pot.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0076",
+      "question": "Across mushroom-prep moments, when P30 has just chopped a mushroom, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pick-up jug",
+        "take mushroom",
+        "rinse mug",
+        "open cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take mushroom",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111",
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0077",
+      "question": "In video P30_110, P30 handled the tupperware. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the tupperware, then closed the drawer.",
+        "They closed the drawer, then picked up the tupperware.",
+        "They picked up the tupperware, then opened the cupboard.",
+        "They opened the cupboard, then picked up the tupperware.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the tupperware, then closed the drawer.",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0078",
+      "question": "Across cleanup videos, what surface does P30 use as the destination for washed glassware and tea items to air out?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Put on tea towel",
+        "Put in cupboard",
+        "Put on drying rack",
+        "Put beside kettle",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 places them on the drying-up or draining rack.",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104",
+        "P30_107",
+        "P30_113",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0079",
+      "question": "When getting a jug ready, what method does P30 seem to use before keeping water in it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Fills the jug, then pours it out",
+        "Wipes the jug with a cloth first",
+        "Places the jug straight on the counter",
+        "Adds soap and scrubs the inside",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Fills the jug, then pours it out",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0080",
+      "question": "When preparing toasted pitta for slicing, where does P30 set it down?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "On a dinner plate before cutting",
+        "On a chopping board before cutting",
+        "On the worktop surface before cutting",
+        "On the toaster tray before cutting",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "On a chopping board before cutting",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0081",
+      "question": "After P30 frees dough from the rolling pin, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dusts the dough with flour",
+        "Moves the dough to board",
+        "Flips the dough over",
+        "Folds the dough in half",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Flips the dough over",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0082",
+      "question": "In video P30_???, P30 handled salt. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the salt and poured it.",
+        "They opened the cupboard and picked up rice.",
+        "They picked up the salt and put it down.",
+        "They placed the pan and picked up salt.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the salt and poured it.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0083",
+      "question": "Across hand-rinsing moments, when P30 has just rinsed a hand, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take mushroom",
+        "put-on mug",
+        "turn-off tap",
+        "open kettle",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-off tap",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_108",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0084",
+      "question": "Across food-prep sessions, when P30 has just taken a mushroom, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "chop mushroom",
+        "open kettle",
+        "rinse fork",
+        "close fridge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "chop mushroom",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111",
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0085",
+      "question": "What is P30's cleanup approach for used tea items before washing mugs?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 removes tea waste to the bin before staging the mug for washing.",
+        "P30 leaves the teabag on the counter while cleaning the rest of the kitchen.",
+        "P30 rinses the mug with the teabag still inside and removes it afterward.",
+        "P30 saves the teabag in the mug for a second drink before cleanup.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 removes tea waste to the bin before staging the mug for washing.",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0086",
+      "question": "After P30 closes a bottle during this routine, what do they tend to do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Open the bottle right away",
+        "Set the bottle down nearby",
+        "Shake the bottle briefly",
+        "Rinse the bottle under tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set the bottle down nearby",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p23",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0087",
+      "question": "Across dishwashing sessions, when P30 has just picked up the sponge, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "scrub plate",
+        "open cupboard",
+        "take hummus",
+        "close fridge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "scrub plate",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_108",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0088",
+      "question": "What is P30's approach to storing a cutting board after tidying?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps the cutting board out for another preparation task.",
+        "Picks up the cutting board and puts it away in a cupboard.",
+        "Moves the cutting board to the sink for soaking first.",
+        "Leaves the cutting board upright on the counter to dry.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the cutting board and puts it away in a cupboard.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 8,
+      "is_unanswerable": true,
+      "source_participant": "p01",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0089",
+      "question": "When P30 is dealing with a fork at the sink, what cleaning method do they choose?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes the fork with cloth",
+        "Sprays the fork with soap",
+        "Scrubs the fork directly",
+        "Soaks the fork in water",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Scrubs the fork directly",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0090",
+      "question": "Across utensil-cleaning sessions, when P30 has just picked up a fork, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take teabag",
+        "open oven",
+        "fold filter",
+        "scrub fork",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "scrub fork",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114",
+        "P30_107",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0091",
+      "question": "When having pitta as a snack, how does P30 handle it before eating?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dips it into hummus before eating",
+        "Tops it with salad before eating",
+        "Eats it plain without adding anything",
+        "Spreads butter on it with a knife",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Dips it into hummus before eating",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0092",
+      "question": "What was P30 doing in video P30_110?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed a plate after eating toast",
+        "Toasted pitta bread during coffee preparation",
+        "Sliced pitta bread for sandwich filling",
+        "Ground coffee beans during breakfast prep",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Toasted pitta bread during coffee preparation",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0093",
+      "question": "Once P30 rinses a plate, what does P30 usually do with it in the repeated washing pattern?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take plate outside",
+        "put-on plate rack",
+        "scrub plate again",
+        "put-in plate drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-on plate",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0094",
+      "question": "After placing a teabag into the mug, how does P30 handle the tea packet in the observed routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers the packet into a drawer near the stove",
+        "Closes the packet and returns it to the cupboard",
+        "Leaves the packet open beside the mug on the counter",
+        "Sets the packet on a shelf next to the kettle",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Closes the packet and returns it to the cupboard",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0095",
+      "question": "When preparing mushrooms, what does P30 tend to do between cutting steps?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes the cutting board with cloth",
+        "Picks up another mushroom to cut",
+        "Moves the slices into a bowl",
+        "Rinses the knife at the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Picks up another mushroom to cut",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0096",
+      "question": "When P30 gathers pizza pieces while serving food, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "set them on a nearby cutting board",
+        "place them onto a serving plate",
+        "move them into a storage container",
+        "slide them back into the pizza box",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "place them onto a serving plate",
+      "video_id": "P30_112",
+      "video_ids": [
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0097",
+      "question": "What was P30 doing in video P30_107?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Scrubbed tea strainer at the kitchen sink",
+        "Filled teapot with hot water",
+        "Washed coffee filter holder at sink",
+        "Wiped crumbs from kitchen counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Scrubbed tea strainer at the kitchen sink",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0098",
+      "question": "Across dish-storage sessions, when P30 has just picked up a plate, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open cupboard",
+        "smell passata",
+        "turn-on grinder",
+        "close kettle",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "open cupboard",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109",
+        "P30_111",
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0099",
+      "question": "Across cleaning sessions, when P30 has just applied washing-up liquid, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take hummus",
+        "open cupboard",
+        "put-down washing up liquid",
+        "fold filter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-down liquid:washing:up",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_107",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0100",
+      "question": "Across bowl-washing sessions, when P30 has just rinsed a bowl, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open oven",
+        "fold filter",
+        "take apple",
+        "scrub bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "scrub bowl",
+      "video_id": "P30_114",
+      "video_ids": [
+        "P30_114",
+        "P30_108",
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0101",
+      "question": "Across bowl-handling sessions, when P30 has just picked up a bowl, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "close oven",
+        "dry bowl",
+        "smell passata",
+        "take filter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "dry bowl",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_109",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0102",
+      "question": "In video P30_101, P30 handled the tap. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They turned it on before closing the kettle.",
+        "They turned it on before rinsing the sponge.",
+        "They turned it on before putting down the jug.",
+        "They turned it on before opening the kettle.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They turned it on before rinsing the sponge.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0103",
+      "question": "In video P30_112, P30 handled the oven tray. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They opened the oven, moved the tray toward the hob, and left the oven open.",
+        "They turned off the oven, left the tray in place, and then put down the mitt.",
+        "They pulled the tray out of the oven, closed the oven, and put it back inside.",
+        "They pulled the tray out of the oven, put it on the hob, and closed the oven.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They pulled the tray out of the oven, put it on the hob, and closed the oven.",
+      "video_id": "P30_112",
+      "video_ids": [
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0104",
+      "question": "What was P30 doing in video P30_109?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stored tupperware in fridge after checking noodles",
+        "Organized clean plates in cupboard",
+        "Washed lunch container at sink",
+        "Reheated noodles in microwave-safe bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Stored tupperware in fridge after checking noodles",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0105",
+      "question": "When the jug has just been filled during drink preparation, what action does P30 typically take immediately afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "close cupboard above counter",
+        "turn-off tap beside sink",
+        "pick-up sponge from sink",
+        "open fridge beside counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-off tap",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_108",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0106",
+      "question": "What is P30's approach to clean cutlery after washing or tidying?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 leaves clean cutlery spread across the draining rack for later sorting.",
+        "P30 dries or gathers cutlery and returns it to the drawer during tidying.",
+        "P30 washes cutlery only after every larger dish has already been stored.",
+        "P30 places all cutlery into a mug and keeps it beside the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 dries or gathers cutlery and returns it to the drawer during tidying.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_101",
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0107",
+      "question": "What was P30 doing in video P30_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Poured soup into storage containers",
+        "Loaded dirty plates into dishwasher",
+        "Drained kale before washing cooking pot",
+        "Rinsed rice before filling cooking pot",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Drained kale before washing cooking pot",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0108",
+      "question": "What was P30 doing in video P30_108?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dried colander before washing a bowl",
+        "Mixed salad ingredients in a bowl",
+        "Dried clean plates with dish towel",
+        "Rinsed colander after draining pasta",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Dried colander before washing a bowl",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0109",
+      "question": "What is P30's approach to bread storage and retrieval?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 transfers bread to the fridge before using it for toast or meals.",
+        "P30 keeps bread loose on the counter for quick access during breakfast.",
+        "P30 uses the bread bin as the normal place for storing or retrieving bread.",
+        "P30 plates bread directly from packaging and avoids any storage container.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 uses the bread bin as the normal place for storing or retrieving bread.",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0110",
+      "question": "Across videos, what filtering approach does P30 choose for pour-over coffee?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use a metal cone",
+        "Skip filter paper",
+        "Fold a paper filter",
+        "Use a cloth sock",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 folds and opens a paper filter for the V60.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0111",
+      "question": "In video P30_112, P30 handled topping. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 picked up the topping and held it while drying hands.",
+        "P30 picked up the topping and rinsed it under the tap.",
+        "P30 picked up the topping and put it on top of the pizza.",
+        "P30 picked up the topping and left it by the tap.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "P30 picked up the topping and put it on top of the pizza.",
+      "video_id": "P30_112",
+      "video_ids": [
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0112",
+      "question": "What is P30's method for handling knives during cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stores knives immediately and cleans only forks and spoons.",
+        "Wipes knives dry without using the running-water washing flow.",
+        "Leaves knives soaking while finishing every plate and pan first.",
+        "Cleans the knife as its own active item before setting it aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans the knife as its own active item before setting it aside.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0113",
+      "question": "What is P30's loose-tea preparation strategy?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 brews leaves loose in a mug and strains them only after drinking.",
+        "P30 measures loose leaves by spooning them into the tea vessel.",
+        "P30 pours leaves directly from the packet without any measuring tool.",
+        "P30 uses only a disposable tea bag and avoids loose-leaf handling.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 measures loose leaves by spooning them into the tea vessel.",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0114",
+      "question": "What is P30's breakfast workflow when making coffee with toasted food?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 prepares the toasted food fully and postpones coffee until eating.",
+        "P30 interleaves the toaster task with fresh coffee preparation.",
+        "P30 skips fresh coffee when using the toaster and drinks tea instead.",
+        "P30 completes the entire coffee brew before starting any food item.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 interleaves the toaster task with fresh coffee preparation.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0115",
+      "question": "Across videos, where does P30 put clean spoons, forks, and similar utensils?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Store in drawer",
+        "Leave on rack",
+        "Put in a jar",
+        "Store in cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 opens a drawer and stores cutlery there.",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0116",
+      "question": "When portioning dry or liquid ingredients, what measuring approach appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Weighs every portion on a scale before starting the cooking process.",
+        "Measures with a cup or glass and adjusts the contents before adding them.",
+        "Pre-measures all ingredients into labeled bowls before entering the kitchen.",
+        "Estimates quantities by pouring directly from the original package.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Measures with a cup or glass and adjusts the contents before adding them.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???",
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0117",
+      "question": "What was P30 doing in video P30_104?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Prepared loose-leaf tea in teapot",
+        "Rinsed teacups at the kitchen sink",
+        "Prepared V60 coffee with paper filter",
+        "Sliced lemon wedges for drinks",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Prepared loose-leaf tea in teapot",
+      "video_id": "P30_104",
+      "video_ids": [
+        "P30_104"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0118",
+      "question": "What is P30's coffee preparation style before brewing through the dripper?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 brews old grounds left in the filter from the previous drink.",
+        "P30 grinds coffee freshly as part of the V60 brewing workflow.",
+        "P30 uses instant coffee and skips grinder and dripper preparation.",
+        "P30 buys preground coffee and pours it straight from the packet.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 grinds coffee freshly as part of the V60 brewing workflow.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0119",
+      "question": "When having a piece of pitta as a snack, what accompaniment does P30 use immediately before taking a bite?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Spreads it with butter",
+        "Dips it into hummus",
+        "Tops it with cheese",
+        "Wraps it around salad",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Dips it into hummus",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0120",
+      "question": "What was P30 doing in video P30_112?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed baking tray after cooking",
+        "Sliced oven-baked pizza and plated pieces",
+        "Packed pizza leftovers into container",
+        "Removed frozen pizza from packaging",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Sliced oven-baked pizza and plated pieces",
+      "video_id": "P30_112",
+      "video_ids": [
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0121",
+      "question": "When P30 picks up the balsamic vinegar during preparation, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "mix it into a salad bowl",
+        "drizzle it onto pitta bread",
+        "pour it into a small bowl",
+        "place it beside the stove",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "drizzle it onto pitta bread",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0122",
+      "question": "What was P30 doing in video P30_101?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Squeezed lemon juice into a mug",
+        "Rinsed lemon squeezer pieces during V60 coffee prep",
+        "Rinsed coffee mug after drinking",
+        "Arranged utensils beside the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Rinsed lemon squeezer pieces during V60 coffee prep",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0123",
+      "question": "Across cleanup sessions, when P30 has just emptied the washing-up bowl, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dry hand",
+        "open drawer",
+        "turn-on tap",
+        "take plate",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_111",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0124",
+      "question": "Across videos, where does P30 put perishable groceries or prepared food containers?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Store in fridge",
+        "Store in cupboard",
+        "Store on counter",
+        "Store in pantry",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 stores the items in the fridge.",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109",
+        "P30_110",
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0125",
+      "question": "Across videos, how does P30 gather small loose bits from the work area?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipe with paper",
+        "Vacuum the surface",
+        "Gather by hand",
+        "Sweep with brush",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 gathers the small pieces by hand.",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_111",
+        "P30_114"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0126",
+      "question": "How does P30 handle the sponge during this brief sink-cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wrings the sponge out first, then rinses it.",
+        "Sets the sponge aside first, then wipes with a cloth.",
+        "Scrubs with the sponge first, then rinses nearby dishes.",
+        "Rinses the sponge first, then leaves it to drain.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Wrings the sponge out first, then rinses it.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0127",
+      "question": "Across cup-handling sessions, when P30 has just picked up a mug, what next action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open passata",
+        "take mushroom",
+        "put-down mug",
+        "turn-on oven",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-down mug",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113",
+        "P30_111",
+        "P30_103"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0128",
+      "question": "What was P30 doing in video P30_113?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wiped countertop after spilling milk",
+        "Loaded dirty teaspoon into dishwasher",
+        "Filled kettle at sink before making tea",
+        "Rinsed mug at sink after tea setup",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Rinsed mug at sink after tea setup",
+      "video_id": "P30_113",
+      "video_ids": [
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0129",
+      "question": "What is P30's approach to checking the dough before continuing to work with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the dough down, adds flour, and folds it several times.",
+        "Covers the dough, lets it rest, and returns to it later.",
+        "Looks over the dough, then tests it by stretching and squeezing.",
+        "Rolls the dough flat, cuts portions, and stacks them aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Looks over the dough, then tests it by stretching and squeezing.",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0130",
+      "question": "What is P30's approach to items that are clean but not yet put away?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 stacks clean items near the sink and stores them only after cooking.",
+        "P30 rewashes clean items before deciding whether they can be stored.",
+        "P30 dries clean items and returns them to storage during the workflow.",
+        "P30 leaves clean items to air-dry and avoids storage until much later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 dries clean items and returns them to storage during the workflow.",
+      "video_id": "P30_108",
+      "video_ids": [
+        "P30_108",
+        "P30_109",
+        "P30_107"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0131",
+      "question": "When getting a pizza ready for the next slice, how does P30 tend to set it up just beforehand?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Slides the pizza onto a plate",
+        "Lifts the pizza with a spatula",
+        "Holds the pizza steady in place",
+        "Turns the pizza to a new angle",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Turns the pizza to a new angle",
+      "video_id": "P30_112",
+      "video_ids": [
+        "P30_112"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0132",
+      "question": "What was P30 doing in video P30_111?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed cutting board after chopping herbs",
+        "Stored leftover dip in refrigerator",
+        "Scooped yogurt into bowl from tub",
+        "Rinsed hummus tub after emptying it into sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Rinsed hummus tub after emptying it into sink",
+      "video_id": "P30_111",
+      "video_ids": [
+        "P30_111"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0133",
+      "question": "When P30 opens the refrigerator, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rearrange items on a shelf",
+        "take items out from inside",
+        "put leftovers onto a shelf",
+        "wipe the door handle clean",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take items out from inside",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0134",
+      "question": "In video P30_109, P30 handled the knife. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 took the chopping board, picked up the knife, and put it on the chopping board.",
+        "P30 took the chopping board, moved the teapot, and then picked up the knife.",
+        "P30 moved the teapot, picked up the knife, and put it on the chopping board.",
+        "P30 picked up the knife, moved the teapot, and then put the knife down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "P30 took the chopping board, picked up the knife, and put it on the chopping board.",
+      "video_id": "P30_109",
+      "video_ids": [
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0135",
+      "question": "When P30 gets raw meat from the fridge, how do they handle it immediately afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places it on a board",
+        "Carries it to the sink",
+        "Sets it inside a bowl",
+        "Tosses it onto the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Tosses it onto the counter",
+      "video_id": "P30_???",
+      "video_ids": [
+        "P30_???"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_???",
+        "P30_???",
+        "P30_???",
+        "P30_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p12",
+      "target_participant": "p30"
+    },
+    {
+      "question_id": "p30_q0136",
+      "question": "Across breakfast videos, what appliance does P30 use when preparing pitta bread?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Warm it in oven",
+        "Grill it on hob",
+        "Toast it in toaster",
+        "Heat it in pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 puts pitta bread into the toaster.",
+      "video_id": "P30_101",
+      "video_ids": [
+        "P30_101",
+        "P30_110"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0137",
+      "question": "When P30 picks up the jug during kettle preparation, what does P30 normally do next at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap at sink",
+        "open fridge for jug",
+        "scrub jug with sponge",
+        "put jug in cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_109"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0138",
+      "question": "What is P30's approach when getting plates from storage during meal or cleanup tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 keeps plates out near the sink for later use across several tasks.",
+        "P30 retrieves a needed plate from the cupboard and closes storage promptly.",
+        "P30 avoids the cupboard and serves directly from boards or trays.",
+        "P30 removes several plates at once and leaves them stacked on the counter.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 retrieves a needed plate from the cupboard and closes storage promptly.",
+      "video_id": "P30_110",
+      "video_ids": [
+        "P30_110",
+        "P30_107",
+        "P30_101"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0139",
+      "question": "Across videos, where does P30 usually access or return plates, bowls, and cookware?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use the cupboard",
+        "Use counter stacks",
+        "Use the oven",
+        "Use open shelves",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P30 uses the cupboard as the main storage location.",
+      "video_id": "P30_107",
+      "video_ids": [
+        "P30_107",
+        "P30_108",
+        "P30_109",
+        "P30_111",
+        "P30_113"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p30_q0140",
+      "question": "What is P30's strategy for controlling kettle water quantity?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P30 keeps a saucepan of water nearby and pours from it into the kettle.",
+        "P30 repeatedly uses the jug as a measured intermediary for kettle filling.",
+        "P30 fills several mugs with water and combines them into the kettle.",
+        "P30 guesses the amount by putting the kettle directly under running water.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P30 repeatedly uses the jug as a measured intermediary for kettle filling.",
+      "video_id": "P30_103",
+      "video_ids": [
+        "P30_103",
+        "P30_109",
+        "P30_108"
+      ],
+      "participant_id": "P30",
+      "video_scope": [
+        "P30_113",
+        "P30_111",
+        "P30_108",
+        "P30_107",
+        "P30_103",
+        "P30_109",
+        "P30_114",
+        "P30_101",
+        "P30_110",
+        "P30_112",
+        "P30_104"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": false
+    }
+  ],
+  "metadata": {
+    "format": "multiple_choice_5",
+    "option_e": "The information is not available based on the given context",
+    "source": "EAM-QA source: per_participant_final/P30.json",
+    "n": 113,
+    "by_type": {
+      "SPref": 35,
+      "SHabit": 30,
+      "SRoutine": 24,
+      "ERecall": 24
+    },
+    "skipped": 0,
+    "eam_qa_unanswerable_augmentation": {
+      "n_answerable": 113,
+      "n_unanswerable": 28,
+      "unanswerable_ratio": 0.19858156028368795,
+      "donor_pids": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p06",
+        "p07",
+        "p09",
+        "p11",
+        "p12",
+        "p22",
+        "p23",
+        "p25",
+        "p26",
+        "p28"
+      ]
+    }
+  }
+}

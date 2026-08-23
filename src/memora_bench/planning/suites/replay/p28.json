@@ -1,0 +1,1742 @@
+[
+  {
+    "task_id": "plan_P28_112_006",
+    "participant_id": "P28",
+    "video_id": "P28_112",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P28 clean the hob and rinse the sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_112_54",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:02:15.52",
+        "end_time": "00:02:21.68",
+        "enriched_narration": "clean black metal hob on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P28_112_55",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:02:24.47",
+        "end_time": "00:02:30.83",
+        "enriched_narration": "clean black metal hob on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P28_112_56",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:02:31.80",
+        "end_time": "00:02:33.09",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_112_57",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:02:33.12",
+        "end_time": "00:02:35.89",
+        "enriched_narration": "rinse green foam sponge at sink_area",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "sponge"
+        }
+      },
+      {
+        "narration_id": "P28_112_58",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:36.00",
+        "end_time": "00:02:37.07",
+        "enriched_narration": "turn off silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_112_59",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:02:40.35",
+        "end_time": "00:02:52.80",
+        "enriched_narration": "clean black metal hob on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P28_112_60",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:02:52.90",
+        "end_time": "00:02:57.83",
+        "enriched_narration": "clean black metal hob on stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P28_112_61",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:02:58.76",
+        "end_time": "00:02:59.78",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 44.3,
+    "primary_objects": [
+      "hob",
+      "tap",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "clean",
+      "turn-on",
+      "rinse",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P28_111_015",
+    "participant_id": "P28",
+    "video_id": "P28_111",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P28 clean the counter and prepare the oats.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_111_135",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:06:24.29",
+        "end_time": "00:06:32.17",
+        "enriched_narration": "wipe gray granite counter at sink_area",
+        "matched_object": {
+          "color": "gray",
+          "material": "granite",
+          "location": "sink_area",
+          "memory_id": "countertop",
+          "memory_name": "countertop"
+        }
+      },
+      {
+        "narration_id": "P28_111_136",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:06:33.35",
+        "end_time": "00:06:38.70",
+        "enriched_narration": "wipe gray granite counter at sink_area",
+        "matched_object": {
+          "color": "gray",
+          "material": "granite",
+          "location": "sink_area",
+          "memory_id": "countertop",
+          "memory_name": "countertop"
+        }
+      },
+      {
+        "narration_id": "P28_111_137",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:06:38.65",
+        "end_time": "00:06:39.46",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_111_138",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:06:39.39",
+        "end_time": "00:06:39.84",
+        "enriched_narration": "damp green foam sponge at on_counter",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on_counter",
+          "memory_id": "green_sponge",
+          "memory_name": "green_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_111_139",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:39.85",
+        "end_time": "00:06:40.53",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_111_140",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:06:40.63",
+        "end_time": "00:06:54.20",
+        "enriched_narration": "wipe gray granite counter at sink_area",
+        "matched_object": {
+          "color": "gray",
+          "material": "granite",
+          "location": "sink_area",
+          "memory_id": "countertop",
+          "memory_name": "countertop"
+        }
+      },
+      {
+        "narration_id": "P28_111_141",
+        "narration": "wipe hands",
+        "verb": "wipe",
+        "noun": "hand",
+        "start_time": "00:06:55.35",
+        "end_time": "00:07:01.12"
+      },
+      {
+        "narration_id": "P28_111_142",
+        "narration": "take spoon",
+        "verb": "take",
+        "noun": "spoon",
+        "start_time": "00:07:01.95",
+        "end_time": "00:07:02.73",
+        "enriched_narration": "take silver metal spoon in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P28_111_143",
+        "narration": "stir oats",
+        "verb": "stir",
+        "noun": "oat",
+        "start_time": "00:07:02.80",
+        "end_time": "00:07:09.90"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 45.6,
+    "primary_objects": [
+      "counter",
+      "tap",
+      "sponge",
+      "hand",
+      "spoon"
+    ],
+    "primary_verbs": [
+      "wipe",
+      "turn-on",
+      "damp",
+      "turn-off",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P28_105_013",
+    "participant_id": "P28",
+    "video_id": "P28_105",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P28 clean the sink and counter with a damp sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_105_112",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:08:53.20",
+        "end_time": "00:08:54.95",
+        "enriched_narration": "damp green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "scrub_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_105_113",
+        "narration": "wipe sink",
+        "verb": "wipe",
+        "noun": "sink",
+        "start_time": "00:08:56.31",
+        "end_time": "00:09:01.61",
+        "enriched_narration": "wipe silver metal sink on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "sink_tap",
+          "memory_name": "a water source for washing"
+        }
+      },
+      {
+        "narration_id": "P28_105_114",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:09:01.71",
+        "end_time": "00:09:03.58",
+        "enriched_narration": "damp green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "scrub_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_105_115",
+        "narration": "wipe sink",
+        "verb": "wipe",
+        "noun": "sink",
+        "start_time": "00:09:03.60",
+        "end_time": "00:09:14.61",
+        "enriched_narration": "wipe silver metal sink on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "sink_tap",
+          "memory_name": "a water source for washing"
+        }
+      },
+      {
+        "narration_id": "P28_105_116",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:09:14.60",
+        "end_time": "00:09:17.85",
+        "enriched_narration": "damp green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "scrub_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_105_117",
+        "narration": "wipe sink",
+        "verb": "wipe",
+        "noun": "sink",
+        "start_time": "00:09:18.44",
+        "end_time": "00:09:22.02",
+        "enriched_narration": "wipe silver metal sink on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "sink_tap",
+          "memory_name": "a water source for washing"
+        }
+      },
+      {
+        "narration_id": "P28_105_118",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:09:22.12",
+        "end_time": "00:09:25.27"
+      },
+      {
+        "narration_id": "P28_105_119",
+        "narration": "put sponge",
+        "verb": "put",
+        "noun": "sponge",
+        "start_time": "00:09:24.63",
+        "end_time": "00:09:25.17",
+        "enriched_narration": "put green foam sponge on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "scrub_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 32,
+    "primary_objects": [
+      "sponge",
+      "sink",
+      "counter"
+    ],
+    "primary_verbs": [
+      "wipe",
+      "damp",
+      "put"
+    ]
+  },
+  {
+    "task_id": "plan_P28_103_010",
+    "participant_id": "P28",
+    "video_id": "P28_103",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P28 clean the counter and dispose of the rubbish.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_103_90",
+        "narration": "take sponge",
+        "verb": "take",
+        "noun": "sponge",
+        "start_time": "00:07:34.53",
+        "end_time": "00:07:35.45",
+        "enriched_narration": "take green foam sponge on sink",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on sink",
+          "memory_id": "green_sponge",
+          "memory_name": "green_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_103_91",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:07:36.48",
+        "end_time": "00:07:40.50",
+        "enriched_narration": "wipe gray stone counter on countertop",
+        "matched_object": {
+          "color": "gray",
+          "material": "stone",
+          "location": "on countertop",
+          "memory_id": "countertop_gray",
+          "memory_name": "dark gray countertop"
+        }
+      },
+      {
+        "narration_id": "P28_103_92",
+        "narration": "put sponge",
+        "verb": "put",
+        "noun": "sponge",
+        "start_time": "00:07:41.81",
+        "end_time": "00:07:42.16",
+        "enriched_narration": "put green foam sponge on sink",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on sink",
+          "memory_id": "green_sponge",
+          "memory_name": "green_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_103_93",
+        "narration": "take rubbish from sink",
+        "verb": "take-from",
+        "noun": "rubbish",
+        "start_time": "00:07:42.56",
+        "end_time": "00:07:44.09"
+      },
+      {
+        "narration_id": "P28_103_94",
+        "narration": "throw rubbish",
+        "verb": "throw",
+        "noun": "rubbish",
+        "start_time": "00:07:47.47",
+        "end_time": "00:07:57.98"
+      },
+      {
+        "narration_id": "P28_103_95",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:20.44",
+        "end_time": "00:08:21.66",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_103_96",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:08:21.48",
+        "end_time": "00:08:42.10"
+      },
+      {
+        "narration_id": "P28_103_97",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:08:41.83",
+        "end_time": "00:08:43.14",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_103_98",
+        "narration": "wipe hands",
+        "verb": "wipe",
+        "noun": "hand",
+        "start_time": "00:08:45.79",
+        "end_time": "00:08:48.75"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 74.2,
+    "primary_objects": [
+      "sponge",
+      "rubbish",
+      "tap",
+      "hand",
+      "counter"
+    ],
+    "primary_verbs": [
+      "wipe",
+      "take",
+      "put",
+      "take-from",
+      "throw"
+    ]
+  },
+  {
+    "task_id": "plan_P28_103_012",
+    "participant_id": "P28",
+    "video_id": "P28_103",
+    "task_type": "meal_preparation",
+    "task_query": "Help P28 prepare the potato and chop the onion.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_103_108",
+        "narration": "cut potato",
+        "verb": "cut",
+        "noun": "potato",
+        "start_time": "00:10:26.98",
+        "end_time": "00:10:50.47",
+        "enriched_narration": "cut silver metal potato on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_109",
+        "narration": "cut potato",
+        "verb": "cut",
+        "noun": "potato",
+        "start_time": "00:10:32.91",
+        "end_time": "00:10:53.32",
+        "enriched_narration": "cut silver metal potato on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_110",
+        "narration": "cut potato",
+        "verb": "cut",
+        "noun": "potato",
+        "start_time": "00:11:00.58",
+        "end_time": "00:11:04.58",
+        "enriched_narration": "cut silver metal potato on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_111",
+        "narration": "put potato in plate",
+        "verb": "put-in",
+        "noun": "potato",
+        "start_time": "00:11:05.59",
+        "end_time": "00:11:18.23",
+        "enriched_narration": "put silver metal potato in plate on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_112",
+        "narration": "cut potato",
+        "verb": "cut",
+        "noun": "potato",
+        "start_time": "00:11:08.07",
+        "end_time": "00:11:08.83",
+        "enriched_narration": "cut silver metal potato on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_113",
+        "narration": "cut potato",
+        "verb": "cut",
+        "noun": "potato",
+        "start_time": "00:11:21.64",
+        "end_time": "00:11:34.95",
+        "enriched_narration": "cut silver metal potato on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_114",
+        "narration": "put potato in plate",
+        "verb": "put-in",
+        "noun": "potato",
+        "start_time": "00:11:34.78",
+        "end_time": "00:11:42.38",
+        "enriched_narration": "put silver metal potato in plate on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_103_115",
+        "narration": "chop onion",
+        "verb": "chop",
+        "noun": "onion",
+        "start_time": "00:11:42.08",
+        "end_time": "00:11:51.85",
+        "enriched_narration": "chop red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_116",
+        "narration": "chop onion",
+        "verb": "chop",
+        "noun": "onion",
+        "start_time": "00:11:44.36",
+        "end_time": "00:11:58.96",
+        "enriched_narration": "chop red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 92,
+    "primary_objects": [
+      "potato",
+      "onion"
+    ],
+    "primary_verbs": [
+      "cut",
+      "put-in",
+      "chop"
+    ]
+  },
+  {
+    "task_id": "plan_P28_104_019",
+    "participant_id": "P28",
+    "video_id": "P28_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P28 prepare a plate with food and liquid.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_104_171",
+        "narration": "scoop food",
+        "verb": "scoop",
+        "noun": "food",
+        "start_time": "00:09:27.50",
+        "end_time": "00:09:30.01",
+        "enriched_narration": "scoop pink ceramic food on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food",
+          "memory_name": "pink plate with food"
+        }
+      },
+      {
+        "narration_id": "P28_104_172",
+        "narration": "put food in plate",
+        "verb": "put-in",
+        "noun": "food",
+        "start_time": "00:09:29.87",
+        "end_time": "00:09:32.41",
+        "enriched_narration": "put pink ceramic food in plate on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food",
+          "memory_name": "pink plate with food"
+        }
+      },
+      {
+        "narration_id": "P28_104_173",
+        "narration": "scoop food",
+        "verb": "scoop",
+        "noun": "food",
+        "start_time": "00:09:36.98",
+        "end_time": "00:09:38.70",
+        "enriched_narration": "scoop pink ceramic food on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food",
+          "memory_name": "pink plate with food"
+        }
+      },
+      {
+        "narration_id": "P28_104_174",
+        "narration": "put food in plate",
+        "verb": "put-in",
+        "noun": "food",
+        "start_time": "00:09:38.79",
+        "end_time": "00:09:41.88",
+        "enriched_narration": "put pink ceramic food in plate on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food",
+          "memory_name": "pink plate with food"
+        }
+      },
+      {
+        "narration_id": "P28_104_175",
+        "narration": "scoop liquid",
+        "verb": "scoop",
+        "noun": "liquid",
+        "start_time": "00:09:44.61",
+        "end_time": "00:09:48.34"
+      },
+      {
+        "narration_id": "P28_104_176",
+        "narration": "pour liquid in plate",
+        "verb": "pour-in",
+        "noun": "liquid",
+        "start_time": "00:09:48.74",
+        "end_time": "00:09:51.72"
+      },
+      {
+        "narration_id": "P28_104_177",
+        "narration": "scoop liquid",
+        "verb": "scoop",
+        "noun": "liquid",
+        "start_time": "00:09:52.43",
+        "end_time": "00:09:55.71"
+      },
+      {
+        "narration_id": "P28_104_178",
+        "narration": "pour liquid in plate",
+        "verb": "pour-in",
+        "noun": "liquid",
+        "start_time": "00:09:56.32",
+        "end_time": "00:09:58.59"
+      },
+      {
+        "narration_id": "P28_104_179",
+        "narration": "scoop liquid",
+        "verb": "scoop",
+        "noun": "liquid",
+        "start_time": "00:10:00.67",
+        "end_time": "00:10:03.53"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36,
+    "primary_objects": [
+      "liquid",
+      "food"
+    ],
+    "primary_verbs": [
+      "scoop",
+      "put-in",
+      "pour-in"
+    ]
+  },
+  {
+    "task_id": "plan_P28_111_018",
+    "participant_id": "P28",
+    "video_id": "P28_111",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P28 wash the saucepan and clean the sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_111_162",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:20.45",
+        "end_time": "00:08:21.49",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_111_166",
+        "narration": "wash saucepan",
+        "verb": "wash",
+        "noun": "saucepan",
+        "start_time": "00:08:21.00",
+        "end_time": "00:08:31.86",
+        "enriched_narration": "wash metallic metal saucepan in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_111_163",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:08:21.34",
+        "end_time": "00:08:22.15",
+        "enriched_narration": "damp green foam sponge at on_counter",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on_counter",
+          "memory_id": "green_sponge",
+          "memory_name": "green_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_111_164",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:08:21.43",
+        "end_time": "00:08:21.95",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_111_165",
+        "narration": "take saucepan",
+        "verb": "take",
+        "noun": "saucepan",
+        "start_time": "00:08:22.72",
+        "end_time": "00:08:23.39",
+        "enriched_narration": "take metallic metal saucepan in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_111_167",
+        "narration": "put sponge",
+        "verb": "put",
+        "noun": "sponge",
+        "start_time": "00:08:31.75",
+        "end_time": "00:08:32.75",
+        "enriched_narration": "put green foam sponge at on_counter",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on_counter",
+          "memory_id": "green_sponge",
+          "memory_name": "green_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_111_168",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:33.94",
+        "end_time": "00:08:34.74",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_111_169",
+        "narration": "rinse saucepan",
+        "verb": "rinse",
+        "noun": "saucepan",
+        "start_time": "00:08:34.76",
+        "end_time": "00:08:43.56",
+        "enriched_narration": "rinse metallic metal saucepan in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P28_111_170",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:08:43.64",
+        "end_time": "00:08:44.81",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 24.4,
+    "primary_objects": [
+      "tap",
+      "saucepan",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "turn-off",
+      "wash",
+      "damp",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P28_101_009",
+    "participant_id": "P28",
+    "video_id": "P28_101",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P28 prepare the garlic with bread and season it.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_101_80",
+        "narration": "put garlic on bread",
+        "verb": "put-on",
+        "noun": "garlic",
+        "start_time": "00:08:04.31",
+        "end_time": "00:08:41.01"
+      },
+      {
+        "narration_id": "P28_101_81",
+        "narration": "put chopping board",
+        "verb": "put",
+        "noun": "board:chopping",
+        "start_time": "00:08:43.66",
+        "end_time": "00:08:46.49",
+        "enriched_narration": "put chopping board at countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "countertop",
+          "memory_id": "cutting_board_wooden",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P28_101_82",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:08:47.98",
+        "end_time": "00:08:49.32",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_101_83",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:08:49.19",
+        "end_time": "00:08:51.93"
+      },
+      {
+        "narration_id": "P28_101_84",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:08:51.99",
+        "end_time": "00:08:52.74",
+        "enriched_narration": "turn off silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_101_85",
+        "narration": "wipe hands",
+        "verb": "wipe",
+        "noun": "hand",
+        "start_time": "00:08:55.10",
+        "end_time": "00:09:02.23"
+      },
+      {
+        "narration_id": "P28_101_86",
+        "narration": "pour salt",
+        "verb": "pour",
+        "noun": "salt",
+        "start_time": "00:09:02.81",
+        "end_time": "00:09:16.81"
+      },
+      {
+        "narration_id": "P28_101_87",
+        "narration": "pour olive oil",
+        "verb": "pour",
+        "noun": "oil:olive",
+        "start_time": "00:09:18.30",
+        "end_time": "00:09:36.56",
+        "enriched_narration": "pour olive oil at countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "countertop",
+          "memory_id": "bottle_oil",
+          "memory_name": "bottle of oil"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 92.2,
+    "primary_objects": [
+      "tap",
+      "hand",
+      "garlic",
+      "chopping board",
+      "salt"
+    ],
+    "primary_verbs": [
+      "pour",
+      "put-on",
+      "put",
+      "turn-on",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P28_101_012",
+    "participant_id": "P28",
+    "video_id": "P28_101",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P28 clean and organize the scissors and knife in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_101_104",
+        "narration": "rinse scissors and knife",
+        "verb": "rinse",
+        "noun": "scissors",
+        "start_time": "00:10:26.55",
+        "end_time": "00:10:32.19",
+        "enriched_narration": "rinse black metal scissors and knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "scissors",
+          "memory_name": "black scissors"
+        }
+      },
+      {
+        "narration_id": "P28_101_105",
+        "narration": "put scissors and knife",
+        "verb": "put",
+        "noun": "scissors",
+        "start_time": "00:10:33.02",
+        "end_time": "00:10:34.92",
+        "enriched_narration": "put black metal scissors and knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "scissors",
+          "memory_name": "black scissors"
+        }
+      },
+      {
+        "narration_id": "P28_101_106",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:10:36.45",
+        "end_time": "00:10:37.05",
+        "enriched_narration": "turn off silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_101_107",
+        "narration": "pour dishwashing liquid on sponge",
+        "verb": "pour",
+        "noun": "liquid:dishwashing",
+        "start_time": "00:10:38.12",
+        "end_time": "00:10:39.91"
+      },
+      {
+        "narration_id": "P28_101_108",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:10:40.97",
+        "end_time": "00:10:42.22",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_101_109",
+        "narration": "wash chopping board",
+        "verb": "wash",
+        "noun": "board:chopping",
+        "start_time": "00:10:43.46",
+        "end_time": "00:10:52.66",
+        "enriched_narration": "wash chopping board at countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "countertop",
+          "memory_id": "cutting_board_wooden",
+          "memory_name": "wooden cutting board"
+        }
+      },
+      {
+        "narration_id": "P28_101_110",
+        "narration": "put sponge",
+        "verb": "put",
+        "noun": "sponge",
+        "start_time": "00:10:52.35",
+        "end_time": "00:10:53.37",
+        "enriched_narration": "put yellow foam sponge at sink_area",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "sponge"
+        }
+      },
+      {
+        "narration_id": "P28_101_111",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:10:54.02",
+        "end_time": "00:10:54.96",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 28.4,
+    "primary_objects": [
+      "tap",
+      "scissors",
+      "dishwashing liquid",
+      "chopping board",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "put",
+      "turn-on",
+      "rinse",
+      "turn-off",
+      "pour"
+    ]
+  },
+  {
+    "task_id": "plan_P28_108_007",
+    "participant_id": "P28",
+    "video_id": "P28_108",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P28 clean the counter with a damp sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_108_59",
+        "narration": "take sponge",
+        "verb": "take",
+        "noun": "sponge",
+        "start_time": "00:06:06.26",
+        "end_time": "00:06:07.28",
+        "enriched_narration": "take yellow foam sponge on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "cleaning_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_108_60",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:06:07.25",
+        "end_time": "00:06:11.39",
+        "enriched_narration": "damp yellow foam sponge on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "cleaning_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_108_61",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:11.43",
+        "end_time": "00:06:12.34",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_108_62",
+        "narration": "wipe counter",
+        "verb": "wipe",
+        "noun": "counter",
+        "start_time": "00:06:14.00",
+        "end_time": "00:06:30.92"
+      },
+      {
+        "narration_id": "P28_108_63",
+        "narration": "damp sponge",
+        "verb": "damp",
+        "noun": "sponge",
+        "start_time": "00:06:32.95",
+        "end_time": "00:06:38.32",
+        "enriched_narration": "damp yellow foam sponge on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "cleaning_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_108_64",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:06:38.42",
+        "end_time": "00:06:39.48",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P28_108_65",
+        "narration": "put sponge",
+        "verb": "put",
+        "noun": "sponge",
+        "start_time": "00:06:39.76",
+        "end_time": "00:06:40.83",
+        "enriched_narration": "put yellow foam sponge on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "on countertop",
+          "memory_id": "cleaning_sponge",
+          "memory_name": "cleaning_sponge"
+        }
+      },
+      {
+        "narration_id": "P28_108_66",
+        "narration": "wipe hands",
+        "verb": "wipe",
+        "noun": "hand",
+        "start_time": "00:06:42.49",
+        "end_time": "00:06:48.65"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 42.4,
+    "primary_objects": [
+      "sponge",
+      "tap",
+      "counter",
+      "hand"
+    ],
+    "primary_verbs": [
+      "damp",
+      "turn-off",
+      "wipe",
+      "take",
+      "put"
+    ]
+  },
+  {
+    "task_id": "plan_P28_103_009",
+    "participant_id": "P28",
+    "video_id": "P28_103",
+    "task_type": "meal_preparation",
+    "task_query": "Help P28 prepare the garlic and onion for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_103_81",
+        "narration": "put garlic",
+        "verb": "put",
+        "noun": "garlic",
+        "start_time": "00:06:03.08",
+        "end_time": "00:06:04.04",
+        "enriched_narration": "put garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_82",
+        "narration": "cut garlic",
+        "verb": "cut",
+        "noun": "garlic",
+        "start_time": "00:06:04.03",
+        "end_time": "00:06:09.35",
+        "enriched_narration": "cut garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_83",
+        "narration": "clean onion",
+        "verb": "clean",
+        "noun": "onion",
+        "start_time": "00:06:13.59",
+        "end_time": "00:06:34.34",
+        "enriched_narration": "clean red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_84",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:06:34.45",
+        "end_time": "00:06:40.95",
+        "enriched_narration": "peel red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_85",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:06:38.50",
+        "end_time": "00:06:44.62",
+        "enriched_narration": "peel red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_86",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:06:44.43",
+        "end_time": "00:07:08.58",
+        "enriched_narration": "peel red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_87",
+        "narration": "put onion",
+        "verb": "put",
+        "noun": "onion",
+        "start_time": "00:07:09.49",
+        "end_time": "00:07:12.25",
+        "enriched_narration": "put red vegetable onion on cutting board",
+        "matched_object": {
+          "color": "red",
+          "material": "vegetable",
+          "location": "on cutting board",
+          "memory_id": "red_onion",
+          "memory_name": "red onion"
+        }
+      },
+      {
+        "narration_id": "P28_103_88",
+        "narration": "take rubbish",
+        "verb": "take",
+        "noun": "rubbish",
+        "start_time": "00:07:13.04",
+        "end_time": "00:07:19.75"
+      },
+      {
+        "narration_id": "P28_103_89",
+        "narration": "throw rubbish",
+        "verb": "throw",
+        "noun": "rubbish",
+        "start_time": "00:07:24.02",
+        "end_time": "00:07:30.61"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 87.5,
+    "primary_objects": [
+      "onion",
+      "garlic",
+      "rubbish"
+    ],
+    "primary_verbs": [
+      "peel",
+      "put",
+      "cut",
+      "clean",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P28_103_021",
+    "participant_id": "P28",
+    "video_id": "P28_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P28 stir-fry the vegetables with garlic.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P28_103_189",
+        "narration": "stir vegetables",
+        "verb": "stir",
+        "noun": "vegetable",
+        "start_time": "00:17:56.04",
+        "end_time": "00:18:20.65"
+      },
+      {
+        "narration_id": "P28_103_190",
+        "narration": "stir vegetables",
+        "verb": "stir",
+        "noun": "vegetable",
+        "start_time": "00:18:14.58",
+        "end_time": "00:18:26.62"
+      },
+      {
+        "narration_id": "P28_103_191",
+        "narration": "put oven glove",
+        "verb": "put",
+        "noun": "glove:oven",
+        "start_time": "00:18:26.25",
+        "end_time": "00:18:29.41",
+        "enriched_narration": "put oven glove at hanging on wall",
+        "matched_object": {
+          "color": "gray",
+          "material": "fabric",
+          "location": "hanging on wall",
+          "memory_id": "red_oven_mitt",
+          "memory_name": "red_oven_mitt"
+        }
+      },
+      {
+        "narration_id": "P28_103_192",
+        "narration": "put spatula",
+        "verb": "put",
+        "noun": "spatula",
+        "start_time": "00:18:29.32",
+        "end_time": "00:18:30.38",
+        "enriched_narration": "put brown wood spatula on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "spatula",
+          "memory_name": "spatula"
+        }
+      },
+      {
+        "narration_id": "P28_103_193",
+        "narration": "chop garlic",
+        "verb": "chop",
+        "noun": "garlic",
+        "start_time": "00:18:32.25",
+        "end_time": "00:18:46.00",
+        "enriched_narration": "chop garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_194",
+        "narration": "chop garlic",
+        "verb": "chop",
+        "noun": "garlic",
+        "start_time": "00:18:45.68",
+        "end_time": "00:18:51.65",
+        "enriched_narration": "chop garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_195",
+        "narration": "chop garlic",
+        "verb": "chop",
+        "noun": "garlic",
+        "start_time": "00:19:07.44",
+        "end_time": "00:19:16.60",
+        "enriched_narration": "chop garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_196",
+        "narration": "chop garlic",
+        "verb": "chop",
+        "noun": "garlic",
+        "start_time": "00:19:22.35",
+        "end_time": "00:19:33.53",
+        "enriched_narration": "chop garlic on cutting board",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on cutting board",
+          "memory_id": "garlic",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P28_103_197",
+        "narration": "put knife",
+        "verb": "put",
+        "noun": "knife",
+        "start_time": "00:19:34.22",
+        "end_time": "00:19:35.26",
+        "enriched_narration": "put black metal knife on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 99.2,
+    "primary_objects": [
+      "garlic",
+      "vegetable",
+      "oven glove",
+      "spatula",
+      "knife"
+    ],
+    "primary_verbs": [
+      "chop",
+      "put",
+      "stir"
+    ]
+  }
+]

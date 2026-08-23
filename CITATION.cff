@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software or its benchmarks, please cite it as below."
+title: "MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning"
+abstract: >-
+  Code and paper-reproduction harness for MEMORA, including the EAM-QA
+  (MEMORA-Embodied Memory Assessment) benchmark and the MEMORA-Planning
+  benchmark (Replay and Generalize suites).
+type: software
+repository-code: "https://github.com/yuzihaowashu/MEMORA"
+license: MIT
+version: 1.0.0
+date-released: "2026-07-26"
+authors:
+  - family-names: "Yu"
+    given-names: "Zihao"
+    affiliation: "Washington University in St. Louis"
+  - family-names: "Yuan"
+    given-names: "Xiu"
+    affiliation: "Washington University in St. Louis"
+  - family-names: "Zhang"
+    given-names: "Chongjie"
+    affiliation: "Washington University in St. Louis"
+preferred-citation:
+  type: article
+  title: "MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning"
+  authors:
+    - family-names: "Yu"
+      given-names: "Zihao"
+    - family-names: "Yuan"
+      given-names: "Xiu"
+    - family-names: "Zhang"
+      given-names: "Chongjie"
+  year: 2026
+  doi: "10.48550/arXiv.2607.14252"
+  url: "https://arxiv.org/abs/2607.14252"
+keywords:
+  - embodied memory
+  - benchmark
+  - long-horizon planning
+  - LLM agents
+  - reproducibility

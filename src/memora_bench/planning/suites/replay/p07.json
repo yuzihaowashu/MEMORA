@@ -1,0 +1,1707 @@
+[
+  {
+    "task_id": "plan_P07_102_000",
+    "participant_id": "P07",
+    "video_id": "P07_102",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P07 wash the knife and clean up the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_102_0",
+        "narration": "grab coffee maker",
+        "verb": "grab",
+        "noun": "maker:coffee",
+        "start_time": "00:00:02.09",
+        "end_time": "00:00:02.82",
+        "enriched_narration": "grab coffee maker on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_102_1",
+        "narration": "pour coffee into cup",
+        "verb": "pour-into",
+        "noun": "coffee",
+        "start_time": "00:00:03.97",
+        "end_time": "00:00:08.39",
+        "enriched_narration": "pour black plastic coffee into cup on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_102_2",
+        "narration": "grab knife",
+        "verb": "grab",
+        "noun": "knife",
+        "start_time": "00:00:11.90",
+        "end_time": "00:00:13.02",
+        "enriched_narration": "grab red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      },
+      {
+        "narration_id": "P07_102_3",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:13.01",
+        "end_time": "00:00:14.61",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_4",
+        "narration": "grab washing up liquid",
+        "verb": "grab",
+        "noun": "liquid:washing:up",
+        "start_time": "00:00:14.71",
+        "end_time": "00:00:15.97"
+      },
+      {
+        "narration_id": "P07_102_5",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:00:16.07",
+        "end_time": "00:00:16.65",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_6",
+        "narration": "pour washing up liquid on sponge",
+        "verb": "pour",
+        "noun": "liquid:washing:up",
+        "start_time": "00:00:16.69",
+        "end_time": "00:00:18.01"
+      },
+      {
+        "narration_id": "P07_102_7",
+        "narration": "grab knife",
+        "verb": "grab",
+        "noun": "knife",
+        "start_time": "00:00:19.10",
+        "end_time": "00:00:19.70",
+        "enriched_narration": "grab red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      },
+      {
+        "narration_id": "P07_102_8",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:00:19.78",
+        "end_time": "00:00:27.02",
+        "enriched_narration": "wash red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 24.9,
+    "primary_objects": [
+      "knife",
+      "washing:up liquid",
+      "coffee maker",
+      "coffee",
+      "tap"
+    ],
+    "primary_verbs": [
+      "grab",
+      "pour-into",
+      "turn-on",
+      "pour",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P07_102_001",
+    "participant_id": "P07",
+    "video_id": "P07_102",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P07 clean the knife and wash the glass.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_102_9",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:27.08",
+        "end_time": "00:00:28.54",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_10",
+        "narration": "rinse knife",
+        "verb": "rinse",
+        "noun": "knife",
+        "start_time": "00:00:28.34",
+        "end_time": "00:00:33.59",
+        "enriched_narration": "rinse red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      },
+      {
+        "narration_id": "P07_102_11",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:33.50",
+        "end_time": "00:00:34.08",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_12",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:00:34.82",
+        "end_time": "00:00:35.59",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_13",
+        "narration": "grab glass",
+        "verb": "grab",
+        "noun": "glass",
+        "start_time": "00:00:35.24",
+        "end_time": "00:00:36.10",
+        "enriched_narration": "grab white ceramic glass on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "cup",
+          "memory_name": "cup"
+        }
+      },
+      {
+        "narration_id": "P07_102_14",
+        "narration": "wash glass",
+        "verb": "wash",
+        "noun": "glass",
+        "start_time": "00:00:36.43",
+        "end_time": "00:00:40.84",
+        "enriched_narration": "wash white ceramic glass on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "cup",
+          "memory_name": "cup"
+        }
+      },
+      {
+        "narration_id": "P07_102_15",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:41.06",
+        "end_time": "00:00:42.70",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_16",
+        "narration": "rinse glass",
+        "verb": "rinse",
+        "noun": "glass",
+        "start_time": "00:00:42.58",
+        "end_time": "00:00:47.22",
+        "enriched_narration": "rinse white ceramic glass on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "cup",
+          "memory_name": "cup"
+        }
+      },
+      {
+        "narration_id": "P07_102_17",
+        "narration": "grab knife",
+        "verb": "grab",
+        "noun": "knife",
+        "start_time": "00:00:47.95",
+        "end_time": "00:00:49.53",
+        "enriched_narration": "grab red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.5,
+    "primary_objects": [
+      "tap",
+      "glass",
+      "knife",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "grab",
+      "turn-on",
+      "rinse",
+      "turn-off",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P07_102_002",
+    "participant_id": "P07",
+    "video_id": "P07_102",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P07 clean the spoon and organize the sink area.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_102_18",
+        "narration": "rinse knife",
+        "verb": "rinse",
+        "noun": "knife",
+        "start_time": "00:00:49.53",
+        "end_time": "00:00:52.94",
+        "enriched_narration": "rinse red metal knife at sink",
+        "matched_object": {
+          "color": "red",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "knife_red",
+          "memory_name": "red-handled knife"
+        }
+      },
+      {
+        "narration_id": "P07_102_19",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:52.71",
+        "end_time": "00:00:53.30",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_20",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:00:55.08",
+        "end_time": "00:00:56.24",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_21",
+        "narration": "grab spoon",
+        "verb": "grab",
+        "noun": "spoon",
+        "start_time": "00:00:55.54",
+        "end_time": "00:00:57.05",
+        "enriched_narration": "grab black plastic spoon in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "spatula",
+          "memory_name": "spatula"
+        }
+      },
+      {
+        "narration_id": "P07_102_22",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:00:56.94",
+        "end_time": "00:01:04.66",
+        "enriched_narration": "wash black plastic spoon in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "spatula",
+          "memory_name": "spatula"
+        }
+      },
+      {
+        "narration_id": "P07_102_23",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:04.95",
+        "end_time": "00:01:06.26",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_24",
+        "narration": "rinse spoon",
+        "verb": "rinse",
+        "noun": "spoon",
+        "start_time": "00:01:06.99",
+        "end_time": "00:01:14.95",
+        "enriched_narration": "rinse black plastic spoon in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "spatula",
+          "memory_name": "spatula"
+        }
+      },
+      {
+        "narration_id": "P07_102_25",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:01:14.79",
+        "end_time": "00:01:15.63",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_26",
+        "narration": "grab lid",
+        "verb": "grab",
+        "noun": "lid",
+        "start_time": "00:01:17.19",
+        "end_time": "00:01:18.55",
+        "enriched_narration": "grab metallic metal lid in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot_lid",
+          "memory_name": "metallic pot lid"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 29,
+    "primary_objects": [
+      "tap",
+      "spoon",
+      "knife",
+      "sponge",
+      "lid"
+    ],
+    "primary_verbs": [
+      "grab",
+      "rinse",
+      "turn-off",
+      "wash",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P07_102_003",
+    "participant_id": "P07",
+    "video_id": "P07_102",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P07 clean the pot and lid using the sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_102_27",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:01:18.56",
+        "end_time": "00:01:19.38",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_28",
+        "narration": "wash lid",
+        "verb": "wash",
+        "noun": "lid",
+        "start_time": "00:01:19.39",
+        "end_time": "00:01:26.18",
+        "enriched_narration": "wash metallic metal lid in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot_lid",
+          "memory_name": "metallic pot lid"
+        }
+      },
+      {
+        "narration_id": "P07_102_29",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:26.90",
+        "end_time": "00:01:27.92",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_30",
+        "narration": "rinse lid",
+        "verb": "rinse",
+        "noun": "lid",
+        "start_time": "00:01:27.61",
+        "end_time": "00:01:33.69",
+        "enriched_narration": "rinse metallic metal lid in sink",
+        "matched_object": {
+          "color": "metallic",
+          "material": "metal",
+          "location": "in sink",
+          "memory_id": "pot_lid",
+          "memory_name": "metallic pot lid"
+        }
+      },
+      {
+        "narration_id": "P07_102_31",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:01:33.49",
+        "end_time": "00:01:33.98",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_32",
+        "narration": "grab pot",
+        "verb": "grab",
+        "noun": "pot",
+        "start_time": "00:01:35.32",
+        "end_time": "00:01:36.61",
+        "enriched_narration": "grab black plastic pot on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_102_33",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:01:36.08",
+        "end_time": "00:01:37.02",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_34",
+        "narration": "grab washing up liquid",
+        "verb": "grab",
+        "noun": "liquid:washing:up",
+        "start_time": "00:01:37.82",
+        "end_time": "00:01:38.59"
+      },
+      {
+        "narration_id": "P07_102_35",
+        "narration": "pour washing up liquid into pot",
+        "verb": "pour",
+        "noun": "liquid:washing:up",
+        "start_time": "00:01:38.56",
+        "end_time": "00:01:41.16"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.6,
+    "primary_objects": [
+      "sponge",
+      "lid",
+      "tap",
+      "washing:up liquid",
+      "pot"
+    ],
+    "primary_verbs": [
+      "grab",
+      "wash",
+      "turn-on",
+      "rinse",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P07_107_002",
+    "participant_id": "P07",
+    "video_id": "P07_107",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P07 clean and rinse the coffee maker lid.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_107_18",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:49.31",
+        "end_time": "00:00:51.31",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "metallic faucet"
+        }
+      },
+      {
+        "narration_id": "P07_107_19",
+        "narration": "rinse coffee maker",
+        "verb": "rinse",
+        "noun": "maker:coffee",
+        "start_time": "00:00:51.26",
+        "end_time": "00:01:08.19",
+        "enriched_narration": "rinse coffee maker in sink",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "in sink",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_107_20",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:01:07.75",
+        "end_time": "00:01:08.73",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "metallic faucet"
+        }
+      },
+      {
+        "narration_id": "P07_107_21",
+        "narration": "grab lid",
+        "verb": "grab",
+        "noun": "lid",
+        "start_time": "00:01:10.65",
+        "end_time": "00:01:11.65"
+      },
+      {
+        "narration_id": "P07_107_22",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:01:12.50",
+        "end_time": "00:01:13.46"
+      },
+      {
+        "narration_id": "P07_107_23",
+        "narration": "wash lid",
+        "verb": "wash",
+        "noun": "lid",
+        "start_time": "00:01:13.56",
+        "end_time": "00:01:20.36"
+      },
+      {
+        "narration_id": "P07_107_24",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:20.46",
+        "end_time": "00:01:22.34",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "metallic faucet"
+        }
+      },
+      {
+        "narration_id": "P07_107_25",
+        "narration": "rinse lid",
+        "verb": "rinse",
+        "noun": "lid",
+        "start_time": "00:01:21.80",
+        "end_time": "00:01:32.34"
+      },
+      {
+        "narration_id": "P07_107_26",
+        "narration": "shake lid",
+        "verb": "shake",
+        "noun": "lid",
+        "start_time": "00:01:32.42",
+        "end_time": "00:01:38.34"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 49,
+    "primary_objects": [
+      "lid",
+      "tap",
+      "coffee maker",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "turn-on",
+      "rinse",
+      "grab",
+      "turn-off",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P07_115_000",
+    "participant_id": "P07",
+    "video_id": "P07_115",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P07 wash the spoon with the sponge and dish soap.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_115_0",
+        "narration": "grab spoon",
+        "verb": "grab",
+        "noun": "spoon",
+        "start_time": "00:00:03.34",
+        "end_time": "00:00:04.26",
+        "enriched_narration": "grab white plastic spoon on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "metallic spoon"
+        }
+      },
+      {
+        "narration_id": "P07_115_1",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:00:04.29",
+        "end_time": "00:00:05.34"
+      },
+      {
+        "narration_id": "P07_115_2",
+        "narration": "squeeze sponge",
+        "verb": "squeeze",
+        "noun": "sponge",
+        "start_time": "00:00:05.23",
+        "end_time": "00:00:05.87"
+      },
+      {
+        "narration_id": "P07_115_3",
+        "narration": "grab bottle",
+        "verb": "grab",
+        "noun": "bottle",
+        "start_time": "00:00:05.97",
+        "end_time": "00:00:06.85",
+        "enriched_narration": "grab green plastic bottle at on_counter",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on_counter",
+          "memory_id": "bottle",
+          "memory_name": "bottle"
+        }
+      },
+      {
+        "narration_id": "P07_115_4",
+        "narration": "pour washing up liquid on sponge",
+        "verb": "pour",
+        "noun": "liquid:washing:up",
+        "start_time": "00:00:06.95",
+        "end_time": "00:00:08.77"
+      },
+      {
+        "narration_id": "P07_115_5",
+        "narration": "grab lid",
+        "verb": "grab",
+        "noun": "lid",
+        "start_time": "00:00:11.79",
+        "end_time": "00:00:13.71"
+      },
+      {
+        "narration_id": "P07_115_6",
+        "narration": "turn knob",
+        "verb": "turn",
+        "noun": "knob",
+        "start_time": "00:00:15.19",
+        "end_time": "00:00:19.14"
+      },
+      {
+        "narration_id": "P07_115_7",
+        "narration": "grab lid",
+        "verb": "grab",
+        "noun": "lid",
+        "start_time": "00:00:19.82",
+        "end_time": "00:00:22.68"
+      },
+      {
+        "narration_id": "P07_115_8",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:00:25.26",
+        "end_time": "00:00:30.93",
+        "enriched_narration": "wash white plastic spoon on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "spoon",
+          "memory_name": "metallic spoon"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 27.6,
+    "primary_objects": [
+      "spoon",
+      "sponge",
+      "lid",
+      "bottle",
+      "washing:up liquid"
+    ],
+    "primary_verbs": [
+      "grab",
+      "squeeze",
+      "pour",
+      "turn",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P07_117_001",
+    "participant_id": "P07",
+    "video_id": "P07_117",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P07 wash the dishes using the sponge and soap.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_117_9",
+        "narration": "push food bin",
+        "verb": "push",
+        "noun": "bin:food",
+        "start_time": "00:00:20.80",
+        "end_time": "00:00:21.68",
+        "enriched_narration": "push food bin on floor",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on floor",
+          "memory_id": "trash_bin_black",
+          "memory_name": "black plastic trash bin"
+        }
+      },
+      {
+        "narration_id": "P07_117_10",
+        "narration": "throw paper",
+        "verb": "throw",
+        "noun": "paper",
+        "start_time": "00:00:22.41",
+        "end_time": "00:00:24.58",
+        "enriched_narration": "throw white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper towel roll"
+        }
+      },
+      {
+        "narration_id": "P07_117_11",
+        "narration": "grab tap",
+        "verb": "grab",
+        "noun": "tap",
+        "start_time": "00:00:26.53",
+        "end_time": "00:00:26.86",
+        "enriched_narration": "grab silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_117_12",
+        "narration": "turn tap",
+        "verb": "turn",
+        "noun": "tap",
+        "start_time": "00:00:26.70",
+        "end_time": "00:00:27.32",
+        "enriched_narration": "turn silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_117_13",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:27.20",
+        "end_time": "00:00:28.72",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_117_14",
+        "narration": "grab bottle",
+        "verb": "grab",
+        "noun": "bottle",
+        "start_time": "00:00:29.70",
+        "end_time": "00:00:30.21",
+        "enriched_narration": "grab green plastic bottle at on_counter_top",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on_counter_top",
+          "memory_id": "bottle",
+          "memory_name": "green bottle of dish soap"
+        }
+      },
+      {
+        "narration_id": "P07_117_15",
+        "narration": "pour washing up liquid on plate",
+        "verb": "pour",
+        "noun": "liquid:washing:up",
+        "start_time": "00:00:30.92",
+        "end_time": "00:00:31.88"
+      },
+      {
+        "narration_id": "P07_117_16",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:00:33.01",
+        "end_time": "00:00:34.03",
+        "enriched_narration": "grab green foam sponge in sink",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in sink",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_117_17",
+        "narration": "grab cloth",
+        "verb": "grab",
+        "noun": "cloth",
+        "start_time": "00:00:35.29",
+        "end_time": "00:00:35.53",
+        "enriched_narration": "grab white ceramic cloth on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "cloth_white",
+          "memory_name": "white cloth"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 14.7,
+    "primary_objects": [
+      "tap",
+      "food bin",
+      "paper",
+      "bottle",
+      "washing:up liquid"
+    ],
+    "primary_verbs": [
+      "grab",
+      "push",
+      "throw",
+      "turn",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P07_117_003",
+    "participant_id": "P07",
+    "video_id": "P07_117",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P07 wash the knife, fork, and spoon.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_117_27",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:01:04.92",
+        "end_time": "00:01:07.97",
+        "enriched_narration": "wash silver metal knife on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "metallic kitchen knife"
+        }
+      },
+      {
+        "narration_id": "P07_117_28",
+        "narration": "grab knife",
+        "verb": "grab",
+        "noun": "knife",
+        "start_time": "00:01:08.04",
+        "end_time": "00:01:09.42",
+        "enriched_narration": "grab silver metal knife on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "metallic kitchen knife"
+        }
+      },
+      {
+        "narration_id": "P07_117_29",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:01:09.32",
+        "end_time": "00:01:14.48",
+        "enriched_narration": "wash silver metal knife on countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "metallic kitchen knife"
+        }
+      },
+      {
+        "narration_id": "P07_117_30",
+        "narration": "grab fork",
+        "verb": "grab",
+        "noun": "fork",
+        "start_time": "00:01:13.75",
+        "end_time": "00:01:15.84"
+      },
+      {
+        "narration_id": "P07_117_31",
+        "narration": "wash fork",
+        "verb": "wash",
+        "noun": "fork",
+        "start_time": "00:01:14.27",
+        "end_time": "00:01:17.32"
+      },
+      {
+        "narration_id": "P07_117_32",
+        "narration": "grab spoon",
+        "verb": "grab",
+        "noun": "spoon",
+        "start_time": "00:01:17.43",
+        "end_time": "00:01:19.23",
+        "enriched_narration": "grab silver metal spoon in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": "metallic kitchen spoon"
+        }
+      },
+      {
+        "narration_id": "P07_117_33",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:01:19.24",
+        "end_time": "00:01:22.58",
+        "enriched_narration": "wash silver metal spoon in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": "metallic kitchen spoon"
+        }
+      },
+      {
+        "narration_id": "P07_117_34",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:22.81",
+        "end_time": "00:01:24.21",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_117_35",
+        "narration": "rinse cutlery",
+        "verb": "rinse",
+        "noun": "cutlery",
+        "start_time": "00:01:23.74",
+        "end_time": "00:01:33.48"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 28.6,
+    "primary_objects": [
+      "knife",
+      "fork",
+      "spoon",
+      "tap",
+      "cutlery"
+    ],
+    "primary_verbs": [
+      "wash",
+      "grab",
+      "turn-on",
+      "rinse"
+    ]
+  },
+  {
+    "task_id": "plan_P07_102_004",
+    "participant_id": "P07",
+    "video_id": "P07_102",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P07 clean the pot and cutting board.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_102_36",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:01:41.26",
+        "end_time": "00:01:41.91",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_37",
+        "narration": "wash pot",
+        "verb": "wash",
+        "noun": "pot",
+        "start_time": "00:01:42.25",
+        "end_time": "00:01:59.37",
+        "enriched_narration": "wash black plastic pot on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_102_38",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:59.37",
+        "end_time": "00:02:00.77",
+        "enriched_narration": "turn on silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_39",
+        "narration": "rinse pot",
+        "verb": "rinse",
+        "noun": "pot",
+        "start_time": "00:02:00.95",
+        "end_time": "00:02:07.40",
+        "enriched_narration": "rinse black plastic pot on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "coffee_pot",
+          "memory_name": "coffee_pot"
+        }
+      },
+      {
+        "narration_id": "P07_102_40",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:16.92",
+        "end_time": "00:02:18.09",
+        "enriched_narration": "turn off silver metal tap above sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P07_102_41",
+        "narration": "grab cutting board",
+        "verb": "grab",
+        "noun": "board:cutting",
+        "start_time": "00:02:23.27",
+        "end_time": "00:02:24.10",
+        "enriched_narration": "grab cutting board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "cutting_board"
+        }
+      },
+      {
+        "narration_id": "P07_102_42",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:02:25.24",
+        "end_time": "00:02:26.23",
+        "enriched_narration": "grab green foam sponge in hand",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "sponge",
+          "memory_name": "green sponge"
+        }
+      },
+      {
+        "narration_id": "P07_102_43",
+        "narration": "wash cutting board",
+        "verb": "wash",
+        "noun": "board:cutting",
+        "start_time": "00:02:26.21",
+        "end_time": "00:02:39.16",
+        "enriched_narration": "wash cutting board on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "on countertop",
+          "memory_id": "cutting_board",
+          "memory_name": "cutting_board"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 57.9,
+    "primary_objects": [
+      "sponge",
+      "pot",
+      "tap",
+      "cutting board"
+    ],
+    "primary_verbs": [
+      "grab",
+      "wash",
+      "turn-on",
+      "rinse",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P07_111_004",
+    "participant_id": "P07",
+    "video_id": "P07_111",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P07 wash the knife and container thoroughly.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_111_36",
+        "narration": "grab knife",
+        "verb": "grab",
+        "noun": "knife",
+        "start_time": "00:01:24.77",
+        "end_time": "00:01:25.32",
+        "enriched_narration": "grab silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P07_111_37",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:25.64",
+        "end_time": "00:01:27.54",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "sink_faucet",
+          "memory_name": "sink faucet"
+        }
+      },
+      {
+        "narration_id": "P07_111_38",
+        "narration": "rinse knife",
+        "verb": "rinse",
+        "noun": "knife",
+        "start_time": "00:01:27.11",
+        "end_time": "00:01:30.06",
+        "enriched_narration": "rinse silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P07_111_39",
+        "narration": "grab container",
+        "verb": "grab",
+        "noun": "container",
+        "start_time": "00:01:30.85",
+        "end_time": "00:01:32.27"
+      },
+      {
+        "narration_id": "P07_111_40",
+        "narration": "rinse container",
+        "verb": "rinse",
+        "noun": "container",
+        "start_time": "00:01:31.48",
+        "end_time": "00:01:32.99"
+      },
+      {
+        "narration_id": "P07_111_42",
+        "narration": "wash container",
+        "verb": "wash",
+        "noun": "container",
+        "start_time": "00:01:32.87",
+        "end_time": "00:01:35.45"
+      },
+      {
+        "narration_id": "P07_111_41",
+        "narration": "grab sponge",
+        "verb": "grab",
+        "noun": "sponge",
+        "start_time": "00:01:32.99",
+        "end_time": "00:01:33.57",
+        "enriched_narration": "grab green foam sponge on sink_counter",
+        "matched_object": {
+          "color": "green",
+          "material": "foam",
+          "location": "on sink_counter",
+          "memory_id": "dish_washing_sponge",
+          "memory_name": "dishwashing sponge"
+        }
+      },
+      {
+        "narration_id": "P07_111_43",
+        "narration": "rinse container",
+        "verb": "rinse",
+        "noun": "container",
+        "start_time": "00:01:35.47",
+        "end_time": "00:01:45.83"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 21.1,
+    "primary_objects": [
+      "container",
+      "knife",
+      "tap",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "grab",
+      "rinse",
+      "turn-on",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P07_115_004",
+    "participant_id": "P07",
+    "video_id": "P07_115",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P07 prepare water in the jug for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_115_34",
+        "narration": "cut paper",
+        "verb": "cut",
+        "noun": "paper",
+        "start_time": "00:01:32.31",
+        "end_time": "00:01:33.40",
+        "enriched_narration": "cut white paper paper in hand",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "in hand",
+          "memory_id": "paper_towels",
+          "memory_name": "paper_towels"
+        }
+      },
+      {
+        "narration_id": "P07_115_35",
+        "narration": "clean kitchen counter",
+        "verb": "clean",
+        "noun": "kitchen",
+        "start_time": "00:01:35.16",
+        "end_time": "00:01:40.74"
+      },
+      {
+        "narration_id": "P07_115_36",
+        "narration": "throw paper",
+        "verb": "throw",
+        "noun": "paper",
+        "start_time": "00:01:58.56",
+        "end_time": "00:02:00.54",
+        "enriched_narration": "throw white paper paper in hand",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "in hand",
+          "memory_id": "paper_towels",
+          "memory_name": "paper_towels"
+        }
+      },
+      {
+        "narration_id": "P07_115_37",
+        "narration": "push oranges",
+        "verb": "push",
+        "noun": "orange",
+        "start_time": "00:02:02.89",
+        "end_time": "00:02:04.29",
+        "enriched_narration": "push oranges on fruit stand",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on fruit stand",
+          "memory_id": "orange",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P07_115_38",
+        "narration": "grab jug",
+        "verb": "grab",
+        "noun": "jug",
+        "start_time": "00:02:04.68",
+        "end_time": "00:02:05.76"
+      },
+      {
+        "narration_id": "P07_115_39",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:02:05.76",
+        "end_time": "00:02:06.91",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "metallic faucet"
+        }
+      },
+      {
+        "narration_id": "P07_115_40",
+        "narration": "pour water into jug",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:02:07.00",
+        "end_time": "00:02:15.58"
+      },
+      {
+        "narration_id": "P07_115_41",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:14.55",
+        "end_time": "00:02:15.82",
+        "enriched_narration": "turn off silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "metallic faucet"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 43.5,
+    "primary_objects": [
+      "paper",
+      "tap",
+      "kitchen",
+      "orange",
+      "jug"
+    ],
+    "primary_verbs": [
+      "cut",
+      "clean",
+      "throw",
+      "push",
+      "grab"
+    ]
+  },
+  {
+    "task_id": "plan_P07_114_003",
+    "participant_id": "P07",
+    "video_id": "P07_114",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P07 prepare the broccoli by pouring it into the colander.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P07_114_27",
+        "narration": "grab bag",
+        "verb": "grab",
+        "noun": "bag",
+        "start_time": "00:02:20.06",
+        "end_time": "00:02:21.65",
+        "enriched_narration": "grab brown plastic bag on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "vegetable_bag",
+          "memory_name": "vegetable_bag"
+        }
+      },
+      {
+        "narration_id": "P07_114_28",
+        "narration": "open bag",
+        "verb": "open",
+        "noun": "bag",
+        "start_time": "00:02:23.09",
+        "end_time": "00:02:25.19",
+        "enriched_narration": "open brown plastic bag on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "vegetable_bag",
+          "memory_name": "vegetable_bag"
+        }
+      },
+      {
+        "narration_id": "P07_114_29",
+        "narration": "grab broccoli",
+        "verb": "grab",
+        "noun": "broccoli",
+        "start_time": "00:02:25.21",
+        "end_time": "00:02:27.17"
+      },
+      {
+        "narration_id": "P07_114_30",
+        "narration": "pour broccoli onto colander",
+        "verb": "pour-onto",
+        "noun": "broccoli",
+        "start_time": "00:02:27.18",
+        "end_time": "00:02:28.01"
+      },
+      {
+        "narration_id": "P07_114_31",
+        "narration": "grab broccoli",
+        "verb": "grab",
+        "noun": "broccoli",
+        "start_time": "00:02:28.05",
+        "end_time": "00:02:33.68"
+      },
+      {
+        "narration_id": "P07_114_32",
+        "narration": "pour broccoli onto colander",
+        "verb": "pour-onto",
+        "noun": "broccoli",
+        "start_time": "00:02:33.76",
+        "end_time": "00:02:34.54"
+      },
+      {
+        "narration_id": "P07_114_33",
+        "narration": "grab broccoli",
+        "verb": "grab",
+        "noun": "broccoli",
+        "start_time": "00:02:34.50",
+        "end_time": "00:02:36.51"
+      },
+      {
+        "narration_id": "P07_114_34",
+        "narration": "pour broccoli onto colander",
+        "verb": "pour-onto",
+        "noun": "broccoli",
+        "start_time": "00:02:34.53",
+        "end_time": "00:02:36.76"
+      },
+      {
+        "narration_id": "P07_114_35",
+        "narration": "grab broccoli",
+        "verb": "grab",
+        "noun": "broccoli",
+        "start_time": "00:02:38.41",
+        "end_time": "00:02:42.28"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.2,
+    "primary_objects": [
+      "broccoli",
+      "bag"
+    ],
+    "primary_verbs": [
+      "grab",
+      "pour-onto",
+      "open"
+    ]
+  }
+]

@@ -1,0 +1,2268 @@
+{
+  "questions": [
+    {
+      "question_id": "p37_q0000",
+      "question": "What workflow does P37 use for cleanup while preparing garlic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Peels a garlic piece, clears away its skin, then continues the same cycle.",
+        "Moves each peeled garlic piece aside before dealing with any loose skins.",
+        "Leaves the loose skins nearby and handles cleanup only after finishing prep.",
+        "Peels several cloves first, then gathers the loose skins into one cleanup pile.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Peels a garlic piece, clears away its skin, then continues the same cycle.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0001",
+      "question": "After P37 does put-in carrot, what is P37's usual next food-prep action?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cut carrot on the board",
+        "rinse carrot in the sink",
+        "discard carrot into trash",
+        "peel carrot over the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "cut carrot",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0002",
+      "question": "After P37 does rinse bowl, what does P37 most commonly do at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-off tap at sink",
+        "pour-out wastewater nearby",
+        "wipe bowl with towel",
+        "put bowl in cabinet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-off tap",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0003",
+      "question": "For shaping carrots, which form does P37 specifically make during prep?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "shave carrots into ribbons",
+        "cut carrots into sticks",
+        "dice carrots into cubes",
+        "mash carrots into paste",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "cut carrots into sticks",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0004",
+      "question": "What is P37's setup strategy when shifting from handling the refrigerated item to accessing kitchen storage?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He leaves the tray by the fridge, grabs a utensil, then returns back.",
+        "He keeps the tray in hand, searches the counter, then reaches into storage.",
+        "He sets the tray down, positions a stool, then opens the drawer.",
+        "He moves the tray to the sink, wipes the area, then checks storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He sets the tray down, positions a stool, then opens the drawer.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0005",
+      "question": "When P37 wants to break down garlic before adding it, what preparation method appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "slice garlic thinly",
+        "boil garlic whole",
+        "grate garlic finely",
+        "smash garlic cloves",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "smash garlic before further prep",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0006",
+      "question": "What is P37's approach to oven-related preparation during broader kitchen work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Removes hot trays first and then decides whether to turn the oven on.",
+        "Uses the oven only for storage and avoids heating it during dessert preparation.",
+        "Starts oven-related setup while other preparation or cleanup is still underway.",
+        "Waits until all washing and mixing is complete before touching the oven.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Starts oven-related setup while other preparation or cleanup is still underway.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0007",
+      "question": "When P37 had the dough in hand, how did they prepare it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Dusted it with extra flour",
+        "Cut it into smaller pieces",
+        "Rolled it flat with a pin",
+        "Stretched it into shape",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Stretched it into shape",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0008",
+      "question": "When working with vegetables for cooking, what preparation flow does P37 show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washes and cuts vegetables as part of the active cooking setup.",
+        "Leaves vegetables unwashed until after they have been cooked.",
+        "Finishes all serving tasks before touching any vegetables.",
+        "Uses only pre-cut vegetables and avoids knife preparation.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes and cuts vegetables as part of the active cooking setup.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 6,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0009",
+      "question": "After finishing with running water, what closing action does P37 repeatedly perform?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "adjust tap handle",
+        "leave tap running",
+        "cover tap spout",
+        "turn-off tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "turn-off tap promptly",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101",
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0010",
+      "question": "In video P37_???, P37 handled a container. What did they do with it over the next three recorded actions?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They grabbed a sponge, washed the container, then rinsed it.",
+        "They washed the container, grabbed a sponge, then rinsed it.",
+        "They grabbed a sponge, rinsed the container, then turned off the tap.",
+        "They rinsed the container, washed it, then grabbed a sponge.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They grabbed a sponge, washed the container, then rinsed it.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0011",
+      "question": "In video P37_103, P01 handled chicken. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They shredded chicken thighs, shredded chicken, and then put chicken bones down.",
+        "They shredded chicken, turned on the tap, and then washed their hands.",
+        "They shredded chicken, put chicken bones down, and then washed their hands.",
+        "They put chicken bones down, shredded chicken thighs, and then turned on the tap.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They shredded chicken, turned on the tap, and then washed their hands.",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0012",
+      "question": "During chicken shredding, what does P37 usually continue doing immediately afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take bowl from counter",
+        "shred chicken thigh again",
+        "cut carrot on board",
+        "rinse chicken thigh again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "shred thigh:chicken",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0013",
+      "question": "After P37 does put-in cucumber, what does P37 often do next to gather more pieces?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "peel cucumber with knife",
+        "rinse cucumber at sink",
+        "discard cucumber ends",
+        "shovel-up cucumber again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "shovel-up cucumber",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0014",
+      "question": "After P37 does put-in chicken thigh, what does P37 most often do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take chicken thigh for another piece",
+        "wash hand under the tap",
+        "put-down chicken bone nearby",
+        "turn-off tap at the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take thigh:chicken",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0015",
+      "question": "Once cucumber pieces are ready, how does P37 transfer them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pick cucumbers singly",
+        "spear cucumbers by fork",
+        "shovel up cucumbers",
+        "pour cucumbers by pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shovel up cucumbers before placing",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0016",
+      "question": "What is P37's approach to preparing carrots during this segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Works in small batches, plating some cut carrots before continuing more cuts.",
+        "Plates whole carrots first, then slices them after moving to the plate.",
+        "Cuts all carrots fully first, then plates the entire batch at the end.",
+        "Leaves the cut carrots on the board while switching to another ingredient.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Works in small batches, plating some cut carrots before continuing more cuts.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0017",
+      "question": "During raw-meat cleanup, what does P37 usually do to the chicken before placing it into another vessel?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "flour chicken pieces",
+        "rinse chicken thighs",
+        "salt chicken first",
+        "pat chicken dry",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "rinse chicken thighs before moving them",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0018",
+      "question": "After P37 does shovel-up cucumber, what is P37's consistent next transfer action?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cut cucumber into slices",
+        "put-in cucumber to container",
+        "rinse cucumber under water",
+        "discard cucumber peelings",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-in cucumber",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0019",
+      "question": "When P37 picks up the seasoning container during prep, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pour it into the mixing bowl",
+        "set it beside the cutting board",
+        "shake it over the hot pan",
+        "carry it back to the cabinet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pour it into the mixing bowl",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0020",
+      "question": "Across videos, when P37 is organizing prep containers, what container choice is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses trays for prep holding",
+        "Uses cups for prep holding",
+        "Uses bowls for prep holding",
+        "Uses pans for prep holding",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses bowls for prep organization",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": true,
+      "source_participant": "p23",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0021",
+      "question": "What is P37's approach to shaping the carrots during prep?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers the carrots to the plate before doing the final shaping.",
+        "Leaves the carrots in larger chunks and portions them later.",
+        "Cuts the carrots directly into long sticks without an intermediate pass.",
+        "Slices the carrots first, then cuts the pieces into sticks.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Slices the carrots first, then cuts the pieces into sticks.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0022",
+      "question": "How does P37 manage the loose material while preparing garlic cloves?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He leaves all garlic skins on the workspace until the end.",
+        "He rinses the cloves first, then handles the loosened skins.",
+        "He clears each garlic skin immediately after every single clove.",
+        "He peels several garlic skins, then clears the loose skins.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He peels several garlic skins, then clears the loose skins.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0023",
+      "question": "When P37 cleans their hands during prep, what specific action appears as the repeated hand-cleaning choice?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "glove hands instead",
+        "sanitize hands only",
+        "wipe hands on towel",
+        "wash hands at sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "wash hands at the sink",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0024",
+      "question": "What workflow strategy does P37 use while preparing the carrots?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers carrots away first, then begins cutting them afterward.",
+        "Pauses cutting to switch tools before continuing with the carrots.",
+        "Cuts some carrots, plates that portion, then returns to cutting more.",
+        "Finishes cutting all carrots before moving any pieces to a plate.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cuts some carrots, plates that portion, then returns to cutting more.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0025",
+      "question": "After P37 does discard garlic skin, what does P37 typically return to doing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "peel garlic skin from another piece",
+        "chop garlic clove on the board",
+        "take knife from the drawer",
+        "rinse bowl under the tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "peel skin:garlic",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0026",
+      "question": "While separating chicken meat from bone, what does P37 usually keep doing next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse bowl at sink",
+        "cut carrot on board",
+        "debone chicken thigh",
+        "take pan from stove",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "debone thigh:chicken",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0027",
+      "question": "When P37 gathers a loose piece of peel while working, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "throw the peel away immediately",
+        "leave the peel on the counter",
+        "place the peel in a bowl",
+        "rinse the peel in the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "throw the peel away immediately",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0028",
+      "question": "Across videos, when P37 handles liquid or ingredient containers, which container format appears most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses mugs as containers",
+        "Uses bottles as containers",
+        "Uses jars as containers",
+        "Uses tins as containers",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses bottles as containers",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": true,
+      "source_participant": "p23",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0029",
+      "question": "What workflow strategy does P37 use while getting the carrots ready?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He finishes all cutting first, then plates carrots together.",
+        "He plates a small batch, then resumes cutting more carrots.",
+        "He leaves cut pieces on the board while changing tasks.",
+        "He moves pieces to cookware, then starts cooking immediately.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He plates a small batch, then resumes cutting more carrots.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0030",
+      "question": "After removing garlic coverings, what disposal behavior does P37 show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "save skins in bowl",
+        "rinse skins in sink",
+        "cook skins in pan",
+        "discard garlic skins",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "discard garlic skins after peeling",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0031",
+      "question": "When P37 needs a vessel near the sink, what object does P37 repeatedly handle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "use a tray",
+        "use a colander",
+        "use a saucepan",
+        "use a bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "use a bowl as the handled vessel",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0032",
+      "question": "When P37 opens the storage cupboard during prep, what do they usually take out next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "grab a kitchen knife",
+        "pull out a frying pan",
+        "take out a mixing bowl",
+        "pick up a chopping board",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick up a chopping board",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0033",
+      "question": "When a kitchen blade needs attention near the sink, what does P37 do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "soak knife in bowl",
+        "rinse knife under tap",
+        "wipe knife on cloth",
+        "set knife aside dry",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "rinse knife under the tap",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0034",
+      "question": "After cutting carrots, where does P37 tend to collect them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put carrots in plate",
+        "leave carrots on board",
+        "drop carrots in sink",
+        "wrap carrots in towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "put carrots in plate",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0035",
+      "question": "When P37 takes a kitchen knife during this task, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dry it with a towel",
+        "rinse it under the tap",
+        "set it on the counter",
+        "place it in a drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "rinse it under the tap",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0036",
+      "question": "After P37 does rinse chicken thigh, what does P37 generally do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "debone chicken thigh immediately",
+        "cut chicken thigh with knife",
+        "discard chicken thigh packaging",
+        "put-in chicken thigh to container",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-in thigh:chicken",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0037",
+      "question": "Across videos, when P37 incorporates sweet potato into the cooked dish, what handling pattern appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cut then add to pan",
+        "Mash inside bowl",
+        "Store for later",
+        "Serve as separate side",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "cut or chop then put into pan",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0038",
+      "question": "After P37 does cut carrot, what does P37 usually do with the carrot next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse carrot at the sink",
+        "peel carrot over the work area",
+        "put-in carrot to container",
+        "discard carrot end pieces",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-in carrot",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0039",
+      "question": "What is P37's approach to retrieving cookware from storage in this sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Brings over a stool, sets it down, then retrieves the cooking pot.",
+        "Opens nearby storage by hand, then leaves cookware inside for later use.",
+        "Looks through a low drawer, then carries cookware away from the counter.",
+        "Clears counter space first, then moves stored cookware onto the worktop.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Brings over a stool, sets it down, then retrieves the cooking pot.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0040",
+      "question": "When preparing carrots, which cutting style shows up as a repeated pattern?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "roast carrots whole",
+        "peel carrots only",
+        "cut carrots repeatedly",
+        "grate carrots finely",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "cut carrots repeatedly",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0041",
+      "question": "What is P37's strategy for dealing with bowls during this sink-side task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "places the bowls directly on the rack without cleaning",
+        "picks up the bowls and rinses them right away",
+        "wipes the bowls with a cloth before moving on",
+        "sets the bowls aside to wash later in a larger batch",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "picks up the bowls and rinses them right away",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0042",
+      "question": "When preparing onions for the dish, what processing choice does P37 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "chop onions first",
+        "peel onions only",
+        "grate onions wet",
+        "roast onions whole",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "chop onions before adding",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0043",
+      "question": "What is P37's approach to preparing onions in this segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Peels the onion first, then chops it for use.",
+        "Chops the onion first, then peels it afterward.",
+        "Trims the onion ends, then sets it aside whole.",
+        "Soaks the onion first, then drains it before cutting.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Chops the onion first, then peels it afterward.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0044",
+      "question": "What is P37's approach to handling the chicken thighs at this prep stage?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers all the chicken together onto a tray without rinsing.",
+        "Rinses the thighs in the pot, then removes pieces individually.",
+        "Drains the chicken through a colander before handling the pieces.",
+        "Leaves the chicken soaking in the pot and seasons it there.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Rinses the thighs in the pot, then removes pieces individually.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0045",
+      "question": "Across sessions involving bowls, tubs, coffee, and containers, what storage area does P37 repeatedly check?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses the windowsill",
+        "Uses the cupboard area",
+        "Uses the oven drawer",
+        "Uses the open counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses the cupboard area",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0046",
+      "question": "What is P37's strategy for dealing with the tupperware during this short kitchen sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens the container and checks inside before moving it again.",
+        "Transfers the contents into another container before storing it.",
+        "Leaves the container on the counter and labels it first.",
+        "Picks up the container and shakes it repeatedly before setting it aside.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the container and shakes it repeatedly before setting it aside.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0047",
+      "question": "What is P37's approach after conditioning a knife for later use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the sharpener out but immediately starts cutting with the knife.",
+        "Washes the knife right away and stores it before preparing the food.",
+        "Puts the knife and sharpener down after honing before continuing setup.",
+        "Keeps both knife and sharpener in hand while gathering more ingredients.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Puts the knife and sharpener down after honing before continuing setup.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0048",
+      "question": "What is P37's approach to organizing the chicken thighs during this prep step?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses each piece and transfers it straight into a bowl.",
+        "Places pieces directly in the bowl and seasons them without rinsing.",
+        "Pats the pieces dry on towels before moving them to the board.",
+        "Leaves the pieces at the sink and batches them for later trimming.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Rinses each piece and transfers it straight into a bowl.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0049",
+      "question": "When preparing cucumbers, what cutting behavior is repeatedly visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cut cucumber pieces",
+        "salt cucumber whole",
+        "peel cucumber strips",
+        "spiralize cucumber noodles",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "cut cucumber into pieces",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0050",
+      "question": "What is P37's strategy for finding the needed cookware from storage?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Searches the countertop area first, then gets cookware from open shelving.",
+        "Checks a drawer first, then opens the cupboard to retrieve the pot.",
+        "Moves the stool aside, then selects cookware already sitting out.",
+        "Goes straight to the cupboard and retrieves cookware without checking elsewhere.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Checks a drawer first, then opens the cupboard to retrieve the pot.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0051",
+      "question": "What is P37's approach when working through the carrot preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps cut carrot pieces on the board while starting another ingredient.",
+        "Cuts the entire carrot batch first, then plates the pieces together.",
+        "Moves some carrot pieces to a plate, then resumes cutting more carrot.",
+        "Transfers carrot pieces to cookware, then continues with other prep.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Moves some carrot pieces to a plate, then resumes cutting more carrot.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0052",
+      "question": "When getting cookware ready, what approach does P37 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves cookware in storage and prepares the counter space instead.",
+        "Uses cupboard storage, removes cookware, then sets it down nearby.",
+        "Keeps cookware in a drawer, then places it directly on the stove.",
+        "Checks the sink area first, then carries cookware over for rinsing.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses cupboard storage, removes cookware, then sets it down nearby.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0053",
+      "question": "In video P37_101, P37 handled garlic skins. What did they do with them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They discarded the garlic skins first, then peeled the garlic skins.",
+        "They peeled the garlic skins away, then kept the garlic skins.",
+        "They gathered the garlic skins together, then peeled the garlic skins.",
+        "They peeled the garlic skins away, then discarded the garlic skins.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They peeled the garlic skins away, then discarded the garlic skins.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0054",
+      "question": "After P37 does peel garlic skin, what is the next action P37 most consistently performs?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse garlic under the tap",
+        "discard garlic skin right away",
+        "chop garlic on the board",
+        "smash garlic with the knife",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "discard skin:garlic",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0055",
+      "question": "After P37 does take bowl, what does P37 most often do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dry bowl with a cloth",
+        "turn-on tap at the sink",
+        "put bowl on the stove",
+        "fill bowl with vegetables",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0056",
+      "question": "In video P37_103, P37 handled chicken thighs. What did they do with them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They shredded the chicken thighs and put the chicken bones down.",
+        "They put the chicken bones down and took the chicken thighs.",
+        "They took the chicken thighs and shredded the chicken thighs.",
+        "They took the chicken thighs and put the chicken bones down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They took the chicken thighs and shredded the chicken thighs.",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0057",
+      "question": "In video P37_102, P37 handled the carrot packing bag. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They took the knife first, then put the carrot packing bag in the bin.",
+        "They tore the carrot packing bag first, then put the packing bag in the bin.",
+        "They put the carrot packing bag in the bin, then took the knife.",
+        "They cut off the carrot packing bag, then tore the carrot packing bag.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They cut off the carrot packing bag, then tore the carrot packing bag.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0058",
+      "question": "How does P37 handle the chopped herbs when transferring them to the cooking vessel?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He tips them from the board into a small bowl first.",
+        "He scoops them on the knife and puts them straight into the pot.",
+        "He leaves them on the board to add later with a spoon.",
+        "He gathers them by hand and drops them straight into the pot.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He scoops them on the knife and puts them straight into the pot.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0059",
+      "question": "When starting garlic preparation, what does P37 do to the outer covering first?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "peel away garlic skins",
+        "grate garlic directly",
+        "roast garlic whole",
+        "soak garlic cloves",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "peel away garlic skins",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0060",
+      "question": "What is P37's approach to breaking down the chicken during this part of cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the thighs whole in the pot and breaks them down only after serving.",
+        "Transfers the thighs to a cutting board and slices them before returning them.",
+        "Adds the thighs to the pot and shreds them there in small rounds.",
+        "Lets the thighs cool on a plate and tears them apart later by hand.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds the thighs to the pot and shreds them there in small rounds.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0061",
+      "question": "Across the recorded cooking sessions, which protein does P37 repeatedly handle for the main prep work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "handles chicken wings",
+        "handles pork cutlets",
+        "handles chicken thighs",
+        "handles chicken breasts",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "handles chicken thighs as the repeated protein",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101",
+        "P37_102",
+        "P37_103"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0062",
+      "question": "After removing hard parts from the chicken, where does P37 tend to direct those parts next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "return bones to pot",
+        "put-down chicken bones",
+        "discard bones in sink",
+        "bag bones immediately",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "put-down chicken bones nearby",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0063",
+      "question": "When preparing chicken with bones, what does P37 consistently do to the pieces?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "simmer bone-in thighs",
+        "grill whole thighs",
+        "debone chicken thighs",
+        "marinate intact thighs",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "debone chicken thighs repeatedly",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0064",
+      "question": "Across videos, when P37 mixes or serves small food and drink items, which small utensil is repeatedly selected?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Chooses a fork",
+        "Chooses a straw",
+        "Chooses a spoon",
+        "Chooses chopsticks",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "P37 chooses a spoon or teaspoon.",
+      "video_id": "P37_???",
+      "video_ids": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???",
+        "P37_???"
+      ],
+      "num_videos": 16,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p37"
+    },
+    {
+      "question_id": "p37_q0065",
+      "question": "After P37 does wash hand, what is P37's typical next sink action?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take knife from counter",
+        "turn-off tap at sink",
+        "wipe hand with towel",
+        "rinse bowl at sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-off tap",
+      "video_id": "P37_103",
+      "video_ids": [
+        "P37_103",
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0066",
+      "question": "When leafy herbs appear in the prep area, where does P37 put them before cutting or mixing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put coriander in cup",
+        "put coriander in pan",
+        "put coriander in sink",
+        "put coriander on board",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "put coriander on chopping board",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0067",
+      "question": "In video P37_102, P37 handled carrots. What did they do with them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They turned on the tap, washed the carrots, and put the bowl down.",
+        "They took the carrots, turned off the tap, and put the bowl down.",
+        "They tore the packing bag, took the carrots, and turned on the tap.",
+        "They took the carrots, turned on the tap, and washed the carrots.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They took the carrots, turned on the tap, and washed the carrots.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0068",
+      "question": "What is P37's approach to getting into the carrot packaging?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He transfers the carrots to a bowl, then removes the wrapper afterward.",
+        "He searches for a resealable flap, then pulls the zipper track apart.",
+        "He cuts the package edge first, then tears the loosened plastic open.",
+        "He loosens the seam by hand, then finishes with one clean knife cut.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He cuts the package edge first, then tears the loosened plastic open.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0069",
+      "question": "What is P37's strategy for handling a bowl during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places it directly into a dishwasher load.",
+        "Leaves it down and cleans nearby surfaces.",
+        "Sets it aside to clean later with dishes.",
+        "Picks it up and washes it right away.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks it up and washes it right away.",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0070",
+      "question": "When loose produce packaging is present, what does P37 do to open or manage it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "label packing bag first",
+        "rinse packing bag clean",
+        "tear packing bag by hand",
+        "fold packing bag flat",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "tear packing bag by hand",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101",
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0071",
+      "question": "When P37 starts a sink-based task, which first action is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap",
+        "fill kettle first",
+        "wipe sink basin",
+        "fetch dish soap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "turn-on tap before sink work",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101",
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0072",
+      "question": "What is P37's approach to preparing the onions during this sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves sliced onions on the board while switching to another ingredient.",
+        "Finishes chopping all onions first, then transfers the full pile afterward.",
+        "Moves a sliced onion batch into a bin, then resumes chopping more.",
+        "Pauses onion prep to clean the board before chopping any further.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Moves a sliced onion batch into a bin, then resumes chopping more.",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0073",
+      "question": "When P37 begins handling the meat pieces, what action is most characteristic before other processing continues?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "season chicken wings",
+        "slice chicken breasts",
+        "take chicken thighs",
+        "weigh pork pieces",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "take chicken thighs before continuing prep",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101",
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0074",
+      "question": "When cooking equipment is being set up, what heat source does P37 place the pot on?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put pot in microwave",
+        "put pot in oven",
+        "put pot on gas hob",
+        "put pot on induction hob",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "put pot on induction hob",
+      "video_id": "P37_102",
+      "video_ids": [
+        "P37_102"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p37_q0075",
+      "question": "When separating cooked or softened meat, what texture-making method does P37 favor?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "mince chicken thighs",
+        "shred chicken thighs",
+        "cube chicken thighs",
+        "slice chicken thighs",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shred chicken thighs into pieces",
+      "video_id": "P37_101",
+      "video_ids": [
+        "P37_101"
+      ],
+      "participant_id": "P37",
+      "video_scope": [
+        "P37_103",
+        "P37_102",
+        "P37_101"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": false
+    }
+  ],
+  "metadata": {
+    "format": "multiple_choice_5",
+    "option_e": "The information is not available based on the given context",
+    "source": "EAM-QA source: per_participant_final/P37.json",
+    "n": 61,
+    "by_type": {
+      "SPref": 23,
+      "SHabit": 13,
+      "SRoutine": 20,
+      "ERecall": 5
+    },
+    "skipped": 0,
+    "eam_qa_unanswerable_augmentation": {
+      "n_answerable": 61,
+      "n_unanswerable": 15,
+      "unanswerable_ratio": 0.19736842105263158,
+      "donor_pids": [
+        "p03",
+        "p04",
+        "p06",
+        "p07",
+        "p11",
+        "p22",
+        "p23",
+        "p25",
+        "p28"
+      ]
+    }
+  }
+}

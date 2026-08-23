@@ -1,0 +1,4398 @@
+{
+  "questions": [
+    {
+      "question_id": "p09_q0000",
+      "question": "Across sessions, when P09 works with raw animal foods during cooking, what handling style is most visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Serves proteins only uncooked",
+        "Freezes proteins before cooking",
+        "Leaves proteins untouched throughout",
+        "Portions and moves proteins actively",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They portion and move proteins actively.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0001",
+      "question": "Across sessions, when P09 transitions from wet or messy cleanup back to food handling, what do they tend to do?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps hands wet for serving",
+        "Rubs hands on raw food",
+        "Dries hands before continuing",
+        "Puts hands into the fridge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They dry their hands before continuing.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0002",
+      "question": "When P09 resets parts of the kitchen during a task, what is the reset style?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Delay every reset until the next meal preparation session begins.",
+        "Perform small localized resets within the active kitchen workflow.",
+        "Reset the whole kitchen completely after each single ingredient action.",
+        "Reset only the sink area and leave storage areas unchanged.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Perform small localized resets within the active kitchen workflow.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0003",
+      "question": "Across sessions, when P09 gets ready to eat after food preparation, what utensil choice appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Takes a whisk or peeler",
+        "Takes a sponge or towel",
+        "Takes a kettle or pan",
+        "Takes a fork or spoon",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They take a fork or spoon.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0004",
+      "question": "When P09 grabs a towel right after rinsing a pan, what do they usually do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipe the stovetop with it",
+        "Dry the pan with it",
+        "Cover the pan with it",
+        "Fold it beside the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Dry the pan with it",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0005",
+      "question": "When P09 prepares food or drink using a temporary vessel, what placement strategy is used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use counters, plates, pans, or jugs as active staging locations.",
+        "Hold ingredients by hand until every component is ready to cook or drink.",
+        "Avoid staging areas and work only directly over the sink.",
+        "Put all ingredients back into storage after each individual addition.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Use counters, plates, pans, or jugs as active staging locations.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106",
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0006",
+      "question": "Just before handling the packaged chicken, what seasoning step does P09 choose?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Shakes a condiment container by hand",
+        "Measures dry spices into a bowl",
+        "Sprinkles loose salt with fingers",
+        "Grinds pepper using a handheld mill",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Shakes a condiment container by hand",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0007",
+      "question": "What strategy does P09 use for managing the chicken during this cooking step?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Seasons the chicken first and leaves it undisturbed while it cooks.",
+        "Transfers the chicken to a plate and handles seasoning afterward.",
+        "Fries the chicken first, then moves it once it has cooked.",
+        "Cuts the chicken into pieces before starting any pan cooking.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Fries the chicken first, then moves it once it has cooked.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0008",
+      "question": "When choosing fillings for the omelette, what order did P09 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Tomato first, then cheese",
+        "Mushrooms first, then ham",
+        "Ham first, then cheese",
+        "Cheese first, then ham",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Ham first, then cheese",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0009",
+      "question": "When P09 prepares something to eat or drink, how are serving vessels used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Plate or cup items only after all eating and drinking is finished.",
+        "Keep food in original containers and avoid separate serving vessels.",
+        "Bring in the needed vessel as part of the active serving or assembly block.",
+        "Set out every plate and cup at the start before any appliance work.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Bring in the needed vessel as part of the active serving or assembly block.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0010",
+      "question": "In video P09_???, P09 handled the grater. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the grater, scraped lemon zest with the back of a knife, then tapped the grater against the bowl.",
+        "They tapped the grater against the bowl, scraped zest with the knife, then tapped the knife against the bowl.",
+        "They picked up the grater, tapped it against the bowl, then scraped off the paring knife.",
+        "They scraped off the paring knife, tapped the knife against the bowl, then tapped the knife against the grater.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the grater, scraped lemon zest with the back of a knife, then tapped the grater against the bowl.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0011",
+      "question": "When P09 deals with waste or discarded material, what disposal approach is used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Place waste into cookware temporarily and discard it after cooking.",
+        "Store scraps in the refrigerator until the next kitchen cleanup session.",
+        "Remove waste during preparation when it appears in the workflow.",
+        "Keep all wrappers and scraps on the workspace until the meal is complete.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Remove waste during preparation when it appears in the workflow.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0012",
+      "question": "When seasoning prawns, how does P09 appear to spread the seasoning after adding it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Tosses the prawns by hand",
+        "Stirs the prawns with a spoon",
+        "Leaves the prawns to sit",
+        "Shakes the prawns in the container",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Shakes the prawns in the container",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0013",
+      "question": "When P09 prepares food that involves cutting, how is cutting integrated with cooking or assembly?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cut every ingredient in a separate batch before any vessel is prepared.",
+        "Cut ingredients only after the cooked dish has been removed from heat.",
+        "Cut or process the item as part of its immediate route to cooking or assembly.",
+        "Avoid cutting and cook all ingredients whole whenever possible.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cut or process the item as part of its immediate route to cooking or assembly.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0014",
+      "question": "When P09 manages cold ingredients and room-temperature work areas, what transfer approach appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Empty the refrigerator broadly and decide later which ingredients will be used.",
+        "Prepare cold ingredients entirely inside the refrigerator before moving them out.",
+        "Move refrigerated items into the active workflow, then continue preparation outside storage.",
+        "Keep cold ingredients inside the refrigerator until every other task is complete.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Move refrigerated items into the active workflow, then continue preparation outside storage.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0015",
+      "question": "What is P09's approach to managing the raw chicken stage before continuing with the pan work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the chicken in the pan and begins mixing right away.",
+        "Cleans hands after the transfer before resuming cooking tasks.",
+        "Adds seasonings first, then pauses for hand cleanup afterward.",
+        "Moves the chicken aside and switches to another prep task.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans hands after the transfer before resuming cooking tasks.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0016",
+      "question": "Across sessions, when P09 works with a vessel for a drink or hot liquid, what handling style is visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a plate as a drink vessel",
+        "Uses a food wrapper as a cup",
+        "Uses a cooking pan as a cup",
+        "Uses a dedicated cup or jug",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They use a dedicated cup or jug.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0017",
+      "question": "What is P09's strategy for seasoning the prawns during this part of the prep?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the prawns plain at first, then seasons the chicken before returning to the prawns.",
+        "Keeps the seasoning container in hand while mixing the prawns before choosing another spice.",
+        "Takes the garlic powder, adds it to the prawns, then sets the garlic back on the table.",
+        "Measures several spices into a separate bowl, then sprinkles the mixed seasoning over the prawns.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Takes the garlic powder, adds it to the prawns, then sets the garlic back on the table.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0018",
+      "question": "What approach does P09 use when preparing the prawns for seasoning?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sprinkles seasoning on top, then leaves the prawns untouched.",
+        "Adds pepper directly, then shakes the prawns to coat them.",
+        "Cooks the prawns first, then seasons them after cooking.",
+        "Mixes seasoning separately, then folds the prawns into it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds pepper directly, then shakes the prawns to coat them.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0019",
+      "question": "How does P09 tackle the dirty pan once it is at the sink?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds soap to the sponge, then scrubs the pan.",
+        "Wipes the pan with a cloth, then sets it aside.",
+        "Soaks the pan briefly, then loosens residue with water.",
+        "Uses a brush on the pan, then rinses it clean.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds soap to the sponge, then scrubs the pan.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0020",
+      "question": "In the observed cooking routine, how does P09 sequence the heat and cookware before handling the fruit?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Checks the fridge, then sets up the pan",
+        "Preps the fruit, then starts the heat",
+        "Puts the pan on, then starts the heat",
+        "Starts the heat, then puts the pan on",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Starts the heat, then puts the pan on",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0021",
+      "question": "When P09 has started cleaning a pan with a sponge, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Add soap onto the sponge",
+        "Set the pan aside on the counter",
+        "Wipe the pan dry with a towel",
+        "Place the pan in the dishwasher",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Add soap onto the sponge",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0022",
+      "question": "In the observed milk-selection moment, what did P09 do with the regular milk before moving to the soy option?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Put the regular milk back away",
+        "Shook the regular milk container first",
+        "Opened the regular milk carton first",
+        "Poured the regular milk into a cup",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Shook the regular milk container first",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0023",
+      "question": "Across sessions, when P09’s hands get messy during food preparation, what pattern is visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleans their hands during prep",
+        "Wipes only on clothing fabric",
+        "Continues without hand cleaning",
+        "Waits until all eating is done",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They clean their hands during prep.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0024",
+      "question": "What workflow strategy does P09 use when beginning this fruit-based cooking task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the stove and pan first, then takes bananas.",
+        "Collects cold ingredients first, then chooses cookware afterward.",
+        "Preps the fruit first, then starts heating the cookware.",
+        "Leaves the heat off while organizing fruit nearby.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Sets the stove and pan first, then takes bananas.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0025",
+      "question": "When P09 uses the countertop during cooking or serving, what function does it serve?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Reserve the countertop only for packaged items from the refrigerator.",
+        "Avoid the countertop and keep every item inside appliances or cupboards.",
+        "Use the countertop as a temporary landing point between task stages.",
+        "Use the countertop only for dirty tools that will not be reused.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Use the countertop as a temporary landing point between task stages.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_104",
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0026",
+      "question": "What is P09's approach to opening the egg at the bowl?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Taps it on the countertop, then opens it over the bowl.",
+        "Uses a utensil to score the shell, then opens it.",
+        "Taps it twice on the bowl side, then cracks it open.",
+        "Cracks it directly with one firm motion over the bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Taps it twice on the bowl side, then cracks it open.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0027",
+      "question": "How does P09 manage the transition from handling chicken to using other ingredients?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cuts the chicken, sets tools aside, and keeps working without cleaning.",
+        "Seasons first, then cuts the chicken and washes afterward.",
+        "Cuts the chicken, cleans hands, then reaches for condiments.",
+        "Cleans hands first, gathers condiments, then cuts the chicken.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cuts the chicken, cleans hands, then reaches for condiments.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0028",
+      "question": "When P09 is getting ready to season the chicken, what order does P09 follow in this observed routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleans hands first, then reaches for the condiments",
+        "Grabs the condiments first, then cleans hands afterward",
+        "Moves the chicken first, then looks for seasonings",
+        "Changes the knife first, then opens the condiments",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cleans hands first, then reaches for the condiments",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0029",
+      "question": "When P09 portions the raw chicken breast, what tool choice does P09 make?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a knife to slice it",
+        "Uses a cleaver to chop it",
+        "Pulls it apart by hand",
+        "Uses kitchen shears to trim it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a knife to slice it",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0030",
+      "question": "Across sessions, when P09 is building flavor in food or drink, what visible pattern do they show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Serves flavorings only separately",
+        "Actively adds flavoring ingredients",
+        "Removes flavorings after cooking",
+        "Avoids all flavoring ingredients",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They actively add flavoring ingredients.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0031",
+      "question": "When P09 pulls a chicken breast from the opened package, what do they typically do next before cutting?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse the breast in the sink",
+        "season the breast with spices",
+        "set the breast on a plate",
+        "take another piece of chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take another piece of chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0032",
+      "question": "Across sessions, when P09 begins a stovetop cooking task, what setup pattern do they tend to use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the burner off until serving",
+        "Waits for food to cool first",
+        "Turns on the stove early",
+        "Starts only with the microwave",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They turn on the stove early in the cooking setup.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0033",
+      "question": "When P09 opens a drawer during kitchen organization, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handle an item for storage or preparation",
+        "Pour a drink into a cup",
+        "Shake a carton of juice",
+        "Turn the microwave on immediately",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "handle an item for storage or preparation",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0034",
+      "question": "After P09 sets the pepper down on the table, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "starts frying the chicken",
+        "shakes the prawns again",
+        "moves the chicken aside",
+        "sets more seasoning out",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "starts frying the chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0035",
+      "question": "After P09 picks up a pan to start cleaning it, what do they typically reach for next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "picks up a sponge",
+        "pours soap into the pan",
+        "wipes it with a towel",
+        "sets it in the dishwasher",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "picks up a sponge",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0036",
+      "question": "After P09 cleans their hands during chicken prep, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinses the bowl in the sink",
+        "places chicken breast on board",
+        "adds condiments to the chicken",
+        "picks up a knife for cutting",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "adds condiments to the chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0037",
+      "question": "Across sessions, when P09 finishes with cookware or food after a step, what placement behavior appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places items on a work surface",
+        "Places items under the sink",
+        "Places items inside clothing",
+        "Places items in the trash",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They place items on a work surface.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0038",
+      "question": "What was P09 doing in video P09_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Loaded dirty bowls into the dishwasher",
+        "Made cereal with milk while brewing coffee",
+        "Made toast with butter while boiling the kettle",
+        "Prepared yoghurt with fruit and honey",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Made cereal with milk while brewing coffee",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0039",
+      "question": "When P09 prepares a cooking surface for food, what strategy is used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Ready the pan or stove first, then move ingredients toward cooking.",
+        "Put ingredients into a cold pan and heat everything only afterward.",
+        "Fully cut and season all ingredients before touching the stove or pan.",
+        "Avoid pan preparation by relying mainly on the microwave for cooking.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Ready the pan or stove first, then move ingredients toward cooking.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0040",
+      "question": "When cloths or paper are used, what role do they serve in P09's work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses cloth or paper as small cleanup support during the kitchen task.",
+        "Avoids cloth and paper entirely by rinsing every surface with water.",
+        "Stores cloth away before starting and waits until the next day to clean.",
+        "Uses cloth only as heat protection and never for cleaning or tidying.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses cloth or paper as small cleanup support during the kitchen task.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0041",
+      "question": "Across sessions, when P09 is about to use a carton-style drink ingredient, what action pattern appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers the carton to a bowl",
+        "Opens the carton without motion",
+        "Pours the carton into a pot",
+        "Shakes the carton before use",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They shake the carton before use.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0042",
+      "question": "Across sessions, when P09 uses cooking or serving tools, how do they usually involve them in the task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handles decorative table items",
+        "Handles dedicated kitchen tools",
+        "Handles cleaning-only brushes",
+        "Handles appliance power cords",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They handle dedicated kitchen tools.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0043",
+      "question": "What is P09's workflow strategy when moving raw chicken from prep into cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Finishes cutting the chicken and immediately seasons the pan.",
+        "Adds the chicken to the pan and then cleans hands.",
+        "Moves the chicken to a bowl and washes the knife first.",
+        "Keeps the chicken on the board and wipes the counter first.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds the chicken to the pan and then cleans hands.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0044",
+      "question": "Across sessions, what does P09 typically do after rinse sponge?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "stir pasta",
+        "pick-up salt",
+        "clean sink",
+        "open oven",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "clean sink",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0045",
+      "question": "Across sessions, when P09 pauses with ingredients or containers between steps, where do they tend to stage them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stages items in the sink",
+        "Stages items on a chair",
+        "Stages items on the countertop",
+        "Stages items on the floor",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They stage items on the countertop.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0046",
+      "question": "When P09 opens kitchen storage, what navigation pattern follows across tasks?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Avoid cupboards and drawers once the refrigerator has been opened.",
+        "Empty storage areas onto the counter before deciding what to use.",
+        "Leave one storage area open while searching every other area.",
+        "Move from one storage area to another as the task requires new items.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Move from one storage area to another as the task requires new items.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0047",
+      "question": "What is P09's workflow strategy for getting the prawns seasoned before moving on?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds pepper to prawns, then shakes them to distribute it",
+        "Mixes seasoning into prawns with a utensil before heating them",
+        "Seasons prawns in the pan and lets them sit undisturbed",
+        "Coats prawns with sauce separately and transfers them afterward",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds pepper to prawns, then shakes them to distribute it",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0048",
+      "question": "What is P09's approach to the knife during this part of the workflow?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses the knife and keeps it ready for use.",
+        "Picks up the knife and lathers it right away.",
+        "Sets the knife aside and waits to wash it later.",
+        "Wipes the knife dry and returns it to storage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up the knife and lathers it right away.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p35",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0049",
+      "question": "When P09 takes a plate during setup or cleanup, what kind of next step is characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Move into utensil or storage handling",
+        "Put the plate straight into the sink",
+        "Carry the plate to the trash bin",
+        "Start wiping the dining table surface",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "move into utensil or storage handling",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0050",
+      "question": "In video P09_???, P09 handled the spoon. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They stirred the lemon curd with the spoon, then opened the drawer.",
+        "They tapped the spoon against the large bowl, then put it down.",
+        "They put down the spoon, then turned off the hob nearby.",
+        "They opened the drawer with the spoon, then stirred the curd.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They tapped the spoon against the large bowl, then put it down.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0051",
+      "question": "Across sessions, when P09 handles food packages or containers, what access pattern do they show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens the container before removing",
+        "Removes contents before opening",
+        "Washes containers before opening",
+        "Stores containers without opening",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They open the container before removing contents.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0052",
+      "question": "After P09 opens a raw prawn package, what do they usually do next with the leftover waste?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the packaging beside the board",
+        "Moves the packaging closer to the stove",
+        "Takes the trash straight to the bin",
+        "Rinses the packaging under the tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Takes the trash straight to the bin",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0053",
+      "question": "When P09 handles heating equipment, what workflow pattern is most consistent?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Treat each appliance as a separate station for the current subtask.",
+        "Use the microwave as the default appliance for every heated item.",
+        "Avoid appliances when possible and rely on room-temperature preparation.",
+        "Run all appliances at once so every heat source is active together.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Treat each appliance as a separate station for the current subtask.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106",
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0054",
+      "question": "Across sessions, when P09 organizes dishes or cups, what storage area do they prefer?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses the fridge for dishware",
+        "Uses the bin for dishware",
+        "Uses the oven for dishware",
+        "Uses the cupboard for dishware",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They use the cupboard for dishware.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0055",
+      "question": "What is P09's approach to setting up the chicken before cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He opens the chicken package before handling any seasoning.",
+        "He heats the pan dry, then adds oil after chicken.",
+        "He shakes the condiments before opening the chicken package.",
+        "He portions the chicken first, then prepares seasoning afterward.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He shakes the condiments before opening the chicken package.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0056",
+      "question": "When P09 is trying to keep the blender mixture processing smoothly, what method do they use before running it again?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds extra liquid, then restarts it",
+        "Scrapes the sides, then restarts it",
+        "Shakes the jar, then restarts it",
+        "Stirs the mixture, then restarts it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Shakes the jar, then restarts it",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0057",
+      "question": "In the observed pan-cleaning routine, what tool-and-soap approach does P09 choose?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a brush and adds cleaner to the pan",
+        "Uses a cloth and mixes soap in the sink",
+        "Uses a scraper and rinses before scrubbing",
+        "Uses a sponge and adds soap onto it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a sponge and adds soap onto it",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0058",
+      "question": "After getting a pan clean, what follow-up routine does P09 seem to prefer?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves it in the rack until it dries",
+        "Uses paper towels and throws them away",
+        "Uses a towel and puts it back",
+        "Sets it on the stove until it dries",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a towel and puts it back",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0059",
+      "question": "When moving chopped ingredients from the board, what transfer style does P09 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washes chopped vegetables again before transferring them.",
+        "Carries chopped ingredients on the board and scrapes them in.",
+        "Uses a measuring cup to move vegetables from board to pan.",
+        "Picks up each piece individually and drops it into the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Carries chopped ingredients on the board and scrapes them in.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0060",
+      "question": "After P09 gives a pan an initial wash, how do they usually continue cleaning it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places the pan in a dishwasher.",
+        "Wipes the pan with a towel.",
+        "Puts dish soap on the sponge.",
+        "Soaks the pan in the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Puts dish soap on the sponge.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0061",
+      "question": "When P09 decides to clear out a drink bottle, what do they seem to prefer doing with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leave the bottle standing on the counter",
+        "Put the bottle straight into the fridge",
+        "Add fresh liquid back into the bottle",
+        "Wash the bottle thoroughly with soap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Add fresh liquid back into the bottle",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0062",
+      "question": "Across videos, when P09 needs small kitchen tools or loose accessories, which storage route is favored?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Checks a wall shelf",
+        "Searches a utensil crock",
+        "Opens a drawer for access",
+        "Uses a hanging rail",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Opens a drawer for access",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p27",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0063",
+      "question": "What is P09's approach to managing the pan during this cooking task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves the food aside and changes pans during cooking.",
+        "Tops up the pan with oil while the chicken is frying.",
+        "Leaves the pan alone and adjusts only the heat level.",
+        "Coats the pan with oil before any food starts cooking.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Tops up the pan with oil while the chicken is frying.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0064",
+      "question": "When getting seasonings ready during chicken prep, what handling method does P09 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens them and smells the container contents.",
+        "Picks them up and gives them a shake.",
+        "Leaves them capped beside the cutting board.",
+        "Pours them out onto the work surface.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Picks them up and gives them a shake.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0065",
+      "question": "Across sessions, when P09 prepares solid foods that need portioning, what approach is most consistent?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Tears items apart by hand",
+        "Blends items before cooking",
+        "Cuts or slices items into pieces",
+        "Keeps items whole for cooking",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They cut or slice items into pieces.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0066",
+      "question": "When P09 is washing a pan at the sink, what method do they use for the main cleaning pass?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Soaks the pan, scrubs with brush, then drains it",
+        "Runs water only, swirls the pan, then sets aside",
+        "Uses dish soap on a sponge, scrubs, then rinses",
+        "Wipes with paper towel, sprays cleaner, then dries",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses dish soap on a sponge, scrubs, then rinses",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0067",
+      "question": "When P09 transitions from raw food handling to the next action, what hygiene pattern appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Clean or dry hands at transition points before handling the next item.",
+        "Wash hands continuously after nearly every individual movement.",
+        "Clean hands only once at the start before any kitchen work begins.",
+        "Avoid hand-cleaning unless the whole cooking task is already finished.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Clean or dry hands at transition points before handling the next item.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0068",
+      "question": "After P09 oils the pan while starting the chicken, what do they usually do next before handling the meat?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "set the chicken on a plate",
+        "move the pan off the burner",
+        "open the chicken package right away",
+        "pick up condiments and shake them",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick up condiments and shake them",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0069",
+      "question": "What is P09's approach to portioning an ingredient while working at the pan?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps the ingredient aside until the pan is off heat, then tops the dish.",
+        "Mixes the ingredient in a bowl first, then transfers the mixture to the pan.",
+        "Measures the ingredient separately, then adds one pre-portioned amount to the pan.",
+        "Adds some to the pan, then reaches back for another portion to continue.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds some to the pan, then reaches back for another portion to continue.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0070",
+      "question": "What was P09 doing in video P09_106?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Chopped vegetables for a salad on counter",
+        "Toasted bread and spread butter on plate",
+        "Washed dishes and wiped the kitchen sink",
+        "Reheated rice in microwave from pot",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Reheated rice in microwave from pot",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0071",
+      "question": "When getting raw chicken ready for the pan, what does P09 appear to prefer doing first?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pound the breast flat before putting it in",
+        "Cut the chicken up before putting it in",
+        "Season the whole breast before putting it in",
+        "Marinate the chicken first before putting it in",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cut the chicken up before putting it in",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0072",
+      "question": "In the observed chicken preparation, what order did P09 choose before starting it in the pan?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Seasoned the pieces before putting them in",
+        "Cut the chicken before putting it in",
+        "Put whole pieces in before cutting them",
+        "Washed the pieces before putting them in",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cut the chicken before putting it in",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0073",
+      "question": "What is P09's workflow for breaking down the raw chicken?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Trims the breast first, then cuts it into serving-size strips.",
+        "Keeps the breast whole, then moves it straight to seasoning.",
+        "Pounds the breast flat, then portions it into even cutlets.",
+        "Slices the chicken first, then chops it into smaller pieces.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Slices the chicken first, then chops it into smaller pieces.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0074",
+      "question": "After P09 cleans their hands while preparing the pan, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "move the chicken to a plate",
+        "turn the chicken with tongs",
+        "cover the pan with a lid",
+        "add condiments to the chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "add condiments to the chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0075",
+      "question": "When P09 opens a raw seafood package, what do they typically do before continuing prep?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "start cutting the seafood right away",
+        "rinse the seafood under the tap",
+        "take the packaging trash to the bin",
+        "set the package aside on the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take the packaging trash to the bin",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0076",
+      "question": "What was P09 doing in video P09_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Squeezed lemon juice into a mug",
+        "Rinsed lemon squeezer pieces during V60 coffee prep",
+        "Rinsed coffee mug after drinking",
+        "Arranged utensils beside the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Rinsed lemon squeezer pieces during V60 coffee prep",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p30",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0077",
+      "question": "What is P09's workflow strategy around preparing the prawns in this segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves the chicken first, cuts the prawns, then starts seasoning immediately.",
+        "Bins trash first, cuts the prawns, then cleans hands before switching.",
+        "Keeps the trash nearby, cuts the prawns, and saves cleanup for later.",
+        "Seasons the prawns first, handles chicken, and cleans only at the end.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Bins trash first, cuts the prawns, then cleans hands before switching.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0078",
+      "question": "After P09 adds oil to the pan, what do they typically do next with the bottle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipe the bottle with a cloth",
+        "Set the bottle back on the counter",
+        "Close the bottle with the cap",
+        "Pour more oil into a bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Close the bottle with the cap",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0079",
+      "question": "When P09 moves food from one container or area to another, what is the transfer strategy?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfer everything into storage containers before any serving or cooking.",
+        "Return food to its original package after each handling step.",
+        "Move food into the next functional vessel for heating, cooking, or mixing.",
+        "Keep food in hand while preparing the appliance or cooking surface.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Move food into the next functional vessel for heating, cooking, or mixing.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0080",
+      "question": "After P09 first starts the blender during preparation, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "shakes the blender jar by hand",
+        "adds more liquid to the jar",
+        "switches the blender off briefly",
+        "removes the lid to stir it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "shakes the blender jar by hand",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0081",
+      "question": "Across sessions, when P09 needs eating dishes during meal preparation or tidying, what do they tend to handle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handles trays as main dishware",
+        "Handles jars as main dishware",
+        "Handles plates as main dishware",
+        "Handles mugs as main dishware",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They handle plates as the main dishware.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0082",
+      "question": "When adjusting an aubergine during cooking, what does P09 do right after turning it over?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Lifts the aubergine briefly afterward",
+        "Stirs the aubergine with sauce",
+        "Cuts the aubergine into slices",
+        "Leaves the aubergine untouched afterward",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Lifts the aubergine briefly afterward",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0083",
+      "question": "When P09 finishes or pauses within a cooking task, what is the cleanup strategy?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Insert small cleanup actions at transition points during the task.",
+        "Stop cooking entirely and perform a full kitchen reset each time.",
+        "Leave all cleaning and disposal until every food item is finished.",
+        "Clean only cookware and ignore hands, packets, and food scraps.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Insert small cleanup actions at transition points during the task.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_103",
+        "P09_104",
+        "P09_105"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0084",
+      "question": "What was P09 doing in video P09_104?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Prepared scrambled eggs after washing dishes",
+        "Fried chorizo after preparing banana smoothie",
+        "Sliced vegetables before making a fresh salad",
+        "Toasted bagels after wiping kitchen counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Fried chorizo after preparing banana smoothie",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0085",
+      "question": "What is P09's workflow strategy for handling packaging during prawn preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the opened packaging on the counter while preparing the prawns.",
+        "Transfers the prawns to a bowl and deals with packaging later.",
+        "Clears the packaging trash at the bin before continuing with preparation.",
+        "Sets the package aside and wipes the counter before handling it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Clears the packaging trash at the bin before continuing with preparation.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0086",
+      "question": "What is P09's approach to waste while preparing or clearing food?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stores empty packaging in cupboards until there is a larger rubbish run.",
+        "Removes crumbs, packaging, and scraps during the task rather than saving them for the end.",
+        "Collects all waste on the counter and clears it only after every food item is finished.",
+        "Puts food scraps into the sink first and decides later whether to use the bin.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Removes crumbs, packaging, and scraps during the task rather than saving them for the end.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0087",
+      "question": "What is P09's approach to preparing the chicken for cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Seasons the chicken first, then fries it in the pan.",
+        "Cooks the chicken plain first, then seasons it after frying.",
+        "Starts frying the chicken first, then seasons it in the pan.",
+        "Sets the chicken aside first, then seasons it later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Seasons the chicken first, then fries it in the pan.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0088",
+      "question": "When transferring a clean pan toward the stove, what preparation does P09 choose before setting it there?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves it to air-dry on counter.",
+        "Rinses it briefly under the tap.",
+        "Wipes it dry with a kitchen towel.",
+        "Shakes off water over the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Wipes it dry with a kitchen towel.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0089",
+      "question": "Across sessions, when P09 finishes using an opened storage space, what closing behavior appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves opened items hanging open",
+        "Closes the opened item afterward",
+        "Covers opened items with plates",
+        "Moves opened items to the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They close the opened item afterward.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0090",
+      "question": "When P09 retrieves tools for food handling, what tool-use pattern is most evident?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Select simple hand tools as needed for the current food-handling task.",
+        "Set out every possible tool before choosing which one to use.",
+        "Avoid tools and handle food directly whenever a task allows it.",
+        "Use powered appliances for nearly every cutting, stirring, and serving action.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Select simple hand tools as needed for the current food-handling task.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0091",
+      "question": "When P09 begins using the cold-storage area, what is the next kind of item they tend to handle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Take a chilled food or drink item",
+        "Move cookware into the fridge space",
+        "Check the freezer shelf for frozen food",
+        "Wipe the fridge shelf with a cloth",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take a chilled food or drink item from the fridge",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0092",
+      "question": "In the observed setup before handling the bananas, how did P09 prepare the pan and stove?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Lit the stove, set the pan, then wiped it dry",
+        "Wiped the pan, lit the stove, then set it down",
+        "Set the pan down, wiped it, then lit the stove",
+        "Peeled the banana, lit the stove, then set the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Wiped the pan, lit the stove, then set it down",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0093",
+      "question": "After P09 picks up a glass when making a drink, what is the characteristic next step?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cover the glass with a lid",
+        "Turn on the tap for water",
+        "Put the glass into a cupboard",
+        "Place the glass in the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 20,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0094",
+      "question": "What does P09 usually do after applying washing liquid in the sink area?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-off tap immediately",
+        "put-down washing liquid bottle",
+        "pick-up plate for washing",
+        "open bin for packaging",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-down liquid:washing",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0095",
+      "question": "Across sessions, when P09 needs something from storage, what broad action tendency is most common?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Takes items out by hand",
+        "Pushes items deeper into storage",
+        "Labels items without moving them",
+        "Points at items without touching",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They take items out by hand.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104",
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0096",
+      "question": "Across sessions, when preparing a pan for cooking, what does P09 typically add before continuing?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds butter directly to the pan",
+        "Adds oil directly to the pan",
+        "Adds sauce directly to the pan",
+        "Adds water directly to the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They add oil directly to the pan.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0097",
+      "question": "After P09 takes a spoon, what kind of follow-up action fits their observed routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Throw the spoon into the bin",
+        "Put the spoon into the fridge",
+        "Wrap the spoon inside a towel",
+        "Use or store the spoon in the task",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "use or store the spoon in the active task",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0098",
+      "question": "During dough rolling, how does P09 handle repositioning the dough on the work surface?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers it onto a tray, then chills it",
+        "Cuts it into portions, then stacks them",
+        "Sprinkles flour underneath, then continues rolling it",
+        "Peels it from the board, then flips it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Peels it from the board, then flips it",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0099",
+      "question": "Across sessions, when P09 prepares food for eating rather than storing, what surface choice is common?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places food onto a plate",
+        "Places food inside a drawer",
+        "Places food into a mug",
+        "Places food onto a towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They place food onto a plate.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0100",
+      "question": "What is P09's strategy when shifting from raw chicken work to seasoning supplies?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He keeps cutting briefly, then takes condiments without hand cleaning.",
+        "He cleans his hands first, then takes the condiments for seasoning.",
+        "He moves the chicken first, then brings over condiments afterward.",
+        "He takes the condiments first, then cleans his hands after seasoning.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He cleans his hands first, then takes the condiments for seasoning.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0101",
+      "question": "What was P09 doing in video P09_105?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed mugs and wiped down the counter",
+        "Prepared cereal with milk and sliced fruit",
+        "Brewed teabag tea while tidying cupboards",
+        "Made instant coffee while sorting cutlery drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Brewed teabag tea while tidying cupboards",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0102",
+      "question": "When P09 is about to clean a drinking glass, what do they do with it first?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets it down at the sink before rinsing",
+        "Holds it under the tap while rinsing",
+        "Wipes it with a sponge before rinsing",
+        "Fills it with water before rinsing",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Sets it down at the sink before rinsing",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0103",
+      "question": "What was P09 doing in video P09_103?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleaned stovetop after rinsing cooking utensils",
+        "Scrambled eggs with onions in frying pan",
+        "Boiled pasta and drained it in colander",
+        "Fried seasoned chicken breast in pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Fried seasoned chicken breast in pan",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0104",
+      "question": "When P09 is about to use the stock, how do they handle its container?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Picks it up before opening the lid",
+        "Carries it aside before opening the lid",
+        "Slides it closer before opening the lid",
+        "Opens it while it stays on the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Picks it up before opening the lid",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p12",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0105",
+      "question": "When P09 picks up a cooking spoon during the chicken-cooking sequence, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "moves the chicken to a plate",
+        "pours extra oil into the pan",
+        "continues frying the chicken in the pan",
+        "adds more condiments to the chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "continues frying the chicken in the pan",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0106",
+      "question": "When P09 works with ingredients that will be cooked, what preparation style is shown?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use only cold assembly and postpone cooking to another later session.",
+        "Cook ingredients straight from storage without a staging or pan setup.",
+        "Cut and season every ingredient before any heating surface is prepared.",
+        "Establish the cooking setup before moving deeply into ingredient preparation.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Establish the cooking setup before moving deeply into ingredient preparation.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0107",
+      "question": "When P09 picks up the seasoning during chicken prep, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "shake the seasoning container",
+        "grab a chicken breast",
+        "open the chicken package",
+        "set the seasoning aside",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "shake the seasoning container",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0108",
+      "question": "When getting a just-washed pan ready to use, what method and order does P09 choose before cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves it wet and adds ingredients",
+        "Heats it first, then wipes it down",
+        "Uses a towel, then starts the stove",
+        "Lets the pan air-dry on the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a towel, then starts the stove",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0109",
+      "question": "When P09 has multiple kitchen objectives in one session, what management style is evident?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Start all objectives at once and let appliances determine the order.",
+        "Work only on the final serving task and ignore preparation modules.",
+        "Progress through compact modules, completing one objective before the next.",
+        "Keep switching every few seconds among all objectives without completing modules.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Progress through compact modules, completing one objective before the next.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0110",
+      "question": "When P09 takes the meat box from the counter, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Set it near the sink",
+        "Open it using a knife",
+        "Place it inside the fridge",
+        "Read its label closely",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Open it using a knife",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p12",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0111",
+      "question": "Across sessions, when P09 is actively cooking food in a pan, what manipulation pattern do they use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stirs or moves the food",
+        "Covers food and never touches it",
+        "Removes the pan from cooking",
+        "Blends food inside the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They stir or move the food.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0112",
+      "question": "After cleaning their hands while preparing the chicken, what does P09 usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "starts frying the chicken pieces",
+        "grabs a spoon and frying pan",
+        "moves the chicken to the stove",
+        "picks up condiments for chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "picks up condiments for chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0113",
+      "question": "What was P09 doing in video P09_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Grated cheese onto dinner plate",
+        "Rinsed lettuce in a colander",
+        "Cleaned place mat with degreaser and cloth",
+        "Arranged mugs on kitchen shelf",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Cleaned place mat with degreaser and cloth",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 16,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0114",
+      "question": "When P09 combines drink ingredients, what assembly approach is shown?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Prepare only the liquid first and add solid ingredients after serving.",
+        "Build the drink in the chosen cup or jug as components are retrieved.",
+        "Avoid mixing vessels and drink directly from the original packages.",
+        "Assemble drinks by using a separate measuring bowl for every component.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Build the drink in the chosen cup or jug as components are retrieved.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106",
+        "P09_105"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0115",
+      "question": "When P09 handles packaged or stored ingredients, what opening strategy is shown?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Open packages or storage as part of the immediate next processing block.",
+        "Open all packages at the beginning and leave them ready on the counter.",
+        "Avoid opening packages directly and transfer them unopened to cookware.",
+        "Open packages only after the final serving dish has already been plated.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Open packages or storage as part of the immediate next processing block.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_106",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0116",
+      "question": "When P09 moves between food preparation and kitchen organization, what overall workflow style appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Start every session with utensil sorting before touching food or appliances.",
+        "Finish one functional block before shifting to the next kitchen block.",
+        "Prepare only drinks first and leave all food work until the end.",
+        "Mix every subtask continuously so no activity block is completed cleanly.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Finish one functional block before shifting to the next kitchen block.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_105",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0117",
+      "question": "Across sessions, when P09 handles food heating away from the stovetop, what appliance pattern is observed?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a kettle for plated food",
+        "Uses the fridge for plated food",
+        "Uses a drawer for plated food",
+        "Uses the microwave for plated food",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They use the microwave for plated food.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0118",
+      "question": "When P09 has just picked up a glass, what is the usual next observed action across sessions?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pick-up bottle again",
+        "wash plate at sink",
+        "put-down glass on surface",
+        "open cupboard door",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-down glass",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p27",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0119",
+      "question": "Across sessions, when P09 handles fresh produce before adding or storing it, what preparation style do they favor?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves produce fully unwashed",
+        "Freezes produce before use",
+        "Cooks produce before washing",
+        "Cleans or rinses produce first",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They clean or rinse the produce first.",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0120",
+      "question": "When dealing with used cutlery at the sink, what is P09's typical approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleans each cutlery item and rinses it soon after before moving on.",
+        "Wipes cutlery dry first and only washes items that still look dirty.",
+        "Soaks all cutlery together and returns later for a single rinse.",
+        "Loads cutlery directly into storage and leaves washing for later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans each cutlery item and rinses it soon after before moving on.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0121",
+      "question": "After P09 sets the garlic seasoning down while working on the prawns, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "lifts the prawn bowl",
+        "grabs the pepper next",
+        "moves the chicken aside",
+        "opens another spice jar",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "grabs the pepper next",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0122",
+      "question": "When P09 was getting the packaged prawns ready for cooking, what tool did they choose for getting into the pack?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Tears the corner with teeth",
+        "Uses scissors to cut the pack",
+        "Pulls the pack apart by hand",
+        "Uses a knife on the pack",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a knife on the pack",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0123",
+      "question": "When the mixture needs extra help during blending, what method does P09 use before running the appliance again?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "shakes the blender, then restarts it",
+        "adds more liquid, then blends again",
+        "opens the lid, then scrapes inside",
+        "changes containers, then blends again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shakes the blender, then restarts it",
+      "video_id": "P09_104",
+      "video_ids": [
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0124",
+      "question": "When P09 needed to add more fat while pan-frying chicken, which approach did they choose?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pours oil from the bottle onto the pan",
+        "Ladles broth from a bowl into the pan",
+        "Adds butter cubes straight into the pan",
+        "Sprays cooking oil across the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Pours oil from the bottle onto the pan",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0125",
+      "question": "When moving food from one vessel to another, what transfer method appears in P09's cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Scoops everything by hand",
+        "Slides food with a plate",
+        "Lifts food with tongs",
+        "Pours contents into vessel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "pours contents into the target vessel",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 7,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0126",
+      "question": "After washing up from handling the raw chicken, what does P09 usually do next before cooking it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "moves the chicken toward the stove",
+        "gets seasonings to add to the chicken",
+        "starts frying the chicken in a pan",
+        "puts the cutting board into the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "gets seasonings to add to the chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0127",
+      "question": "When seasoning seafood, how did P09 handle the prawns right after adding the seasoning?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "shook the prawns to coat them",
+        "tossed the prawns using tongs",
+        "left the prawns sitting still",
+        "stirred the prawns with a spoon",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shook the prawns to coat them",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0128",
+      "question": "When P09 makes a drink from a packaged container, what handling pattern is characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfer the drink to another bottle before using it in the recipe.",
+        "Pour directly from the package without any extra handling first.",
+        "Shake the package close to the moment it is opened or poured.",
+        "Warm the package first and then add the liquid to the drink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Shake the package close to the moment it is opened or poured.",
+      "video_id": "P09_106",
+      "video_ids": [
+        "P09_106",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0129",
+      "question": "What is P09's approach to organizing food for presentation or eating?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Serves food directly from cookware and avoids separate dishes.",
+        "Stores dishes away first and retrieves them after eating begins.",
+        "Brings serving items into the workflow before transferring food.",
+        "Plates everything only after all cleanup has been completed.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Brings serving items into the workflow before transferring food.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": true,
+      "source_participant": "p27",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0130",
+      "question": "What is P09's approach to getting the prawn package ready for cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a knife to open the package.",
+        "Leaves the package closed until later.",
+        "Cuts the package open with scissors.",
+        "Pulls the package seal apart by hand.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses a knife to open the package.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0131",
+      "question": "When P09 presents cooked food for eating, which serving surface is repeatedly used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a bowl",
+        "Uses a board",
+        "Uses a tray",
+        "Uses a plate",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Serves the food on a plate.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0132",
+      "question": "When P09 adds flavorings or extras, what strategy best describes the approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pre-measure all flavorings into bowls before touching the main ingredient.",
+        "Finish cooking first and season only after the food is plated.",
+        "Add individual flavorings directly as the current mixture or pan develops.",
+        "Avoid seasonings and rely only on the original packaged ingredients.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Add individual flavorings directly as the current mixture or pan develops.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103",
+        "P09_104"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0133",
+      "question": "What is P09's approach to preparing the chicken before it goes into the pan?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He leaves the breast whole, then cuts it after cooking in the pan.",
+        "He slices the chicken first, then chops it into smaller pieces.",
+        "He pounds the chicken flat, then cooks it as a single piece.",
+        "He marinates the chicken first, then places the whole pieces in the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He slices the chicken first, then chops it into smaller pieces.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0134",
+      "question": "What is P09's strategy for handling the knife during this cleanup sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washes the knife right away and sets it on the drying rack.",
+        "Moves the knife to the counter and returns to it after other tasks.",
+        "Leaves the knife in the sink and cleans utensils together later.",
+        "Wipes the knife with a cloth and keeps it nearby for reuse.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes the knife right away and sets it on the drying rack.",
+      "video_id": "P09_???",
+      "video_ids": [
+        "P09_???"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???",
+        "P09_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p09"
+    },
+    {
+      "question_id": "p09_q0135",
+      "question": "After putting the filled kettle back in its spot, what does P09 usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pours water into a mug",
+        "switches the kettle on",
+        "moves kettle to the sink",
+        "opens the kettle lid",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "switches the kettle on",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0136",
+      "question": "Before moving on to knife work with the chicken, what order does P09 seem to prefer in the observed prep routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Takes a knife, cuts the chicken, then adds condiments",
+        "Stirs the chicken, takes a knife, then cuts the chicken",
+        "Takes the chicken breast, adds condiments, then cuts it",
+        "Cleans hands, adds condiments, then stirs the chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cleans hands, adds condiments, then stirs the chicken",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0137",
+      "question": "What is P09's approach to transitioning away from prawn preparation in this sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers the prawns aside and focuses on clearing the board.",
+        "Leaves the prawns on the board and starts another raw ingredient.",
+        "Seasons the prawns right away while continuing the same prep flow.",
+        "Cleans hands after cutting the prawns before moving on.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans hands after cutting the prawns before moving on.",
+      "video_id": "P09_103",
+      "video_ids": [
+        "P09_103"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p09_q0138",
+      "question": "Across sessions, when P09 needs to use or put away small eating tools, what storage pattern appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses drawers for utensil handling",
+        "Uses stove space for utensils",
+        "Uses cups for utensil handling",
+        "Uses fridge bins for utensils",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They use drawers for utensil handling.",
+      "video_id": "P09_105",
+      "video_ids": [
+        "P09_105",
+        "P09_106"
+      ],
+      "participant_id": "P09",
+      "video_scope": [
+        "P09_106",
+        "P09_105",
+        "P09_103",
+        "P09_104"
+      ],
+      "num_videos": 4,
+      "is_unanswerable": false
+    }
+  ],
+  "metadata": {
+    "format": "multiple_choice_5",
+    "option_e": "The information is not available based on the given context",
+    "source": "EAM-QA source: per_participant_final/P09.json",
+    "n": 111,
+    "by_type": {
+      "SPref": 43,
+      "SHabit": 23,
+      "SRoutine": 41,
+      "ERecall": 4
+    },
+    "skipped": 0,
+    "eam_qa_unanswerable_augmentation": {
+      "n_answerable": 111,
+      "n_unanswerable": 28,
+      "unanswerable_ratio": 0.2014388489208633,
+      "donor_pids": [
+        "p02",
+        "p03",
+        "p04",
+        "p06",
+        "p07",
+        "p11",
+        "p12",
+        "p22",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p30",
+        "p35"
+      ]
+    }
+  }
+}

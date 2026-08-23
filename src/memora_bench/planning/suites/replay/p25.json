@@ -1,0 +1,1583 @@
+[
+  {
+    "task_id": "plan_P25_103_002",
+    "participant_id": "P25",
+    "video_id": "P25_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P25 prepare the sauce and clean the workspace.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_103_18",
+        "narration": "put down lighter",
+        "verb": "put-down",
+        "noun": "lighter",
+        "start_time": "00:01:42.18",
+        "end_time": "00:01:43.37",
+        "enriched_narration": "put down orange plastic lighter on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "lighter",
+          "memory_name": "orange lighter"
+        }
+      },
+      {
+        "narration_id": "P25_103_19",
+        "narration": "shake sauce",
+        "verb": "shake",
+        "noun": "sauce",
+        "start_time": "00:01:45.23",
+        "end_time": "00:01:47.57",
+        "enriched_narration": "shake red plastic sauce on countertop",
+        "matched_object": {
+          "color": "red",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "tomato_sauce",
+          "memory_name": "tomato_sauce"
+        }
+      },
+      {
+        "narration_id": "P25_103_20",
+        "narration": "remove lid",
+        "verb": "remove",
+        "noun": "lid",
+        "start_time": "00:01:47.58",
+        "end_time": "00:01:48.72",
+        "enriched_narration": "remove lid on stove_burner",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on stove_burner",
+          "memory_id": "lid",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P25_103_21",
+        "narration": "pour sauce",
+        "verb": "pour",
+        "noun": "sauce",
+        "start_time": "00:01:48.81",
+        "end_time": "00:01:56.42",
+        "enriched_narration": "pour red plastic sauce on countertop",
+        "matched_object": {
+          "color": "red",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "tomato_sauce",
+          "memory_name": "tomato_sauce"
+        }
+      },
+      {
+        "narration_id": "P25_103_22",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:01:57.17",
+        "end_time": "00:01:58.37",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_103_23",
+        "narration": "pour water",
+        "verb": "pour",
+        "noun": "water",
+        "start_time": "00:01:58.38",
+        "end_time": "00:01:59.34",
+        "enriched_narration": "pour orange plastic water on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "water_bottle",
+          "memory_name": "water_bottle"
+        }
+      },
+      {
+        "narration_id": "P25_103_24",
+        "narration": "twist on cap",
+        "verb": "twist-on",
+        "noun": "cap",
+        "start_time": "00:01:59.62",
+        "end_time": "00:02:01.51"
+      },
+      {
+        "narration_id": "P25_103_25",
+        "narration": "stir",
+        "verb": "shake",
+        "noun": "bottle",
+        "start_time": "00:02:01.61",
+        "end_time": "00:02:05.26",
+        "enriched_narration": "stir on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "water_bottle",
+          "memory_name": "water_bottle"
+        }
+      },
+      {
+        "narration_id": "P25_103_26",
+        "narration": "remove lid",
+        "verb": "remove",
+        "noun": "lid",
+        "start_time": "00:02:05.30",
+        "end_time": "00:02:06.60",
+        "enriched_narration": "remove lid on stove_burner",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "on stove_burner",
+          "memory_id": "lid",
+          "memory_name": ""
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 24.4,
+    "primary_objects": [
+      "sauce",
+      "lid",
+      "lighter",
+      "tap",
+      "water"
+    ],
+    "primary_verbs": [
+      "shake",
+      "remove",
+      "pour",
+      "put-down",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_051",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P25 clean the pan and put it away.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_454",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:33:17.42",
+        "end_time": "00:33:19.12"
+      },
+      {
+        "narration_id": "P25_107_455",
+        "narration": "rinse pan",
+        "verb": "rinse",
+        "noun": "pan",
+        "start_time": "00:33:19.22",
+        "end_time": "00:33:26.25",
+        "enriched_narration": "rinse silver metal pan on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "frying_pan",
+          "memory_name": "black frying pan"
+        }
+      },
+      {
+        "narration_id": "P25_107_456",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:33:22.77",
+        "end_time": "00:33:29.83",
+        "enriched_narration": "turn on silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_457",
+        "narration": "rinse pan",
+        "verb": "rinse",
+        "noun": "pan",
+        "start_time": "00:33:28.27",
+        "end_time": "00:33:32.37",
+        "enriched_narration": "rinse silver metal pan on stove",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on stove",
+          "memory_id": "frying_pan",
+          "memory_name": "black frying pan"
+        }
+      },
+      {
+        "narration_id": "P25_107_458",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:33:53.94",
+        "end_time": "00:33:56.69",
+        "enriched_narration": "turn off silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_459",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:33:57.54",
+        "end_time": "00:33:58.54",
+        "enriched_narration": "turn on silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_460",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:34:00.43",
+        "end_time": "00:34:01.03",
+        "enriched_narration": "turn off silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_461",
+        "narration": "open cupboard",
+        "verb": "open",
+        "noun": "cupboard",
+        "start_time": "00:34:02.40",
+        "end_time": "00:34:03.24"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 45.8,
+    "primary_objects": [
+      "tap",
+      "pan",
+      "hand",
+      "cupboard"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "turn-on",
+      "turn-off",
+      "wash",
+      "open"
+    ]
+  },
+  {
+    "task_id": "plan_P25_103_003",
+    "participant_id": "P25",
+    "video_id": "P25_103",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P25 clean the workspace and wash hands after pouring sauce.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_103_27",
+        "narration": "pour sauce",
+        "verb": "pour",
+        "noun": "sauce",
+        "start_time": "00:02:06.70",
+        "end_time": "00:02:08.53",
+        "enriched_narration": "pour red plastic sauce on countertop",
+        "matched_object": {
+          "color": "red",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "tomato_sauce",
+          "memory_name": "tomato_sauce"
+        }
+      },
+      {
+        "narration_id": "P25_103_28",
+        "narration": "twist on cap",
+        "verb": "twist-on",
+        "noun": "cap",
+        "start_time": "00:02:11.10",
+        "end_time": "00:02:12.65"
+      },
+      {
+        "narration_id": "P25_103_29",
+        "narration": "put down bottle",
+        "verb": "put-down",
+        "noun": "bottle",
+        "start_time": "00:02:12.86",
+        "end_time": "00:02:13.99",
+        "enriched_narration": "put down orange plastic bottle on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "water_bottle",
+          "memory_name": "water_bottle"
+        }
+      },
+      {
+        "narration_id": "P25_103_30",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:02:14.02",
+        "end_time": "00:02:14.68",
+        "enriched_narration": "turn on silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_103_31",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:02:14.75",
+        "end_time": "00:02:18.91"
+      },
+      {
+        "narration_id": "P25_103_32",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:18.75",
+        "end_time": "00:02:19.42",
+        "enriched_narration": "turn off silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_103_33",
+        "narration": "pick up paper",
+        "verb": "pick-up",
+        "noun": "paper",
+        "start_time": "00:02:21.60",
+        "end_time": "00:02:24.95",
+        "enriched_narration": "pick up white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "conad_paper",
+          "memory_name": "CONAD_paper"
+        }
+      },
+      {
+        "narration_id": "P25_103_34",
+        "narration": "tear paper",
+        "verb": "tear",
+        "noun": "paper",
+        "start_time": "00:02:23.95",
+        "end_time": "00:02:26.95",
+        "enriched_narration": "tear white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "conad_paper",
+          "memory_name": "CONAD_paper"
+        }
+      },
+      {
+        "narration_id": "P25_103_35",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:02:27.09",
+        "end_time": "00:02:32.69"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 26,
+    "primary_objects": [
+      "tap",
+      "hand",
+      "paper",
+      "sauce",
+      "cap"
+    ],
+    "primary_verbs": [
+      "pour",
+      "twist-on",
+      "put-down",
+      "turn-on",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_009",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P25 prepare the courgettes for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_78",
+        "narration": "pick courgettes",
+        "verb": "pick",
+        "noun": "courgette",
+        "start_time": "00:09:22.01",
+        "end_time": "00:09:23.05"
+      },
+      {
+        "narration_id": "P25_107_79",
+        "narration": "wash courgettes",
+        "verb": "wash",
+        "noun": "courgette",
+        "start_time": "00:09:23.06",
+        "end_time": "00:09:25.21"
+      },
+      {
+        "narration_id": "P25_107_80",
+        "narration": "cut courgette",
+        "verb": "cut",
+        "noun": "courgette",
+        "start_time": "00:09:25.21",
+        "end_time": "00:10:31.93"
+      },
+      {
+        "narration_id": "P25_107_81",
+        "narration": "rinse courgette",
+        "verb": "rinse",
+        "noun": "courgette",
+        "start_time": "00:10:31.79",
+        "end_time": "00:10:35.14"
+      },
+      {
+        "narration_id": "P25_107_82",
+        "narration": "cut courgette",
+        "verb": "cut",
+        "noun": "courgette",
+        "start_time": "00:10:35.20",
+        "end_time": "00:11:17.98"
+      },
+      {
+        "narration_id": "P25_107_83",
+        "narration": "put down knife",
+        "verb": "put-down",
+        "noun": "knife",
+        "start_time": "00:11:18.08",
+        "end_time": "00:11:18.87",
+        "enriched_narration": "put down green metal knife on sink",
+        "matched_object": {
+          "color": "green",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_107_84",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:11:18.77",
+        "end_time": "00:11:20.02"
+      },
+      {
+        "narration_id": "P25_107_85",
+        "narration": "pick up paper",
+        "verb": "pick-up",
+        "noun": "paper",
+        "start_time": "00:11:25.89",
+        "end_time": "00:11:31.00",
+        "enriched_narration": "pick up white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper_towel_roll"
+        }
+      },
+      {
+        "narration_id": "P25_107_86",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:11:32.54",
+        "end_time": "00:11:34.13"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 132.1,
+    "primary_objects": [
+      "courgette",
+      "hand",
+      "knife",
+      "paper"
+    ],
+    "primary_verbs": [
+      "wash",
+      "cut",
+      "pick",
+      "rinse",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_030",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P25 prepare the aubergines for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_265",
+        "narration": "adjust aubergines",
+        "verb": "adjust",
+        "noun": "aubergine",
+        "start_time": "00:21:27.49",
+        "end_time": "00:21:35.34"
+      },
+      {
+        "narration_id": "P25_107_266",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:21:35.34",
+        "end_time": "00:21:36.44"
+      },
+      {
+        "narration_id": "P25_107_267",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:21:37.27",
+        "end_time": "00:21:40.67"
+      },
+      {
+        "narration_id": "P25_107_268",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:21:39.42",
+        "end_time": "00:21:43.52"
+      },
+      {
+        "narration_id": "P25_107_269",
+        "narration": "put down fork",
+        "verb": "put-down",
+        "noun": "fork",
+        "start_time": "00:22:02.36",
+        "end_time": "00:22:03.83",
+        "enriched_narration": "put down silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_270",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:22:09.78",
+        "end_time": "00:22:12.33"
+      },
+      {
+        "narration_id": "P25_107_271",
+        "narration": "pick up paper",
+        "verb": "pick-up",
+        "noun": "paper",
+        "start_time": "00:22:14.90",
+        "end_time": "00:22:16.00",
+        "enriched_narration": "pick up white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper_towel_roll"
+        }
+      },
+      {
+        "narration_id": "P25_107_272",
+        "narration": "tear paper",
+        "verb": "tear",
+        "noun": "paper",
+        "start_time": "00:22:16.93",
+        "end_time": "00:22:22.06",
+        "enriched_narration": "tear white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "paper_towel_roll",
+          "memory_name": "paper_towel_roll"
+        }
+      },
+      {
+        "narration_id": "P25_107_273",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:22:22.17",
+        "end_time": "00:22:24.51"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 57,
+    "primary_objects": [
+      "aubergine",
+      "hand",
+      "paper",
+      "fork"
+    ],
+    "primary_verbs": [
+      "flip",
+      "adjust",
+      "put-down",
+      "wash",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P25_106_003",
+    "participant_id": "P25",
+    "video_id": "P25_106",
+    "task_type": "meal_preparation",
+    "task_query": "Help P25 wash and chop the onion.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_106_24",
+        "narration": "dry knife",
+        "verb": "dry",
+        "noun": "knife",
+        "start_time": "00:01:40.29",
+        "end_time": "00:01:42.79",
+        "enriched_narration": "dry green plastic knife on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_106_25",
+        "narration": "pick up onion",
+        "verb": "pick-up",
+        "noun": "onion",
+        "start_time": "00:01:45.64",
+        "end_time": "00:01:47.14",
+        "enriched_narration": "pick up white vegetable onion at stove_area",
+        "matched_object": {
+          "color": "white",
+          "material": "vegetable",
+          "location": "stove_area",
+          "memory_id": "onions",
+          "memory_name": "onions"
+        }
+      },
+      {
+        "narration_id": "P25_106_26",
+        "narration": "cut onion",
+        "verb": "cut",
+        "noun": "onion",
+        "start_time": "00:01:46.98",
+        "end_time": "00:02:07.65",
+        "enriched_narration": "cut white vegetable onion at stove_area",
+        "matched_object": {
+          "color": "white",
+          "material": "vegetable",
+          "location": "stove_area",
+          "memory_id": "onions",
+          "memory_name": "onions"
+        }
+      },
+      {
+        "narration_id": "P25_106_27",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:02:07.75",
+        "end_time": "00:02:09.69",
+        "enriched_narration": "turn on chrome metal tap on sink",
+        "matched_object": {
+          "color": "chrome",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_106_28",
+        "narration": "cut onion",
+        "verb": "cut",
+        "noun": "onion",
+        "start_time": "00:02:09.76",
+        "end_time": "00:02:19.29",
+        "enriched_narration": "cut white vegetable onion at stove_area",
+        "matched_object": {
+          "color": "white",
+          "material": "vegetable",
+          "location": "stove_area",
+          "memory_id": "onions",
+          "memory_name": "onions"
+        }
+      },
+      {
+        "narration_id": "P25_106_29",
+        "narration": "wash onion",
+        "verb": "wash",
+        "noun": "onion",
+        "start_time": "00:02:19.36",
+        "end_time": "00:02:27.03",
+        "enriched_narration": "wash white vegetable onion at stove_area",
+        "matched_object": {
+          "color": "white",
+          "material": "vegetable",
+          "location": "stove_area",
+          "memory_id": "onions",
+          "memory_name": "onions"
+        }
+      },
+      {
+        "narration_id": "P25_106_30",
+        "narration": "cut onion",
+        "verb": "cut",
+        "noun": "onion",
+        "start_time": "00:02:26.74",
+        "end_time": "00:02:36.93",
+        "enriched_narration": "cut white vegetable onion at stove_area",
+        "matched_object": {
+          "color": "white",
+          "material": "vegetable",
+          "location": "stove_area",
+          "memory_id": "onions",
+          "memory_name": "onions"
+        }
+      }
+    ],
+    "num_steps": 7,
+    "time_span_seconds": 56.6,
+    "primary_objects": [
+      "onion",
+      "knife",
+      "tap"
+    ],
+    "primary_verbs": [
+      "cut",
+      "dry",
+      "pick-up",
+      "turn-on",
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_006",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P25 prepare the aubergine for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_52",
+        "narration": "check aubergine",
+        "verb": "check",
+        "noun": "aubergine",
+        "start_time": "00:05:49.65",
+        "end_time": "00:05:54.73"
+      },
+      {
+        "narration_id": "P25_107_53",
+        "narration": "put down fork",
+        "verb": "put-down",
+        "noun": "fork",
+        "start_time": "00:05:55.38",
+        "end_time": "00:05:56.36",
+        "enriched_narration": "put down silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_54",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:05:56.37",
+        "end_time": "00:05:58.01"
+      },
+      {
+        "narration_id": "P25_107_55",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:05:58.10",
+        "end_time": "00:05:58.69",
+        "enriched_narration": "turn off silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_56",
+        "narration": "pick up aubergine",
+        "verb": "pick-up",
+        "noun": "aubergine",
+        "start_time": "00:05:59.85",
+        "end_time": "00:06:01.41"
+      },
+      {
+        "narration_id": "P25_107_57",
+        "narration": "wash aubergine",
+        "verb": "wash",
+        "noun": "aubergine",
+        "start_time": "00:06:01.45",
+        "end_time": "00:06:05.21"
+      },
+      {
+        "narration_id": "P25_107_58",
+        "narration": "cut aubergine",
+        "verb": "cut",
+        "noun": "aubergine",
+        "start_time": "00:06:05.30",
+        "end_time": "00:06:11.24"
+      },
+      {
+        "narration_id": "P25_107_59",
+        "narration": "rinse aubergine",
+        "verb": "rinse",
+        "noun": "aubergine",
+        "start_time": "00:06:09.81",
+        "end_time": "00:06:12.33"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 22.7,
+    "primary_objects": [
+      "aubergine",
+      "fork",
+      "hand",
+      "tap"
+    ],
+    "primary_verbs": [
+      "wash",
+      "check",
+      "put-down",
+      "turn-off",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P25_104_003",
+    "participant_id": "P25",
+    "video_id": "P25_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P25 wash the teaspoon and knife.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_104_27",
+        "narration": "pick up teaspoon",
+        "verb": "pick-up",
+        "noun": "teaspoon",
+        "start_time": "00:01:14.25",
+        "end_time": "00:01:15.40",
+        "enriched_narration": "pick up silver metal teaspoon at countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P25_104_28",
+        "narration": "wash teaspoon",
+        "verb": "wash",
+        "noun": "teaspoon",
+        "start_time": "00:01:15.50",
+        "end_time": "00:01:20.50",
+        "enriched_narration": "wash silver metal teaspoon at countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P25_104_29",
+        "narration": "rinse teaspoon",
+        "verb": "rinse",
+        "noun": "teaspoon",
+        "start_time": "00:01:20.60",
+        "end_time": "00:01:24.13",
+        "enriched_narration": "rinse silver metal teaspoon at countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P25_104_30",
+        "narration": "pick up knife",
+        "verb": "pick-up",
+        "noun": "knife",
+        "start_time": "00:01:25.31",
+        "end_time": "00:01:26.25",
+        "enriched_narration": "pick up black metal knife on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_104_31",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:01:26.04",
+        "end_time": "00:01:31.70",
+        "enriched_narration": "wash black metal knife on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_104_32",
+        "narration": "rinse knife",
+        "verb": "rinse",
+        "noun": "knife",
+        "start_time": "00:01:31.80",
+        "end_time": "00:01:34.35",
+        "enriched_narration": "rinse black metal knife on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_104_33",
+        "narration": "put down knife",
+        "verb": "put-down",
+        "noun": "knife",
+        "start_time": "00:01:34.33",
+        "end_time": "00:01:35.58",
+        "enriched_narration": "put down black metal knife on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_104_34",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:01:37.09",
+        "end_time": "00:01:41.97",
+        "enriched_narration": "wash silver metal spoon at countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P25_104_35",
+        "narration": "rinse spoon",
+        "verb": "rinse",
+        "noun": "spoon",
+        "start_time": "00:01:41.88",
+        "end_time": "00:01:45.73",
+        "enriched_narration": "rinse silver metal spoon at countertop",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "countertop",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 31.5,
+    "primary_objects": [
+      "knife",
+      "teaspoon",
+      "spoon"
+    ],
+    "primary_verbs": [
+      "wash",
+      "rinse",
+      "pick-up",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P25_106_019",
+    "participant_id": "P25",
+    "video_id": "P25_106",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P25 retrieve the detergent from the cupboard.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_106_166",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:14:59.27",
+        "end_time": "00:15:01.78"
+      },
+      {
+        "narration_id": "P25_106_167",
+        "narration": "throw paper",
+        "verb": "throw",
+        "noun": "paper",
+        "start_time": "00:15:01.76",
+        "end_time": "00:15:02.46",
+        "enriched_narration": "throw white paper paper on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on countertop",
+          "memory_id": "paper_towel",
+          "memory_name": "paper towel"
+        }
+      },
+      {
+        "narration_id": "P25_106_168",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:15:06.98",
+        "end_time": "00:15:08.45",
+        "enriched_narration": "turn off chrome metal tap on sink",
+        "matched_object": {
+          "color": "chrome",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_106_169",
+        "narration": "open cupboard",
+        "verb": "open",
+        "noun": "cupboard",
+        "start_time": "00:15:18.69",
+        "end_time": "00:15:19.70"
+      },
+      {
+        "narration_id": "P25_106_170",
+        "narration": "put down detergent",
+        "verb": "put-down",
+        "noun": "detergent",
+        "start_time": "00:15:19.69",
+        "end_time": "00:15:20.75"
+      },
+      {
+        "narration_id": "P25_106_171",
+        "narration": "close cupboard",
+        "verb": "close",
+        "noun": "cupboard",
+        "start_time": "00:15:20.27",
+        "end_time": "00:15:21.64"
+      },
+      {
+        "narration_id": "P25_106_172",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:15:25.40",
+        "end_time": "00:15:26.73",
+        "enriched_narration": "turn on chrome metal tap on sink",
+        "matched_object": {
+          "color": "chrome",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_106_173",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:15:30.84",
+        "end_time": "00:15:32.16",
+        "enriched_narration": "turn off chrome metal tap on sink",
+        "matched_object": {
+          "color": "chrome",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_106_174",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:15:40.57",
+        "end_time": "00:15:44.66"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 45.4,
+    "primary_objects": [
+      "tap",
+      "hand",
+      "cupboard",
+      "paper",
+      "detergent"
+    ],
+    "primary_verbs": [
+      "dry",
+      "turn-off",
+      "throw",
+      "open",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_001",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "meal_preparation",
+    "task_query": "Help P25 wash and cut the aubergines.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_9",
+        "narration": "put down knife",
+        "verb": "put-down",
+        "noun": "knife",
+        "start_time": "00:00:27.49",
+        "end_time": "00:00:28.50",
+        "enriched_narration": "put down green metal knife on sink",
+        "matched_object": {
+          "color": "green",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_107_10",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:28.44",
+        "end_time": "00:00:29.38",
+        "enriched_narration": "turn on silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P25_107_11",
+        "narration": "pick up aubergines",
+        "verb": "pick-up",
+        "noun": "aubergine",
+        "start_time": "00:00:30.28",
+        "end_time": "00:00:31.27"
+      },
+      {
+        "narration_id": "P25_107_12",
+        "narration": "wash aubergine",
+        "verb": "wash",
+        "noun": "aubergine",
+        "start_time": "00:00:31.37",
+        "end_time": "00:00:35.93"
+      },
+      {
+        "narration_id": "P25_107_13",
+        "narration": "cut aubergine",
+        "verb": "cut",
+        "noun": "aubergine",
+        "start_time": "00:00:36.03",
+        "end_time": "00:00:45.91"
+      },
+      {
+        "narration_id": "P25_107_14",
+        "narration": "wash aubergine",
+        "verb": "wash",
+        "noun": "aubergine",
+        "start_time": "00:00:45.21",
+        "end_time": "00:00:48.84"
+      },
+      {
+        "narration_id": "P25_107_15",
+        "narration": "cut aubergine",
+        "verb": "cut",
+        "noun": "aubergine",
+        "start_time": "00:00:48.86",
+        "end_time": "00:02:32.23"
+      },
+      {
+        "narration_id": "P25_107_16",
+        "narration": "put down knife",
+        "verb": "put-down",
+        "noun": "knife",
+        "start_time": "00:02:31.40",
+        "end_time": "00:02:33.44",
+        "enriched_narration": "put down green metal knife on sink",
+        "matched_object": {
+          "color": "green",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P25_107_17",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:02:35.37",
+        "end_time": "00:02:36.19",
+        "enriched_narration": "turn off silver metal tap at sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet_chrome"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 128.7,
+    "primary_objects": [
+      "aubergine",
+      "knife",
+      "tap"
+    ],
+    "primary_verbs": [
+      "put-down",
+      "wash",
+      "cut",
+      "turn-on",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_027",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P25 season and cook the aubergine with salt.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_238",
+        "narration": "pick up salt",
+        "verb": "pick-up",
+        "noun": "salt",
+        "start_time": "00:20:03.05",
+        "end_time": "00:20:03.90",
+        "enriched_narration": "pick up white glass salt on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "jar_of_salt",
+          "memory_name": "jar_of_salt"
+        }
+      },
+      {
+        "narration_id": "P25_107_239",
+        "narration": "pour salt",
+        "verb": "pour",
+        "noun": "salt",
+        "start_time": "00:20:04.00",
+        "end_time": "00:20:05.05",
+        "enriched_narration": "pour white glass salt on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "glass",
+          "location": "on countertop",
+          "memory_id": "jar_of_salt",
+          "memory_name": "jar_of_salt"
+        }
+      },
+      {
+        "narration_id": "P25_107_240",
+        "narration": "take fork",
+        "verb": "take",
+        "noun": "fork",
+        "start_time": "00:20:05.58",
+        "end_time": "00:20:06.24",
+        "enriched_narration": "take silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_241",
+        "narration": "check aubergine",
+        "verb": "check",
+        "noun": "aubergine",
+        "start_time": "00:20:06.57",
+        "end_time": "00:20:19.15"
+      },
+      {
+        "narration_id": "P25_107_242",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:20:22.72",
+        "end_time": "00:20:24.33"
+      },
+      {
+        "narration_id": "P25_107_243",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:20:25.85",
+        "end_time": "00:20:28.02"
+      },
+      {
+        "narration_id": "P25_107_244",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:20:28.63",
+        "end_time": "00:20:29.58"
+      },
+      {
+        "narration_id": "P25_107_245",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:20:30.15",
+        "end_time": "00:20:31.12"
+      },
+      {
+        "narration_id": "P25_107_246",
+        "narration": "put down fork",
+        "verb": "put-down",
+        "noun": "fork",
+        "start_time": "00:20:40.99",
+        "end_time": "00:20:42.21",
+        "enriched_narration": "put down silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 39.2,
+    "primary_objects": [
+      "aubergine",
+      "salt",
+      "fork"
+    ],
+    "primary_verbs": [
+      "flip",
+      "pick-up",
+      "pour",
+      "take",
+      "check"
+    ]
+  },
+  {
+    "task_id": "plan_P25_107_043",
+    "participant_id": "P25",
+    "video_id": "P25_107",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P25 prepare the aubergine for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P25_107_382",
+        "narration": "take fork",
+        "verb": "take",
+        "noun": "fork",
+        "start_time": "00:27:22.49",
+        "end_time": "00:27:23.41",
+        "enriched_narration": "take silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_383",
+        "narration": "adjust aubergine",
+        "verb": "adjust",
+        "noun": "aubergine",
+        "start_time": "00:27:23.78",
+        "end_time": "00:27:33.09"
+      },
+      {
+        "narration_id": "P25_107_384",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:27:31.75",
+        "end_time": "00:27:34.54"
+      },
+      {
+        "narration_id": "P25_107_385",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:27:34.44",
+        "end_time": "00:27:50.92"
+      },
+      {
+        "narration_id": "P25_107_386",
+        "narration": "put down fork",
+        "verb": "put-down",
+        "noun": "fork",
+        "start_time": "00:27:52.75",
+        "end_time": "00:27:55.29",
+        "enriched_narration": "put down silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_387",
+        "narration": "wash hands",
+        "verb": "wash",
+        "noun": "hand",
+        "start_time": "00:27:55.46",
+        "end_time": "00:27:57.50"
+      },
+      {
+        "narration_id": "P25_107_388",
+        "narration": "take fork",
+        "verb": "take",
+        "noun": "fork",
+        "start_time": "00:28:04.17",
+        "end_time": "00:28:05.21",
+        "enriched_narration": "take silver metal fork in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P25_107_389",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:28:05.59",
+        "end_time": "00:28:10.68"
+      },
+      {
+        "narration_id": "P25_107_390",
+        "narration": "flip aubergine",
+        "verb": "flip",
+        "noun": "aubergine",
+        "start_time": "00:28:09.00",
+        "end_time": "00:28:19.82"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 57.3,
+    "primary_objects": [
+      "aubergine",
+      "fork",
+      "hand"
+    ],
+    "primary_verbs": [
+      "flip",
+      "take",
+      "adjust",
+      "put-down",
+      "wash"
+    ]
+  }
+]

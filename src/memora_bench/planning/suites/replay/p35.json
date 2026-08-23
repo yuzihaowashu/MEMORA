@@ -1,0 +1,1330 @@
+[
+  {
+    "task_id": "plan_P35_103_015",
+    "participant_id": "P35",
+    "video_id": "P35_103",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P35 lather the kitchen utensils and cookware.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_103_135",
+        "narration": "lather container",
+        "verb": "lather",
+        "noun": "container",
+        "start_time": "00:14:17.93",
+        "end_time": "00:14:25.00",
+        "enriched_narration": "lather blue plastic container on countertop",
+        "matched_object": {
+          "color": "blue",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blue_container",
+          "memory_name": "blue container"
+        }
+      },
+      {
+        "narration_id": "P35_103_136",
+        "narration": "lather spoon",
+        "verb": "lather",
+        "noun": "spoon",
+        "start_time": "00:14:25.85",
+        "end_time": "00:14:33.38",
+        "enriched_narration": "lather black plastic spoon at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_103_137",
+        "narration": "lather spoon",
+        "verb": "lather",
+        "noun": "spoon",
+        "start_time": "00:14:33.87",
+        "end_time": "00:14:42.98",
+        "enriched_narration": "lather black plastic spoon at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_103_138",
+        "narration": "lather grater",
+        "verb": "lather",
+        "noun": "grater",
+        "start_time": "00:14:43.05",
+        "end_time": "00:14:59.70",
+        "enriched_narration": "lather black plastic grater in hand",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "grater",
+          "memory_name": "grater"
+        }
+      },
+      {
+        "narration_id": "P35_103_139",
+        "narration": "lather pan",
+        "verb": "lather",
+        "noun": "pan",
+        "start_time": "00:15:00.40",
+        "end_time": "00:15:11.55",
+        "enriched_narration": "lather silver foil pan in hand",
+        "matched_object": {
+          "color": "silver",
+          "material": "foil",
+          "location": "in hand",
+          "memory_id": "pan",
+          "memory_name": "pan"
+        }
+      },
+      {
+        "narration_id": "P35_103_140",
+        "narration": "lather mixer",
+        "verb": "lather",
+        "noun": "mixer",
+        "start_time": "00:15:22.73",
+        "end_time": "00:15:34.21"
+      },
+      {
+        "narration_id": "P35_103_141",
+        "narration": "lather colander",
+        "verb": "lather",
+        "noun": "colander",
+        "start_time": "00:15:37.11",
+        "end_time": "00:15:55.11",
+        "enriched_narration": "lather red plastic colander on orange_tray",
+        "matched_object": {
+          "color": "red",
+          "material": "plastic",
+          "location": "on orange_tray",
+          "memory_id": "colander",
+          "memory_name": "red colander"
+        }
+      },
+      {
+        "narration_id": "P35_103_142",
+        "narration": "lather saucepan",
+        "verb": "lather",
+        "noun": "saucepan",
+        "start_time": "00:15:56.15",
+        "end_time": "00:16:13.21",
+        "enriched_narration": "lather black ceramic saucepan on kitchen_counter",
+        "matched_object": {
+          "color": "black",
+          "material": "ceramic",
+          "location": "on kitchen_counter",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      },
+      {
+        "narration_id": "P35_103_143",
+        "narration": "lather pot",
+        "verb": "lather",
+        "noun": "pot",
+        "start_time": "00:16:14.36",
+        "end_time": "00:16:42.12",
+        "enriched_narration": "lather black ceramic pot on kitchen_counter",
+        "matched_object": {
+          "color": "black",
+          "material": "ceramic",
+          "location": "on kitchen_counter",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 144.2,
+    "primary_objects": [
+      "spoon",
+      "container",
+      "grater",
+      "pan",
+      "mixer"
+    ],
+    "primary_verbs": [
+      "lather"
+    ]
+  },
+  {
+    "task_id": "plan_P35_104_016",
+    "participant_id": "P35",
+    "video_id": "P35_104",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P35 clean the knife and fork for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_104_144",
+        "narration": "lather knife",
+        "verb": "lather",
+        "noun": "knife",
+        "start_time": "00:09:00.41",
+        "end_time": "00:09:07.66",
+        "enriched_narration": "lather silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_104_145",
+        "narration": "lather fork",
+        "verb": "lather",
+        "noun": "fork",
+        "start_time": "00:09:07.73",
+        "end_time": "00:09:13.75",
+        "enriched_narration": "lather silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_104_146",
+        "narration": "lather fork",
+        "verb": "lather",
+        "noun": "fork",
+        "start_time": "00:09:13.62",
+        "end_time": "00:09:21.26",
+        "enriched_narration": "lather silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_104_147",
+        "narration": "lather knife",
+        "verb": "lather",
+        "noun": "knife",
+        "start_time": "00:09:20.89",
+        "end_time": "00:09:29.19",
+        "enriched_narration": "lather silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_104_148",
+        "narration": "lather spoon",
+        "verb": "lather",
+        "noun": "spoon",
+        "start_time": "00:09:29.28",
+        "end_time": "00:09:36.49",
+        "enriched_narration": "lather brown wood spoon in hand",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": "wooden_spoon"
+        }
+      },
+      {
+        "narration_id": "P35_104_149",
+        "narration": "lather spoon",
+        "verb": "lather",
+        "noun": "spoon",
+        "start_time": "00:09:36.32",
+        "end_time": "00:09:42.94",
+        "enriched_narration": "lather brown wood spoon in hand",
+        "matched_object": {
+          "color": "brown",
+          "material": "wood",
+          "location": "in hand",
+          "memory_id": "spoon",
+          "memory_name": "wooden_spoon"
+        }
+      },
+      {
+        "narration_id": "P35_104_150",
+        "narration": "lather fork",
+        "verb": "lather",
+        "noun": "fork",
+        "start_time": "00:09:42.79",
+        "end_time": "00:09:49.42",
+        "enriched_narration": "lather silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_104_151",
+        "narration": "lather knife",
+        "verb": "lather",
+        "noun": "knife",
+        "start_time": "00:09:50.18",
+        "end_time": "00:09:55.03",
+        "enriched_narration": "lather silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_104_152",
+        "narration": "lather knife",
+        "verb": "lather",
+        "noun": "knife",
+        "start_time": "00:09:55.04",
+        "end_time": "00:10:00.81",
+        "enriched_narration": "lather silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 60.4,
+    "primary_objects": [
+      "knife",
+      "fork",
+      "spoon"
+    ],
+    "primary_verbs": [
+      "lather"
+    ]
+  },
+  {
+    "task_id": "plan_P35_104_018",
+    "participant_id": "P35",
+    "video_id": "P35_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P35 clean the knife and plate in the kitchen.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_104_162",
+        "narration": "lather knife",
+        "verb": "lather",
+        "noun": "knife",
+        "start_time": "00:10:57.45",
+        "end_time": "00:11:01.87",
+        "enriched_narration": "lather silver metal knife at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_104_163",
+        "narration": "lather plate",
+        "verb": "lather",
+        "noun": "plate",
+        "start_time": "00:11:04.29",
+        "end_time": "00:11:13.12",
+        "enriched_narration": "lather white ceramic plate on table",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on table",
+          "memory_id": "plates",
+          "memory_name": "plates"
+        }
+      },
+      {
+        "narration_id": "P35_104_164",
+        "narration": "lather plate",
+        "verb": "lather",
+        "noun": "plate",
+        "start_time": "00:11:14.69",
+        "end_time": "00:11:23.55",
+        "enriched_narration": "lather white ceramic plate on table",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on table",
+          "memory_id": "plates",
+          "memory_name": "plates"
+        }
+      },
+      {
+        "narration_id": "P35_104_165",
+        "narration": "lather plate",
+        "verb": "lather",
+        "noun": "plate",
+        "start_time": "00:11:28.15",
+        "end_time": "00:11:41.01",
+        "enriched_narration": "lather white ceramic plate on table",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on table",
+          "memory_id": "plates",
+          "memory_name": "plates"
+        }
+      },
+      {
+        "narration_id": "P35_104_166",
+        "narration": "lather plate",
+        "verb": "lather",
+        "noun": "plate",
+        "start_time": "00:11:43.56",
+        "end_time": "00:11:55.59",
+        "enriched_narration": "lather white ceramic plate on table",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on table",
+          "memory_id": "plates",
+          "memory_name": "plates"
+        }
+      },
+      {
+        "narration_id": "P35_104_167",
+        "narration": "lather plate",
+        "verb": "lather",
+        "noun": "plate",
+        "start_time": "00:11:58.35",
+        "end_time": "00:12:08.85",
+        "enriched_narration": "lather white ceramic plate on table",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on table",
+          "memory_id": "plates",
+          "memory_name": "plates"
+        }
+      },
+      {
+        "narration_id": "P35_104_168",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:12:10.20",
+        "end_time": "00:12:11.95",
+        "enriched_narration": "turn on silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      },
+      {
+        "narration_id": "P35_104_169",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:12:11.91",
+        "end_time": "00:12:13.07",
+        "enriched_narration": "rinse yellow foam sponge at countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "countertop",
+          "memory_id": "yellow_sponge",
+          "memory_name": "yellow_sponge"
+        }
+      },
+      {
+        "narration_id": "P35_104_170",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:12:13.15",
+        "end_time": "00:12:14.53",
+        "enriched_narration": "turn off silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "faucet_chrome"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 77.1,
+    "primary_objects": [
+      "plate",
+      "tap",
+      "knife",
+      "sponge"
+    ],
+    "primary_verbs": [
+      "lather",
+      "turn-on",
+      "rinse",
+      "turn-off"
+    ]
+  },
+  {
+    "task_id": "plan_P35_107_028",
+    "participant_id": "P35",
+    "video_id": "P35_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P35 clean the kitchen wall and sink.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_107_251",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:18:48.12",
+        "end_time": "00:18:49.02",
+        "enriched_narration": "turn off white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_252",
+        "narration": "clean wall",
+        "verb": "clean",
+        "noun": "wall",
+        "start_time": "00:18:49.06",
+        "end_time": "00:18:57.49",
+        "enriched_narration": "clean wall at wall",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "wall",
+          "memory_id": "wall",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_253",
+        "narration": "wash sink",
+        "verb": "wash",
+        "noun": "sink",
+        "start_time": "00:18:57.36",
+        "end_time": "00:19:05.23",
+        "enriched_narration": "wash silver metal sink at right",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "right",
+          "memory_id": "sink",
+          "memory_name": "sink"
+        }
+      },
+      {
+        "narration_id": "P35_107_254",
+        "narration": "clean wall",
+        "verb": "clean",
+        "noun": "wall",
+        "start_time": "00:19:06.00",
+        "end_time": "00:19:09.80",
+        "enriched_narration": "clean wall at wall",
+        "matched_object": {
+          "color": "",
+          "material": "",
+          "location": "wall",
+          "memory_id": "wall",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_255",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:19:11.39",
+        "end_time": "00:19:12.69",
+        "enriched_narration": "turn on white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_256",
+        "narration": "rinse cloth",
+        "verb": "rinse",
+        "noun": "cloth",
+        "start_time": "00:19:12.49",
+        "end_time": "00:19:16.64",
+        "enriched_narration": "rinse yellow textile cloth at countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "textile",
+          "location": "countertop",
+          "memory_id": "yellow_cloth",
+          "memory_name": "yellow_cloth"
+        }
+      },
+      {
+        "narration_id": "P35_107_257",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:19:16.64",
+        "end_time": "00:19:17.29",
+        "enriched_narration": "turn off white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_258",
+        "narration": "clean counter top",
+        "verb": "clean",
+        "noun": "top:counter",
+        "start_time": "00:19:17.33",
+        "end_time": "00:19:33.22"
+      },
+      {
+        "narration_id": "P35_107_259",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:19:34.42",
+        "end_time": "00:19:35.22",
+        "enriched_narration": "turn on white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 47.1,
+    "primary_objects": [
+      "tap",
+      "wall",
+      "sink",
+      "cloth",
+      "counter top"
+    ],
+    "primary_verbs": [
+      "clean",
+      "turn-off",
+      "turn-on",
+      "wash",
+      "rinse"
+    ]
+  },
+  {
+    "task_id": "plan_P35_107_033",
+    "participant_id": "P35",
+    "video_id": "P35_107",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P35 clean the hob and rinse the sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_107_296",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:21:35.27",
+        "end_time": "00:21:37.10",
+        "enriched_narration": "rinse yellow foam sponge at sink_area",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "sponge"
+        }
+      },
+      {
+        "narration_id": "P35_107_297",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:21:37.27",
+        "end_time": "00:21:37.68",
+        "enriched_narration": "turn off white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_298",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:21:40.28",
+        "end_time": "00:21:58.11",
+        "enriched_narration": "clean silver metal hob at stove_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "stove_area",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P35_107_299",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:21:58.64",
+        "end_time": "00:21:59.16",
+        "enriched_narration": "turn on white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_300",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:21:59.71",
+        "end_time": "00:22:02.96",
+        "enriched_narration": "rinse yellow foam sponge at sink_area",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "sponge"
+        }
+      },
+      {
+        "narration_id": "P35_107_301",
+        "narration": "turn off tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:22:02.94",
+        "end_time": "00:22:03.80",
+        "enriched_narration": "turn off white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_302",
+        "narration": "clean hob",
+        "verb": "clean",
+        "noun": "hob",
+        "start_time": "00:22:06.06",
+        "end_time": "00:22:24.83",
+        "enriched_narration": "clean silver metal hob at stove_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "stove_area",
+          "memory_id": "stove_burner",
+          "memory_name": "stove_burner"
+        }
+      },
+      {
+        "narration_id": "P35_107_303",
+        "narration": "turn on tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:22:25.95",
+        "end_time": "00:22:26.69",
+        "enriched_narration": "turn on white rubber tap at sink_area",
+        "matched_object": {
+          "color": "white",
+          "material": "rubber",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": ""
+        }
+      },
+      {
+        "narration_id": "P35_107_304",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:22:26.07",
+        "end_time": "00:22:29.64",
+        "enriched_narration": "rinse yellow foam sponge at sink_area",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "sink_area",
+          "memory_id": "sponge",
+          "memory_name": "sponge"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 54.4,
+    "primary_objects": [
+      "tap",
+      "sponge",
+      "hob"
+    ],
+    "primary_verbs": [
+      "rinse",
+      "turn-off",
+      "clean",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P35_108_009",
+    "participant_id": "P35",
+    "video_id": "P35_108",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P35 wash the utensils in the sink.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_108_81",
+        "narration": "wash fork",
+        "verb": "wash",
+        "noun": "fork",
+        "start_time": "00:04:01.61",
+        "end_time": "00:04:07.10",
+        "enriched_narration": "wash silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_108_82",
+        "narration": "adjust tap",
+        "verb": "adjust",
+        "noun": "tap",
+        "start_time": "00:04:07.40",
+        "end_time": "00:04:08.05",
+        "enriched_narration": "adjust silver metal tap above purple_cutting_board",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above purple_cutting_board",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet chrome"
+        }
+      },
+      {
+        "narration_id": "P35_108_83",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:04:08.08",
+        "end_time": "00:04:14.75",
+        "enriched_narration": "wash black metal knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_108_84",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:14.46",
+        "end_time": "00:04:21.75",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_85",
+        "narration": "wash fork",
+        "verb": "wash",
+        "noun": "fork",
+        "start_time": "00:04:21.67",
+        "end_time": "00:04:27.04",
+        "enriched_narration": "wash silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_108_86",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:04:27.14",
+        "end_time": "00:04:33.60",
+        "enriched_narration": "wash black metal knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_108_87",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:33.62",
+        "end_time": "00:04:38.53",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_88",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:38.63",
+        "end_time": "00:04:42.55",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_89",
+        "narration": "adjust tap",
+        "verb": "adjust",
+        "noun": "tap",
+        "start_time": "00:04:42.45",
+        "end_time": "00:04:43.58",
+        "enriched_narration": "adjust silver metal tap above purple_cutting_board",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "above purple_cutting_board",
+          "memory_id": "faucet_chrome",
+          "memory_name": "faucet chrome"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 42,
+    "primary_objects": [
+      "spoon",
+      "fork",
+      "tap",
+      "knife"
+    ],
+    "primary_verbs": [
+      "wash",
+      "adjust"
+    ]
+  },
+  {
+    "task_id": "plan_P35_108_010",
+    "participant_id": "P35",
+    "video_id": "P35_108",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P35 wash the utensils in the sink.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_108_90",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:43.89",
+        "end_time": "00:04:47.24",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_91",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:47.30",
+        "end_time": "00:04:51.42",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_92",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:04:51.39",
+        "end_time": "00:04:58.78",
+        "enriched_narration": "wash black metal knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_108_93",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:04:59.94",
+        "end_time": "00:05:04.82",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_94",
+        "narration": "wash knife",
+        "verb": "wash",
+        "noun": "knife",
+        "start_time": "00:05:04.92",
+        "end_time": "00:05:12.07",
+        "enriched_narration": "wash black metal knife at sink_area",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P35_108_95",
+        "narration": "wash fork",
+        "verb": "wash",
+        "noun": "fork",
+        "start_time": "00:05:12.03",
+        "end_time": "00:05:17.27",
+        "enriched_narration": "wash silver metal fork at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P35_108_96",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:05:17.26",
+        "end_time": "00:05:21.42",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_97",
+        "narration": "wash spoon",
+        "verb": "wash",
+        "noun": "spoon",
+        "start_time": "00:05:21.29",
+        "end_time": "00:05:25.69",
+        "enriched_narration": "wash silver metal spoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      },
+      {
+        "narration_id": "P35_108_98",
+        "narration": "wash teaspoon",
+        "verb": "wash",
+        "noun": "teaspoon",
+        "start_time": "00:05:24.10",
+        "end_time": "00:05:28.38",
+        "enriched_narration": "wash silver metal teaspoon at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "spoon",
+          "memory_name": "spoon"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 44.5,
+    "primary_objects": [
+      "spoon",
+      "knife",
+      "fork",
+      "teaspoon"
+    ],
+    "primary_verbs": [
+      "wash"
+    ]
+  },
+  {
+    "task_id": "plan_P35_105_046",
+    "participant_id": "P35",
+    "video_id": "P35_105",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P35 prepare the stir-fry with mushrooms and meat.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_105_408",
+        "narration": "pour mushrooms",
+        "verb": "pour",
+        "noun": "mushroom",
+        "start_time": "00:33:46.51",
+        "end_time": "00:33:53.89"
+      },
+      {
+        "narration_id": "P35_105_409",
+        "narration": "pour meat",
+        "verb": "pour",
+        "noun": "meat",
+        "start_time": "00:33:56.26",
+        "end_time": "00:34:06.16"
+      },
+      {
+        "narration_id": "P35_105_410",
+        "narration": "pour mushrooms",
+        "verb": "pour",
+        "noun": "mushroom",
+        "start_time": "00:34:02.62",
+        "end_time": "00:34:06.44"
+      },
+      {
+        "narration_id": "P35_105_411",
+        "narration": "stir meat",
+        "verb": "stir",
+        "noun": "meat",
+        "start_time": "00:34:09.47",
+        "end_time": "00:34:11.88"
+      },
+      {
+        "narration_id": "P35_105_412",
+        "narration": "pour meat",
+        "verb": "pour",
+        "noun": "meat",
+        "start_time": "00:34:13.09",
+        "end_time": "00:34:13.73"
+      },
+      {
+        "narration_id": "P35_105_413",
+        "narration": "stir meat",
+        "verb": "stir",
+        "noun": "meat",
+        "start_time": "00:34:13.86",
+        "end_time": "00:34:18.39"
+      },
+      {
+        "narration_id": "P35_105_414",
+        "narration": "pour meat",
+        "verb": "pour",
+        "noun": "meat",
+        "start_time": "00:34:18.22",
+        "end_time": "00:34:20.64"
+      },
+      {
+        "narration_id": "P35_105_415",
+        "narration": "pour meat",
+        "verb": "pour",
+        "noun": "meat",
+        "start_time": "00:34:29.18",
+        "end_time": "00:34:30.03"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 43.5,
+    "primary_objects": [
+      "meat",
+      "mushroom"
+    ],
+    "primary_verbs": [
+      "pour",
+      "stir"
+    ]
+  },
+  {
+    "task_id": "plan_P35_103_001",
+    "participant_id": "P35",
+    "video_id": "P35_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P35 season and stir the peas in the pot.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P35_103_9",
+        "narration": "put down salt",
+        "verb": "put-down",
+        "noun": "salt",
+        "start_time": "00:00:48.28",
+        "end_time": "00:00:49.18"
+      },
+      {
+        "narration_id": "P35_103_10",
+        "narration": "pour salt",
+        "verb": "pour",
+        "noun": "salt",
+        "start_time": "00:00:53.14",
+        "end_time": "00:00:55.56"
+      },
+      {
+        "narration_id": "P35_103_11",
+        "narration": "pour salt",
+        "verb": "pour",
+        "noun": "salt",
+        "start_time": "00:00:55.95",
+        "end_time": "00:00:58.68"
+      },
+      {
+        "narration_id": "P35_103_12",
+        "narration": "stir peas",
+        "verb": "stir",
+        "noun": "pea",
+        "start_time": "00:00:59.26",
+        "end_time": "00:01:20.75"
+      },
+      {
+        "narration_id": "P35_103_13",
+        "narration": "taste peas",
+        "verb": "taste",
+        "noun": "pea",
+        "start_time": "00:01:22.42",
+        "end_time": "00:01:25.84"
+      },
+      {
+        "narration_id": "P35_103_14",
+        "narration": "pour salt",
+        "verb": "pour",
+        "noun": "salt",
+        "start_time": "00:01:26.35",
+        "end_time": "00:01:30.49"
+      },
+      {
+        "narration_id": "P35_103_15",
+        "narration": "stir peas",
+        "verb": "stir",
+        "noun": "pea",
+        "start_time": "00:01:30.68",
+        "end_time": "00:01:48.50"
+      },
+      {
+        "narration_id": "P35_103_16",
+        "narration": "pour peas",
+        "verb": "pour",
+        "noun": "pea",
+        "start_time": "00:01:49.99",
+        "end_time": "00:02:54.12"
+      },
+      {
+        "narration_id": "P35_103_17",
+        "narration": "put down pot",
+        "verb": "put-down",
+        "noun": "pot",
+        "start_time": "00:02:54.58",
+        "end_time": "00:02:56.16",
+        "enriched_narration": "put down black ceramic pot on kitchen_counter",
+        "matched_object": {
+          "color": "black",
+          "material": "ceramic",
+          "location": "on kitchen_counter",
+          "memory_id": "pot",
+          "memory_name": "pot"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 127.9,
+    "primary_objects": [
+      "salt",
+      "pea",
+      "pot"
+    ],
+    "primary_verbs": [
+      "pour",
+      "put-down",
+      "stir",
+      "taste"
+    ]
+  }
+]

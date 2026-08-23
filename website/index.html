@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MEMORA forms persistent semantic-procedural memory from accumulated egocentric experience for grounded planning.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MEMORA | Embodied Action Memory">
+    <meta property="og:description" content="Editable, consolidated memory from egocentric experience grounds future plans.">
+    <meta property="og:url" content="https://yuzihaowashu.github.io/MEMORA/">
+    <meta property="og:image" content="https://yuzihaowashu.github.io/MEMORA/assets/memora-motion-overview-poster.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>MEMORA | Embodied Action Memory</title>
+    <link rel="stylesheet" href="styles.css?v=35">
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="wordmark" href="#top">MEMORA</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open page navigation" title="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" aria-label="Page navigation">
+        <a href="#about">About</a>
+        <a href="#lifecycle">Lifecycle</a>
+        <a href="#planning">Planning</a>
+        <a href="#demo">Robot demo</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#results">Results</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1><strong>MEMORA:</strong> Embodied Action Memory from Egocentric Videos<br> for Reasoning and Planning</h1>
+          <p class="authors">
+            <a href="https://yuzihaowashu.github.io" target="_blank" rel="noopener">Zihao Yu</a>
+            <span aria-hidden="true"> · </span>
+            <a href="https://xiuyuan0216.github.io" target="_blank" rel="noopener">Xiu Yuan</a>
+            <span aria-hidden="true"> · </span>
+            <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html" target="_blank" rel="noopener">Chongjie Zhang</a>
+          </p>
+          <p class="affiliation">Washington University in St. Louis</p>
+          <a class="acceptance-banner" href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/FM4RoboPlan#tab-accept-oral" target="_blank" rel="noopener" aria-label="RSS 2026 FM4RoboPlan oral acceptance">
+            <strong>Oral Presentation</strong>
+            <span>RSS 2026 FM4RoboPlan</span>
+          </a>
+          <div class="venue-links" aria-label="Publication venue links">
+            <a href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/FM4RoboPlan#tab-accept-oral" target="_blank" rel="noopener">OpenReview</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://sites.google.com/alumni.brown.edu/fm4roboplan26/home" target="_blank" rel="noopener">Workshop website</a>
+          </div>
+          <div class="resource-row" aria-label="Project resources">
+            <a class="button" href="https://arxiv.org/abs/2607.14252" target="_blank" rel="noopener">Paper</a>
+            <a class="button primary" href="#demo">Demo</a>
+            <a class="button" href="https://github.com/yuzihaowashu/MEMORA" target="_blank" rel="noopener">Code</a>
+            <a class="button" href="benchmark-explorer.html">MEMORA-Bench</a>
+          </div>
+          <p class="hero-thesis">Editable, consolidated memory from egocentric experience grounds future plans.</p>
+        </div>
+        <figure class="motion-overview" id="overview">
+          <video autoplay muted loop controls playsinline preload="metadata" poster="assets/memora-motion-overview-poster.jpg?v=19" aria-label="Animated MEMORA overview showing egocentric experience becoming persistent memory, a memory-grounded plan, and robot execution">
+            <source src="assets/memora-motion-overview.mp4?v=19" type="video/mp4">
+            <source src="assets/memora-motion-overview.webm?v=19" type="video/webm">
+            <track kind="captions" src="assets/captions/memora-overview.en.vtt" srclang="en" label="English">
+          </video>
+          <figcaption><a href="assets/memora-overview.pdf">View static paper overview</a></figcaption>
+        </figure>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="overview-title">
+        <div class="about-grid">
+          <article class="abstract-block">
+            <h2 id="overview-title">Overview</h2>
+            <p>Embodied intelligence is shaped not only by the scene in front of an agent, but also by accumulated experience. Familiar places carry histories of use: objects change state, actions become procedures, and repeated episodes reveal regularities that no single frame contains. Egocentric video records this experience from the actor's point of view.</p>
+            <p>While egocentric imitation and cross-embodiment methods use first-person human video to learn how behavior can be executed, MEMORA studies a complementary question: <em>what should experience become for a future planner?</em> We formulate <strong>Embodied Action Memory</strong> as the capability to form, maintain, and use embodied experience as a persistent memory state.</p>
+            <p>MEMORA organizes egocentric experience as editable and consolidated embodied memory, rather than retaining it only as episodes to retrieve or demonstrations to imitate. The resulting semantic–procedural state preserves what happened, what changed, and what recurs so that later goals can be grounded in participant-specific experience.</p>
+            <p>MEMORA-Bench evaluates this lifecycle on 45 hours of egocentric video across 18 participants. Across four open-weight language models, full MEMORA performs best overall among the evaluated memory interfaces. It gains up to 20.5 points on the experience-dependent, memory-grounded EAM-QA subset and up to 16.6% relative Robot-Grounded Plan score on Generalize. A qualitative two-task robot deployment illustrates the path from remembered human experience to physical execution.</p>
+          </article>
+
+          <aside class="features-block" aria-labelledby="features-title">
+            <h2 id="features-title">Key Features</h2>
+            <div class="feature-list">
+              <article>
+                <h3>Persistent experience state</h3>
+                <p>Experience is encoded into and maintained as memory that remains available beyond the episode in which it was observed.</p>
+              </article>
+              <article>
+                <h3>Four embodied continuities</h3>
+                <p>Environment, Entity, Activity, and Inferred Knowledge preserve spatial context, evolving state, temporal evidence, and cross-event regularities.</p>
+              </article>
+              <article>
+                <h3>Revision and consolidation</h3>
+                <p>Online editing follows change as it happens; offline consolidation turns repeated evidence into reusable procedures and participant-specific regularities.</p>
+              </article>
+              <article>
+                <h3>Retrospective and prospective evidence</h3>
+                <p>MEMORA-Bench tests both faithful retention of prior experience and its use in Replay and Generalize planning goals.</p>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section lifecycle-section" id="lifecycle" aria-labelledby="lifecycle-title">
+        <div class="section-heading centered">
+          <h2 id="lifecycle-title">Experience becomes memory. Memory guides action.</h2>
+          <p class="section-lead">MEMORA encodes each segment, revises persistent state as experience changes, consolidates repeated evidence, and retrieves what a later goal needs.</p>
+        </div>
+
+        <div class="lifecycle-shell">
+          <div class="lifecycle-tabs" role="tablist" aria-label="MEMORA lifecycle phases">
+            <button class="lifecycle-tab active" type="button" role="tab" aria-selected="true" aria-controls="lifecycle-panel" tabindex="0" data-phase="encode"><span>1</span>Encode experience</button>
+            <button class="lifecycle-tab" type="button" role="tab" aria-selected="false" aria-controls="lifecycle-panel" tabindex="-1" data-phase="edit"><span>2</span>Edit memory</button>
+            <button class="lifecycle-tab" type="button" role="tab" aria-selected="false" aria-controls="lifecycle-panel" tabindex="-1" data-phase="consolidate"><span>3</span>Consolidate patterns</button>
+            <button class="lifecycle-tab" type="button" role="tab" aria-selected="false" aria-controls="lifecycle-panel" tabindex="-1" data-phase="retrieve"><span>4</span>Retrieve for a goal</button>
+          </div>
+
+          <div class="lifecycle-panel" id="lifecycle-panel" role="tabpanel" aria-live="polite">
+            <div class="phase-copy">
+              <p class="phase-time" id="phase-time">Online · each 10-second segment</p>
+              <h3 id="phase-title">Encode layered observations</h3>
+              <p id="phase-description">The Segment Encoder turns each 10-second segment into environment, entity, and activity observations while carrying short context across boundaries.</p>
+              <button class="text-button" id="inspect-output" type="button">Inspect memory record <span aria-hidden="true">→</span></button>
+              <span class="evidence-label memory" id="phase-label">Segment-level observation</span>
+            </div>
+            <div class="phase-visual" id="phase-visual">
+              <div class="observation-window">
+                <img src="assets/demo_frames/human-prepare-breakfast.jpg" alt="Egocentric breakfast-preparation observation" decoding="async">
+                <div class="time-code">00:10–00:20</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="store-strip" aria-label="Four MEMORA stores">
+          <article class="flip-card store-card env" role="button" tabindex="0" aria-pressed="false" aria-label="Environment Memory: show details">
+            <div class="flip-card-inner">
+              <div class="flip-face flip-front"><span>Environment Memory</span></div>
+              <div class="flip-face flip-back" aria-hidden="true"><p>Remembers places, zones, layouts, and spatial relations.</p></div>
+            </div>
+          </article>
+          <article class="flip-card store-card ent" role="button" tabindex="0" aria-pressed="false" aria-label="Entity Memory: show details">
+            <div class="flip-card-inner">
+              <div class="flip-face flip-front"><span>Entity Memory</span></div>
+              <div class="flip-face flip-back" aria-hidden="true"><p>Keeps identity through changes in state and location.</p></div>
+            </div>
+          </article>
+          <article class="flip-card store-card act" role="button" tabindex="0" aria-pressed="false" aria-label="Activity Memory: show details">
+            <div class="flip-card-inner">
+              <div class="flip-face flip-front"><span>Activity Memory</span></div>
+              <div class="flip-face flip-back" aria-hidden="true"><p>Preserves ordered evidence of what happened and how.</p></div>
+            </div>
+          </article>
+          <article class="flip-card store-card inf" role="button" tabindex="0" aria-pressed="false" aria-label="Inferred Knowledge: show details">
+            <div class="flip-card-inner">
+              <div class="flip-face flip-front"><span>Inferred Knowledge</span></div>
+              <div class="flip-face flip-back" aria-hidden="true"><p>Consolidates recurring procedures and participant regularities.</p></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section planning-section" id="planning" aria-labelledby="planning-title">
+        <div class="section-heading centered">
+          <h2 id="planning-title">What memory makes possible</h2>
+          <p class="section-lead">When a new goal arrives, the planner does not replay the entire past. It asks memory for the procedures, objects, places, and participant-specific regularities that make an otherwise generic instruction concrete.</p>
+        </div>
+
+        <div class="planning-case">
+          <div class="goal-row">
+            <span>Future goal</span>
+            <strong>Help P01 wash all the dirty dishes, dry them, and put them away.</strong>
+          </div>
+          <div class="planning-flow">
+            <article class="retrieval-column">
+              <div class="flow-heading"><span>A</span><h3>Memory makes the goal specific</h3></div>
+              <div class="query-list" aria-label="Queries to typed memory">
+                <span class="act">wash, dry, and store dishes</span>
+                <span class="inf">dish storage preferences</span>
+                <span class="ent">sponge</span>
+                <span class="ent">cloth</span>
+              </div>
+              <div class="evidence-stack">
+                <div class="memory-card ent"><span>Entities</span><p>Red ceramic dirty bowl, black metal plate, yellow foam sponge, and blue cotton cloth</p></div>
+                <div class="memory-card env"><span>Environment</span><p>Silver stainless steel sink, chrome metal tap, drying rack, counter, and storage cabinet</p></div>
+                <div class="memory-card act"><span>Procedure</span><p>Collect the dishes, wash with soap, rinse, place them on the rack, dry them, and store them.</p></div>
+                <div class="memory-card inf"><span>Participant grounding</span><p>Routine and storage-preference retrieval guide the final sequence and destination</p></div>
+              </div>
+            </article>
+
+            <article class="plan-column">
+              <div class="flow-heading"><span>B</span><h3>The planner turns memory into action</h3></div>
+              <details class="plan-disclosure">
+                <summary>
+                  <strong>12-step MEMORA plan</strong>
+                  <span>Objects, tools, locations, and procedure are grounded in P01's remembered kitchen.</span>
+                </summary>
+                <div class="plan-disclosure-body">
+                    <ol class="long-plan">
+                      <li>Collect the <strong>red ceramic dirty bowl</strong> and the <strong>black metal plate</strong> from the counter and carry them to the <strong>silver stainless steel sink</strong>.</li>
+                      <li>Pick up the <strong>yellow foam sponge</strong> from the edge of the sink with the right hand.</li>
+                      <li>Wet the yellow foam sponge under the <strong>chrome metal tap</strong> and apply dish soap.</li>
+                      <li>Scrub the red ceramic dirty bowl with the yellow foam sponge using the left hand.</li>
+                      <li>Rinse the red ceramic bowl under the running water from the chrome metal tap.</li>
+                      <li>Scrub the black metal plate with the yellow foam sponge using the right hand.</li>
+                      <li>Rinse the black metal plate under the running water from the chrome metal tap.</li>
+                      <li>Place the washed red ceramic bowl and black metal plate on the drying rack located on the left side of the sink.</li>
+                      <li>Pick up the <strong>blue cotton cloth</strong> from the counter with the left hand.</li>
+                      <li>Wipe the red ceramic bowl dry with the blue cotton cloth.</li>
+                      <li>Wipe the black metal plate dry with the blue cotton cloth.</li>
+                      <li>Place the dried red ceramic bowl and black metal plate into the <strong>storage cabinet</strong>.</li>
+                    </ol>
+                    <button class="text-button plan-toggle" type="button" aria-expanded="false">Show retrieval evidence <span aria-hidden="true">+</span></button>
+                    <div class="plan-rationale plan-evidence" hidden>
+                      <p><strong>Distinct retrieval attempts</strong></p>
+                      <code>get_routine_skill("wash and dry dishes and put them away")</code>
+                      <code>get_preferences("where dishes and utensils are stored")</code>
+                      <code>search_objects("sponge")</code>
+                      <code>search_objects("cloth")</code>
+                      <p>The complete 12-step plan is shown as generated. Repeated retrieval attempts are shown once for clarity.</p>
+                    </div>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+
+        <div class="subsection-divider robot-subsection" id="demo" aria-labelledby="demo-title">
+        <div class="section-heading centered">
+          <h2 id="demo-title">From memory to physical action</h2>
+          <p class="section-lead">Planning is where remembered experience meets a new embodiment. These two qualitative examples follow memory-supported actions into physical execution.</p>
+        </div>
+
+        <div class="task-switch" role="tablist" aria-label="Robot demonstration task">
+          <button type="button" class="active" role="tab" aria-selected="true" aria-controls="demo-drink" tabindex="0" data-task-tab="drink">Prepare drink</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="demo-breakfast" tabindex="-1" data-task-tab="breakfast">Prepare breakfast</button>
+        </div>
+
+        <div class="robot-demo active" id="demo-drink" role="tabpanel" data-task-panel="drink">
+          <article class="video-panel">
+            <div class="panel-head"><span>Human observation</span></div>
+            <video controls muted loop playsinline preload="metadata" poster="assets/demo_frames/human-prepare-drink.jpg">
+              <source src="assets/demo_videos/human-prepare-drink.mp4" type="video/mp4">
+              <track kind="captions" src="assets/captions/human-drink.en.vtt" srclang="en" label="English">
+            </video>
+          </article>
+          <article class="compact-plan">
+            <div class="panel-head"><span>Actions shown in execution</span><small>4 grounded actions</small></div>
+            <ol>
+              <li>Navigate to the counter area.</li>
+              <li>Grasp the dark soda bottle.</li>
+              <li>Select the red Starbucks cup.</li>
+              <li>Pour the soda into the cup.</li>
+            </ol>
+            <button class="json-button" type="button" data-json="drink">View grounding details</button>
+          </article>
+          <article class="video-panel">
+            <div class="panel-head"><span>Robot grounding · 2.0× speed</span></div>
+            <video controls muted loop playsinline preload="metadata" poster="assets/demo_frames/robot-prepare-drink.jpg">
+              <source src="assets/demo_videos/robot-prepare-drink.mp4" type="video/mp4">
+              <track kind="captions" src="assets/captions/robot-drink.en.vtt" srclang="en" label="English">
+            </video>
+          </article>
+        </div>
+
+        <div class="robot-demo" id="demo-breakfast" role="tabpanel" data-task-panel="breakfast" hidden>
+          <article class="video-panel">
+            <div class="panel-head"><span>Human observation</span></div>
+            <video controls muted loop playsinline preload="metadata" poster="assets/demo_frames/human-prepare-breakfast.jpg">
+              <source src="assets/demo_videos/human-prepare-breakfast.mp4" type="video/mp4">
+              <track kind="captions" src="assets/captions/human-breakfast.en.vtt" srclang="en" label="English">
+            </video>
+          </article>
+          <article class="compact-plan">
+            <div class="panel-head"><span>Memory-grounded plan</span><small>Complete 4-step output</small></div>
+            <ol>
+              <li>Grasp the yellow bowl.</li>
+              <li>Retrieve the red tea packet.</li>
+              <li>Retrieve the yellow spoon.</li>
+              <li>Bring the bread slices.</li>
+            </ol>
+            <button class="json-button" type="button" data-json="breakfast">View grounding details</button>
+          </article>
+          <article class="video-panel">
+            <div class="panel-head"><span>Robot grounding · 2.0× speed</span></div>
+            <video controls muted loop playsinline preload="metadata" poster="assets/demo_frames/robot-prepare-breakfast.jpg">
+              <source src="assets/demo_videos/robot-prepare-breakfast.mp4" type="video/mp4">
+              <track kind="captions" src="assets/captions/robot-breakfast.en.vtt" srclang="en" label="English">
+            </video>
+          </article>
+        </div>
+        <div class="robot-interface" aria-label="Interface from human experience to robot execution">
+          <span>Human egocentric experience</span><i>→</i><span>MEMORA plan</span><i>→</i><span>Fixed low-level controller</span>
+        </div>
+        <p class="robot-scope">For these qualitative demonstrations, language-level actions are mapped to a fixed rule-based Unitree G1 controller. The drink example shows the actions carried out by the robot; the breakfast example shows the complete generated plan.</p>
+        </div>
+      </section>
+
+      <section class="section benchmark-section" id="benchmark" aria-labelledby="benchmark-title">
+        <div class="section-heading centered">
+          <h2 id="benchmark-title">MEMORA-Bench</h2>
+          <p class="section-lead">A memory system should be judged twice: by whether it remains faithful to what happened, and by whether what it remembers can help with what comes next. MEMORA-Bench pairs these retrospective and prospective tests over the same participant-specific memory.</p>
+        </div>
+
+        <div class="benchmark-protocols">
+          <article class="planning-protocol">
+            <h3>MEMORA-Planning</h3>
+            <div class="planning-example-tabs" role="tablist" aria-label="Planning examples">
+              <button type="button" role="tab" aria-selected="false" aria-controls="planning-replay" tabindex="-1" data-planning-example="replay">Replay · Procedure grounding</button>
+              <button class="active" type="button" role="tab" aria-selected="true" aria-controls="planning-generalize" tabindex="0" data-planning-example="generalize">Generalize · Activity + spatial grounding</button>
+            </div>
+            <div class="planning-example-panel" id="planning-replay" role="tabpanel" data-planning-panel="replay" hidden>
+              <div class="trace-flow" aria-label="Planning workflow">
+                <span>Find procedure</span><i>→</i><span>Refine evidence</span><i>→</i><span>Ground objects + places</span><i>→</i><span>Generate plan</span>
+              </div>
+              <p class="example-question">Help P03 clean the washing-up bowl in the sink.</p>
+              <p class="trace-instruction">Open a tool call to inspect the memory returned to the planner.</p>
+              <div class="tool-trace">
+              <details class="tool-step">
+                <summary><code>get_routine_skill("clean a bowl in sink", top_k=3)</code></summary>
+                <div class="tool-result">
+                  <span class="result-label">3 candidates returned</span>
+                  <div class="retrieval-candidates">
+                    <article class="retrieval-candidate">
+                      <div class="candidate-head"><span>Rank 1</span><strong>0.8501</strong></div>
+                      <h4>Washing Cookware in Sink</h4>
+                      <p>Wash a pot and spoon in the sink after cooking.</p>
+                      <small>pot · spoon · stove</small>
+                    </article>
+                    <article class="retrieval-candidate">
+                      <div class="candidate-head"><span>Rank 2</span><strong>0.8476</strong></div>
+                      <h4>Cleaning Sink Strainer and Final Dish Handling</h4>
+                      <p>Clean the sink strainer and handle the final clean dishes.</p>
+                      <small>sink strainer · clean dish · white plate</small>
+                    </article>
+                    <article class="retrieval-candidate">
+                      <div class="candidate-head"><span>Rank 3</span><strong>0.8416</strong></div>
+                      <h4>Extended Dishwashing and Sink Area Cleaning</h4>
+                      <p>Wash dishes and utensils through repeated sink-side cleaning cycles.</p>
+                      <small>plate · black pot · sponge</small>
+                    </article>
+                  </div>
+                  <p class="planner-decision"><strong>Planner decision:</strong> none directly grounds the requested bowl. The agent narrows the procedural query before selecting evidence.</p>
+                </div>
+              </details>
+              <details class="tool-step">
+                <summary><code>get_routine_skill("wash a bowl", top_k=2)</code></summary>
+                <div class="tool-result">
+                  <span class="result-label">2 candidates returned</span>
+                  <div class="retrieval-candidates two-up">
+                    <article class="retrieval-candidate selected">
+                      <div class="candidate-head"><span>Rank 1 · Selected evidence</span><strong>0.8319</strong></div>
+                      <h4>Post-Cooking Dishwashing and Drying</h4>
+                      <p>Wash used cookware in the sink and place cleaned dishes in the drying rack. Supporting episodes explicitly mention a black cooking bowl.</p>
+                      <small>bowl · faucet · black pot · drying rack</small>
+                    </article>
+                    <article class="retrieval-candidate">
+                      <div class="candidate-head"><span>Rank 2</span><strong>0.8295</strong></div>
+                      <h4>Washing Cookware in Sink</h4>
+                      <p>Wash a pot and spoon in the sink after cooking.</p>
+                      <small>pot · spoon · stove</small>
+                    </article>
+                  </div>
+                  <p class="planner-decision"><strong>Planner decision:</strong> rank 1 supplies the relevant procedure and desired post-condition; the next call grounds its generic references in P03's environment.</p>
+                </div>
+              </details>
+              <details class="tool-step">
+                <summary><code>search_objects(name="bowl")</code></summary>
+                <div class="tool-result">
+                  <span class="result-label">Retrieved physical grounding</span>
+                  <dl class="object-grounding"><div><dt>Target</dt><dd>black cooking bowl · in the sink</dd></div><div><dt>Tool</dt><dd>green sponge · edge of the sink</dd></div><div><dt>Fixture</dt><dd>chrome metal faucet</dd></div><div><dt>Destination</dt><dd>metal drying rack · next to the sink</dd></div></dl>
+                  <p class="planner-decision"><strong>Planner decision:</strong> replace generic cookware references with P03-specific objects and locations.</p>
+                </div>
+              </details>
+              </div>
+              <details class="generated-plan">
+              <summary>View the generated 10-step plan</summary>
+              <ol>
+                <li>Pick up the black cooking bowl from the sink with the right hand.</li>
+                <li>Pick up the green sponge from the edge of the sink with the left hand.</li>
+                <li>Turn on the chrome metal faucet with the right hand.</li>
+                <li>Wet the green sponge under the running water.</li>
+                <li>Apply liquid dish soap onto the green sponge.</li>
+                <li>Scrub the inside and outside of the black cooking bowl thoroughly with the green sponge.</li>
+                <li>Rinse the black cooking bowl under the running water from the chrome metal faucet.</li>
+                <li>Turn off the chrome metal faucet.</li>
+                <li>Shake off excess water from the black cooking bowl.</li>
+                <li>Place the cleaned black cooking bowl on the metal drying rack next to the sink.</li>
+              </ol>
+              </details>
+              <p class="trace-labels"><span class="evidence-label trace">Planner trace</span><span class="evidence-label appendix">Appendix example · P03</span></p>
+            </div>
+
+            <div class="planning-example-panel active" id="planning-generalize" role="tabpanel" data-planning-panel="generalize">
+              <div class="trace-flow" aria-label="Planning workflow">
+                <span>Find target</span><i>→</i><span>Ground workspace</span><i>→</i><span>Recover action sequence</span><i>→</i><span>Compose plan</span>
+              </div>
+              <p class="example-question">Help P01 wash the cucumber before preparing it.</p>
+              <p class="trace-instruction">Open each call to see how Entity, Environment, and Activity Memory jointly ground the plan.</p>
+              <div class="tool-trace">
+                <details class="tool-step entity-route">
+                  <summary><code>search("cucumber")</code></summary>
+                  <div class="tool-result">
+                    <span class="result-label">Routed to Entity Memory</span>
+                    <article class="retrieval-candidate selected entity-candidate">
+                      <div class="candidate-head"><span>Top entity match</span><strong>0.8621</strong></div>
+                      <h4>Green cylindrical cucumber</h4>
+                      <p>Observed wet and later located on the cutting board.</p>
+                      <small>P01_105 · participant-specific entity state</small>
+                    </article>
+                    <p class="planner-decision"><strong>Planner decision:</strong> identify the participant's cucumber as the target rather than leaving the instruction generic.</p>
+                  </div>
+                </details>
+
+                <details class="tool-step environment-route">
+                  <summary><code>search("faucet sink")</code></summary>
+                  <div class="tool-result">
+                    <span class="result-label">Routed to Environment Memory · top 3</span>
+                    <div class="retrieval-candidates">
+                      <article class="retrieval-candidate environment-candidate">
+                        <div class="candidate-head"><span>Rank 1 · P01_106</span><strong>0.8256</strong></div>
+                        <h4>Sink area</h4>
+                        <p>Sink, faucet, sponge, and drying rack form a shared washing workspace.</p>
+                        <small>faucet above sink · sink adjacent to counter</small>
+                      </article>
+                      <article class="retrieval-candidate environment-candidate">
+                        <div class="candidate-head"><span>Rank 2 · P01_104</span><strong>0.8235</strong></div>
+                        <h4>Stainless-steel sink area</h4>
+                        <p>A chrome faucet sits above the sink; a drying rack occupies the nearby counter.</p>
+                        <small>faucet above sink · sink left of drying rack</small>
+                      </article>
+                      <article class="retrieval-candidate environment-candidate">
+                        <div class="candidate-head"><span>Rank 3 · P01_109</span><strong>0.8220</strong></div>
+                        <h4>Sink and preparation counter</h4>
+                        <p>The cutting board is on the counter beside the washing area.</p>
+                        <small>faucet above sink · cutting board on counter</small>
+                      </article>
+                    </div>
+                    <p class="planner-decision"><strong>Planner decision:</strong> ground washing at P01's sink and preserve the transition from sink to preparation counter.</p>
+                  </div>
+                </details>
+
+                <details class="tool-step entity-route">
+                  <summary><code>search_objects(name="cutting board")</code></summary>
+                  <div class="tool-result">
+                    <span class="result-label">Entity Memory match</span>
+                    <article class="retrieval-candidate selected entity-candidate">
+                      <div class="candidate-head"><span>Top entity match</span><strong>0.8800</strong></div>
+                      <h4>Brown wooden cutting board</h4>
+                      <p>Clean and located on the counter relative to the sink.</p>
+                      <small>destination for the washed cucumber</small>
+                    </article>
+                    <p class="planner-decision"><strong>Planner decision:</strong> establish where the cucumber should go after washing.</p>
+                  </div>
+                </details>
+
+                <details class="tool-step activity-route">
+                  <summary><code>search_activities(query="wash cucumber")</code></summary>
+                  <div class="tool-result">
+                    <span class="result-label">Activity Memory · top 3</span>
+                    <div class="retrieval-candidates">
+                      <article class="retrieval-candidate selected activity-candidate">
+                        <div class="candidate-head"><span>Rank 1 · Selected</span><strong>0.8495</strong></div>
+                        <h4>Wash cucumber and knife</h4>
+                        <p>Pick up cucumber → turn on faucet → scrub → rinse → turn off faucet.</p>
+                        <small>P01_105 · temporally ordered action evidence</small>
+                      </article>
+                      <article class="retrieval-candidate activity-candidate">
+                        <div class="candidate-head"><span>Rank 2</span><strong>0.8222</strong></div>
+                        <h4>Move cucumber to cutting board</h4>
+                        <p>Pick up the cucumber from the sink and place it on the cutting board.</p>
+                        <small>P01_105 · supports the post-wash transition</small>
+                      </article>
+                      <article class="retrieval-candidate activity-candidate">
+                        <div class="candidate-head"><span>Rank 3</span><strong>0.8136</strong></div>
+                        <h4>Clean a spatula in the sink</h4>
+                        <p>Related sink-side rinsing evidence, but not the requested object.</p>
+                        <small>P01_105 · rejected as less specific</small>
+                      </article>
+                    </div>
+                    <p class="planner-decision"><strong>Planner decision:</strong> combine the first activity's washing sequence with the second activity's destination transition.</p>
+                  </div>
+                </details>
+              </div>
+
+              <details class="generated-plan">
+                <summary>View the generated 7-step plan</summary>
+                <ol>
+                  <li>Pick up the green cylindrical cucumber from the drying rack next to the sink with the right hand.</li>
+                  <li>Turn on the silver metal faucet located above the sink with the right hand.</li>
+                  <li>Hold the green cylindrical cucumber under the running water from the silver metal faucet using the right hand.</li>
+                  <li>Scrub the surface of the green cylindrical cucumber gently while it is in the sink with the right hand.</li>
+                  <li>Turn off the silver metal faucet above the sink with the right hand.</li>
+                  <li>Carry the washed green cylindrical cucumber from the sink to the cutting board on the counter with the right hand.</li>
+                  <li>Place the green cylindrical cucumber on the cutting board on the counter.</li>
+                </ol>
+              </details>
+              <p class="trace-labels"><span class="evidence-label memory">Generated plan · P01</span><span class="evidence-label retrieval">Ranked memory evidence</span></p>
+              <p class="trace-note">This generated plan and its ranked evidence come from P01's participant memory and the planning tools used in evaluation.</p>
+            </div>
+          </article>
+          <article class="memory-protocol">
+            <h3>EAM-QA: Memory assessment</h3>
+            <p class="example-question">When preparing to cook eggs, does P04 prefer a spatula or fork?</p>
+            <div class="choice-list">
+              <span>A · Varies randomly</span><span>B · Fork</span><span class="correct">C · Spatula ✓</span><span>D · Whisk</span><span>E · Not available</span>
+            </div>
+            <p class="protocol-result"><strong>MEMORA selects C</strong> after retrieving repeated evidence of P04 stirring egg mixtures with a wooden spatula.</p>
+          </article>
+        </div>
+
+        <div class="benchmark-stats" aria-label="Benchmark scale">
+          <div><strong>45 h</strong><span>egocentric video</span></div>
+          <div><strong>18</strong><span>participants</span></div>
+          <div><strong>2,212 + 551</strong><span>core QA / unanswerable controls</span></div>
+          <div><strong>360</strong><span>planning goals</span></div>
+          <div><strong>207 / 153</strong><span>Replay / Generalize</span></div>
+        </div>
+        <div class="benchmark-explorer-link">
+          <a class="button primary" href="benchmark-explorer.html">Interactive Explorer</a>
+          <a class="button" href="https://github.com/yuzihaowashu/MEMORA/tree/main/src/memora_bench" target="_blank" rel="noopener">Benchmark source</a>
+        </div>
+
+        <div class="subsection-divider evaluation-results" id="results" aria-labelledby="results-title">
+        <div class="section-heading centered">
+          <h2 id="results-title">Beyond exact replay</h2>
+          <p class="section-lead">Paired ablations isolate editing and consolidation within fixed interfaces; cross-family comparisons evaluate each memory representation with its intended read tools. The strongest planning gain appears when no matching episode can simply be replayed and evidence must be composed across experience.</p>
+        </div>
+        <div class="result-metrics">
+          <article><strong>18×</strong><span>median reduction of the unedited entity-observation stream, with state histories preserved</span></article>
+          <article><strong>+14.4</strong><span>memory-assessment points after offline consolidation</span></article>
+          <article><strong>+16.6%</strong><span>maximum relative Robot-Grounded Plan gain on Generalize; the highlighted Gemma setting rises from 0.457 to 0.532 (+16.4%)</span></article>
+        </div>
+        <div class="mechanism-evidence" aria-label="Connections between MEMORA components and measured outcomes">
+          <article><span>Online editing</span><i>→</i><strong>Selective maintenance</strong><small>18× median entity-stream reduction with state histories preserved</small></article>
+          <article><span>Offline consolidation</span><i>→</i><strong>Memory assessment</strong><small>+14.4 points over the same memory before consolidation</small></article>
+          <article><span>Full memory lifecycle</span><i>→</i><strong>Generalize planning</strong><small>Up to +16.6% relative RGP across the evaluated backbones</small></article>
+        </div>
+        <details class="metric-definition">
+          <summary>What does Robot-Grounded Plan measure?</summary>
+          <p><strong>RGP</strong> is the unweighted mean of procedural-order correctness, key-object coverage, and preference adherence. Object-vocabulary grounding is reported separately in the paper.</p>
+        </details>
+        <div class="results-tabs" role="tablist" aria-label="Result figure">
+          <button class="active" type="button" role="tab" aria-selected="true" aria-controls="result-planning" tabindex="0" data-result-tab="planning">Memory-grounded planning</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="result-formation" tabindex="-1" data-result-tab="formation">Memory formation</button>
+        </div>
+        <div class="results-figures">
+          <figure id="result-planning" role="tabpanel" data-result-panel="planning">
+            <a href="assets/planning-rgp.png" target="_blank" rel="noopener" aria-label="Open the planning result at full resolution"><img src="assets/planning-rgp.png" alt="Planning results on Replay and Generalize tasks" loading="lazy" decoding="async"></a>
+            <figcaption>MEMORA’s largest gain appears on Generalize, where planners must compose remembered evidence.</figcaption>
+          </figure>
+          <figure id="result-formation" role="tabpanel" data-result-panel="formation" hidden>
+            <a href="assets/memory-maintenance.png" target="_blank" rel="noopener" aria-label="Open the memory-maintenance result at full resolution"><img src="assets/memory-maintenance.png" alt="Entity-memory compression and online editor decisions" loading="lazy" decoding="async"></a>
+            <figcaption>Online editing maintains memory selectively rather than appending every observation.</figcaption>
+          </figure>
+        </div>
+        </div>
+      </section>
+
+      <section class="section resources-section" id="resources" aria-labelledby="resources-title">
+        <div class="section-heading centered">
+          <h2 id="resources-title">Resources</h2>
+        </div>
+        <div class="resource-links-inline">
+          <a href="https://arxiv.org/abs/2607.14252" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/yuzihaowashu/MEMORA" target="_blank" rel="noopener">Code</a>
+          <a href="benchmark-explorer.html">MEMORA-Bench</a>
+          <a href="https://github.com/yuzihaowashu/MEMORA/blob/main/LICENSE" target="_blank" rel="noopener">License</a>
+        </div>
+        <div class="citation">
+          <div><h3>Citation</h3><button type="button" id="copy-citation">Copy BibTeX</button></div>
+          <pre><code id="bibtex">@misc{yu2026memoraembodiedactionmemory,
+      title={MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning},
+      author={Zihao Yu and Xiu Yuan and Chongjie Zhang},
+      year={2026},
+      eprint={2607.14252},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.14252},
+}</code></pre>
+        </div>
+        <p class="evaluation-scope"><strong>Evaluation scope.</strong> MEMORA evaluates semantic-procedural memory and language-level planning. The two robot demonstrations illustrate downstream execution; closed-loop visuomotor control is not evaluated here.</p>
+      </section>
+    </main>
+
+    <dialog id="output-dialog">
+      <div class="dialog-head"><h3 id="dialog-title">Output</h3><button type="button" id="close-dialog" aria-label="Close output">×</button></div>
+      <pre><code id="dialog-code"></code></pre>
+    </dialog>
+
+    <footer><p>MEMORA · Washington University in St. Louis · 2026</p></footer>
+
+    <script>
+      const outputs = {
+        encode: {
+          title: "Segment Encoder output",
+          label: "Segment-level observation",
+          time: "Online · each 10-second segment",
+          heading: "Encode layered observations",
+          description: "The Segment Encoder turns each 10-second segment into environment, entity, and activity observations while carrying short context across boundaries.",
+          visual: `<div class="observation-window"><img src="assets/demo_frames/human-prepare-breakfast.jpg" alt="Egocentric breakfast-preparation observation"><div class="time-code">00:10–00:20</div></div>`,
+          record: {observation_source:"human egocentric video", segment:"10.0-20.0s", environment:{place:"counter area", description:"shared kitchen workspace"}, entities:[{object:"yellow bowl", state:"placed in active workspace"},{object:"red tea packet", state:"moves from hand into bowl"},{object:"yellow spoon", state:"first observed in hand"}], activity:"Breakfast items are assembled over time."}
+        },
+        edit: {
+          title: "Memory Editor output",
+          label: "Persistent memory update",
+          time: "Online · persistent update after each segment",
+          heading: "Revise persistent memory",
+          description: "ADD, UPDATE, DELETE, and NOOP revise Entity Memory; meaningful changes enter state history while stable evidence is not duplicated.",
+          visual: `<div class="edit-ledger"><div><span class="op update">UPDATE</span><p><strong>bread slices</strong><br>wrapped → unwrapped</p></div><div><span class="op update">UPDATE</span><p><strong>red tea packet</strong><br>in hand → inside yellow bowl</p></div><div><span class="op add">ADD</span><p><strong>yellow spoon</strong><br>first observed in hand</p></div></div>`,
+          record: {segments_observed:3, memory_updates:[{operation:"UPDATE", object:"bread slices", change:"wrapped to unwrapped"},{operation:"UPDATE", object:"red tea packet", change:"in hand to inside yellow bowl"},{operation:"ADD", object:"yellow spoon", change:"first observed"}], persistent_memory:{entity_records:45, activity_records:3, environment_records:1}}
+        },
+        consolidate: {
+          title: "Offline consolidation output",
+          label: "Consolidated participant memory",
+          time: "Offline · across completed episodes",
+          heading: "Consolidate repeated experience",
+          description: "Repeated evidence across P01 episodes becomes a reusable routine linked to its supporting observations.",
+          visual: `<div class="episode-row"><div><small>P01_105 · 620–630s</small><p>washes bok choy</p></div><div><small>640–650s</small><p>removes outer leaves</p></div><div><small>650–670s</small><p>uses colander and board</p></div></div><div class="consolidated-card"><span>Inferred Knowledge</span><h4>Washing and Preparing Bok Choy</h4><p>Clean and prepare bok choy for cooking by washing and chopping.</p></div>`,
+          record: {participant:"P01", observed_videos:8, inferred_knowledge:{routine:"Washing and Preparing Bok Choy", supporting_observations:[62,64,65,66], involved_objects:["bok choy","knife","colander","bowl"], procedure:["remove outer leaves","wash in sink","transfer to bowl","cut on board"]}, participant_regularities:[{description:"The participant tends to wash and prepare vegetables before cooking.", confidence:0.85}]}
+        },
+        retrieve: {
+          title: "Planning agent output",
+          label: "Memory-grounded planning trace",
+          time: "Read time · goal-conditioned tool use",
+          heading: "Ground a future plan",
+          description: "The agent retrieves a procedure, then grounds it in participant-specific entities and places before generating a plan.",
+          visual: `<div class="tool-chain"><code>get_routine_skill("wash a bowl")</code><span>→</span><code>search_objects("bowl")</code><span>→</span><div class="mini-plan"><strong>Grounded plan</strong><p>Use the green sponge and chrome faucet to wash P03's black cooking bowl, then place it on the metal drying rack.</p></div></div>`,
+          record: {goal:"Help P03 clean the washing-up bowl in the sink.", memory_queries:[{tool:"get_routine_skill", query:"clean a bowl in sink", retrieved_memory:"generic cookware routine rejected as under-specific"},{tool:"get_routine_skill", query:"wash a bowl", retrieved_memory:"dishwashing routine with bowl and drying rack"},{tool:"search_objects", query:"bowl", retrieved_memory:["black cooking bowl","green sponge","chrome faucet","metal drying rack"]}], plan:["pick up black cooking bowl","pick up green sponge","turn on chrome faucet","clean bowl","place on metal drying rack"]}
+        },
+        drink: {
+          title:"Robot demonstration · Prepare drink",
+          record:{
+            goal:"Prepare the participant's remembered drink setup for the qualitative robot execution.",
+            plan_steps:[
+              {step:1, action:"Navigate to the kitchen counter area.", entity:"kitchen workspace", location:"counter area", memory_evidence:"Environment Memory identifies the counter area as the shared workspace containing drinks and cups."},
+              {step:2, action:"Grasp the dark soda bottle from the counter.", entity:"dark brown soda bottle", location:"counter area", memory_evidence:"Entity Memory records the dark soda bottle on the counter and its prior interaction by the participant."},
+              {step:3, action:"Select and grasp the red Starbucks cup.", entity:"red Starbucks cup", location:"counter area", memory_evidence:"Entity Memory records the clean red Starbucks cup as available on the counter."},
+              {step:4, action:"Pour the dark soda into the red Starbucks cup.", entity:"dark brown soda bottle", location:"workspace", memory_evidence:"The formed memory grounds the selected bottle, cup, and workspace; this final action is retained because it is shown in the qualitative robot execution."}
+            ],
+            grounded_objects:["dark brown soda bottle","red Starbucks cup"],
+            demonstration_scope:"These are the four memory-grounded actions carried out in the robot demonstration."
+          }
+        },
+        breakfast: {
+          title:"Robot demonstration · Prepare breakfast",
+          record:{
+            goal:"Prepare the participant's remembered breakfast setup for the qualitative robot execution.",
+            plan_steps:[
+              {step:1, action:"Grasp the yellow bowl from the workspace.", entity:"yellow bowl", location:"on table", memory_evidence:"Entity Memory records the clean yellow bowl in the active workspace."},
+              {step:2, action:"Retrieve the red tea packet from the bowl.", entity:"red tea packet", location:"inside yellow bowl", memory_evidence:"Entity Memory records the unopened red tea packet inside the yellow bowl."},
+              {step:3, action:"Retrieve the yellow spoon from the bowl.", entity:"yellow spoon", location:"inside yellow bowl", memory_evidence:"Entity Memory records the clean yellow spoon inside the yellow bowl."},
+              {step:4, action:"Bring the bread slices from the workspace.", entity:"bread slices", location:"on table", memory_evidence:"Entity Memory tracks the bread slices on the table in the same workspace."}
+            ],
+            grounded_objects:["yellow bowl","red tea packet","yellow spoon","bread slices"],
+            demonstration_scope:"The complete four-step memory-grounded plan is carried out in the robot demonstration."
+          }
+        }
+      };
+
+      const panel = document.getElementById("lifecycle-panel");
+      const motionOverview = document.querySelector(".motion-overview video");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      function respectMotionPreference(event) {
+        if (event.matches) motionOverview.pause();
+      }
+      respectMotionPreference(reducedMotion);
+      reducedMotion.addEventListener?.("change", respectMotionPreference);
+      const dialog = document.getElementById("output-dialog");
+      let currentPhase = "encode";
+
+      function renderPhase(phase) {
+        currentPhase = phase;
+        const data = outputs[phase];
+        document.getElementById("phase-time").textContent = data.time;
+        document.getElementById("phase-title").textContent = data.heading;
+        document.getElementById("phase-description").textContent = data.description;
+        document.getElementById("phase-label").textContent = data.label;
+        document.getElementById("phase-visual").innerHTML = data.visual;
+        document.querySelectorAll(".lifecycle-tab").forEach((tab) => {
+          const active = tab.dataset.phase === phase;
+          tab.classList.toggle("active", active);
+          tab.setAttribute("aria-selected", String(active));
+          tab.tabIndex = active ? 0 : -1;
+        });
+        if (!reducedMotion.matches) panel.animate([{opacity:.45, transform:"translateY(6px)"},{opacity:1, transform:"translateY(0)"}], {duration:220, easing:"ease-out"});
+      }
+
+      document.querySelectorAll(".lifecycle-tab").forEach((tab) => tab.addEventListener("click", () => renderPhase(tab.dataset.phase)));
+      document.getElementById("inspect-output").addEventListener("click", () => openOutput(currentPhase));
+
+      function openOutput(key) {
+        const output = outputs[key];
+        document.getElementById("dialog-title").textContent = output.title || `${key} planning output`;
+        document.getElementById("dialog-code").textContent = JSON.stringify(output.record || output, null, 2);
+        dialog.showModal();
+      }
+      document.querySelectorAll(".json-button").forEach((button) => button.addEventListener("click", () => openOutput(button.dataset.json)));
+      document.getElementById("close-dialog").addEventListener("click", () => dialog.close());
+      dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
+
+      document.querySelectorAll("[data-task-tab]").forEach((button) => button.addEventListener("click", () => {
+        const task = button.dataset.taskTab;
+        document.querySelectorAll("[data-task-tab]").forEach((candidate) => {
+          const active = candidate.dataset.taskTab === task;
+          candidate.classList.toggle("active", active);
+          candidate.setAttribute("aria-selected", String(active));
+          candidate.tabIndex = active ? 0 : -1;
+        });
+        document.querySelectorAll("[data-task-panel]").forEach((candidate) => {
+          const active = candidate.dataset.taskPanel === task;
+          candidate.classList.toggle("active", active);
+          candidate.hidden = !active;
+        });
+      }));
+
+      document.querySelectorAll("[data-result-tab]").forEach((button) => button.addEventListener("click", () => {
+        const result = button.dataset.resultTab;
+        document.querySelectorAll("[data-result-tab]").forEach((candidate) => {
+          const active = candidate.dataset.resultTab === result;
+          candidate.classList.toggle("active", active);
+          candidate.setAttribute("aria-selected", String(active));
+          candidate.tabIndex = active ? 0 : -1;
+        });
+        document.querySelectorAll("[data-result-panel]").forEach((candidate) => {
+          candidate.hidden = candidate.dataset.resultPanel !== result;
+        });
+      }));
+
+      document.querySelectorAll("[data-planning-example]").forEach((button) => button.addEventListener("click", () => {
+        const example = button.dataset.planningExample;
+        document.querySelectorAll("[data-planning-example]").forEach((candidate) => {
+          const active = candidate.dataset.planningExample === example;
+          candidate.classList.toggle("active", active);
+          candidate.setAttribute("aria-selected", String(active));
+          candidate.tabIndex = active ? 0 : -1;
+        });
+        document.querySelectorAll("[data-planning-panel]").forEach((candidate) => {
+          const active = candidate.dataset.planningPanel === example;
+          candidate.classList.toggle("active", active);
+          candidate.hidden = !active;
+        });
+      }));
+
+      document.querySelectorAll('[role="tablist"]').forEach((tablist) => {
+        tablist.addEventListener("keydown", (event) => {
+          if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)) return;
+          const tabs = [...tablist.querySelectorAll('[role="tab"]')];
+          const current = tabs.indexOf(document.activeElement);
+          if (current < 0) return;
+          event.preventDefault();
+          let next = current;
+          if (["ArrowRight", "ArrowDown"].includes(event.key)) next = (current + 1) % tabs.length;
+          if (["ArrowLeft", "ArrowUp"].includes(event.key)) next = (current - 1 + tabs.length) % tabs.length;
+          if (event.key === "Home") next = 0;
+          if (event.key === "End") next = tabs.length - 1;
+          tabs[next].focus();
+          tabs[next].click();
+        });
+      });
+
+      const navToggle = document.querySelector(".nav-toggle");
+      const primaryNav = document.getElementById("primary-nav");
+      function closeNavigation() {
+        primaryNav.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.setAttribute("aria-label", "Open page navigation");
+      }
+      navToggle.addEventListener("click", () => {
+        const open = !primaryNav.classList.contains("open");
+        primaryNav.classList.toggle("open", open);
+        navToggle.setAttribute("aria-expanded", String(open));
+        navToggle.setAttribute("aria-label", open ? "Close page navigation" : "Open page navigation");
+      });
+      primaryNav.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeNavigation));
+      document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeNavigation(); });
+
+      function setFlipped(card, flipped) {
+        card.classList.toggle("is-flipped", flipped);
+        const front = card.querySelector(".flip-front");
+        const back = card.querySelector(".flip-back");
+        front.setAttribute("aria-hidden", String(flipped));
+        back.setAttribute("aria-hidden", String(!flipped));
+        card.setAttribute("aria-pressed", String(flipped));
+      }
+
+      document.querySelectorAll(".flip-card").forEach((card) => {
+        card.addEventListener("click", (event) => {
+          if (event.target.closest("button, a, input, select, textarea")) return;
+          setFlipped(card, !card.classList.contains("is-flipped"));
+        });
+        card.addEventListener("keydown", (event) => {
+          if (event.target !== card || !["Enter", " "].includes(event.key)) return;
+          event.preventDefault();
+          setFlipped(card, !card.classList.contains("is-flipped"));
+        });
+      });
+
+      document.querySelector(".plan-toggle").addEventListener("click", (event) => {
+        event.stopPropagation();
+        const button = event.currentTarget;
+        const rationale = document.querySelector(".plan-rationale");
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        button.setAttribute("aria-expanded", String(!expanded));
+        button.innerHTML = `${expanded ? "Show" : "Hide"} retrieval evidence <span aria-hidden="true">${expanded ? "+" : "−"}</span>`;
+        rationale.hidden = expanded;
+      });
+
+      document.getElementById("copy-citation").addEventListener("click", async (event) => {
+        const button = event.currentTarget;
+        const value = document.getElementById("bibtex").textContent;
+        if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(value);
+        else {
+          const input = document.createElement("textarea");
+          input.value = value;
+          document.body.append(input);
+          input.select();
+          document.execCommand("copy");
+          input.remove();
+        }
+        button.textContent = "Copied";
+        window.setTimeout(() => { button.textContent = "Copy BibTeX"; }, 1600);
+      });
+
+      const overviewVideo = document.querySelector(".motion-overview video");
+      overviewVideo?.addEventListener("ended", () => {
+        overviewVideo.currentTime = 0;
+        overviewVideo.play().catch(() => {});
+      });
+    </script>
+  </body>
+</html>

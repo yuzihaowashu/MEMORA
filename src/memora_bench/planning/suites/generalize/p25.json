@@ -1,0 +1,161 @@
+[
+  {
+    "task_id": "generalize_transfer_P25_scrubs_bowl",
+    "task_type": "transfer",
+    "task_query": "Help P25 clean the bowl.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "source_action": "scrubs",
+    "source_object": "frying_pan_black",
+    "target_object": "bowl",
+    "ground_truth_steps": [
+      "Pick up the bowl from the stove burner middle.",
+      "Carry the bowl to the silver metal sink.",
+      "Turn on the chrome metal faucet.",
+      "Apply dish soap to the blue rubber sponge.",
+      "Scrub the bowl with the blue rubber sponge.",
+      "Rinse the bowl under running water.",
+      "Turn off the chrome metal faucet.",
+      "Place the clean bowl on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'frying_pan_black' (46x observed). Transfer to 'bowl' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P25_scrubs_plate",
+    "task_type": "transfer",
+    "task_query": "Help P25 clean the plate.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "source_action": "scrubs",
+    "source_object": "frying_pan_black",
+    "target_object": "plate",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the stove.",
+      "Carry the plate to the silver metal sink.",
+      "Turn on the chrome metal faucet.",
+      "Apply dish soap to the blue rubber sponge.",
+      "Scrub the plate with the blue rubber sponge.",
+      "Rinse the plate under running water.",
+      "Turn off the chrome metal faucet.",
+      "Place the clean plate on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'frying_pan_black' (46x observed). Transfer to 'plate' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P25_stirring_onions",
+    "task_type": "transfer",
+    "task_query": "Help P25 stir the onions.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "source_action": "stirring",
+    "source_object": "frying_pan",
+    "target_object": "onions",
+    "ground_truth_steps": [
+      "Pick up the black plastic spatula from the sink.",
+      "Position the black plastic spatula in the black metal frying pan with sauce with the onions.",
+      "Stir the onions gently in the black metal frying pan with sauce.",
+      "Continue stirring until evenly cooked.",
+      "Place the black plastic spatula on the counter."
+    ],
+    "rationale": "Person knows how to 'stirring' the 'frying_pan' (10x observed). Transfer to 'onions' (never observed with 'stirring')."
+  },
+  {
+    "task_id": "generalize_transfer_P25_stirring_pasta",
+    "task_type": "transfer",
+    "task_query": "Help P25 stir the pasta.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "source_action": "stirring",
+    "source_object": "frying_pan",
+    "target_object": "pasta",
+    "ground_truth_steps": [
+      "Pick up the black plastic spatula from the sink.",
+      "Position the black plastic spatula in the black metal frying pan with sauce with the pasta.",
+      "Stir the pasta gently in the black metal frying pan with sauce.",
+      "Continue stirring until evenly cooked.",
+      "Place the black plastic spatula on the counter."
+    ],
+    "rationale": "Person knows how to 'stirring' the 'frying_pan' (10x observed). Transfer to 'pasta' (never observed with 'stirring')."
+  },
+  {
+    "task_id": "generalize_transfer_P25_washes_plate",
+    "task_type": "transfer",
+    "task_query": "Help P25 wash the plate.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "source_action": "washes",
+    "source_object": "utensils",
+    "target_object": "plate",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the stove.",
+      "Carry the plate to the silver metal sink.",
+      "Turn on the chrome metal faucet.",
+      "Apply dish soap to the blue rubber sponge.",
+      "Scrub the plate with the blue rubber sponge.",
+      "Rinse the plate under running water.",
+      "Turn off the chrome metal faucet.",
+      "Place the clean plate on the drying rack."
+    ],
+    "rationale": "Person knows how to 'washes' the 'utensils' (40x observed). Transfer to 'plate' (never observed with 'washes')."
+  },
+  {
+    "task_id": "generalize_novel_P25_set_table_for_meal",
+    "task_type": "fully_novel",
+    "task_query": "Help P25 set the table for a meal with plate, bowl, and cutlery.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the stove.",
+      "Place the white ceramic plate on the table.",
+      "Pick up the bowl from the stove burner middle.",
+      "Place the bowl above the plate on the table.",
+      "Pick up the black metal knife from the countertop.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the silver metal fork from the countertop.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the clear glass cup from the countertop.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity."
+  },
+  {
+    "task_id": "generalize_novel_P25_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "task_query": "Help P25 clear and clean the entire kitchen countertop.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the silver metal sink.",
+      "Pick up the cloth from the counter.",
+      "Turn on the chrome metal faucet.",
+      "Wet the cloth under the chrome metal faucet.",
+      "Turn off the chrome metal faucet.",
+      "Wipe the countertop surface from one end to the other with the cloth.",
+      "Rinse the cloth under the chrome metal faucet.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the cloth.",
+      "Place the cloth back on the counter."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns."
+  },
+  {
+    "task_id": "generalize_novel_P25_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "task_query": "Help P25 prepare a simple salad using available vegetables.",
+    "video_id": "P25_101",
+    "participant_id": "P25",
+    "ground_truth_steps": [
+      "Pick up the green cucumber from the bowl.",
+      "Turn on the chrome metal faucet.",
+      "Rinse the cucumber under running water in the silver metal sink.",
+      "Turn off the chrome metal faucet.",
+      "Place the cucumber on the brown wood cutting board.",
+      "Pick up the black metal knife from the countertop.",
+      "Cut the cucumber into slices on the brown wood cutting board.",
+      "Transfer the cucumber slices to the bowl.",
+      "Place the black metal knife back on the countertop.",
+      "Mix the salad ingredients in the bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category."
+  }
+]

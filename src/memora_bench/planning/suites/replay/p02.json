@@ -1,0 +1,1545 @@
+[
+  {
+    "task_id": "plan_P02_128_002",
+    "participant_id": "P02",
+    "video_id": "P02_128",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P02 empty and clean the milk bottle.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_128_18",
+        "narration": "pour water into milk bottle",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:00:49.82",
+        "end_time": "00:00:51.08"
+      },
+      {
+        "narration_id": "P02_128_19",
+        "narration": "close tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:50.39",
+        "end_time": "00:00:51.40",
+        "enriched_narration": "close silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P02_128_20",
+        "narration": "shake milk bottle",
+        "verb": "shake",
+        "noun": "bottle:milk",
+        "start_time": "00:00:50.80",
+        "end_time": "00:00:51.81",
+        "enriched_narration": "shake milk bottle on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "milk_bottle",
+          "memory_name": "white plastic milk bottle"
+        }
+      },
+      {
+        "narration_id": "P02_128_21",
+        "narration": "empty milk bottle",
+        "verb": "empty",
+        "noun": "bottle:milk",
+        "start_time": "00:00:51.40",
+        "end_time": "00:00:52.72",
+        "enriched_narration": "empty milk bottle on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "milk_bottle",
+          "memory_name": "white plastic milk bottle"
+        }
+      },
+      {
+        "narration_id": "P02_128_24",
+        "narration": "close tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:00:52.54",
+        "end_time": "00:00:54.50",
+        "enriched_narration": "close silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P02_128_22",
+        "narration": "open tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:00:52.65",
+        "end_time": "00:00:54.88",
+        "enriched_narration": "open silver metal tap at sink_area",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "sink_area",
+          "memory_id": "faucet",
+          "memory_name": "chrome faucet"
+        }
+      },
+      {
+        "narration_id": "P02_128_23",
+        "narration": "pour water into milk bottle",
+        "verb": "pour-into",
+        "noun": "water",
+        "start_time": "00:00:53.20",
+        "end_time": "00:00:54.67"
+      },
+      {
+        "narration_id": "P02_128_25",
+        "narration": "shake milk bottle",
+        "verb": "shake",
+        "noun": "bottle:milk",
+        "start_time": "00:00:54.70",
+        "end_time": "00:00:55.15",
+        "enriched_narration": "shake milk bottle on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "milk_bottle",
+          "memory_name": "white plastic milk bottle"
+        }
+      },
+      {
+        "narration_id": "P02_128_26",
+        "narration": "empty milk bottle",
+        "verb": "empty",
+        "noun": "bottle:milk",
+        "start_time": "00:00:55.59",
+        "end_time": "00:00:57.03",
+        "enriched_narration": "empty milk bottle on countertop",
+        "matched_object": {
+          "color": "clear",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "milk_bottle",
+          "memory_name": "white plastic milk bottle"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 7.2,
+    "primary_objects": [
+      "milk bottle",
+      "tap",
+      "water"
+    ],
+    "primary_verbs": [
+      "pour-into",
+      "turn-off",
+      "shake",
+      "empty",
+      "turn-on"
+    ]
+  },
+  {
+    "task_id": "plan_P02_108_034",
+    "participant_id": "P02",
+    "video_id": "P02_108",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P02 clean the surface with the sponge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_108_306",
+        "narration": "shake hands",
+        "verb": "shake",
+        "noun": "hand",
+        "start_time": "00:15:41.83",
+        "end_time": "00:15:42.53",
+        "enriched_narration": "shake blue plastic hands on countertop",
+        "matched_object": {
+          "color": "blue",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blue_handheld_vacuum_cleaner",
+          "memory_name": "blue handheld vacuum cleaner"
+        }
+      },
+      {
+        "narration_id": "P02_108_307",
+        "narration": "take off gloves",
+        "verb": "take-off",
+        "noun": "glove",
+        "start_time": "00:15:42.27",
+        "end_time": "00:15:44.60",
+        "enriched_narration": "take off yellow rubber gloves on hands",
+        "matched_object": {
+          "color": "yellow",
+          "material": "rubber",
+          "location": "on hands",
+          "memory_id": "yellow_gloves",
+          "memory_name": "yellow gloves"
+        }
+      },
+      {
+        "narration_id": "P02_108_308",
+        "narration": "pick up sponge",
+        "verb": "pick-up",
+        "noun": "sponge",
+        "start_time": "00:15:47.48",
+        "end_time": "00:15:50.30",
+        "enriched_narration": "pick up yellow foam sponge in hand",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "dish_sponge",
+          "memory_name": "dish sponge"
+        }
+      },
+      {
+        "narration_id": "P02_108_309",
+        "narration": "clean surface",
+        "verb": "clean",
+        "noun": "surface",
+        "start_time": "00:15:49.86",
+        "end_time": "00:15:54.24"
+      },
+      {
+        "narration_id": "P02_108_311",
+        "narration": "rinse sponge",
+        "verb": "rinse",
+        "noun": "sponge",
+        "start_time": "00:15:53.96",
+        "end_time": "00:15:55.93",
+        "enriched_narration": "rinse yellow foam sponge in hand",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "dish_sponge",
+          "memory_name": "dish sponge"
+        }
+      },
+      {
+        "narration_id": "P02_108_310",
+        "narration": "open tap",
+        "verb": "turn-on",
+        "noun": "tap",
+        "start_time": "00:15:54.11",
+        "end_time": "00:15:56.71",
+        "enriched_narration": "open silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P02_108_312",
+        "narration": "close tap",
+        "verb": "turn-off",
+        "noun": "tap",
+        "start_time": "00:15:55.93",
+        "end_time": "00:15:56.95",
+        "enriched_narration": "close silver metal tap on sink",
+        "matched_object": {
+          "color": "silver",
+          "material": "metal",
+          "location": "on sink",
+          "memory_id": "faucet",
+          "memory_name": "faucet"
+        }
+      },
+      {
+        "narration_id": "P02_108_313",
+        "narration": "squeeze sponge",
+        "verb": "squeeze",
+        "noun": "sponge",
+        "start_time": "00:15:56.91",
+        "end_time": "00:15:57.86",
+        "enriched_narration": "squeeze yellow foam sponge in hand",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "dish_sponge",
+          "memory_name": "dish sponge"
+        }
+      },
+      {
+        "narration_id": "P02_108_314",
+        "narration": "throw sponge",
+        "verb": "throw",
+        "noun": "sponge",
+        "start_time": "00:15:57.96",
+        "end_time": "00:16:00.95",
+        "enriched_narration": "throw yellow foam sponge in hand",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "in hand",
+          "memory_id": "dish_sponge",
+          "memory_name": "dish sponge"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 19.1,
+    "primary_objects": [
+      "sponge",
+      "tap",
+      "hand",
+      "glove",
+      "surface"
+    ],
+    "primary_verbs": [
+      "shake",
+      "take-off",
+      "pick-up",
+      "clean",
+      "rinse"
+    ]
+  },
+  {
+    "task_id": "plan_P02_108_040",
+    "participant_id": "P02",
+    "video_id": "P02_108",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P02 juice the orange and dispose of the peel.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_108_360",
+        "narration": "press half orange onto juicer",
+        "verb": "press-onto",
+        "noun": "orange:half",
+        "start_time": "00:17:55.13",
+        "end_time": "00:17:55.89",
+        "enriched_narration": "press half orange onto juicer on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_361",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:17:55.51",
+        "end_time": "00:17:56.14"
+      },
+      {
+        "narration_id": "P02_108_362",
+        "narration": "squeeze orange",
+        "verb": "squeeze",
+        "noun": "orange",
+        "start_time": "00:17:56.24",
+        "end_time": "00:17:59.48",
+        "enriched_narration": "squeeze orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_363",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:01.04",
+        "end_time": "00:18:02.24"
+      },
+      {
+        "narration_id": "P02_108_364",
+        "narration": "throw orange peel",
+        "verb": "throw",
+        "noun": "peel:orange",
+        "start_time": "00:18:03.18",
+        "end_time": "00:18:04.25",
+        "enriched_narration": "throw orange peel on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_365",
+        "narration": "pick up half orange",
+        "verb": "pick-up",
+        "noun": "orange:half",
+        "start_time": "00:18:04.31",
+        "end_time": "00:18:05.33",
+        "enriched_narration": "pick up half orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_367",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:05.40",
+        "end_time": "00:18:06.81"
+      },
+      {
+        "narration_id": "P02_108_366",
+        "narration": "press half orange onto juicer",
+        "verb": "press-onto",
+        "noun": "orange:half",
+        "start_time": "00:18:05.43",
+        "end_time": "00:18:07.20",
+        "enriched_narration": "press half orange onto juicer on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_368",
+        "narration": "squeeze orange",
+        "verb": "squeeze",
+        "noun": "orange",
+        "start_time": "00:18:06.91",
+        "end_time": "00:18:11.49",
+        "enriched_narration": "squeeze orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 16.4,
+    "primary_objects": [
+      "half orange",
+      "button",
+      "orange",
+      "orange peel"
+    ],
+    "primary_verbs": [
+      "press",
+      "press-onto",
+      "squeeze",
+      "throw",
+      "pick-up"
+    ]
+  },
+  {
+    "task_id": "plan_P02_108_041",
+    "participant_id": "P02",
+    "video_id": "P02_108",
+    "task_type": "routine_reproduction",
+    "task_query": "Help P02 juice an orange and dispose of the peel.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_108_369",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:11.59",
+        "end_time": "00:18:12.89"
+      },
+      {
+        "narration_id": "P02_108_370",
+        "narration": "throw orange peel",
+        "verb": "throw",
+        "noun": "peel:orange",
+        "start_time": "00:18:13.69",
+        "end_time": "00:18:14.20",
+        "enriched_narration": "throw orange peel on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_371",
+        "narration": "pick up half orange",
+        "verb": "pick-up",
+        "noun": "orange:half",
+        "start_time": "00:18:14.79",
+        "end_time": "00:18:16.08",
+        "enriched_narration": "pick up half orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_372",
+        "narration": "press orange onto juicer",
+        "verb": "press-onto",
+        "noun": "orange",
+        "start_time": "00:18:16.34",
+        "end_time": "00:18:16.89",
+        "enriched_narration": "press orange fruit orange onto juicer on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_373",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:16.96",
+        "end_time": "00:18:17.42"
+      },
+      {
+        "narration_id": "P02_108_374",
+        "narration": "squeeze orange",
+        "verb": "squeeze",
+        "noun": "orange",
+        "start_time": "00:18:17.52",
+        "end_time": "00:18:22.61",
+        "enriched_narration": "squeeze orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_375",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:22.66",
+        "end_time": "00:18:24.80"
+      },
+      {
+        "narration_id": "P02_108_376",
+        "narration": "throw orange peel",
+        "verb": "throw",
+        "noun": "peel:orange",
+        "start_time": "00:18:25.48",
+        "end_time": "00:18:26.74",
+        "enriched_narration": "throw orange peel on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_377",
+        "narration": "pick half orange",
+        "verb": "pick",
+        "noun": "orange",
+        "start_time": "00:18:27.09",
+        "end_time": "00:18:27.78",
+        "enriched_narration": "pick half orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 16.2,
+    "primary_objects": [
+      "button",
+      "orange",
+      "orange peel",
+      "half orange"
+    ],
+    "primary_verbs": [
+      "press",
+      "throw",
+      "pick-up",
+      "press-onto",
+      "squeeze"
+    ]
+  },
+  {
+    "task_id": "plan_P02_108_042",
+    "participant_id": "P02",
+    "video_id": "P02_108",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P02 dispose of the orange peel and clean the juicer.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_108_378",
+        "narration": "press orange onto juicer",
+        "verb": "press-onto",
+        "noun": "orange",
+        "start_time": "00:18:27.88",
+        "end_time": "00:18:28.54",
+        "enriched_narration": "press orange fruit orange onto juicer on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_379",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:28.64",
+        "end_time": "00:18:29.13"
+      },
+      {
+        "narration_id": "P02_108_380",
+        "narration": "squeeze orange",
+        "verb": "squeeze",
+        "noun": "orange",
+        "start_time": "00:18:29.24",
+        "end_time": "00:18:35.54",
+        "enriched_narration": "squeeze orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_381",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:35.27",
+        "end_time": "00:18:36.77"
+      },
+      {
+        "narration_id": "P02_108_382",
+        "narration": "throw orange peel",
+        "verb": "throw",
+        "noun": "peel:orange",
+        "start_time": "00:18:38.12",
+        "end_time": "00:18:38.63",
+        "enriched_narration": "throw orange peel on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_383",
+        "narration": "put pick up orange",
+        "verb": "put",
+        "noun": "orange",
+        "start_time": "00:18:38.69",
+        "end_time": "00:18:39.22",
+        "enriched_narration": "put pick up orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_384",
+        "narration": "press orange onto juicer",
+        "verb": "press-onto",
+        "noun": "orange",
+        "start_time": "00:18:39.33",
+        "end_time": "00:18:39.77",
+        "enriched_narration": "press orange fruit orange onto juicer on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      },
+      {
+        "narration_id": "P02_108_385",
+        "narration": "press button",
+        "verb": "press",
+        "noun": "button",
+        "start_time": "00:18:39.78",
+        "end_time": "00:18:40.24"
+      },
+      {
+        "narration_id": "P02_108_386",
+        "narration": "squeeze orange",
+        "verb": "squeeze",
+        "noun": "orange",
+        "start_time": "00:18:40.28",
+        "end_time": "00:18:50.40",
+        "enriched_narration": "squeeze orange fruit orange on countertop",
+        "matched_object": {
+          "color": "orange",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "orange_bag",
+          "memory_name": "orange bag"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.5,
+    "primary_objects": [
+      "orange",
+      "button",
+      "orange peel"
+    ],
+    "primary_verbs": [
+      "press",
+      "press-onto",
+      "squeeze",
+      "throw",
+      "put"
+    ]
+  },
+  {
+    "task_id": "plan_P02_109_003",
+    "participant_id": "P02",
+    "video_id": "P02_109",
+    "task_type": "meal_preparation",
+    "task_query": "Help P02 peel and cut the onion, disposing of the peel.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_109_27",
+        "narration": "throw onion peel",
+        "verb": "throw",
+        "noun": "peel:onion",
+        "start_time": "00:01:42.25",
+        "end_time": "00:01:43.50",
+        "enriched_narration": "throw onion peel in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_28",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:01:43.79",
+        "end_time": "00:01:45.70",
+        "enriched_narration": "peel white skin onion in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_29",
+        "narration": "throw onion peel",
+        "verb": "throw",
+        "noun": "peel:onion",
+        "start_time": "00:01:46.79",
+        "end_time": "00:01:47.79",
+        "enriched_narration": "throw onion peel in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_30",
+        "narration": "put down onion piece",
+        "verb": "put-down",
+        "noun": "piece:onion",
+        "start_time": "00:01:48.29",
+        "end_time": "00:01:49.19",
+        "enriched_narration": "put down onion piece in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_31",
+        "narration": "cut onion end",
+        "verb": "cut",
+        "noun": "end:onion",
+        "start_time": "00:01:50.92",
+        "end_time": "00:01:54.14",
+        "enriched_narration": "cut onion end in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_32",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:01:55.20",
+        "end_time": "00:01:57.42",
+        "enriched_narration": "peel white skin onion in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_33",
+        "narration": "cut onion end",
+        "verb": "cut",
+        "noun": "end:onion",
+        "start_time": "00:02:02.35",
+        "end_time": "00:02:05.35",
+        "enriched_narration": "cut onion end in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_34",
+        "narration": "peel onion",
+        "verb": "peel",
+        "noun": "onion",
+        "start_time": "00:02:06.82",
+        "end_time": "00:02:11.47",
+        "enriched_narration": "peel white skin onion in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      },
+      {
+        "narration_id": "P02_109_35",
+        "narration": "cut onion end",
+        "verb": "cut",
+        "noun": "end:onion",
+        "start_time": "00:02:13.55",
+        "end_time": "00:02:16.09",
+        "enriched_narration": "cut onion end in pan",
+        "matched_object": {
+          "color": "white",
+          "material": "skin",
+          "location": "in pan",
+          "memory_id": "onion",
+          "memory_name": "onion"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 33.8,
+    "primary_objects": [
+      "onion",
+      "onion end",
+      "onion peel",
+      "onion piece"
+    ],
+    "primary_verbs": [
+      "peel",
+      "cut",
+      "throw",
+      "put-down"
+    ]
+  },
+  {
+    "task_id": "plan_P02_112_015",
+    "participant_id": "P02",
+    "video_id": "P02_112",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P02 shape and oil the dough balls for the tray.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_112_135",
+        "narration": "oil hand",
+        "verb": "oil",
+        "noun": "hand",
+        "start_time": "00:09:08.41",
+        "end_time": "00:09:09.57"
+      },
+      {
+        "narration_id": "P02_112_136",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:09:09.65",
+        "end_time": "00:09:28.00",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_137",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:09:28.08",
+        "end_time": "00:09:33.64",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_138",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:09:33.74",
+        "end_time": "00:09:34.75",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_139",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:09:34.99",
+        "end_time": "00:09:37.26",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_140",
+        "narration": "get some oil from plate",
+        "verb": "get",
+        "noun": "oil",
+        "start_time": "00:09:37.47",
+        "end_time": "00:09:38.24",
+        "enriched_narration": "get some white paper oil from plate on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "toilet",
+          "memory_name": "toilet"
+        }
+      },
+      {
+        "narration_id": "P02_112_141",
+        "narration": "oil hand",
+        "verb": "oil",
+        "noun": "hand",
+        "start_time": "00:09:38.34",
+        "end_time": "00:09:39.29"
+      },
+      {
+        "narration_id": "P02_112_142",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:09:39.15",
+        "end_time": "00:09:56.08",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_143",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:09:55.84",
+        "end_time": "00:10:00.17",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 51.8,
+    "primary_objects": [
+      "dough",
+      "dough ball",
+      "hand",
+      "oil"
+    ],
+    "primary_verbs": [
+      "oil",
+      "knead",
+      "shape",
+      "place-on",
+      "squeeze"
+    ]
+  },
+  {
+    "task_id": "plan_P02_112_017",
+    "participant_id": "P02",
+    "video_id": "P02_112",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P02 shape the dough and prepare it on the tray with oil.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_112_153",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:10:28.57",
+        "end_time": "00:10:33.30",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_154",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:10:33.44",
+        "end_time": "00:10:34.14",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_155",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:10:34.39",
+        "end_time": "00:10:36.53",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_156",
+        "narration": "get some oil from plate",
+        "verb": "get",
+        "noun": "oil",
+        "start_time": "00:10:37.09",
+        "end_time": "00:10:37.82",
+        "enriched_narration": "get some white paper oil from plate on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "toilet",
+          "memory_name": "toilet"
+        }
+      },
+      {
+        "narration_id": "P02_112_157",
+        "narration": "oil hand",
+        "verb": "oil",
+        "noun": "hand",
+        "start_time": "00:10:37.88",
+        "end_time": "00:10:38.39"
+      },
+      {
+        "narration_id": "P02_112_158",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:10:38.49",
+        "end_time": "00:10:49.50",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_159",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:10:58.34",
+        "end_time": "00:11:00.09",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_160",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:11:00.03",
+        "end_time": "00:11:01.69",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_161",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:11:01.77",
+        "end_time": "00:11:06.96",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 38.4,
+    "primary_objects": [
+      "dough ball",
+      "dough",
+      "oil",
+      "hand"
+    ],
+    "primary_verbs": [
+      "shape",
+      "knead",
+      "place-on",
+      "squeeze",
+      "get"
+    ]
+  },
+  {
+    "task_id": "plan_P02_112_018",
+    "participant_id": "P02",
+    "video_id": "P02_112",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P02 shape and oil the dough ball, then move the tray.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_112_162",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:11:07.08",
+        "end_time": "00:11:08.19",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_163",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:11:08.42",
+        "end_time": "00:11:10.86",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_164",
+        "narration": "get oil from plate",
+        "verb": "get-from",
+        "noun": "oil",
+        "start_time": "00:11:11.26",
+        "end_time": "00:11:11.97",
+        "enriched_narration": "get white paper oil from plate on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "toilet",
+          "memory_name": "toilet"
+        }
+      },
+      {
+        "narration_id": "P02_112_165",
+        "narration": "oil hand",
+        "verb": "oil",
+        "noun": "hand",
+        "start_time": "00:11:11.98",
+        "end_time": "00:11:12.24"
+      },
+      {
+        "narration_id": "P02_112_166",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:11:12.30",
+        "end_time": "00:11:27.20",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_167",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:11:27.23",
+        "end_time": "00:11:36.38",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_168",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:11:36.44",
+        "end_time": "00:11:37.74",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_169",
+        "narration": "move tray",
+        "verb": "move",
+        "noun": "tray",
+        "start_time": "00:11:39.30",
+        "end_time": "00:11:40.60",
+        "enriched_narration": "move black metal tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "baking_tray",
+          "memory_name": "baking_tray_with_dough_balls"
+        }
+      },
+      {
+        "narration_id": "P02_112_170",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:11:41.20",
+        "end_time": "00:11:43.73",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 36.6,
+    "primary_objects": [
+      "dough ball",
+      "dough",
+      "oil",
+      "hand",
+      "tray"
+    ],
+    "primary_verbs": [
+      "place-on",
+      "squeeze",
+      "get-from",
+      "oil",
+      "knead"
+    ]
+  },
+  {
+    "task_id": "plan_P02_112_020",
+    "participant_id": "P02",
+    "video_id": "P02_112",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P02 shape the dough and prepare it on the tray with oil.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P02_112_180",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:12:24.14",
+        "end_time": "00:12:30.04",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_181",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:12:30.23",
+        "end_time": "00:12:31.09",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_182",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:12:31.29",
+        "end_time": "00:12:33.97",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_183",
+        "narration": "get some oil from plate",
+        "verb": "get",
+        "noun": "oil",
+        "start_time": "00:12:34.74",
+        "end_time": "00:12:35.04",
+        "enriched_narration": "get some white paper oil from plate on counter",
+        "matched_object": {
+          "color": "white",
+          "material": "paper",
+          "location": "on counter",
+          "memory_id": "toilet",
+          "memory_name": "toilet"
+        }
+      },
+      {
+        "narration_id": "P02_112_184",
+        "narration": "oil hand",
+        "verb": "oil",
+        "noun": "hand",
+        "start_time": "00:12:35.25",
+        "end_time": "00:12:35.79"
+      },
+      {
+        "narration_id": "P02_112_185",
+        "narration": "knead dough",
+        "verb": "knead",
+        "noun": "dough",
+        "start_time": "00:12:35.74",
+        "end_time": "00:12:51.34",
+        "enriched_narration": "knead black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_186",
+        "narration": "shape ball of dough",
+        "verb": "shape",
+        "noun": "ball:dough",
+        "start_time": "00:12:51.74",
+        "end_time": "00:12:55.95",
+        "enriched_narration": "shape ball of dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_187",
+        "narration": "place ball of dough on tray",
+        "verb": "place-on",
+        "noun": "ball:dough",
+        "start_time": "00:12:56.03",
+        "end_time": "00:12:57.22",
+        "enriched_narration": "place ball of dough on tray on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      },
+      {
+        "narration_id": "P02_112_188",
+        "narration": "squeeze dough",
+        "verb": "squeeze",
+        "noun": "dough",
+        "start_time": "00:12:57.32",
+        "end_time": "00:13:00.06",
+        "enriched_narration": "squeeze black metal dough on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on countertop",
+          "memory_id": "dough",
+          "memory_name": "dough"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 35.9,
+    "primary_objects": [
+      "dough ball",
+      "dough",
+      "oil",
+      "hand"
+    ],
+    "primary_verbs": [
+      "shape",
+      "place-on",
+      "squeeze",
+      "get",
+      "oil"
+    ]
+  }
+]

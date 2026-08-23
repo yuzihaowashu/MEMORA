@@ -1,0 +1,23 @@
+# Paths excluded from public release archives and release checks.
+
+# Local credentials, environments, and generated outputs
+.secret
+.secrets
+.memora_secrets
+.env
+.venv/
+.venv_api/
+data/
+hf_models/
+outputs/
+__pycache__/
+scripts/__pycache__/
+scripts/benchmark_construction/__pycache__/
+scripts/data/__pycache__/
+scripts/paper_results/__pycache__/
+scripts/website/__pycache__/
+src/memora/**/__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/

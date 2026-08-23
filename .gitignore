@@ -1,0 +1,29 @@
+.secrets
+.secret
+.memora_secrets
+.env
+
+# Python virtual environments
+.venv/
+.venv_api/
+
+# Local-only files and generated outputs
+data/
+!src/memora/memora_bench/memora_planning/data/
+!src/memora/memora_bench/memora_planning/data/**
+local/
+participant_memory/
+outputs/
+hf_models/
+containers/
+python_deps*/
+*.sif
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+**/_build/
+.DS_Store
+.idea/
+.vscode/

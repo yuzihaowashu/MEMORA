@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore EAM-QA questions, Replay tasks, Generalize tasks, and reference answers from MEMORA-Bench.">
+    <title>MEMORA-Bench Explorer</title>
+    <link rel="stylesheet" href="styles.css?v=35">
+    <link rel="stylesheet" href="benchmark-explorer.css?v=2">
+  </head>
+  <body class="benchmark-page">
+    <header class="site-nav benchmark-nav">
+      <a class="wordmark" href="index.html">MEMORA</a>
+      <nav aria-label="Benchmark navigation">
+        <a href="#explorer">Explorer</a>
+        <a href="index.html">Project page</a>
+        <a href="https://github.com/yuzihaowashu/MEMORA/tree/main/src/memora_bench" target="_blank" rel="noopener">Source</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bench-hero" id="overview">
+        <div class="bench-hero-copy">
+          <h1>MEMORA-Bench</h1>
+        </div>
+
+        <div class="scope-strip">
+          <div><strong data-stat="videoHours">45</strong><span>hours of video</span></div>
+          <div><strong data-stat="participants">18</strong><span>participants</span></div>
+          <div><strong data-stat="eamQaStored">2,763</strong><span>EAM-QA items</span></div>
+          <div><strong>360</strong><span>planning goals</span></div>
+        </div>
+      </section>
+
+      <section class="explorer-section" id="explorer" aria-labelledby="explorer-title">
+        <div class="explorer-heading">
+          <h2 id="explorer-title">Interactive Explorer</h2>
+        </div>
+
+        <div class="protocol-tabs" role="tablist" aria-label="Benchmark protocol">
+          <button class="protocol-tab active" type="button" role="tab" aria-selected="true" data-mode="eamQa"><span class="tab-dot qa-dot"></span>EAM-QA <small>memory assessment</small></button>
+          <button class="protocol-tab" type="button" role="tab" aria-selected="false" data-mode="planningReplay"><span class="tab-dot replay-dot"></span>Replay <small>observed workflow</small></button>
+          <button class="protocol-tab" type="button" role="tab" aria-selected="false" data-mode="planningGeneralize"><span class="tab-dot generalize-dot"></span>Generalize <small>new goal</small></button>
+        </div>
+
+        <div class="explorer-shell">
+          <aside class="explorer-controls" aria-label="Benchmark filters">
+            <div class="filter-group">
+              <label for="participant-filter">Participant</label>
+              <select id="participant-filter"><option value="all">All participants</option></select>
+            </div>
+            <div class="filter-group">
+              <label for="type-filter" id="type-filter-label">Category</label>
+              <select id="type-filter"><option value="all">All categories</option></select>
+              <small id="type-filter-note">Defined by the released benchmark</small>
+            </div>
+            <label class="control-toggle" id="control-toggle-wrap">
+              <input id="include-controls" type="checkbox" checked>
+              <span>Include no-evidence controls</span>
+            </label>
+            <div class="filter-summary">
+              <strong id="filtered-count">0</strong>
+              <span>matching items</span>
+            </div>
+            <button class="control-button" id="random-item" type="button">Show a random item</button>
+            <a class="source-link" id="source-link" href="https://github.com/yuzihaowashu/MEMORA/tree/main/src/memora_bench/eam_qa/questions" target="_blank" rel="noopener">Open source folder <span aria-hidden="true">&nearr;</span></a>
+          </aside>
+
+          <div class="item-viewer" aria-live="polite">
+            <div class="item-toolbar">
+              <div class="item-position"><span id="item-position">Item 1</span><small id="item-id"></small></div>
+              <div class="toolbar-actions">
+                <button id="copy-item-link" type="button" title="Copy a link to this item">Copy link</button>
+                <button id="previous-item" type="button" title="Previous item" aria-label="Previous item">Previous</button>
+                <button id="next-item" type="button" title="Next item" aria-label="Next item">Next</button>
+              </div>
+            </div>
+            <article id="item-content" class="item-content"></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="release-section" id="definitions" aria-label="Data source, citation, and license">
+        <p class="data-source-note"><strong>Data source.</strong> MEMORA-Bench is constructed from 45 hours of EPIC-KITCHENS-100 extension recordings. The benchmark definitions and evaluation assets are provided here; the source videos remain available through the <a href="https://epic-kitchens.github.io/2025" target="_blank" rel="noopener">official EPIC-KITCHENS distribution</a>.</p>
+
+        <div class="release-reference" aria-label="Citation and license">
+          <div class="citation-block">
+            <div class="citation-heading">
+              <div>
+                <p class="eyebrow">Reference</p>
+                <h2>Cite MEMORA</h2>
+              </div>
+              <button id="copy-bibtex" type="button">Copy BibTeX</button>
+            </div>
+            <pre><code id="bibtex-entry">@misc{yu2026memoraembodiedactionmemory,
+  title         = {MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning},
+  author        = {Zihao Yu and Xiu Yuan and Chongjie Zhang},
+  year          = {2026},
+  eprint        = {2607.14252},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2607.14252}
+}</code></pre>
+          </div>
+
+          <aside class="license-block">
+            <p class="eyebrow">License</p>
+            <h2>Code and data terms</h2>
+            <p>MEMORA source code is released under the MIT License. EPIC-KITCHENS-derived benchmark artifacts remain subject to the source dataset’s attribution and non-commercial-use terms.</p>
+            <div class="meta-links">
+              <a href="https://github.com/yuzihaowashu/MEMORA/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+              <a href="https://github.com/yuzihaowashu/MEMORA/blob/main/docs/DATA.md" target="_blank" rel="noopener">Data terms</a>
+              <a href="https://arxiv.org/abs/2607.14252" target="_blank" rel="noopener">Paper</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>MEMORA-Bench &middot; Washington University in St. Louis &middot; 2026</p></footer>
+
+    <script src="assets/benchmark-explorer-data.js"></script>
+    <script src="benchmark-explorer.js"></script>
+  </body>
+</html>

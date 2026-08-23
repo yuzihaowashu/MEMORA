@@ -1,0 +1,4023 @@
+{
+  "questions": [
+    {
+      "question_id": "p23_q0000",
+      "question": "What is P23's approach to handling the onion during this prep sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cuts the onion first, then picks it up for transfer.",
+        "Stores the onion first, then comes back later to cut.",
+        "Picks up the onion first, then carries it elsewhere to cut.",
+        "Washes the onion first, then sets it aside before cutting.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cuts the onion first, then picks it up for transfer.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0001",
+      "question": "After P23 takes a spoon, what action tends to come next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wash spoon under tap",
+        "put spoon in drawer",
+        "mix curry in the pan",
+        "scrape plate with spoon",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "mix curry",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0002",
+      "question": "After P23 takes waste, what disposal step usually comes next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put-in waste immediately",
+        "rinse waste in bowl",
+        "wrap waste in cloth",
+        "place waste on plate",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-in waste",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0003",
+      "question": "When coordinating a cutting tool with a dish, what setup habit does P23 show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Avoids plates while managing the knife and ingredients.",
+        "Keeps the knife separate from dish handling until cutting starts.",
+        "Moves the knife directly from storage to the cutting board only.",
+        "Handles a plate between taking the knife and setting it down.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Handles a plate between taking the knife and setting it down.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0004",
+      "question": "Across videos, when P23 prepares solid ingredients for cooking, which tool is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses kitchen shears for prep",
+        "Uses a knife for prep",
+        "Uses a grater for prep",
+        "Uses a peeler for prep",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a knife for prep",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0005",
+      "question": "Across sessions, what does P23 usually do after putting a bottle down?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open bottle cap again",
+        "take bottle again",
+        "wipe bottle with cloth",
+        "push bottle to corner",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take bottle",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0006",
+      "question": "What is P23's approach to managing the pan during this part of the kitchen workflow?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes the pan with a cloth and returns it to storage.",
+        "Keeps the pan in hand while switching to another kitchen task.",
+        "Washes the pan, then sets it down as a brief staging step.",
+        "Moves the pan directly aside and keeps working without cleaning it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes the pan, then sets it down as a brief staging step.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0007",
+      "question": "In the observed cleanup, once P23 briefly sets a drinking glass down, what handling choice follows?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Fills it with water for drinking",
+        "Moves it straight into storage afterward",
+        "Picks it back up for more cleaning",
+        "Leaves it down and handles another item",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Picks it back up for more cleaning",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0008",
+      "question": "After P23 closes a bottle during this routine, what do they tend to do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Open the bottle right away",
+        "Set the bottle down nearby",
+        "Shake the bottle briefly",
+        "Rinse the bottle under tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set the bottle down nearby",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0009",
+      "question": "Across sessions, what does P23 typically do right after taking a bowl?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wash bowl under the tap",
+        "put bowl on the work area",
+        "carry bowl to the stove",
+        "fill bowl with water",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put bowl",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0010",
+      "question": "When preparing hot water, what method does P23 use before getting it heated?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Fills the kettle with water, sets it down, then switches it on",
+        "Uses the hot tap directly, fills a cup, then sets it aside",
+        "Sets the kettle in place, fills it there, then switches it on",
+        "Fills a saucepan with water, sets it on the hob, then heats it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Fills the kettle with water, sets it down, then switches it on",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0011",
+      "question": "When P23 first picks up a plate, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cover the plate with foil",
+        "stack the plate with others",
+        "open the plate right away",
+        "rinse the plate at the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "open the plate right away",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0012",
+      "question": "Across videos, before discarding scraps, what gathering step is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves scraps while cooking",
+        "Collects or takes waste first",
+        "Covers scraps with a plate",
+        "Pushes scraps into the sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Collects or takes waste first",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0013",
+      "question": "After P23 sets one plate down during this sequence, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open a nearby drawer",
+        "wipe the counter down",
+        "pick up another plate",
+        "rinse the plate off",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick up another plate",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0014",
+      "question": "When P23 starts a small cleanup, which item-handling method do they favor?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Use a scrub brush and rinse it",
+        "Pick up a sponge and soak it",
+        "Take a cloth and wash it",
+        "Grab paper towels and discard them",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Take a cloth and wash it",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0015",
+      "question": "When P23 picks up bowls during this sequence, what do they usually do right afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Carry the bowls toward the sink",
+        "Set the bowls down again",
+        "Stack the bowls in a cupboard",
+        "Rinse the bowls under the faucet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Set the bowls down again",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0016",
+      "question": "After P23 takes a bowl, what does P23 typically do with it right away?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put bowl on surface",
+        "fill bowl with curry",
+        "dry bowl with towel",
+        "cover bowl with plate",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put bowl",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0017",
+      "question": "Across videos, after P23 finishes adjusting curry, what utensil behavior is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Puts the spoon down",
+        "Keeps stirring continuously",
+        "Hands spoon to someone",
+        "Leaves spoon in pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Puts the spoon down",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0018",
+      "question": "When P23 pulls a chicken breast from the opened package, what do they typically do next before cutting?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "rinse the breast in the sink",
+        "season the breast with spices",
+        "set the breast on a plate",
+        "take another piece of chicken",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take another piece of chicken",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0019",
+      "question": "Across sessions, what does P23 typically do after pouring water?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "add curry powder",
+        "turn-on tap again",
+        "wash knife at sink",
+        "put glass down",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put glass",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0020",
+      "question": "What is P23's approach to preparing the pepper for cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers a chopped portion to the pan, then returns to chopping more pepper.",
+        "Keeps the chopped pepper aside on the board until other ingredients are ready.",
+        "Moves the pepper to a bowl first, then adds it to the pan later.",
+        "Finishes chopping all the pepper before moving any of it to the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Transfers a chopped portion to the pan, then returns to chopping more pepper.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0021",
+      "question": "When P23 cleans a small eating utensil before setting it aside, which utensil do they choose?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "A dinner fork",
+        "A pair of tongs",
+        "A soup spoon",
+        "A table knife",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "A dinner fork",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0022",
+      "question": "What is P23's approach to getting a used glass ready again?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Gives it a cleaning pass, then follows with a wash.",
+        "Wipes it briefly with a cloth and continues using it.",
+        "Washes it once and places it aside without extra handling.",
+        "Leaves it near the sink to clean with other dishes later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gives it a cleaning pass, then follows with a wash.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0023",
+      "question": "When P23 picks up a kitchen cloth during cleanup, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "fold the cloth",
+        "hang the cloth",
+        "wipe the counter",
+        "wash the cloth",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "wash the cloth",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0024",
+      "question": "What is P23's approach when briefly pausing with a bottle during the kitchen task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the bottle open on the counter, then returns to it later.",
+        "Keeps the bottle in hand while moving directly to the next task.",
+        "Moves the bottle to storage, then switches to another container.",
+        "Caps the bottle, sets it down briefly, then picks it back up.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Caps the bottle, sets it down briefly, then picks it back up.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0025",
+      "question": "What is P23's approach to choosing vegetables from the packet?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handles the packet, searches the vegetables, then picks lady's fingers.",
+        "Empties the packet onto a plate and sorts the vegetables there.",
+        "Chooses the top vegetable first without inspecting the packet.",
+        "Leaves the packet aside and takes loose vegetables from elsewhere.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Handles the packet, searches the vegetables, then picks lady's fingers.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0026",
+      "question": "What workflow does P23 use for the plate at this point in the kitchen?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Gives the plate two cleaning passes, then puts it down.",
+        "Stacks the plate with dishes, then washes them as a batch.",
+        "Rinses the plate quickly, then leaves it near the sink.",
+        "Sets the plate aside, then comes back to clean it later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gives the plate two cleaning passes, then puts it down.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0027",
+      "question": "When mixing food during cooking, how does P23 manage the stirring tool?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves the spoon in the pan while preparing the next item.",
+        "Takes the spoon, mixes, and then puts the spoon down.",
+        "Uses a ladle briefly and then switches to a different tool.",
+        "Holds the spoon continuously while moving between stations.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Takes the spoon, mixes, and then puts the spoon down.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0028",
+      "question": "After P23 takes a cloth, what cloth-related action does P23 most often perform?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "fold cloth into drawer",
+        "wrap knife with cloth",
+        "cover bowl with cloth",
+        "wash cloth at sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "wash cloth",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0029",
+      "question": "Across videos, when P23 is preparing food before cooking, which repeated prep target is favored?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handles vegetables and aromatics",
+        "Handles packaged sweets",
+        "Handles dairy containers",
+        "Handles frozen breads",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Handles vegetables and aromatics",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0030",
+      "question": "In video P23_101, P23 handled lady's fingers. What did they do with them?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They placed the lady's fingers down and covered them with a plastic cover.",
+        "They moved the lady's fingers into a pan and left the tap off.",
+        "They turned on the tap and washed the lady's fingers under the water.",
+        "They took the lady's fingers and set them aside without washing them.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They turned on the tap and washed the lady's fingers under the water.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0031",
+      "question": "Across sessions, what does P23 typically do after taking a spoon?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "place spoon beside plate",
+        "mix curry with it",
+        "wash spoon at the sink",
+        "put spoon in a bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "mix curry",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0032",
+      "question": "What was P23 doing in video P23_101?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washed plates and utensils in the sink",
+        "Arranged vegetables in the storage basket",
+        "Peeled and sliced onions for cooking",
+        "Chopped lady's fingers after washing them",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Chopped lady's fingers after washing them",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0033",
+      "question": "After P23 puts a bowl down, what does P23 commonly do next with bowls?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cut onion into bowl",
+        "wipe bowl with cloth",
+        "take bowl again nearby",
+        "pour water into bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take bowl",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0034",
+      "question": "What is P23's workflow strategy for handling the glass during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He dries it with a towel, stores it, and avoids further sink handling.",
+        "He gives it a quick wash, sets it aside, and returns to it with other dishes.",
+        "He washes it at the sink, cleans it again, and then sets it down.",
+        "He checks it while dry, fills it for use, and keeps it nearby.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He washes it at the sink, cleans it again, and then sets it down.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0035",
+      "question": "When separating cooked or softened meat, what texture-making method does P23 favor?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "mince chicken thighs",
+        "shred chicken thighs",
+        "cube chicken thighs",
+        "slice chicken thighs",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "shred chicken thighs into pieces",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 3,
+      "is_unanswerable": true,
+      "source_participant": "p37",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0036",
+      "question": "What is P23's approach to getting a bag ready during this part of the task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He leaves the bag closed and moves on to another item.",
+        "He sets the bag on the counter first, then opens it in place.",
+        "He takes the bag twice, repositioning it before opening it.",
+        "He opens the bag as soon as he first picks it up.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He takes the bag twice, repositioning it before opening it.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0037",
+      "question": "In video P23_102, P23 handled a bowl. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They switched on the gas, took a bowl, and then put the bowl down.",
+        "They switched on the gas, put a bowl down, and then took more bowls.",
+        "They took a bowl, switched on the gas, and then put the bowl down.",
+        "They took several bowls, put them down, and then took another bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They switched on the gas, took a bowl, and then put the bowl down.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0038",
+      "question": "After P23 cuts off a bit of butter with the knife, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Smooths the butter along the knife",
+        "Transfers the butter into a bowl",
+        "Sets the butter back on the counter",
+        "Wipes the knife with a cloth",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Smooths the butter along the knife",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p03",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0039",
+      "question": "After P23 put-down mushroom, what preparation step often follows on the work surface?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open cupboard nearby",
+        "cover mushroom bowl",
+        "rinse hand at sink",
+        "slice mushroom pieces",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "slice mushroom",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 8,
+      "is_unanswerable": true,
+      "source_participant": "p01",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0040",
+      "question": "Before the main heating phase, how does P23 structure preparation work?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Skips measuring and relies on adding ingredients by sight.",
+        "Alternates every small prep action with a stove adjustment.",
+        "Starts the stove first and measures ingredients during heating.",
+        "Completes preparatory handling before moving into stove startup.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Completes preparatory handling before moving into stove startup.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0041",
+      "question": "What was P23 doing in video P23_102?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleaned the kitchen counter after cooking",
+        "Made tea in a saucepan on gas stove",
+        "Prepared rice with lentils on gas stove",
+        "Fried chopped vegetables in a pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Prepared rice with lentils on gas stove",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0042",
+      "question": "When handling small vegetables for chopping, what workflow pattern appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Alternates between cutting and handling the small vegetable pieces.",
+        "Moves small vegetables directly into the pan without cutting.",
+        "Pre-sorts every small vegetable before using the knife.",
+        "Cuts all pieces completely before touching them again.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Alternates between cutting and handling the small vegetable pieces.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0043",
+      "question": "Across the early task setup, how does P23 prepare containers and cookware?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves containers in storage until food is ready to serve.",
+        "Starts cooking first and gathers containers only when needed.",
+        "Uses only the cooking pan and avoids separate containers.",
+        "Prepares cookware and containers as a workspace setup phase.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Prepares cookware and containers as a workspace setup phase.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0044",
+      "question": "Across videos, after accessing a storage area, what closing behavior is typical?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Closes the door after access",
+        "Opens another drawer",
+        "Leaves the door open",
+        "Moves a bowl inside",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Closes the door after access",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0045",
+      "question": "What was P23 doing in video P23_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinsed saucepan after cooking oats",
+        "Put coffee dripper away in cupboard",
+        "Brewed V60 coffee after washing glass",
+        "Made toast with tomato and cheese",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Brewed V60 coffee after washing glass",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p28",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0046",
+      "question": "During stove startup, how does P23 bring cookware into the process?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds ingredients to a bowl before bringing over the pan.",
+        "Takes the pan right after ignition and places it for use.",
+        "Organizes all plates after ignition before touching the pan.",
+        "Delays cookware placement until after the flame is switched off.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Takes the pan right after ignition and places it for use.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0047",
+      "question": "Across videos, when P23 deals with used dish surfaces, what cleaning target is most visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes only the counter",
+        "Cleans or washes plates",
+        "Scrubs only the pan",
+        "Soaks only the spoons",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cleans or washes plates",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0048",
+      "question": "What is P23's approach to handling the onion during this storage task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps the onion on a plate as the final serving spot.",
+        "Places the onion in a container, then leaves it uncovered.",
+        "Stages the onion on a plate, then transfers it into a bag.",
+        "Moves the onion straight into a bag without staging it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Stages the onion on a plate, then transfers it into a bag.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0049",
+      "question": "When P23 takes a portion of meat from the pan during dough assembly, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "place the meat onto the dough",
+        "move the dough to another plate",
+        "set the meat back in the pan",
+        "stir the meat around in the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "place the meat onto the dough",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0050",
+      "question": "Across sessions, what does P23 usually do after throwing water away?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap again",
+        "open door nearby",
+        "dry hands with cloth",
+        "take spoon for curry",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0051",
+      "question": "When P23 takes a plate while tidying up, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "stack it on the counter",
+        "load it into dishwasher",
+        "wash it in the sink",
+        "dry it with a towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "wash it in the sink",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0052",
+      "question": "Across videos, when P23 clears scraps, what destination is preferred?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Drops waste into the dustbin",
+        "Keeps waste inside a bowl",
+        "Moves waste onto a plate",
+        "Leaves waste on the counter",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Drops waste into the dustbin",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0053",
+      "question": "What is P23's approach to getting the prawn package ready for cooking?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a knife to open the package.",
+        "Leaves the package closed until later.",
+        "Cuts the package open with scissors.",
+        "Pulls the package seal apart by hand.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses a knife to open the package.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0054",
+      "question": "When a plate is cleaned during active work, how is it incorporated afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stacks cleaned plates separately before selecting one much later.",
+        "Cleans a plate and promptly places it back into the workspace.",
+        "Cleans plates only after all ingredients have been cooked.",
+        "Leaves cleaned plates at the sink until the final serving stage.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans a plate and promptly places it back into the workspace.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0055",
+      "question": "When P23 has a plate opened and ready, what is their next move with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places the plate inside the sink",
+        "Carries the plate over to the stove",
+        "Hands the plate to someone nearby",
+        "Sets the plate down on a surface",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Sets the plate down on a surface",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0056",
+      "question": "Across videos, when P23 needs water for cooking tasks, what repeated handling pattern is visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sprays water from nozzle",
+        "Scoops water by hand",
+        "Takes and pours water",
+        "Avoids adding water",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Takes and pours water",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0057",
+      "question": "Once the lighter is in use, how does P23 connect stove activation to cookware handling?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places the pan first and then looks for the lighter later.",
+        "Uses bowl organization as the next action after taking the lighter.",
+        "Keeps the lighter aside until the food is already in the pan.",
+        "Lights the gas first, then immediately moves to the pan.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lights the gas first, then immediately moves to the pan.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0058",
+      "question": "What is P23's quality-control habit with stored ingredients?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P23 uses sensory checks before deciding how to proceed with stored items.",
+        "P23 cooks questionable ingredients first and evaluates them only after heating.",
+        "P23 relies entirely on package dates and never examines items during use.",
+        "P23 discards stored items automatically once they have been opened before.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P23 uses sensory checks before deciding how to proceed with stored items.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 11,
+      "is_unanswerable": true,
+      "source_participant": "p30",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0059",
+      "question": "After P23 open drawer, what action commonly happens before resuming drawer use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn knob on hob",
+        "close drawer again",
+        "take pan handle",
+        "grab clean towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "close drawer",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0060",
+      "question": "What is P23's approach to dealing with a single plate during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Washes the plate and then sets it down",
+        "Leaves the plate in the sink to wash later",
+        "Stacks the plate with dishes before washing it",
+        "Dries the plate with a towel before storing it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes the plate and then sets it down",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0061",
+      "question": "After P23 finishes washing a glass, what do they usually do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dries the glass with a towel",
+        "sets the glass down nearby",
+        "fills the glass with water",
+        "places the glass in a cabinet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "sets the glass down nearby",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0062",
+      "question": "After P23 sets a bottle down, what do they usually do next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "open the bottle at the counter",
+        "reposition the bottle nearby",
+        "wipe the bottle with a cloth",
+        "place the bottle in a cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "reposition the bottle nearby",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0063",
+      "question": "Across sessions, what does P23 usually do right after taking a pan?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "cover pan with plate",
+        "put pan down",
+        "fill pan with rice",
+        "wash pan under tap",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put pan",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0064",
+      "question": "When P23 transitions from discard handling to dish work, what strategy is used?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stores the dirty plate first and cleans it after cooking ends.",
+        "Uses disposal as a reset cue, then cleans a plate right away.",
+        "Separates disposal and dish cleaning into two distant phases.",
+        "Finishes all cutting tasks before returning to any dish cleaning.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses disposal as a reset cue, then cleans a plate right away.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0065",
+      "question": "When P23 picks up a portion of lentils, what do they typically do with it next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "weigh the lentils on scale",
+        "pour the lentils out next",
+        "rinse the lentils under water",
+        "set the lentils aside nearby",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pour the lentils out next",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0066",
+      "question": "How does P23 handle a glass during this sink-side cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the glass aside to soak, returning to it later.",
+        "Moves the glass aside without doing more detailed cleaning.",
+        "Dries the glass right away and stores it immediately.",
+        "Washes the glass, then gives it a separate cleaning pass.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Washes the glass, then gives it a separate cleaning pass.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0067",
+      "question": "After mixing food, how does P23 shift toward serving or staging items?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Handles plates only before mixing begins, not afterward.",
+        "Puts the spoon down, then brings a plate into the workflow.",
+        "Keeps the spoon active until all serving plates are ready.",
+        "Moves the pan first and waits to handle any serving plate.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Puts the spoon down, then brings a plate into the workflow.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0068",
+      "question": "In P23's observed routine with a plate, what method did they seem to prefer before setting it aside?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleaned it twice before setting it down",
+        "Cleaned it once and left it nearby",
+        "Stacked it first and cleaned it later",
+        "Moved it to the sink without cleaning",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Cleaned it twice before setting it down",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0069",
+      "question": "When P23 needs a utensil from storage during food preparation, what is P23's typical approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P23 retrieves one needed utensil from storage as the task requires.",
+        "P23 keeps utensils on the counter and avoids using drawers during prep.",
+        "P23 switches to disposable tools to reduce later washing effort.",
+        "P23 lays out a broad utensil set before starting the task.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P23 retrieves one needed utensil from storage as the task requires.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0070",
+      "question": "What is P23's approach to handling the small utensil during this cleanup moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Wipes the utensil briefly and keeps it on the counter.",
+        "Sets the utensil aside to clean later with other dishes.",
+        "Moves the utensil directly into storage without cleaning it.",
+        "Takes the utensil and washes it right away at the sink.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Takes the utensil and washes it right away at the sink.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0071",
+      "question": "In video P23_101, P23 handled the bowl. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They put the bowl down twice and then closed a door.",
+        "They closed a door first and then took the bowl.",
+        "They put the bowl down once and then closed two doors.",
+        "They took the bowl away and then picked up a plate.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They put the bowl down twice and then closed a door.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0072",
+      "question": "When P23 handles a kitchen knife in this moment, what do they choose to do immediately after picking it up?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Places the knife on the counter",
+        "Dries the knife with a towel",
+        "Washes the knife before moving on",
+        "Stores the knife in a drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Washes the knife before moving on",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0073",
+      "question": "Across videos, when P23 handles liquid or ingredient containers, which container format appears most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses mugs as containers",
+        "Uses bottles as containers",
+        "Uses jars as containers",
+        "Uses tins as containers",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses bottles as containers",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0074",
+      "question": "After changing the stove setting, how does P23 use the nearby workspace?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Switches from heat adjustment straight to plate cleaning.",
+        "Continues adjusting the flame before touching any container.",
+        "Leaves the stove area to gather ingredients from storage.",
+        "Returns from heat adjustment to immediate bowl repositioning.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Returns from heat adjustment to immediate bowl repositioning.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0075",
+      "question": "When managing plates, what workspace pattern does P23 rely on?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Avoids plates until the final serving moment arrives.",
+        "Uses plates only for storage, not for active preparation.",
+        "Repositions plates repeatedly while setting up the workspace.",
+        "Chooses one plate and keeps it fixed for the whole task.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Repositions plates repeatedly while setting up the workspace.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0076",
+      "question": "Across videos, when P23 tidies surfaces or supplies, what wiping material appears in the routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses bare hand only",
+        "Uses metal scraper",
+        "Uses paper or cloth",
+        "Uses dish brush",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses paper or cloth materials",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 13,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0077",
+      "question": "Across videos, when P23 is choosing cookware for hot food, which vessel is favored?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a wok for cooking",
+        "Uses a pan for cooking",
+        "Uses a pot for cooking",
+        "Uses a tray for cooking",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a pan for cooking",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0078",
+      "question": "When P23 picks up a plate during cleanup, what do they do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets the plate on the counter",
+        "Washes the plate right away",
+        "Dries the plate with a towel",
+        "Stacks the plate with dishes",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Washes the plate right away",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0079",
+      "question": "After finishing a sink-side action, how does P23 reestablish the workspace?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses the next moment to clean another dish at the sink.",
+        "Moves directly from the sink into storage-door handling.",
+        "Leaves the sink and immediately begins cutting ingredients.",
+        "Turns from sink use to taking and placing a bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Turns from sink use to taking and placing a bowl.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0080",
+      "question": "After mixing, how does P23 handle access to storage or enclosed spaces?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Puts the spoon down, then opens the storage area.",
+        "Leaves storage access until after the whole dish is plated.",
+        "Opens storage while still keeping the spoon active in hand.",
+        "Moves the pan away before opening any storage space.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Puts the spoon down, then opens the storage area.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0081",
+      "question": "Across sessions, what does P23 typically do after taking an onion?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "wash onion at tap",
+        "put onion down",
+        "discard onion peel",
+        "chop onion at once",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put onion",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0082",
+      "question": "When P23 is looking around for a bowl, what do they usually do once they find one?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pick up the bowl to use",
+        "Leave the bowl inside the cabinet",
+        "Move a plate onto the counter",
+        "Wipe the bowl with a towel",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Pick up the bowl to use",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0083",
+      "question": "Across videos, when P23 cannot immediately proceed, what locating behavior is visible?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Clears the whole counter",
+        "Searches for the needed item",
+        "Waits without moving items",
+        "Starts another recipe step",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Searches for the needed item",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0084",
+      "question": "Across videos, when P23 is moving between wet and dry tasks, which water-stop action is common?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Stops the tap before moving",
+        "Lets water run longer",
+        "Wipes the sink instead",
+        "Fills every bowl first",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Stops the tap before moving on",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0085",
+      "question": "During repeated small-vegetable preparation, what is P23's working rhythm?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Completes one full ingredient pile before touching the next item.",
+        "Uses short repeated cycles of cutting and handling the ingredient.",
+        "Sets the knife down between every small vegetable segment.",
+        "Moves all cut pieces aside before starting another knife cycle.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses short repeated cycles of cutting and handling the ingredient.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0086",
+      "question": "What is P23's approach to gathering vegetables for use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Checks the vegetables first, leaves the packet aside, then chooses a mixed handful.",
+        "Picks a single vegetable directly, then looks for a packet to carry it.",
+        "Gets a packet ready, searches the vegetables, then selects lady's fingers.",
+        "Sorts several vegetables on the counter first, then decides what to keep.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gets a packet ready, searches the vegetables, then selects lady's fingers.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0087",
+      "question": "In video P23_102, P23 handled water. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They turned off the tap and then cleaned the rice.",
+        "They threw the water away and then turned on the tap again.",
+        "They cleaned the rice and then turned off the tap.",
+        "They put the glass down and then turned on the tap.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They threw the water away and then turned on the tap again.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0088",
+      "question": "When raw ingredients need cleaning, what preparation approach does P23 follow?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cleans only utensils and leaves ingredients unrinsed beforehand.",
+        "Waits until after heating begins to clean the ingredients.",
+        "Cleans the main ingredient before moving deeper into cooking.",
+        "Adds raw ingredients directly to the pan before sink work.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cleans the main ingredient before moving deeper into cooking.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0089",
+      "question": "What is P23's workflow strategy when preparing lady's fingers in this segment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Transfers the lady's fingers to a bowl first, then portions them after collecting them.",
+        "Washes several lady's fingers together, then leaves them draining before any knife work.",
+        "Picks up a lady's finger and cuts it right away, working piece by piece.",
+        "Lines up all the lady's fingers first, then cuts through the row in one continuous pass.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Picks up a lady's finger and cuts it right away, working piece by piece.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0090",
+      "question": "When loose refuse appears during kitchen work, what is P23's handling approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps scraps on the cutting surface while continuing prep.",
+        "Leaves scraps aside until the main cooking work is finished.",
+        "Disposes of scraps immediately, then returns straight to sink work.",
+        "Collects scraps into a bowl for disposal at the end.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Disposes of scraps immediately, then returns straight to sink work.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0091",
+      "question": "In video P23_???, P23 handled pasta. What did they do with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They picked up the pasta and then set the lid down.",
+        "They picked up the pasta and then tasted the pasta.",
+        "They stirred with the spoon and then put the lid down.",
+        "They tasted the pasta and then picked up the lid.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "They picked up the pasta and then tasted the pasta.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p26",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0092",
+      "question": "What was P23 doing in video P23_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Mixed salad with dressing",
+        "Baked potatoes in oven tray",
+        "Sorted utensils in drawer",
+        "Cooked meat with sauce on hob",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Cooked meat with sauce on hob",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 6,
+      "is_unanswerable": true,
+      "source_participant": "p25",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0093",
+      "question": "Across videos, when P23 seasons food, what ingredient-handling style appears most typical?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds separate whole ingredients",
+        "Uses only a premixed powder",
+        "Skips visible seasoning steps",
+        "Adds a bottled sauce first",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Adds separate whole ingredients",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0094",
+      "question": "After P23 takes a pan, what is P23's usual immediate placement action?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "scrub pan under tap",
+        "put pan in place",
+        "cover pan with lid",
+        "fill pan with rice",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put pan",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0095",
+      "question": "Across videos, when P23 starts stove work, what ignition approach appears preferred?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a lighter with gas",
+        "Uses a match with gas",
+        "Uses a stove knob alone",
+        "Uses an electric plate",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses a lighter with gas",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0096",
+      "question": "When adding lentils to the dish, what handling pattern does P23 show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Measures them out, then leaves them aside",
+        "Spreads them out, then stirs them through",
+        "Rinses them first, then drains them off",
+        "Takes a portion, then pours it in",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Takes a portion, then pours it in",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0097",
+      "question": "When getting a paper coffee filter ready for use, what shaping method does P23 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Rinses it before putting it in",
+        "Folds it, then opens it out",
+        "Trims it to fit the cone",
+        "Places it flat in the holder",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Folds it, then opens it out",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p30",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0098",
+      "question": "When P23 gets out the black bean sauce while choosing sauces, what do they typically do with it afterward?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put it back in storage",
+        "set it down nearby",
+        "pour it into the pan",
+        "open it by the stove",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "set it down nearby",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p11",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0099",
+      "question": "When P23 is organizing kitchen items near the cupboard, what handling order do they show?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens a drawer, moves a plate, then takes a pan",
+        "Sets down bowls, gets a pan, then picks up a bowl",
+        "Takes a pan, closes the cupboard, then sets down bowls",
+        "Gets a bowl, sets down a pan, then closes the cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Sets down bowls, gets a pan, then picks up a bowl",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0100",
+      "question": "When several plate interactions are needed, what handling style appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Takes and places each plate as an isolated one-off action.",
+        "Cleans every plate before any plate is moved elsewhere.",
+        "Keeps plates stored until the entire cooking process ends.",
+        "Gathers plates in succession before placing one for use.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Gathers plates in succession before placing one for use.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0101",
+      "question": "Across videos, when P23 arranges items during prep, what basic motion pattern dominates?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves items untouched",
+        "Alternates taking and putting",
+        "Carries items without setting",
+        "Pushes items aside only",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Alternates taking and putting",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0102",
+      "question": "When adding powdered seasoning, what is P23's utensil-management approach?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Measures all seasonings into a bowl before using any utensil.",
+        "Keeps the seasoning container open while continuing to stir.",
+        "Finishes the seasoning action, then parks the spoon afterward.",
+        "Adds seasoning only after the dish has been fully plated.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Finishes the seasoning action, then parks the spoon afterward.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0103",
+      "question": "After P23 takes a bottle, what bottle-handling step is most common?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "put bottle back down",
+        "open bottle cap first",
+        "wash bottle at sink",
+        "pour bottle into pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put bottle",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0104",
+      "question": "When working with bowls, what organization style is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Repositions bowls repeatedly as active workspace supports.",
+        "Stores bowls away before beginning the main task.",
+        "Selects one bowl once and leaves it untouched afterward.",
+        "Uses plates instead of bowls for all temporary holding.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Repositions bowls repeatedly as active workspace supports.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0105",
+      "question": "When P23 finishes with a plate at the sink and moves on to a packaged item, what order do they follow?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Gets the packet first, turns water off, then sets the plate down",
+        "Sets the plate down, leaves water running, then gets the packet",
+        "Turns the water off, gets the packet, then sets the plate down",
+        "Turns the water off, sets the plate down, then gets the packet",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Turns the water off, sets the plate down, then gets the packet",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0106",
+      "question": "When moving from utensil use into stove activation, what handoff strategy appears?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Puts the spoon down before taking the lighter for the gas.",
+        "Uses the pan itself as the first cue for stove activation.",
+        "Sets aside cookware before deciding whether to light the stove.",
+        "Carries the spoon while turning attention to stove activation.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Puts the spoon down before taking the lighter for the gas.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0107",
+      "question": "When P23 first handles the pan in this routine, what is their next move?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "They heat the pan",
+        "They cover the pan",
+        "They wash the pan",
+        "They store the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "They wash the pan",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0108",
+      "question": "When P23 is finishing an omelette with fillings, what order does P23 use after turning it over?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Adds ham to the omelette before getting cheese",
+        "Adds cheese to the omelette before getting ham",
+        "Mixes the fillings together before topping the omelette",
+        "Moves the omelette to a plate before adding fillings",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Adds cheese to the omelette before getting ham",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p07",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0109",
+      "question": "Across videos, when P23 is organizing prep containers, what container choice is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses trays for prep holding",
+        "Uses cups for prep holding",
+        "Uses bowls for prep holding",
+        "Uses pans for prep holding",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Uses bowls for prep organization",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0110",
+      "question": "When P23 is handling the curry mid-preparation, what follow-up step do they take after placing it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "covers the curry with a lid",
+        "mixes the curry again",
+        "lets the curry sit briefly",
+        "transfers the curry to a bowl",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "mixes the curry again",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0111",
+      "question": "When P23 picks up a pan during this routine, what do they usually do next with it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "dry the pan with towel",
+        "wash the pan right away",
+        "set the pan down nearby",
+        "store the pan in cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "wash the pan right away",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0112",
+      "question": "What is P23's approach when handling the sauce bottle during this preparation moment?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Opens it again and pours without further agitation.",
+        "Taps it, shakes it, then closes it afterward.",
+        "Wipes the nozzle and leaves it uncapped nearby.",
+        "Sets it aside to drain naturally before securing it.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Taps it, shakes it, then closes it afterward.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0113",
+      "question": "What is P23's approach to adding rice during this preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Pauses to rinse the rice between each measured addition.",
+        "Transfers a full amount at once, then moves on to cooking.",
+        "Adds rice in portions, returning for more after each pour.",
+        "Measures rice separately first, then combines it all at once.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Adds rice in portions, returning for more after each pour.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0114",
+      "question": "When adding water during the task, what pattern does P23 seem to prefer?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Measures water with a cup",
+        "Adds water in repeated portions",
+        "Leaves water aside for later",
+        "Fills one large container first",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Adds water in repeated portions",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0115",
+      "question": "When P23 prepares hot water for cooking, what workflow does P23 tend to use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "P23 waits until all ingredients are cooked before adding water.",
+        "P23 fills the cooking pan directly and heats water only on the hob.",
+        "P23 uses preheated bottled water and skips the sink entirely.",
+        "P23 heats water in the kettle before using it for the dish.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "P23 heats water in the kettle before using it for the dish.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 32,
+      "is_unanswerable": true,
+      "source_participant": "p02",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0116",
+      "question": "What strategy does P23 use for managing the used can-opening tool during cleanup?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Sets it on the counter and wipes it with a cloth.",
+        "Puts it on a rack and returns to it later.",
+        "Leaves it by the sink and cleans other items first.",
+        "Places it in a bowl and then washes it soon after.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Places it in a bowl and then washes it soon after.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0117",
+      "question": "Across videos, after P23 picks up a spoon, what cooking action is most likely next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Measures rice with it",
+        "Scrapes peel with it",
+        "Mixes curry with it",
+        "Serves water with it",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Mixes curry with it",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0118",
+      "question": "When water quantity matters, what control method does P23 use?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Uses a glass repeatedly as the measuring and transfer tool.",
+        "Adds water only after the stove has been running for a while.",
+        "Fills the cooking vessel directly from the tap without a measure.",
+        "Estimates water by watching the level in the cooking bowl.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Uses a glass repeatedly as the measuring and transfer tool.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0119",
+      "question": "Across videos, when P23 uses sink water, what control pattern is most characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Avoids the sink during prep",
+        "Actively opens and closes the tap",
+        "Keeps water running throughout",
+        "Uses stored water from bowls",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Actively opens and closes the tap",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0120",
+      "question": "When seasoning prawns, how does P23 appear to spread the seasoning after adding it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Tosses the prawns by hand",
+        "Stirs the prawns with a spoon",
+        "Leaves the prawns to sit",
+        "Shakes the prawns in the container",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Shakes the prawns in the container",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p09",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0121",
+      "question": "What approach does P23 take to adjust the dough's shape during this part of preparation?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps it on the paper and spreads it with a spatula.",
+        "Moves it to a bowl and mixes it with a spoon.",
+        "Lifts it from the paper and squeezes it by hand.",
+        "Leaves it on the paper and flattens it with a rolling pin.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Lifts it from the paper and squeezes it by hand.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p04",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0122",
+      "question": "What was P23 doing in video P23_????\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Toasted bread in the toaster",
+        "Packed leftovers into container",
+        "Cooked chickpeas in saucepan on hob",
+        "Scrubbed sink with sponge",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "ERecall",
+      "ground_truth": "Cooked chickpeas in saucepan on hob",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 16,
+      "is_unanswerable": true,
+      "source_participant": "p22",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0123",
+      "question": "Across sessions, what does P23 typically do right after taking a bottle?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "pour liquid from bottle",
+        "wash bottle at sink",
+        "carry bottle to stove",
+        "put bottle down again",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put bottle",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0124",
+      "question": "After P23 puts waste into the bin area, what does P23 typically activate next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "turn-on tap at sink",
+        "mix curry with spoon",
+        "close packet of rice",
+        "take pan from stove",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "turn-on tap",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0125",
+      "question": "When setting up for cutting-related work, what is P23's preparation style?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Keeps the knife in hand while moving ingredients around.",
+        "Uses only bowls and avoids plate-based cutting setup.",
+        "Positions a plate first, then brings the knife into the setup.",
+        "Starts with the knife, then searches for a place to set food.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Positions a plate first, then brings the knife into the setup.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0126",
+      "question": "What strategy does P23 use while preparing the mango?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Cuts a portion, puts mango aside, then returns to cutting more.",
+        "Cuts all the mango continuously before moving any pieces aside.",
+        "Peels the mango first, then cuts all flesh in one pass.",
+        "Moves mango to a bowl first, then delays cutting until later.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Cuts a portion, puts mango aside, then returns to cutting more.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0127",
+      "question": "Across sessions, what does P23 typically do after taking waste?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "leave waste on plate",
+        "carry waste to stove",
+        "put-in waste container",
+        "rinse waste in sink",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "put-in waste",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0128",
+      "question": "How does P23 handle getting the kettle ready to heat?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He sets it down, then switches it on to heat.",
+        "He stores it away, then returns to heat it later.",
+        "He checks it, then leaves it idle on the counter.",
+        "He reopens it, then adjusts the contents before heating.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He sets it down, then switches it on to heat.",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0129",
+      "question": "After P23 puts the cloth down, what tool does P23 most often pick up next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "take pan for stove",
+        "take knife for prep",
+        "take glass for water",
+        "take bottle for oil",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "take knife",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0130",
+      "question": "What is P23's approach to portioning lentils during this kitchen task?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Works in repeated small additions, returning for more after pouring.",
+        "Sets the lentils aside first, then mixes them in near the end.",
+        "Measures one full amount first, then empties it in a single pour.",
+        "Soaks the lentils briefly, then transfers them only after draining.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "A",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "Works in repeated small additions, returning for more after pouring.",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0131",
+      "question": "Across videos, when P23 is working around cooked food, what pan-related follow-up is characteristic?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Moves food to fridge",
+        "Washes the stove top",
+        "Covers all ingredients",
+        "Returns attention to the pan",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "D",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Returns attention to the pan",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101",
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 2,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0132",
+      "question": "When P23 is arranging plates and has just set one down, what do they typically do next in this routine?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "stack the plate higher",
+        "pick up another plate",
+        "slide the plate aside",
+        "wipe the plate clean",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "pick up another plate",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0133",
+      "question": "When P23 is putting away a sieve, where do they choose to store it?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leaves it on the counter",
+        "Hangs it on a wall hook",
+        "Sets it in the sink",
+        "Places it in the cupboard",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "E",
+      "is_multiple_choice": true,
+      "qa_type": "SPref",
+      "ground_truth": "Places it in the cupboard",
+      "video_id": "P23_???",
+      "video_ids": [
+        "P23_???"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???",
+        "P23_???"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": true,
+      "source_participant": "p06",
+      "target_participant": "p23"
+    },
+    {
+      "question_id": "p23_q0134",
+      "question": "After P23 sets the spoon down during the cleaning routine, what do they typically do next?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "Leave the spoon on rack",
+        "Pick the spoon back up",
+        "Dry the spoon with towel",
+        "Store the spoon in drawer",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "B",
+      "is_multiple_choice": true,
+      "qa_type": "SHabit",
+      "ground_truth": "Pick the spoon back up",
+      "video_id": "P23_102",
+      "video_ids": [
+        "P23_102"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    },
+    {
+      "question_id": "p23_q0135",
+      "question": "How does P23 get the plate ready for use in this sequence?\n\nIMPORTANT: If the information needed to answer this question is not available in your memory or context, you MUST select option E. Only select A-D if you are confident the answer is supported by information you have access to.",
+      "choices": [
+        "He checks it briefly, then stacks it with spare plates.",
+        "He rinses it at the sink, then dries it before use.",
+        "He opens it first, then places it down for use.",
+        "He leaves it closed and returns it with other dishes.",
+        "The information is not available based on the given context"
+      ],
+      "correct_answer": "C",
+      "is_multiple_choice": true,
+      "qa_type": "SRoutine",
+      "ground_truth": "He opens it first, then places it down for use.",
+      "video_id": "P23_101",
+      "video_ids": [
+        "P23_101"
+      ],
+      "participant_id": "P23",
+      "video_scope": [
+        "P23_101",
+        "P23_102"
+      ],
+      "num_videos": 1,
+      "is_unanswerable": false
+    }
+  ],
+  "metadata": {
+    "format": "multiple_choice_5",
+    "option_e": "The information is not available based on the given context",
+    "source": "EAM-QA source: per_participant_final/P23.json",
+    "n": 109,
+    "by_type": {
+      "SPref": 31,
+      "SHabit": 31,
+      "SRoutine": 41,
+      "ERecall": 6
+    },
+    "skipped": 0,
+    "eam_qa_unanswerable_augmentation": {
+      "n_answerable": 109,
+      "n_unanswerable": 27,
+      "unanswerable_ratio": 0.19852941176470587,
+      "donor_pids": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p06",
+        "p07",
+        "p09",
+        "p11",
+        "p22",
+        "p25",
+        "p26",
+        "p28",
+        "p30",
+        "p37"
+      ]
+    }
+  }
+}

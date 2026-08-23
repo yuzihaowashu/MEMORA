@@ -1,0 +1,299 @@
+name: CI
+
+# Data-free invariant checks. These do NOT need MEMORA_DATA_ROOT / HF data:
+# they guard syntax, registry<->script sync, and public-tree hygiene.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lightweight linters
+        run: |
+          python -m pip install --quiet pyflakes
+          python -m pip install --quiet setuptools wheel
+          python -m pip install --quiet -e . --no-build-isolation
+
+      - name: Syntax (compileall)
+        run: python -m compileall -q scripts src/memora src/memora_bench
+
+      - name: Pipeline imports
+        run: |
+          python - <<'PY'
+          import importlib
+          import importlib.metadata
+          import pkgutil
+          from pathlib import Path
+
+          import memora
+          from memora.pipeline.api_client import DASHSCOPE_API_BASE
+          from memora.pipeline.formation_config import EPIC_KITCHENS_CONFIG
+          from memora.pipeline.consolidation import run_offline_consolidation
+          from memora.pipeline.memory_editor import EmbodiedMemoryState
+          from memora.pipeline.prompts import PromptBuilder
+          from memora.pipeline.segment_encoder import SegmentEncoder
+          from memora.memory_agent import AgentEnvironment
+
+          assert EPIC_KITCHENS_CONFIG.segment_length == 10.0
+          assert "dashscope.aliyuncs.com" in DASHSCOPE_API_BASE
+          assert PromptBuilder(EPIC_KITCHENS_CONFIG).build_typed_memory_vlm_prompt()
+          assert callable(run_offline_consolidation)
+          assert EmbodiedMemoryState is not None
+          assert SegmentEncoder is not None
+          assert AgentEnvironment is not None
+          assert importlib.metadata.version("memora") == "1.0.0"
+          assert "version: 1.0.0" in Path("CITATION.cff").read_text()
+
+          imported = []
+          for module in pkgutil.walk_packages(memora.__path__, memora.__name__ + "."):
+              importlib.import_module(module.name)
+              imported.append(module.name)
+          assert imported
+          PY
+
+      - name: Evaluation failure contracts
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import tempfile
+          from pathlib import Path
+          from unittest.mock import patch
+
+          from memora.evaluation.results import is_complete_eam_qa_result
+          from memora.memory_agent.memory_representations.graph import tools as graph_memory_tools
+          from memora.memory_agent.tools import embedding
+
+          with tempfile.TemporaryDirectory() as directory:
+              root = Path(directory)
+              failed_result = root / "failed_eam_qa.json"
+              failed_result.write_text(json.dumps({
+                  "total_questions": 1,
+                  "results": [{
+                      "question_id": "q1",
+                      "is_correct": False,
+                      "error": "model request failed",
+                  }],
+              }))
+              assert not is_complete_eam_qa_result(failed_result)
+
+              try:
+                  graph_memory_tools.GraphMemoryTools(str(root / "missing_graph.json"))
+              except FileNotFoundError:
+                  pass
+              else:
+                  raise AssertionError("missing Graph-2D memory must fail fast")
+
+              embedding._MODEL = None
+              embedding._LOAD_ATTEMPTED = False
+              os.environ["MEMORA_REQUIRE_E5"] = "1"
+              with patch.dict(sys.modules, {"sentence_transformers": None}):
+                  try:
+                      embedding.get_model("intfloat/e5-base-v2", "cpu")
+                  except RuntimeError:
+                      pass
+                  else:
+                      raise AssertionError("required E5 retrieval must fail fast")
+              os.environ.pop("MEMORA_REQUIRE_E5")
+          PY
+
+      - name: Public command-line entry points
+        run: |
+          memora-segment-encode --help >/dev/null
+          memora-memory-edit --help >/dev/null
+          memora-eam-qa --help >/dev/null
+          memora-plan --help >/dev/null
+
+      - name: Released benchmark contracts
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path("src/memora_bench")
+          eam_files = sorted((root / "eam_qa/questions").glob("p*.json"))
+          assert len(eam_files) == 18
+          qa_types = set()
+          question_ids = set()
+          core_questions = 0
+          unanswerable_controls = 0
+          for path in eam_files:
+              payload = json.loads(path.read_text())
+              assert payload["questions"]
+              for question in payload["questions"]:
+                  question_id = question["question_id"]
+                  assert re.fullmatch(rf"{path.stem}_q\d{{4}}", question_id)
+                  assert question_id not in question_ids
+                  question_ids.add(question_id)
+                  assert question["participant_id"].lower() == path.stem
+                  assert len(question["choices"]) == 5
+                  assert question["correct_answer"] in {"A", "B", "C", "D", "E"}
+                  assert (question["correct_answer"] == "E") == bool(
+                      question.get("is_unanswerable", False)
+                  )
+                  assert question["question"].strip()
+                  assert question["ground_truth"].strip()
+                  assert "qa_category" not in question
+                  assert "public_type" not in question
+                  qa_types.add(question["qa_type"])
+                  if question.get("is_unanswerable", False):
+                      unanswerable_controls += 1
+                  else:
+                      core_questions += 1
+          assert qa_types == {"SPref", "SHabit", "SRoutine", "ERecall"}
+          assert len(question_ids) == 2763
+          assert core_questions == 2212
+          assert unanswerable_controls == 551
+
+          video_id_file = root / "planning/data/participant_video_ids.jsonl"
+          video_ids = {
+              json.loads(line)["video_id"]
+              for line in video_id_file.read_text().splitlines()
+              if line.strip()
+          }
+          assert len(video_ids) == 201
+          assert len({video_id.split("_", 1)[0] for video_id in video_ids}) == 18
+
+          expected_counts = {"replay": 207, "generalize": 153}
+          expected_types = {
+              "replay": {
+                  "cleanup_organization",
+                  "meal_preparation",
+                  "multi_step_cooking",
+                  "object_retrieval_setup",
+                  "routine_reproduction",
+              },
+              "generalize": {"transfer", "composition", "fully_novel"},
+          }
+          for split, expected_count in expected_counts.items():
+              files = sorted((root / f"planning/suites/{split}").glob("p*.json"))
+              assert len(files) == 18
+              tasks = []
+              for path in files:
+                  payload = json.loads(path.read_text())
+                  assert isinstance(payload, list)
+                  current = payload
+                  assert all(task["participant_id"].lower() == path.stem for task in current)
+                  assert all((task.get("task_query") or "").strip() for task in current)
+                  assert all(
+                      isinstance(task.get("ground_truth_steps"), list)
+                      and task["ground_truth_steps"]
+                      for task in current
+                  )
+                  if split == "replay":
+                      assert all(
+                          all(
+                              isinstance(step, dict)
+                              and str(step.get("narration") or "").strip()
+                              and str(step.get("narration_id") or "").strip()
+                              for step in task["ground_truth_steps"]
+                          )
+                          for task in current
+                      )
+                  else:
+                      assert all(
+                          all(isinstance(step, str) and step.strip() for step in task["ground_truth_steps"])
+                          for task in current
+                      )
+                  tasks.extend(current)
+              assert len(tasks) == expected_count
+              assert len({task["task_id"] for task in tasks}) == expected_count
+              assert {task.get("task_type") for task in tasks} == expected_types[split]
+          PY
+
+      - name: Benchmark explorer is synchronized
+        run: |
+          cp website/assets/benchmark-explorer-data.js /tmp/benchmark-explorer-data.js
+          python scripts/website/build_benchmark_explorer.py
+          cmp website/assets/benchmark-explorer-data.js /tmp/benchmark-explorer-data.js
+
+      - name: Build installable package
+        run: |
+          python -m pip wheel . --no-deps --no-build-isolation -w /tmp/memora-wheel
+          python - <<'PY'
+          import zipfile
+          from pathlib import Path
+
+          wheels = list(Path("/tmp/memora-wheel").glob("memora-1.0.0-*.whl"))
+          assert len(wheels) == 1, wheels
+          wheel = wheels[0]
+          with zipfile.ZipFile(wheel) as archive:
+              names = set(archive.namelist())
+          assert "memora/__init__.py" in names
+          assert "memora_bench/planning/data/participant_video_ids.jsonl" in names
+          forbidden_fragments = (
+              "EPIC_100_train.csv",
+              "participant_video_ids.txt",
+          )
+          assert not any(
+              fragment in name
+              for name in names
+              for fragment in forbidden_fragments
+          )
+          PY
+
+      - name: Static Python checks
+        run: python -m pyflakes scripts src/memora src/memora_bench
+
+      - name: Paper registry loads
+        run: |
+          python3 scripts/paper_results/reproduce_results.py --list
+          python3 scripts/paper_results/reproduce_results.py --ids
+
+      - name: Paper-result commands match registry
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          registry_text = Path("scripts/paper_results/reproduce_results.py").read_text()
+          registry = set(re.findall(r'^    "([^"]+)": \{', registry_text, re.M))
+          called = set()
+          commands = list(Path("scripts/paper_results/commands").rglob("*.sh"))
+          for command in commands:
+              text = command.read_text()
+              match = re.search(r'reproduce_results\.py"\s+(\S+)\s+--refresh', text)
+              assert match, command
+              entry_id = match.group(1)
+              assert entry_id in registry, (command, entry_id)
+              assert entry_id not in called, entry_id
+              called.add(entry_id)
+          assert called == registry, (registry - called, called - registry)
+          PY
+
+      - name: Local documentation links
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          documents = [
+              Path("README.md"),
+              *Path("docs").glob("*.md"),
+              *Path("scripts").rglob("README.md"),
+              *Path("src").rglob("README.md"),
+          ]
+          pattern = re.compile(r'\[[^\]]*\]\(([^)]+)\)')
+          for document in documents:
+              for raw in pattern.findall(document.read_text()):
+                  target = raw.split("#", 1)[0].strip().strip("<>")
+                  if not target or target.startswith(("http://", "https://", "mailto:")):
+                      continue
+                  assert (document.parent / target).resolve().exists(), (document, raw)
+          PY
+
+      - name: Public tree hygiene
+        run: bash scripts/validate_release.sh

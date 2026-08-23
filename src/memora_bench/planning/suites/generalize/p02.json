@@ -1,0 +1,208 @@
+[
+  {
+    "task_id": "generalize_transfer_P02_cutting_onion",
+    "task_type": "transfer",
+    "task_query": "Help P02 cut the onion.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "cutting",
+    "source_object": "yellow bell pepper",
+    "target_object": "onion",
+    "ground_truth_steps": [
+      "Pick up the white onion from the pan.",
+      "Place the white onion on the brown wood cutting board on the counter.",
+      "Pick up the silver metal knife from the sink.",
+      "Hold the white onion steady with one hand on the brown wood cutting board.",
+      "Cut the white onion into pieces with the silver metal knife.",
+      "Place the silver metal knife back on the sink.",
+      "Transfer the cut onion pieces to the white ceramic bowl."
+    ],
+    "rationale": "Person knows how to 'cutting' the 'yellow bell pepper' (13x observed). Transfer to 'onion' (never observed with 'cutting')."
+  },
+  {
+    "task_id": "generalize_transfer_P02_rinsing_onion",
+    "task_type": "transfer",
+    "task_query": "Help P02 wash the onion before preparing it.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "rinsing",
+    "source_object": "plate",
+    "target_object": "onion",
+    "ground_truth_steps": [
+      "Pick up the white onion from the pan.",
+      "Carry the onion to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Rinse the onion under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean onion on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'plate' (41x observed). Transfer to 'onion' (never observed with 'rinsing')."
+  },
+  {
+    "task_id": "generalize_transfer_P02_rinsing_sponge",
+    "task_type": "transfer",
+    "task_query": "Help P02 clean the sponge.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "rinsing",
+    "source_object": "plate",
+    "target_object": "sponge",
+    "ground_truth_steps": [
+      "Pick up the green foam sponge from the sink.",
+      "Carry the sponge to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the green foam sponge.",
+      "Scrub the sponge with the green foam sponge.",
+      "Rinse the sponge under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean sponge on the drying rack."
+    ],
+    "rationale": "Person knows how to 'rinsing' the 'plate' (41x observed). Transfer to 'sponge' (never observed with 'rinsing')."
+  },
+  {
+    "task_id": "generalize_transfer_P02_scrubs_bowl",
+    "task_type": "transfer",
+    "task_query": "Help P02 clean the bowl.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "scrubs",
+    "source_object": "salmon",
+    "target_object": "bowl",
+    "ground_truth_steps": [
+      "Pick up the white ceramic bowl from the counter.",
+      "Carry the bowl to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the green foam sponge.",
+      "Scrub the bowl with the green foam sponge.",
+      "Rinse the bowl under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean bowl on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'salmon' (10x observed). Transfer to 'bowl' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P02_scrubs_plate",
+    "task_type": "transfer",
+    "task_query": "Help P02 clean the plate.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "scrubs",
+    "source_object": "salmon",
+    "target_object": "plate",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the sink.",
+      "Carry the plate to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the green foam sponge.",
+      "Scrub the plate with the green foam sponge.",
+      "Rinse the plate under running water.",
+      "Turn off the silver metal faucet.",
+      "Place the clean plate on the drying rack."
+    ],
+    "rationale": "Person knows how to 'scrubs' the 'salmon' (10x observed). Transfer to 'plate' (never observed with 'scrubs')."
+  },
+  {
+    "task_id": "generalize_transfer_P02_stirring_onions",
+    "task_type": "transfer",
+    "task_query": "Help P02 stir the onions.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "source_action": "stirring",
+    "source_object": "mixture",
+    "target_object": "onions",
+    "ground_truth_steps": [
+      "Pick up the black plastic spatula from the sink.",
+      "Position the black plastic spatula in the black metal frying pan with the onions.",
+      "Stir the onions gently in the black metal frying pan.",
+      "Continue stirring until evenly cooked.",
+      "Place the black plastic spatula on the counter."
+    ],
+    "rationale": "Person knows how to 'stirring' the 'mixture' (25x observed). Transfer to 'onions' (never observed with 'stirring')."
+  },
+  {
+    "task_id": "generalize_composition_P02_full_dishwashing_cycle",
+    "task_type": "composition",
+    "task_query": "Help P02 wash all the dirty dishes, dry them, and put them away.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "components": [
+      "scrubbing dishes",
+      "rinsing dishes",
+      "drying",
+      "storing"
+    ],
+    "ground_truth_steps": [
+      "Collect dirty dishes from the counter to the silver metal sink.",
+      "Turn on the silver metal faucet.",
+      "Apply dish soap to the green foam sponge.",
+      "Scrub the white ceramic plate with the green foam sponge.",
+      "Rinse the white ceramic plate under running water.",
+      "Place the clean white plate on the drying rack.",
+      "Scrub the white ceramic bowl with the green foam sponge.",
+      "Rinse the white ceramic bowl under running water.",
+      "Place the clean bowl on the drying rack.",
+      "Turn off the silver metal faucet."
+    ],
+    "rationale": "Person knows: scrubbing pot (9x), rinsing pot (3x). Composition: extend to full wash-dry-store cycle for all dishes."
+  },
+  {
+    "task_id": "generalize_novel_P02_set_table_for_meal",
+    "task_type": "fully_novel",
+    "task_query": "Help P02 set the table for a meal with plate, bowl, and cutlery.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "ground_truth_steps": [
+      "Pick up the white ceramic plate from the sink.",
+      "Place the white ceramic plate on the table.",
+      "Pick up the white ceramic bowl from the counter.",
+      "Place the white ceramic bowl above the plate on the table.",
+      "Pick up the silver metal knife from the sink.",
+      "Place the knife to the right of the plate on the table.",
+      "Pick up the silver metal fork from the sink.",
+      "Place the fork to the left of the plate on the table.",
+      "Pick up the white ceramic cup from the countertop.",
+      "Place the cup above the knife on the table."
+    ],
+    "rationale": "Person never observed setting a table, but knows locations of plates, bowls, knives from extensive kitchen activity."
+  },
+  {
+    "task_id": "generalize_novel_P02_clean_kitchen_countertop",
+    "task_type": "fully_novel",
+    "task_query": "Help P02 clear and clean the entire kitchen countertop.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "ground_truth_steps": [
+      "Clear loose items from the countertop to the silver metal sink.",
+      "Pick up the black and white cloth from the countertop.",
+      "Turn on the silver metal faucet.",
+      "Wet the black and white cloth under the silver metal faucet.",
+      "Turn off the silver metal faucet.",
+      "Wipe the countertop surface from one end to the other with the black and white cloth.",
+      "Rinse the black and white cloth under the silver metal faucet.",
+      "Wipe the countertop again to remove residue.",
+      "Rinse and wring out the black and white cloth.",
+      "Place the black and white cloth back on the countertop."
+    ],
+    "rationale": "Person frequently wipes surfaces (stove, hob) but never observed doing a full countertop clean. Requires generalizing wiping patterns."
+  },
+  {
+    "task_id": "generalize_novel_P02_prepare_simple_salad",
+    "task_type": "fully_novel",
+    "task_query": "Help P02 prepare a simple salad using available vegetables.",
+    "video_id": "P02_101",
+    "participant_id": "P02",
+    "ground_truth_steps": [
+      "Pick up the cucumber from the counter.",
+      "Turn on the silver metal faucet.",
+      "Rinse the cucumber under running water in the silver metal sink.",
+      "Turn off the silver metal faucet.",
+      "Place the cucumber on the brown wood cutting board.",
+      "Pick up the silver metal knife from the sink.",
+      "Cut the cucumber into slices on the brown wood cutting board.",
+      "Transfer the cucumber slices to the white ceramic bowl.",
+      "Place the silver metal knife back on the sink.",
+      "Mix the salad ingredients in the white ceramic bowl."
+    ],
+    "rationale": "Person has extensive cutting and vegetable handling experience, but salad preparation (raw assembly) is a novel task category."
+  }
+]

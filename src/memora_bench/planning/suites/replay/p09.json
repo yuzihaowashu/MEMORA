@@ -1,0 +1,1601 @@
+[
+  {
+    "task_id": "plan_P09_103_001",
+    "participant_id": "P09",
+    "video_id": "P09_103",
+    "task_type": "meal_preparation",
+    "task_query": "Help P09 prepare the chicken and season it for cooking.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_103_8",
+        "narration": "slice chicken",
+        "verb": "slice",
+        "noun": "chicken",
+        "start_time": "00:00:33.47",
+        "end_time": "00:00:56.62",
+        "enriched_narration": "slice black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_9",
+        "narration": "chop chicken",
+        "verb": "chop",
+        "noun": "chicken",
+        "start_time": "00:01:00.76",
+        "end_time": "00:01:04.82",
+        "enriched_narration": "chop black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_10",
+        "narration": "slice chicken",
+        "verb": "slice",
+        "noun": "chicken",
+        "start_time": "00:01:10.09",
+        "end_time": "00:02:07.91",
+        "enriched_narration": "slice black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_11",
+        "narration": "add chicken breast to pan",
+        "verb": "add",
+        "noun": "breast:chicken",
+        "start_time": "00:02:19.00",
+        "end_time": "00:02:26.32",
+        "enriched_narration": "add chicken breast to pan on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_12",
+        "narration": "clean hands",
+        "verb": "clean",
+        "noun": "hand",
+        "start_time": "00:02:29.58",
+        "end_time": "00:02:35.15",
+        "enriched_narration": "clean skin tone flesh hands at right hand",
+        "matched_object": {
+          "color": "skin tone",
+          "material": "flesh",
+          "location": "right hand",
+          "memory_id": "hand",
+          "memory_name": "hand"
+        }
+      },
+      {
+        "narration_id": "P09_103_13",
+        "narration": "add condiments to chicken",
+        "verb": "add-to",
+        "noun": "condiment",
+        "start_time": "00:02:39.48",
+        "end_time": "00:02:45.61"
+      },
+      {
+        "narration_id": "P09_103_14",
+        "narration": "stir chicken",
+        "verb": "stir",
+        "noun": "chicken",
+        "start_time": "00:02:51.43",
+        "end_time": "00:03:02.03",
+        "enriched_narration": "stir black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_15",
+        "narration": "take chicken breast",
+        "verb": "take",
+        "noun": "breast:chicken",
+        "start_time": "00:03:05.00",
+        "end_time": "00:03:08.08",
+        "enriched_narration": "take chicken breast on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 154.6,
+    "primary_objects": [
+      "chicken",
+      "chicken breast",
+      "hand",
+      "condiment"
+    ],
+    "primary_verbs": [
+      "slice",
+      "chop",
+      "add",
+      "clean",
+      "add-to"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_008",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P09 clean the plates and prepare the eggs.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_69",
+        "narration": "clean plates",
+        "verb": "clean",
+        "noun": "plate",
+        "start_time": "00:06:51.88",
+        "end_time": "00:07:23.80",
+        "enriched_narration": "clean white ceramic plates on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food_residue",
+          "memory_name": "plate_with_food_residue"
+        }
+      },
+      {
+        "narration_id": "P09_104_70",
+        "narration": "move chorizo",
+        "verb": "move",
+        "noun": "chorizo",
+        "start_time": "00:07:28.04",
+        "end_time": "00:07:43.39"
+      },
+      {
+        "narration_id": "P09_104_71",
+        "narration": "grab eggs",
+        "verb": "grab",
+        "noun": "egg",
+        "start_time": "00:07:43.41",
+        "end_time": "00:07:45.60",
+        "enriched_narration": "grab brown shell eggs on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "shell",
+          "location": "on countertop",
+          "memory_id": "egg",
+          "memory_name": "egg"
+        }
+      },
+      {
+        "narration_id": "P09_104_72",
+        "narration": "crack eggs",
+        "verb": "crack",
+        "noun": "egg",
+        "start_time": "00:07:45.16",
+        "end_time": "00:07:52.64",
+        "enriched_narration": "crack brown shell eggs on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "shell",
+          "location": "on countertop",
+          "memory_id": "egg",
+          "memory_name": "egg"
+        }
+      },
+      {
+        "narration_id": "P09_104_73",
+        "narration": "take shells to trash",
+        "verb": "take",
+        "noun": "shell",
+        "start_time": "00:07:53.51",
+        "end_time": "00:07:56.03"
+      },
+      {
+        "narration_id": "P09_104_74",
+        "narration": "clean hands",
+        "verb": "clean",
+        "noun": "hand",
+        "start_time": "00:07:57.02",
+        "end_time": "00:08:01.34"
+      },
+      {
+        "narration_id": "P09_104_75",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:08:01.71",
+        "end_time": "00:08:06.01"
+      },
+      {
+        "narration_id": "P09_104_76",
+        "narration": "scramble eggs",
+        "verb": "scramble",
+        "noun": "egg",
+        "start_time": "00:08:06.11",
+        "end_time": "00:08:54.17",
+        "enriched_narration": "scramble brown shell eggs on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "shell",
+          "location": "on countertop",
+          "memory_id": "egg",
+          "memory_name": "egg"
+        }
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 122.3,
+    "primary_objects": [
+      "egg",
+      "hand",
+      "plate",
+      "chorizo",
+      "shell"
+    ],
+    "primary_verbs": [
+      "clean",
+      "move",
+      "grab",
+      "crack",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P09_103_004",
+    "participant_id": "P09",
+    "video_id": "P09_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P09 season the prawns with garlic and pepper.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_103_35",
+        "narration": "take garlic powder",
+        "verb": "take",
+        "noun": "powder:garlic",
+        "start_time": "00:10:43.13",
+        "end_time": "00:10:46.93"
+      },
+      {
+        "narration_id": "P09_103_36",
+        "narration": "add garlic to prawns",
+        "verb": "add-to",
+        "noun": "garlic",
+        "start_time": "00:10:49.93",
+        "end_time": "00:10:52.78"
+      },
+      {
+        "narration_id": "P09_103_37",
+        "narration": "place garlic on table",
+        "verb": "place-on",
+        "noun": "garlic",
+        "start_time": "00:10:54.73",
+        "end_time": "00:10:55.91"
+      },
+      {
+        "narration_id": "P09_103_38",
+        "narration": "take pepper",
+        "verb": "take",
+        "noun": "pepper",
+        "start_time": "00:10:56.64",
+        "end_time": "00:10:57.85"
+      },
+      {
+        "narration_id": "P09_103_39",
+        "narration": "add pepper to prawns",
+        "verb": "add-to",
+        "noun": "pepper",
+        "start_time": "00:10:59.55",
+        "end_time": "00:11:14.70"
+      },
+      {
+        "narration_id": "P09_103_40",
+        "narration": "shake prawns",
+        "verb": "shake",
+        "noun": "prawn",
+        "start_time": "00:11:15.36",
+        "end_time": "00:11:17.75"
+      },
+      {
+        "narration_id": "P09_103_41",
+        "narration": "place pepper on table",
+        "verb": "place-on",
+        "noun": "pepper",
+        "start_time": "00:11:19.46",
+        "end_time": "00:11:22.28"
+      },
+      {
+        "narration_id": "P09_103_42",
+        "narration": "fry chicken",
+        "verb": "fry",
+        "noun": "chicken",
+        "start_time": "00:11:22.38",
+        "end_time": "00:11:53.97",
+        "enriched_narration": "fry black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_43",
+        "narration": "move chicken",
+        "verb": "move",
+        "noun": "chicken",
+        "start_time": "00:11:42.22",
+        "end_time": "00:11:46.77",
+        "enriched_narration": "move black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 63.6,
+    "primary_objects": [
+      "pepper",
+      "garlic",
+      "chicken",
+      "garlic powder",
+      "prawn"
+    ],
+    "primary_verbs": [
+      "take",
+      "add-to",
+      "place-on",
+      "shake",
+      "fry"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_007",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P09 prepare the pan with oil and blend the eggs.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_60",
+        "narration": "take oil bottle",
+        "verb": "take",
+        "noun": "bottle:oil",
+        "start_time": "00:05:51.90",
+        "end_time": "00:05:53.50",
+        "enriched_narration": "take oil bottle on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "oil",
+          "memory_name": "oil"
+        }
+      },
+      {
+        "narration_id": "P09_104_61",
+        "narration": "spray oil on pan",
+        "verb": "spray-on",
+        "noun": "oil",
+        "start_time": "00:05:54.11",
+        "end_time": "00:05:59.38",
+        "enriched_narration": "spray green plastic oil on pan on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "oil",
+          "memory_name": "oil"
+        }
+      },
+      {
+        "narration_id": "P09_104_62",
+        "narration": "place oil on countertop",
+        "verb": "place-on",
+        "noun": "oil",
+        "start_time": "00:05:59.99",
+        "end_time": "00:06:01.24",
+        "enriched_narration": "place green plastic oil on countertop on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "oil",
+          "memory_name": "oil"
+        }
+      },
+      {
+        "narration_id": "P09_104_63",
+        "narration": "take eggs",
+        "verb": "take",
+        "noun": "egg",
+        "start_time": "00:06:01.91",
+        "end_time": "00:06:06.95",
+        "enriched_narration": "take brown shell eggs on countertop",
+        "matched_object": {
+          "color": "brown",
+          "material": "shell",
+          "location": "on countertop",
+          "memory_id": "egg",
+          "memory_name": "egg"
+        }
+      },
+      {
+        "narration_id": "P09_104_64",
+        "narration": "turn on blender",
+        "verb": "turn-on",
+        "noun": "blender",
+        "start_time": "00:06:23.98",
+        "end_time": "00:06:24.65",
+        "enriched_narration": "turn on pink plastic blender on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blender",
+          "memory_name": "pink blender"
+        }
+      },
+      {
+        "narration_id": "P09_104_65",
+        "narration": "shake blender",
+        "verb": "shake",
+        "noun": "blender",
+        "start_time": "00:06:26.31",
+        "end_time": "00:06:28.43",
+        "enriched_narration": "shake pink plastic blender on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blender",
+          "memory_name": "pink blender"
+        }
+      },
+      {
+        "narration_id": "P09_104_66",
+        "narration": "turn on blender",
+        "verb": "turn-on",
+        "noun": "blender",
+        "start_time": "00:06:30.51",
+        "end_time": "00:06:39.99",
+        "enriched_narration": "turn on pink plastic blender on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blender",
+          "memory_name": "pink blender"
+        }
+      },
+      {
+        "narration_id": "P09_104_67",
+        "narration": "turn off blender",
+        "verb": "turn-off",
+        "noun": "blender",
+        "start_time": "00:06:40.02",
+        "end_time": "00:06:41.30",
+        "enriched_narration": "turn off pink plastic blender on countertop",
+        "matched_object": {
+          "color": "pink",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "blender",
+          "memory_name": "pink blender"
+        }
+      },
+      {
+        "narration_id": "P09_104_68",
+        "narration": "open jug",
+        "verb": "open",
+        "noun": "jug",
+        "start_time": "00:06:42.64",
+        "end_time": "00:06:47.54"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 55.6,
+    "primary_objects": [
+      "blender",
+      "oil",
+      "oil bottle",
+      "egg",
+      "jug"
+    ],
+    "primary_verbs": [
+      "take",
+      "turn-on",
+      "spray-on",
+      "place-on",
+      "shake"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_000",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P09 clean the pan and rinse it off.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_0",
+        "narration": "take jug",
+        "verb": "take",
+        "noun": "jug",
+        "start_time": "00:00:02.84",
+        "end_time": "00:00:05.39"
+      },
+      {
+        "narration_id": "P09_104_1",
+        "narration": "place jug on countertop",
+        "verb": "place-on",
+        "noun": "jug",
+        "start_time": "00:00:06.07",
+        "end_time": "00:00:07.51"
+      },
+      {
+        "narration_id": "P09_104_2",
+        "narration": "take pan",
+        "verb": "take",
+        "noun": "pan",
+        "start_time": "00:00:10.45",
+        "end_time": "00:00:12.06",
+        "enriched_narration": "take black metal pan at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_3",
+        "narration": "take sponge",
+        "verb": "take",
+        "noun": "sponge",
+        "start_time": "00:00:14.79",
+        "end_time": "00:00:15.91",
+        "enriched_narration": "take yellow foam sponge at sink",
+        "matched_object": {
+          "color": "yellow",
+          "material": "foam",
+          "location": "sink",
+          "memory_id": "sponge",
+          "memory_name": "yellow sponge"
+        }
+      },
+      {
+        "narration_id": "P09_104_4",
+        "narration": "wash pan",
+        "verb": "wash",
+        "noun": "pan",
+        "start_time": "00:00:15.64",
+        "end_time": "00:00:25.74",
+        "enriched_narration": "wash black metal pan at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_5",
+        "narration": "add soap to sponge",
+        "verb": "add",
+        "noun": "soap",
+        "start_time": "00:00:35.28",
+        "end_time": "00:00:36.90",
+        "enriched_narration": "add green water soap to sponge at sink",
+        "matched_object": {
+          "color": "green",
+          "material": "water",
+          "location": "sink",
+          "memory_id": "sink_soapy_water",
+          "memory_name": "soapy water"
+        }
+      },
+      {
+        "narration_id": "P09_104_6",
+        "narration": "clean pan",
+        "verb": "clean",
+        "noun": "pan",
+        "start_time": "00:00:38.04",
+        "end_time": "00:00:52.39",
+        "enriched_narration": "clean black metal pan at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_7",
+        "narration": "rinse pan",
+        "verb": "rinse",
+        "noun": "pan",
+        "start_time": "00:00:52.59",
+        "end_time": "00:01:07.69",
+        "enriched_narration": "rinse black metal pan at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_8",
+        "narration": "take towel",
+        "verb": "take",
+        "noun": "towel",
+        "start_time": "00:01:09.32",
+        "end_time": "00:01:10.02"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 67.2,
+    "primary_objects": [
+      "pan",
+      "jug",
+      "sponge",
+      "soap",
+      "towel"
+    ],
+    "primary_verbs": [
+      "take",
+      "place-on",
+      "wash",
+      "add",
+      "clean"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_001",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P09 prepare the pan and gather bananas and strawberries.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_9",
+        "narration": "dry pan",
+        "verb": "dry",
+        "noun": "pan",
+        "start_time": "00:01:10.67",
+        "end_time": "00:01:14.59",
+        "enriched_narration": "dry black metal pan at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_10",
+        "narration": "place towel back",
+        "verb": "place",
+        "noun": "towel",
+        "start_time": "00:01:14.89",
+        "end_time": "00:01:15.44"
+      },
+      {
+        "narration_id": "P09_104_11",
+        "narration": "turn on stove",
+        "verb": "turn-on",
+        "noun": "stove",
+        "start_time": "00:01:15.10",
+        "end_time": "00:01:17.45",
+        "enriched_narration": "turn on black metal stove at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "burner",
+          "memory_name": "stove burner"
+        }
+      },
+      {
+        "narration_id": "P09_104_12",
+        "narration": "place pan on stove",
+        "verb": "place-on",
+        "noun": "pan",
+        "start_time": "00:01:16.99",
+        "end_time": "00:01:19.69",
+        "enriched_narration": "place black metal pan on stove at stove",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "stove",
+          "memory_id": "pan_black",
+          "memory_name": "black cooking pan"
+        }
+      },
+      {
+        "narration_id": "P09_104_13",
+        "narration": "take bananas",
+        "verb": "take",
+        "noun": "banana",
+        "start_time": "00:01:24.95",
+        "end_time": "00:01:26.10",
+        "enriched_narration": "take yellow fruit bananas on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "banana",
+          "memory_name": "banana"
+        }
+      },
+      {
+        "narration_id": "P09_104_14",
+        "narration": "peel banana",
+        "verb": "peel",
+        "noun": "banana",
+        "start_time": "00:01:27.54",
+        "end_time": "00:01:28.65",
+        "enriched_narration": "peel yellow fruit banana on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "banana",
+          "memory_name": "banana"
+        }
+      },
+      {
+        "narration_id": "P09_104_15",
+        "narration": "open fridge",
+        "verb": "open",
+        "noun": "fridge",
+        "start_time": "00:01:35.04",
+        "end_time": "00:01:37.22"
+      },
+      {
+        "narration_id": "P09_104_16",
+        "narration": "take strawberries",
+        "verb": "take",
+        "noun": "strawberry",
+        "start_time": "00:01:39.39",
+        "end_time": "00:01:41.61",
+        "enriched_narration": "take strawberries in hand",
+        "matched_object": {
+          "color": "red",
+          "material": "flesh",
+          "location": "in hand",
+          "memory_id": "strawberry",
+          "memory_name": "strawberry"
+        }
+      },
+      {
+        "narration_id": "P09_104_17",
+        "narration": "close fridge",
+        "verb": "close",
+        "noun": "fridge",
+        "start_time": "00:01:42.59",
+        "end_time": "00:01:44.58"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 33.9,
+    "primary_objects": [
+      "pan",
+      "banana",
+      "fridge",
+      "towel",
+      "stove"
+    ],
+    "primary_verbs": [
+      "take",
+      "dry",
+      "place",
+      "turn-on",
+      "place-on"
+    ]
+  },
+  {
+    "task_id": "plan_P09_106_002",
+    "participant_id": "P09",
+    "video_id": "P09_106",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P09 clean the microwave and put away the food.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_106_18",
+        "narration": "open juice carton",
+        "verb": "open",
+        "noun": "carton:juice",
+        "start_time": "00:01:28.23",
+        "end_time": "00:01:30.24",
+        "enriched_narration": "open juice carton in hand",
+        "matched_object": {
+          "color": "yellow",
+          "material": "plastic",
+          "location": "in hand",
+          "memory_id": "carton_of_eggs",
+          "memory_name": "carton_of_eggs"
+        }
+      },
+      {
+        "narration_id": "P09_106_19",
+        "narration": "pour juice in cup",
+        "verb": "pour-in",
+        "noun": "juice",
+        "start_time": "00:01:30.34",
+        "end_time": "00:01:41.18"
+      },
+      {
+        "narration_id": "P09_106_20",
+        "narration": "rinse packet",
+        "verb": "rinse",
+        "noun": "packet",
+        "start_time": "00:01:42.70",
+        "end_time": "00:01:55.77"
+      },
+      {
+        "narration_id": "P09_106_21",
+        "narration": "dry hands",
+        "verb": "dry",
+        "noun": "hand",
+        "start_time": "00:01:59.51",
+        "end_time": "00:02:07.71"
+      },
+      {
+        "narration_id": "P09_106_22",
+        "narration": "take fork",
+        "verb": "take",
+        "noun": "fork",
+        "start_time": "00:02:10.35",
+        "end_time": "00:02:11.51",
+        "enriched_narration": "take white metal fork in hand",
+        "matched_object": {
+          "color": "white",
+          "material": "metal",
+          "location": "in hand",
+          "memory_id": "fork",
+          "memory_name": "fork"
+        }
+      },
+      {
+        "narration_id": "P09_106_23",
+        "narration": "turn off microwave",
+        "verb": "turn-off",
+        "noun": "microwave",
+        "start_time": "00:02:18.58",
+        "end_time": "00:02:20.10",
+        "enriched_narration": "turn off white plastic microwave above stove",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "above stove",
+          "memory_id": "microwave",
+          "memory_name": "white microwave oven"
+        }
+      },
+      {
+        "narration_id": "P09_106_24",
+        "narration": "open microwave",
+        "verb": "open",
+        "noun": "microwave",
+        "start_time": "00:02:19.87",
+        "end_time": "00:02:21.91",
+        "enriched_narration": "open white plastic microwave above stove",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "above stove",
+          "memory_id": "microwave",
+          "memory_name": "white microwave oven"
+        }
+      },
+      {
+        "narration_id": "P09_106_25",
+        "narration": "take food out from microwave",
+        "verb": "take-out",
+        "noun": "food",
+        "start_time": "00:02:22.01",
+        "end_time": "00:02:23.86"
+      },
+      {
+        "narration_id": "P09_106_26",
+        "narration": "put food on countertop",
+        "verb": "put-on",
+        "noun": "food",
+        "start_time": "00:02:23.96",
+        "end_time": "00:02:27.03"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 58.8,
+    "primary_objects": [
+      "microwave",
+      "food",
+      "juice carton",
+      "juice",
+      "packet"
+    ],
+    "primary_verbs": [
+      "open",
+      "pour-in",
+      "rinse",
+      "dry",
+      "take"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_002",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "cleanup_organization",
+    "task_query": "Help P09 rinse the strawberries and store them in the fridge.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_18",
+        "narration": "clean strawberry",
+        "verb": "clean",
+        "noun": "strawberry",
+        "start_time": "00:01:46.96",
+        "end_time": "00:02:07.15",
+        "enriched_narration": "clean red flesh strawberry in hand",
+        "matched_object": {
+          "color": "red",
+          "material": "flesh",
+          "location": "in hand",
+          "memory_id": "strawberry",
+          "memory_name": "strawberry"
+        }
+      },
+      {
+        "narration_id": "P09_104_19",
+        "narration": "open fridge",
+        "verb": "open",
+        "noun": "fridge",
+        "start_time": "00:02:09.77",
+        "end_time": "00:02:11.31"
+      },
+      {
+        "narration_id": "P09_104_20",
+        "narration": "place strawberries in fridge",
+        "verb": "place-in",
+        "noun": "strawberry",
+        "start_time": "00:02:11.73",
+        "end_time": "00:02:12.26",
+        "enriched_narration": "place strawberries in fridge in hand",
+        "matched_object": {
+          "color": "red",
+          "material": "flesh",
+          "location": "in hand",
+          "memory_id": "strawberry",
+          "memory_name": "strawberry"
+        }
+      },
+      {
+        "narration_id": "P09_104_21",
+        "narration": "close fridge",
+        "verb": "close",
+        "noun": "fridge",
+        "start_time": "00:02:12.13",
+        "end_time": "00:02:13.50"
+      },
+      {
+        "narration_id": "P09_104_22",
+        "narration": "open fridge",
+        "verb": "open",
+        "noun": "fridge",
+        "start_time": "00:02:14.04",
+        "end_time": "00:02:14.86"
+      },
+      {
+        "narration_id": "P09_104_23",
+        "narration": "take chorizo",
+        "verb": "take",
+        "noun": "chorizo",
+        "start_time": "00:02:14.54",
+        "end_time": "00:02:16.44"
+      },
+      {
+        "narration_id": "P09_104_24",
+        "narration": "place chorizo on countertop",
+        "verb": "place-on",
+        "noun": "chorizo",
+        "start_time": "00:02:16.39",
+        "end_time": "00:02:19.39"
+      },
+      {
+        "narration_id": "P09_104_25",
+        "narration": "take jug",
+        "verb": "take",
+        "noun": "jug",
+        "start_time": "00:02:19.52",
+        "end_time": "00:02:20.10"
+      },
+      {
+        "narration_id": "P09_104_26",
+        "narration": "rinse strawberries",
+        "verb": "rinse",
+        "noun": "strawberry",
+        "start_time": "00:02:20.16",
+        "end_time": "00:02:27.31",
+        "enriched_narration": "rinse strawberries in hand",
+        "matched_object": {
+          "color": "red",
+          "material": "flesh",
+          "location": "in hand",
+          "memory_id": "strawberry",
+          "memory_name": "strawberry"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 40.3,
+    "primary_objects": [
+      "strawberry",
+      "fridge",
+      "chorizo",
+      "jug"
+    ],
+    "primary_verbs": [
+      "open",
+      "take",
+      "clean",
+      "place-in",
+      "close"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_003",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P09 prepare a smoothie with banana and honey.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_27",
+        "narration": "take banana",
+        "verb": "take",
+        "noun": "banana",
+        "start_time": "00:02:30.56",
+        "end_time": "00:02:32.98",
+        "enriched_narration": "take yellow fruit banana on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "banana",
+          "memory_name": "banana"
+        }
+      },
+      {
+        "narration_id": "P09_104_28",
+        "narration": "add banana to jug",
+        "verb": "add-to",
+        "noun": "banana",
+        "start_time": "00:02:32.69",
+        "end_time": "00:02:34.84",
+        "enriched_narration": "add yellow fruit banana to jug on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "banana",
+          "memory_name": "banana"
+        }
+      },
+      {
+        "narration_id": "P09_104_29",
+        "narration": "trash banana skin",
+        "verb": "trash",
+        "noun": "skin:banana",
+        "start_time": "00:02:34.41",
+        "end_time": "00:02:37.22",
+        "enriched_narration": "trash banana skin on countertop",
+        "matched_object": {
+          "color": "yellow",
+          "material": "fruit",
+          "location": "on countertop",
+          "memory_id": "banana",
+          "memory_name": "banana"
+        }
+      },
+      {
+        "narration_id": "P09_104_30",
+        "narration": "take honey",
+        "verb": "take",
+        "noun": "honey",
+        "start_time": "00:02:37.32",
+        "end_time": "00:02:38.18"
+      },
+      {
+        "narration_id": "P09_104_31",
+        "narration": "add honey to jug",
+        "verb": "add-to",
+        "noun": "honey",
+        "start_time": "00:02:38.28",
+        "end_time": "00:03:09.44"
+      },
+      {
+        "narration_id": "P09_104_32",
+        "narration": "open fridge",
+        "verb": "open",
+        "noun": "fridge",
+        "start_time": "00:03:08.23",
+        "end_time": "00:03:12.34"
+      },
+      {
+        "narration_id": "P09_104_33",
+        "narration": "take milk",
+        "verb": "take",
+        "noun": "milk",
+        "start_time": "00:03:11.72",
+        "end_time": "00:03:14.40",
+        "enriched_narration": "take white plastic milk on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "container_milk",
+          "memory_name": "container_milk"
+        }
+      },
+      {
+        "narration_id": "P09_104_34",
+        "narration": "shake milk",
+        "verb": "shake",
+        "noun": "milk",
+        "start_time": "00:03:14.50",
+        "end_time": "00:03:16.62",
+        "enriched_narration": "shake white plastic milk on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "container_milk",
+          "memory_name": "container_milk"
+        }
+      },
+      {
+        "narration_id": "P09_104_35",
+        "narration": "take soy milk",
+        "verb": "take",
+        "noun": "milk:soy",
+        "start_time": "00:03:16.34",
+        "end_time": "00:03:18.01",
+        "enriched_narration": "take soy milk on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "container_milk",
+          "memory_name": "container_milk"
+        }
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 47.4,
+    "primary_objects": [
+      "banana",
+      "honey",
+      "milk",
+      "banana skin",
+      "fridge"
+    ],
+    "primary_verbs": [
+      "take",
+      "add-to",
+      "trash",
+      "open",
+      "shake"
+    ]
+  },
+  {
+    "task_id": "plan_P09_105_000",
+    "participant_id": "P09",
+    "video_id": "P09_105",
+    "task_type": "object_retrieval_setup",
+    "task_query": "Help P09 prepare a cup of tea using the kettle and mug.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_105_0",
+        "narration": "take kettle",
+        "verb": "take",
+        "noun": "kettle",
+        "start_time": "00:00:00.89",
+        "end_time": "00:00:02.86",
+        "enriched_narration": "take white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_1",
+        "narration": "open kettle",
+        "verb": "open",
+        "noun": "kettle",
+        "start_time": "00:00:02.95",
+        "end_time": "00:00:04.20",
+        "enriched_narration": "open white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_2",
+        "narration": "fill kettle with water",
+        "verb": "fill",
+        "noun": "kettle",
+        "start_time": "00:00:04.27",
+        "end_time": "00:00:08.07",
+        "enriched_narration": "fill white plastic kettle with water on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_3",
+        "narration": "close kettle",
+        "verb": "close",
+        "noun": "kettle",
+        "start_time": "00:00:08.35",
+        "end_time": "00:00:08.90",
+        "enriched_narration": "close white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_4",
+        "narration": "place kettle back",
+        "verb": "place",
+        "noun": "kettle",
+        "start_time": "00:00:09.55",
+        "end_time": "00:00:11.25",
+        "enriched_narration": "place white plastic kettle back on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_5",
+        "narration": "turn on kettle",
+        "verb": "turn-on",
+        "noun": "kettle",
+        "start_time": "00:00:11.35",
+        "end_time": "00:00:12.86",
+        "enriched_narration": "turn on white plastic kettle on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "kettle_white",
+          "memory_name": "white electric kettle"
+        }
+      },
+      {
+        "narration_id": "P09_105_6",
+        "narration": "take mug",
+        "verb": "take",
+        "noun": "mug",
+        "start_time": "00:00:15.28",
+        "end_time": "00:00:16.33",
+        "enriched_narration": "take white ceramic mug in cabinet",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "in cabinet",
+          "memory_id": "cabinet_cup",
+          "memory_name": "cup"
+        }
+      },
+      {
+        "narration_id": "P09_105_7",
+        "narration": "take teabag",
+        "verb": "take",
+        "noun": "teabag",
+        "start_time": "00:00:20.01",
+        "end_time": "00:00:22.90"
+      },
+      {
+        "narration_id": "P09_105_8",
+        "narration": "add teabag to cup",
+        "verb": "add-to",
+        "noun": "teabag",
+        "start_time": "00:00:22.86",
+        "end_time": "00:00:23.54"
+      }
+    ],
+    "num_steps": 9,
+    "time_span_seconds": 22.6,
+    "primary_objects": [
+      "kettle",
+      "teabag",
+      "mug"
+    ],
+    "primary_verbs": [
+      "take",
+      "open",
+      "fill",
+      "close",
+      "place"
+    ]
+  },
+  {
+    "task_id": "plan_P09_103_002",
+    "participant_id": "P09",
+    "video_id": "P09_103",
+    "task_type": "multi_step_cooking",
+    "task_query": "Help P09 prepare and fry the chicken with condiments.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_103_16",
+        "narration": "take knife",
+        "verb": "take",
+        "noun": "knife",
+        "start_time": "00:03:12.15",
+        "end_time": "00:03:12.76",
+        "enriched_narration": "take black metal knife on blue_cutting_board",
+        "matched_object": {
+          "color": "black",
+          "material": "metal",
+          "location": "on blue_cutting_board",
+          "memory_id": "countertop_knife",
+          "memory_name": "knife"
+        }
+      },
+      {
+        "narration_id": "P09_103_17",
+        "narration": "cut chicken",
+        "verb": "cut",
+        "noun": "chicken",
+        "start_time": "00:03:12.86",
+        "end_time": "00:03:47.40",
+        "enriched_narration": "cut black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_18",
+        "narration": "clean hands",
+        "verb": "clean",
+        "noun": "hand",
+        "start_time": "00:03:53.36",
+        "end_time": "00:04:00.40",
+        "enriched_narration": "clean skin tone flesh hands at right hand",
+        "matched_object": {
+          "color": "skin tone",
+          "material": "flesh",
+          "location": "right hand",
+          "memory_id": "hand",
+          "memory_name": "hand"
+        }
+      },
+      {
+        "narration_id": "P09_103_19",
+        "narration": "take condiments",
+        "verb": "take",
+        "noun": "condiment",
+        "start_time": "00:04:01.54",
+        "end_time": "00:04:02.89"
+      },
+      {
+        "narration_id": "P09_103_20",
+        "narration": "add condiments to chicken",
+        "verb": "add-to",
+        "noun": "condiment",
+        "start_time": "00:04:02.99",
+        "end_time": "00:04:09.45"
+      },
+      {
+        "narration_id": "P09_103_21",
+        "narration": "move chicken",
+        "verb": "move",
+        "noun": "chicken",
+        "start_time": "00:04:21.28",
+        "end_time": "00:04:45.29",
+        "enriched_narration": "move black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      },
+      {
+        "narration_id": "P09_103_22",
+        "narration": "fry chicken",
+        "verb": "fry",
+        "noun": "chicken",
+        "start_time": "00:04:24.89",
+        "end_time": "00:04:25.67",
+        "enriched_narration": "fry black plastic chicken on countertop",
+        "matched_object": {
+          "color": "black",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "countertop_chicken",
+          "memory_name": "chicken"
+        }
+      }
+    ],
+    "num_steps": 7,
+    "time_span_seconds": 73.5,
+    "primary_objects": [
+      "chicken",
+      "condiment",
+      "knife",
+      "hand"
+    ],
+    "primary_verbs": [
+      "take",
+      "cut",
+      "clean",
+      "add-to",
+      "move"
+    ]
+  },
+  {
+    "task_id": "plan_P09_104_005",
+    "participant_id": "P09",
+    "video_id": "P09_104",
+    "task_type": "meal_preparation",
+    "task_query": "Help P09 prepare the chorizo and add it to the pan.",
+    "ground_truth_steps": [
+      {
+        "narration_id": "P09_104_44",
+        "narration": "take plates",
+        "verb": "take",
+        "noun": "plate",
+        "start_time": "00:03:42.23",
+        "end_time": "00:03:43.45",
+        "enriched_narration": "take white ceramic plates on countertop",
+        "matched_object": {
+          "color": "white",
+          "material": "ceramic",
+          "location": "on countertop",
+          "memory_id": "plate_with_food_residue",
+          "memory_name": "plate_with_food_residue"
+        }
+      },
+      {
+        "narration_id": "P09_104_45",
+        "narration": "rinse blades",
+        "verb": "rinse",
+        "noun": "blade",
+        "start_time": "00:03:44.89",
+        "end_time": "00:03:46.56"
+      },
+      {
+        "narration_id": "P09_104_46",
+        "narration": "take chorizo",
+        "verb": "take",
+        "noun": "chorizo",
+        "start_time": "00:03:51.57",
+        "end_time": "00:03:52.87"
+      },
+      {
+        "narration_id": "P09_104_47",
+        "narration": "open drawer",
+        "verb": "open",
+        "noun": "drawer",
+        "start_time": "00:03:53.40",
+        "end_time": "00:03:54.53"
+      },
+      {
+        "narration_id": "P09_104_48",
+        "narration": "slice chorizo",
+        "verb": "slice",
+        "noun": "chorizo",
+        "start_time": "00:04:00.27",
+        "end_time": "00:04:12.74"
+      },
+      {
+        "narration_id": "P09_104_49",
+        "narration": "add chorizo to pan",
+        "verb": "add-to",
+        "noun": "chorizo",
+        "start_time": "00:04:14.50",
+        "end_time": "00:04:15.54"
+      },
+      {
+        "narration_id": "P09_104_50",
+        "narration": "add oil to pan",
+        "verb": "add-to",
+        "noun": "oil",
+        "start_time": "00:04:18.83",
+        "end_time": "00:04:21.98",
+        "enriched_narration": "add green plastic oil to pan on countertop",
+        "matched_object": {
+          "color": "green",
+          "material": "plastic",
+          "location": "on countertop",
+          "memory_id": "oil",
+          "memory_name": "oil"
+        }
+      },
+      {
+        "narration_id": "P09_104_51",
+        "narration": "move cherries",
+        "verb": "move",
+        "noun": "cherry",
+        "start_time": "00:04:26.94",
+        "end_time": "00:04:47.94"
+      }
+    ],
+    "num_steps": 8,
+    "time_span_seconds": 65.7,
+    "primary_objects": [
+      "chorizo",
+      "plate",
+      "blade",
+      "drawer",
+      "oil"
+    ],
+    "primary_verbs": [
+      "take",
+      "add-to",
+      "rinse",
+      "open",
+      "slice"
+    ]
+  }
+]
